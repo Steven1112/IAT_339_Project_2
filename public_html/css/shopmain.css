@@ -14,8 +14,6 @@ h1{
    font-weight: 700;
    margin-bottom: 0;
    font-family: Austie Bost Kitten Klub;
-   margin-left: 5em;
-   margin-top: 1em;
 }
 
 h2{
@@ -27,6 +25,7 @@ h2{
    margin-top: 3em;
    text-align: left;
    position: relative;
+   margin-top: 3em;
 }
 
 h3{
@@ -51,8 +50,6 @@ ul,ol{
    font-family: Abadi MT Condensed Light;
 /*   font-family: thin;*/
 }
-
-
 
 p,code,figcaption{
 	font-size: 0.9rem;
@@ -305,10 +302,9 @@ article {
 .image-button-nav-cat-foods, .image-button-nav-cat-foods:visited{
 	/*	add background image for the cat foods product list image button */
 	background: transparent url(../img/Cat_Foods_Icon.jpg) no-repeat;
+	background-position: center center;
 	display: inline-block;
     position: relative;
-	width: 30rem;
-	height: 24rem;
 
 	/*	background-color:  #F39873;*/
 	color: white;
@@ -328,10 +324,9 @@ article {
 .image-button-nav-cat-toys, .image-button-nav-cat-toys:visited{
 	/*	add background image for the cat toys product list image button */
 	background: transparent url(../img/Cat_Toys_Icon.png) no-repeat;
+	background-position: center center;
 	display: inline-block;
 	position: relative;
-	width: 30rem;
-	height: 24rem;
 
 	/*	background-color:  #F39873;*/
 	color: white;
@@ -351,10 +346,9 @@ article {
 .image-button-nav-cat-clothes, .image-button-nav-cat-clothes:visited{
 	/*	add background image for the cat toys product list image button */
 	background: transparent url(../img/Cat_Clothes_Icon.jpg) no-repeat;
+	background-position: 30% 20%;
 	display: inline-block;
 	position: relative;
-	width: 30rem;
-	height: 24rem;
 
 	/*	background-color:  #F39873;*/
 	color: white;
@@ -374,18 +368,21 @@ article {
 .image-button-nav-cat-foods:hover, .image-button-nav-cat-foods:active, .image-button-nav-cat-foods:focus{
 	background-color: #FCBCA7;
 	color: #C2C0BC;
+	opacity: 0.5;
 /*    border-radius: 0.25rem;*/
 }
 
 .image-button-nav-cat-toys:hover, .image-button-nav-cat-toys:active, .image-button-nav-cat-toys:focus{
 	background-color: #FCBCA7;
 	color: #C2C0BC;
+	opacity: 0.5;
 /*    border-radius: 0.25rem;*/
 }
 
 .image-button-nav-cat-clothes:hover, .image-button-nav-cat-clothes:active, .image-button-nav-cat-clothes:focus{
 	background-color: #FCBCA7;
 	color: #C2C0BC;
+	opacity: 0.5;
 /*    border-radius: 0.25rem;*/
 }
 
@@ -417,7 +414,7 @@ article {
 /* set top main navigation layout */
  .topmenu{
     margin-left: 8em;
-	margin-top: 2.5em;
+	margin-top: 7em;
 	margin-right: 8em;
  }
 
@@ -429,21 +426,58 @@ article {
  }
 
  .cat-foods-image-button-layout{
- 	margin-left: 8em;
- 	margin-right: 8em;
+ 	margin-left: 4em;
+ 	margin-right: 4em;
  	margin-top: 2em;
  }
 
  .cat-toys-image-button-layout{
- 	margin-left: 8em;
- 	margin-right: 8em;
+ 	margin-left: 4em;
+ 	margin-right: 4em;
  	margin-top: 2em;
  }
 
  .cat-clothes-image-button-layout{
- 	margin-left: 8em;
- 	margin-right: 8em;
+ 	margin-left: 4em;
+ 	margin-right: 4em;
  	margin-top: 2em;
+ }
+
+ a.image-button-nav-cat-foods {
+    border-radius: 50em;
+    min-height: 20em;
+    min-width: 20em;
+    max-width: 50em;
+    max-height: 50em;
+ }
+
+ a.image-button-nav-cat-toys {
+    border-radius: 50em;
+    min-height: 20em;
+    min-width: 20em;
+    max-width: 50em;
+    max-height: 50em;
+ }
+
+ a.image-button-nav-cat-clothes {
+    border-radius: 50em;
+    min-height: 20em;
+    min-width: 20em;
+    max-width: 50em;
+    max-height: 50em;
+ }
+
+ .button-nav-cat-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -25%;
+ }
+
+ #title{
+	margin-right: 3em;
+	margin-top: 1.5em;
+	margin-left: 3em;
  }
 
  .payment-methods-layout{

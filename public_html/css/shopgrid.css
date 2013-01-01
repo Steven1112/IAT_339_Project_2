@@ -22,40 +22,27 @@
 	'grid-col-', then we should apply the styling listed
 */
 [class^='grid-col-'] {
-/*	float: left;*/
+	float: left;
 	padding: 0; 
 	text-align: center; /* center the content in this block */
 }
 
-/* login methods grid */
-.grid-col-8of10{
-	float: right;
-	width: 8%;
-}
-
 /* main navigation menu grid */
 .grid-col-1of10 {
-	float: left;
 	width: 13%;
 }
 
 .grid-col-3of10 {
-	clear: left;
-	float: right;
-	display: inline-block;
 	width: 33%;
 }
 
 .grid-col-5of10 {
-	clear: right;
-	float: left;
-	width: 33%;
+	width: 50%;
 }
 
-.grid-col-6of10 {
-	clear: both;
-	float: left;
-	width: 33%;
+/* login methods grid */
+.grid-col-2of10{
+	width: 8%;
 }
 
 /*
@@ -63,7 +50,7 @@
 	less than 30em it should collapse the 4/10 columns into one stack
 */
 
-@media (max-width: 40em) {
+@media (max-width: 60em) {
 
 	.grid-col-1of10 {
 		width: 100%;
@@ -76,7 +63,18 @@
 	has a width less than 50em it should collapse the 5/10 columns 
 	into one stack (hence width: 100%)
 */
+
 @media (max-width: 40em) {
+
+	.grid-col-2of10 {
+		width: 100%;
+	}
+
+}
+
+
+
+@media (max-width: 70em) {
 
 	.grid-col-3of10 {
 		width: 100%;
@@ -84,36 +82,20 @@
 
 }
 
-@media (max-width: 40em) {
-
-	.grid-col-8of10 {
-		width: 100%;
-	}
-
-}
-
-@media (max-width: 60em) {
+/*@media (max-width: 100em) {
 
 	.grid-col-5of10 {
 		width: 100%;
 	}
 
-}
-
-@media (max-width: 100em) {
-
-	.grid-col-6of10 {
-		width: 100%;
-	}
-
-}
+}*/
 /*
 	Much like last week, we are clearing the floating items so
 	that our 'grid' structure can be stacked on others
 */
 .grid:after {
 	content: "";
-	display: block;
+/*	display: block;*/
 	clear: both;
 	display: inline-block;
 }
