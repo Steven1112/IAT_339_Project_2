@@ -1,0 +1,383 @@
+<!doctype html>
+<html lang="en">
+     <head>
+          <meta charset="utf-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <title>Kitty Lover</title>
+          <link rel="stylesheet" href="css/main.css">
+          <link rel="stylesheet" href="css/flexbox.css">
+     </head>
+
+     <body>
+
+     	<h1>Project 1: Process Part II: Style Guide: Kitty Lover</h1>
+      <h1>By Sidi Wang 301150640</h1>
+
+      <div id="links"> <!-- Starting a in-text link -->
+
+          <br><h2>A. In-text link style</h2>
+          <h3>CSS selector: </h3> 
+          <p>".link"</p>
+          <h3>Sample code: </h3>
+             <code>&lt;a class="link" href="http://placekitten.com" class="in-text-link-text"&gt;in-text link style&lt;/a&gt;</code>
+             <br><code>&lt;a class="link" href="http://placekitten.com"&gt;I am an external link.&lt;/a&gt;</code>
+
+          <h3>Rendered element: </h3>
+
+             <a class="link" href="http://placekitten.com">I am a in-text link.</a>
+             <br><a class="link" href="http://placekitten.com">I am an external link.</a>
+
+        </div><!-- Closing a in-text link -->
+
+      
+      <div id="buttons"><!-- Starting a navigation button style -->
+
+          <br><h2>B. Navigation button style</h2>
+          <h3>CSS selector: </h3> 
+          <p>".button"</p>
+          <p>".button:hover"</p>
+          <h3>Sample code: </h3>
+             <code>&lt;a href="#" class="button"&gt;Sample nav button&lt;/a&gt;</code>
+
+          <h3>Rendered element: </h3>
+            <nav>
+             <a class="button" href="#">Sample nav button</a>
+            </nav>
+
+      </div><!-- Closing a navigation button style -->
+      
+
+      <div id="forms"><!-- Starting a form -->
+
+        <!-- All valid forms must use a 'method' (for submitting the form), and an 'action' (which submits the form) -->
+        <form method="post" action="#">
+
+         <div><!-- Starting a text input field and label -->
+          <br><h2>C. Text input field and label</h2>
+          <h3>CSS selector: </h3>
+          <p>"label"</p>
+          <P>"input.text,input.text:hover"</P>
+          <p>"textarea,textarea:hover"</p>
+          <h3>Sample code: </h3>
+             <code>&lt;label for="form-name"&gt;First name:&lt;/label&gt;</code>
+             <br><code>&lt;input type="text" id="form-first-name" placeholder="Sidi"&gt;</code>
+             <br><code>&lt;label for="form-name"&gt;Last name:&lt;/label&gt;</code>
+             <br><code>&lt;input type="text" id="form-last-name" placeholder="Wang"&gt;</code>
+             <br><code>&lt;label for="form-subject"&gt;Subject:&lt;/label&gt;</code>
+             <br><code>&lt;input type="text" id="form-subject" placeholder="A title for your comment"&gt;</code>
+             <br><code>&lt;label for="form-comment"&gt;Comment:&lt;/label&gt;</code>
+             <br><code>&lt;textarea id="form-comment" placeholder="Please give your comments here"&gt;&lt;/textarea&gt;</code>
+
+          <h3>Rendered element: </h3>
+
+            <label for="form-first-name">First name:</label>
+            <input type="text" id="form-first-name" placeholder="Sidi">
+
+            <br><br><label for="form-last-name">Last name:</label>
+            <input type="text" id="form-last-name" placeholder="Wang">
+
+            <br><br><label for="form-subject">Subject:</label>
+            <input type="text" id="form-subject" placeholder="A title for your comment">
+        
+            <br><br><label for="form-comment">Comment:</label>
+            <textarea id="form-comment" placeholder="Please give your comments here"></textarea>
+         </div><!-- closing a text input field and label -->
+
+         <div><!-- Starting a submit and button style -->
+          <br><h2>D. Submit and reset button style</h2>
+          <h3>CSS selector: </h3> 
+          <p>"input.submit,input.reset"</p>
+          <p>"input.submit:hover,input.reset:hover"</p>
+          <h3>Sample code: </h3>
+             <code>&lt;input type="submit" class="submit"&gt;&lt;/input&gt;</code>
+             <br><code>&lt;input type="reset" class="reset"&gt;&lt;/input&gt;</code>
+
+          <h3>Rendered element: </h3>
+             <input type="submit" class="submit">
+             <input type="reset" class="reset">
+ 
+          </div><!-- Starting a submit and button style -->
+
+        </form>
+
+      </div><!-- Closing a form -->
+
+
+      <div id="headings"><!-- Starting levels of headings -->
+
+          <br><h2>E. Levels of headings</h2>
+          <h3>CSS selector: </h3> 
+          <p>"h1"</p>
+          <p>"h2"</p>
+          <p>"h3"</p>
+          <h3>Sample code: </h3>
+             <code>&lt;h1&gt;Heading level 1&lt;/h1&gt;</code>
+             <br><code>&lt;h2&gt;Heading level 2&lt;/h2&gt;</code>
+             <br><code>&lt;h3&gt;Heading level 3&lt;/h3&gt;</code>
+
+          <h3>Rendered element: </h3>
+             <h1>Heading level 1</h1>
+             <h2>Heading level 2</h2>
+             <h3>Heading level 3</h3>
+
+      </div><!-- Closing levels of headings -->
+
+
+      <div id="paragraphs"><!-- Starting a paragraph -->
+
+          <br><h2>F. Paragraph</h2>
+          <h3>CSS selector: </h3> 
+          <p>"p"</p>
+          <h3>Sample code: </h3>
+             <code>&lt;p&gt;I am a paragraph.&lt;/p&gt;</code>
+
+          <h3>Rendered element: </h3>
+             <p class="pstyle">Cats are active carnivores, meaning they hunt live prey. Their main prey is small mammals (like mice). They will also stalk, and sometimes kill and eat, birds. Cats eat a wide variety of prey, including insects, and seem especially to like house flies and bluebottles. Their main method of hunting is stalk and pounce. While dogs have great stamina and will chase prey over long distances, cats are extremely fast, but only over short distances. The basic cat coat colouring, tabby (see top photo), gives it good camouflage in grass and woodland. The cat creeps towards a chosen victim, keeping its body flat and near to the ground so that it cannot be seen easily, until it is close enough for a rapid dash or pounce. Cats, especially kittens, practice these instinctive behaviours in play with each other or on small toys.</p>
+
+             <p class="pstyle">Cats are quiet and well-behaved animals, making them popular pets. Young kittens are playful. They can easily entertain themselves with a variety of store-bought or homemade toys. House cats have also been known to teach themselves to use lever-type doorknobs and toilet handles.</p>
+
+      </div><!-- Closing a paragraph -->
+
+
+      <div id="bulleted-lists"><!-- Starting a bulleted list -->
+
+          <br><h2>G. Bulleted lists</h2>
+          <h3>CSS selector: </h3> 
+          <p>"ul"</p>
+          <h3>Sample code: </h3>
+             <code>&lt;ul&gt;</code>
+             <br><code>&lt;li&gt;Bulleted list 1&lt;/li&gt;</code>
+             <br><code>&lt;li&gt;Bulleted list 2&lt;/li&gt;</code>
+             <br><code>&lt;li&gt;Bulleted list 3&lt;/li&gt;</code>
+             <br><code>&lt;/ul&gt;</code>
+
+          <h3>Rendered element: </h3>
+             <ul>
+                <li>Bulleted list 1</li>
+                <li>Bulleted list 2</li>
+                <li>Bulleted list 3</li>
+             </ul>
+
+      </div><!-- Closing a bulleted list -->
+
+
+      <div id="numbered-lists"><!-- Starting a numbered list -->
+
+          <br><h2>H. Numbered lists</h2>
+          <h3>CSS selector: </h3> 
+          <p>"ol"</p>
+          <h3>Sample code: </h3>
+             <code>&lt;ol&gt;</code>
+             <br><code>&lt;li&gt;Numbered list 1&lt;/li&gt;</code>
+             <br><code>&lt;li&gt;Numbered list 2&lt;/li&gt;</code>
+             <br><code>&lt;li&gt;Numbered list 3&lt;/li&gt;</code>
+             <br><code>&lt;/ol&gt;</code>
+
+          <h3>Rendered element: </h3>
+             <ol>
+                <li>Numbered list 1</li>
+                <li>Numbered list 2</li>
+                <li>Numbered list 3</li>
+             </ol>
+
+      </div><!-- Closing a numbered list -->
+
+
+      <div id="homepage"> <!-- Starting the main navigation -->
+          <br><h2>I. Main navigation</h2>
+          <h3>CSS selector: </h3> 
+          <p>".button-nav, .button-nav:visited"</p>
+          <p>".button-nav:hover, .button-nav:active, .button-nav:focus"</p>
+          <h3>Sample code: </h3>
+             <code>&lt;a href="#home" class="button-nav"&gt;Home&lt;/a&gt;</code>
+             <br><code>&lt;a href="http://www.lifewithcats.tv/category/news/" class="button-nav"&gt;News&lt;/a&gt;</code>
+             <br><code>&lt;a href="http://torontocatrescue.ca/events/" class="button-nav"&gt;Events&lt;/a&gt;</code>
+             <br><code>&lt;a href="http://www.homesalive.ca/cat/food.html" class="button-nav"&gt;Shop&lt;/a&gt;</code>
+             <br><code>&lt;a href="http://www.grumpycats.com/about-grumpy-cat/" class="button-nav"&gt;About&lt;/a&gt;</code>
+             <br><code>&lt;a href="http://www.grumpycats.com/contact-us/contact/" class="button-nav"&gt;Contact&lt;/a&gt;</code>
+          
+          <h3>Rendered element: </h3>
+
+        <header id="home">
+
+         <!-- use the flexbox model -->
+         <nav class="navigation">
+  
+          
+          <div class="navigation-item-nav">
+            <br><a href="#home" class="button-nav">Home</a>
+          </div>
+
+          <div class="navigation-item-nav">
+            <br><a href="http://www.lifewithcats.tv/category/news/" class="button-nav">News</a>
+          </div>
+
+          <div class="navigation-item-nav">
+            <br><a href="http://torontocatrescue.ca/events/" class="button-nav">Events</a>
+          </div>
+
+          <div class="navigation-item-nav">
+            <br><a href="http://www.homesalive.ca/cat/food.html" class="button-nav">Shop</a>
+          </div>
+
+          <div class="navigation-item-nav">
+            <br><a href="http://www.grumpycats.com/about-grumpy-cat/" class="button-nav">About</a>
+          </div>
+
+          <div class="navigation-item-nav">
+            <br><a href="http://www.grumpycats.com/contact-us/contact/" class="button-nav">Contact</a>
+          </div>
+
+         </nav>
+
+        </header>
+
+      </div> <!-- Closing the main navigation -->
+
+
+      <div id="products"><!-- Starting a product listing -->
+
+          <br><h2>J. Product listing</h2>
+          <h3>CSS selector: </h3> 
+          <p>".button, button:hover"</p>
+          <P>".checkoutbutton, .checkoutbutton:hover"</P>
+          <p>".navigation, .navigation-item-article"</p>
+          <p>".navigation-item-article-image, .navigation-item-article-image img"</p>
+          <p>".navigation-item-article-text1, .navigation-item-article-text2, .navigation-item-article-text3"</p>
+          <h3>Sample code: </h3>
+             <code>&lt;div class="navigation-item-article-image"&gt;</code>
+             <br><code>&lt;figure&gt;</code>
+             <br><code>&lt;img alt="cat food 1" src="img/Cat_Food_1.jpg" width="300" height="300"&gt;</code>
+             <br><code>&lt;img alt="cat food 2" src="img/Cat_Food_2.jpg" width="300" height="300"&gt;</code>
+             <br><code>&lt;img alt="cat food 3" src="img/Cat_Food_3.jpg" width="300" height="300"&gt;</code>
+             <br><code>&lt;/figure&gt;</code>
+             <br><code>&lt;/div&gt;</code>
+             
+             <br><br><code>&lt;article id="cat-food-1" class="navigation-item-article"&gt;</code>
+             <br><code>&lt;div class="navigation"&gt;</code>
+             
+             <br><br><code>&lt;div class="navigation-item-article-text1"&gt;</code>
+             <br><code>&lt;p&gt;Cat Food 1 &nbsp; $24.99&lt;/p&gt;</code>
+             <br><code>&lt;p&gt;Try it! Your kitty will love you!&lt;/p&gt;</code>
+             <br><code>&lt;nav&gt;</code>
+             <br><code>&lt;a class="button" href="#products"&gt;Choose&lt;/a&gt;</code>
+             <br><code>&lt;/nav&gt;</code>
+             <br><code>&lt;/div&gt;</code>
+
+             <br><br><code>&lt;div class="navigation-item-article-text2"&gt;</code>
+             <br><code>&lt;p&gt;Cat Food 2 &nbsp; $24.99&lt;/p&gt;</code>
+             <br><code>&lt;p&gt;Try it! Otherwise, your kitty will hate you!&lt;/p&gt;</code>
+             <br><code>&lt;nav&gt;</code>
+             <br><code>&lt;a class="button" href="#products"&gt;Choose&lt;/a&gt;</code>
+             <br><code>&lt;/nav&gt;</code>
+             <br><code>&lt;/div&gt;</code>
+
+             <br><br><code>&lt;div class="navigation-item-article-text3"&gt;</code>
+             <br><code>&lt;p&gt;Cat Food 3 &nbsp; $19.99&lt;/p&gt;</code>
+             <br><code>&lt;p&gt;Try it! This is the new flavor.&lt;/p&gt;</code>
+             <br><code>&lt;nav&gt;</code>
+             <br><code>&lt;a class="button" href="#products"&gt;Choose&lt;/a&gt;</code>
+             <br><code>&lt;/nav&gt;</code>
+             <br><code>&lt;/div&gt;</code>
+
+             <br><br><code>&lt;/div&gt;</code>
+             <br><code>&lt;/article&gt;</code>
+
+             <br><br><code>Other codes are quite similar to above codes.</code>
+
+             <br><br><code>&lt;nav&gt;</code>
+                 <br><code>&lt;a class="button" href="#links"&gt;To the top of this page&lt;/a&gt;</code>
+             <br><code>&lt;/nav&gt;</code>
+
+          <h3>Rendered element: </h3>
+
+          <div class="navigation-item-article-image"> <!-- Opening up the three images for the first three items -->
+            <figure>
+               <img alt="cat food 1" src="img/Cat_Food_1.jpg" width="300" height="300">
+               <img alt="cat food 2" src="img/Cat_Food_2.jpg" width="300" height="300">
+               <img alt="cat food 3" src="img/Cat_Food_3.jpg" width="300" height="300">
+            </figure>
+
+          </div> <!-- Closing the first three previews of first three products -->
+          
+          <article id="cat-food-1" class="navigation-item-article">
+          <div class="navigation"> <!-- Here we are opening a box in a box; useful for structuring smaller sections -->
+          <div class="navigation-item-article-text1"> <!-- Starting product 1 -->
+            <p>Cat Food 1 &nbsp; $24.99</p>
+            <br><br><p>Try it! Your kitty will love you!</p>
+            <nav>
+               <br><a class="button" href="#products">Choose</a>
+            </nav>
+          </div> <!-- Closing product 1 -->
+
+          <div class="navigation-item-article-text2"> <!-- Starting product 2 -->
+            <p>Cat Food 2 &nbsp; $24.99</p>
+            <br><br><p>Try it! Otherwise, your kitty will hate you!</p>
+            <nav>
+               <br><a class="button" href="#products">Choose</a>
+            </nav>
+          </div> <!-- Closing product 2 -->
+
+          <div class="navigation-item-article-text3"> <!-- Starting product 3 -->
+            <p>Cat Food 3 &nbsp; $19.99</p>
+            <br><br><p>Try it! This is the new flavor.</p>
+            <nav>
+               <br><a class="button" href="#products">Choose</a>
+            </nav>
+          </div> <!-- Closing product 3 -->
+
+          </div> 
+
+          </article>
+
+          <div class="navigation-item-article-image"> <!-- Opening up the three images for the first three items -->
+            <figure>
+               <img alt="cat food 1" src="img/Cat_Food_4.jpg" width="300" height="300">
+               <img alt="cat food 2" src="img/Cat_Food_5.jpg" width="300" height="340">
+               <img alt="cat food 3" src="img/Cat_Food_6.jpg" width="300" height="300">
+            </figure>
+
+          </div> <!-- Closing the first three previews of first three products -->
+
+          <article id="cat-food-2" class="navigation-item-article">
+          <div class="navigation"> <!-- Here we are opening a box in a box; useful for structuring smaller sections -->
+          <div class="navigation-item-article-text1"> <!-- Starting product 4 -->
+            <p>Cat Food 4 &nbsp; $24.99</p>
+            <br><br><p>Try it! For your royal cat!</p>
+            <nav>
+               <br><a class="button" href="#products">Choose</a>
+            </nav>
+          </div> <!-- Closing product 4 -->
+
+          <div class="navigation-item-article-text2"> <!-- Starting product 5 -->
+            <p>Cat Food 5 &nbsp; $19.99</p>
+            <br><br><p>Try it! For your 1 year plus kitty!</p>
+            <nav>
+               <br><a class="button" href="#products">Choose</a>
+            </nav>
+          </div> <!-- Closing product 5 -->
+
+          <div class="navigation-item-article-text3"> <!-- Starting product 6 -->
+            <p>Cat Food 6 &nbsp; $24.99</p>
+            <br><br><p>Try it! For your junior kitty!</p>
+            <nav>
+               <br><a class="button" href="#products">Choose</a>
+            </nav>
+          </div> <!-- Closing product 6 -->
+
+          </div> 
+
+          </article>
+
+          <div class="navigation-item-article-text2"> <!-- Starting the check out button -->
+             <a class="checkoutbutton" href="#products">Check Out</a>
+          </div> <!-- Closing the check out button -->
+
+          <nav>
+            <br><br><a class="button" href="#links">To the top of this page</a>
+          </nav>
+      
+      </div> <!-- Closing the div id="products" -->
+
+    </body>
+</html>

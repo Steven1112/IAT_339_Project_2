@@ -1,0 +1,220 @@
+/* *,* means everything and after everything*/
+
+*, *:after, *:before{
+	box-sizing:border-box;
+}
+
+body{
+	color:black;
+	background-color:rgb(245,238,216);
+	font-size: 16px;
+	color:rgb(27,27,27);
+}
+
+h1{
+   font-size: 2.2rem;
+   font-weight: 700;
+   margin-bottom: 0;
+   font-family: Courier New, sans-serif;
+}
+
+h2{
+   font-size: 1.6rem;
+   font-size: normal;
+   font-family: Courier New, sans-serif;
+}
+
+h3{
+   font-size: 1.3rem;
+   font-size: normal;
+   font-family: Courier New, sans-serif;
+}
+
+h4{
+   font-size: 1.2rem;
+   font-size: normal;
+   font-family: Courier New, sans-serif;
+}
+
+h2 a{
+   font-style: italic;
+   font-size: 1.8em;
+}
+
+ul,ol{
+   font-size: 1.2rem;
+   font-family: Helvetica Neue Light, sans-serif;
+/*   font-family: thin;*/
+}
+
+
+p,code,figcaption{
+	font-size: 0.9rem;
+	font-family: Helvetica Neue Light, sans-serif;
+/*	font-family: thin;*/
+	/* first # is top and bottom, second # is left and right margin */
+	margin: 0.25rem 0.5rem;
+}
+
+.pstyle{
+	font-size: 0.9rem;
+	font-family: Helvetica Neue Light, sans-serif;
+/*	font-family: thin;*/
+	/* first # is top and bottom, second # is left and right margin */
+	margin: 0.25rem 0.5rem;
+/*	try make a paragraph half-page length*/
+    width: 50%
+}
+
+.link{
+	font-size: 0.9rem;
+	font-family: Helvetica Neue Light, sans-serif;
+/*	font-family: thin;*/
+	/* first # is top and bottom, second # is left and right margin */
+	margin: 0.25rem 0.5rem;
+	color: rgb(0,0,255);
+}
+
+.button{
+	display: inline-block;
+
+	text-decoration: none;
+}
+
+nav .button{
+	background-color: rgb(133,157,166);
+	color: white;
+	border-radius: 0.25rem;
+/*	margin: 0.5rem 0.25rem 0.75rem 0.8rem;*/
+    margin: 0.25rem 0.5rem;
+    padding: 0.25rem 0.45rem;
+    font-family: Courier, sans-serif;
+}
+
+nav .button:hover{
+	background-color: rgb(58,196,242);
+	color: #000;
+	text-decoration: none;
+}
+
+a{
+	text-decoration: none;
+}
+
+.checkoutbutton{
+	background-color: rgb(133,157,166);
+	color: white;
+	border-radius: 0.25rem;
+/*	margin: 0.5rem 0.25rem 0.75rem 0.8rem;*/
+    margin: 0.25rem 0.5rem;
+    padding: 0.25rem 0.45rem;
+    font-family: Courier, sans-serif;
+    text-align: center;
+    font-size: 1.3em;
+}
+
+.checkoutbutton:hover{
+	background-color: rgb(58,196,242);
+	color: #000;
+	text-decoration: none;
+	text-align: center;
+}
+
+a:hover{
+	text-decoration: underline;
+	color: orange;
+}
+
+/*responsive image styles*/
+img{
+    height: auto;
+    max-width: 100%;
+}
+
+figure{
+	margin: 0;
+}
+
+form{
+	background-color: rgb(245,238,216);
+	display: inline-block;
+	padding: 1rem;
+	width: 40%
+    font-family: Courier, sans-serif;
+}
+
+label{
+    float: left;
+    text-align: left;
+    margin-right: 0.5em;
+    display: block
+    font-size: 0.8rem;
+	font-family: Helvetica Neue Light, sans-serif;
+/*	font-family: thin;*/
+	/* first # is top and bottom, second # is left and right margin */
+	margin: 0.25rem 0.5rem;
+}
+
+input.submit,input.reset,input.text,textarea{
+
+	background-color: rgb(133,157,166);
+	color: white;
+	border-radius: 0.25rem;
+	margin: 0.25rem 0.5rem;
+	padding: 0.25rem 0.45rem;
+}
+
+input.submit:hover,input.reset:,input.text:hover,textarea:hover{
+	background-color: rgb(58,196,242);
+	color: #000;
+	text-decoration: none;
+}
+
+input{
+	background-color: rgb(133,157,166);
+	color: white;
+}
+
+input:hover{
+	background-color: rgb(58,196,242);
+	color: #000;
+}
+
+article {
+	text-align: left;
+	margin: 2rem 0; 
+	padding: 2rem; 
+/* the border does not look nice */
+/*	border: 1px solid blue;*/
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.button-nav, .button-nav:visited{
+	display: inline-block;
+	background-color: rgb(133,157,166);
+	color: white;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(65,97,110);
+	padding: 1em 1.25em;
+	text-decoration: none;
+	-webkit-transition: background-color 0.5s;
+	transition: background-color 0.5s;
+	width:100%;
+/*    border-radius: 0.25rem;*/
+	font-family: Courier New, sans-serif;
+	font-weight: normal;
+	font-size: 1.2em;
+	text-align: center;
+}
+
+.button-nav:hover, .button-nav:active, .button-nav:focus{
+	background-color: rgb(58,196,242);
+	color: #000;
+/*    border-radius: 0.25rem;*/
+	font-family: Courier New, sans-serif;
+	font-weight: normal;
+	font-size: 1.2em;
+	text-align: center;
+}
