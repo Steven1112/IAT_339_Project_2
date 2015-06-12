@@ -21,7 +21,7 @@ h1{
 h2{
    font-size: 1.6rem;
    font-size: normal;
-   font-family:KillahPikaPika;
+   font-family:Janda Safe and Sound;
 }
 
 h3{
@@ -104,7 +104,7 @@ a{
 }
 
 .checkoutbutton{
-	background-color: #EDEEEE;
+	background-color: #C2BFBB;
 	color: white;
 	border-radius: 0.25rem;
 /*	margin: 0.5rem 0.25rem 0.75rem 0.8rem;*/
@@ -159,7 +159,7 @@ label{
 
 input.submit,input.reset,input.text,textarea{
 
-	background-color: #EDEEEE;
+	background-color: #C2BFBB;
 	color: white;
 	border-radius: 0.25rem;
 	margin: 0.25rem 0.5rem;
@@ -168,7 +168,7 @@ input.submit,input.reset,input.text,textarea{
 
 input.submit:hover,input.reset:,input.text:hover,textarea:hover{
 	background-color: #FCBCA7;
-	color: #FCBCA7;
+	color: white;
 	text-decoration: none;
 }
 
