@@ -6,28 +6,28 @@
 
 body{
 	color:black;
-	background-color:rgb(245,238,216);
+	background-color:white;
 	font-size: 16px;
-	color:rgb(27,27,27);
+	color:#929595;
 }
 
 h1{
    font-size: 2.2rem;
    font-weight: 700;
    margin-bottom: 0;
-   font-family: Courier New, sans-serif;
+   font-family: Austie Bost Kitten Klub;
 }
 
 h2{
    font-size: 1.6rem;
    font-size: normal;
-   font-family: Courier New, sans-serif;
+   font-family:KillahPikaPika;
 }
 
 h3{
-   font-size: 1.3rem;
+   font-size: 1.0rem;
    font-size: normal;
-   font-family: Courier New, sans-serif;
+   font-family:Seravek;
 }
 
 h4{
@@ -43,14 +43,15 @@ h2 a{
 
 ul,ol{
    font-size: 1.2rem;
-   font-family: Helvetica Neue Light, sans-serif;
+   font-family: Abadi MT Condensed Light;
 /*   font-family: thin;*/
 }
 
 
+
 p,code,figcaption{
 	font-size: 0.9rem;
-	font-family: Helvetica Neue Light, sans-serif;
+	font-family:Abadi MT Condensed Extra Bold;
 /*	font-family: thin;*/
 	/* first # is top and bottom, second # is left and right margin */
 	margin: 0.25rem 0.5rem;
@@ -58,7 +59,7 @@ p,code,figcaption{
 
 .pstyle{
 	font-size: 0.9rem;
-	font-family: Helvetica Neue Light, sans-serif;
+	font-family: Abadi MT Condensed Light;
 /*	font-family: thin;*/
 	/* first # is top and bottom, second # is left and right margin */
 	margin: 0.25rem 0.5rem;
@@ -68,7 +69,7 @@ p,code,figcaption{
 
 .link{
 	font-size: 0.9rem;
-	font-family: Helvetica Neue Light, sans-serif;
+	font-family: Helvetica Neue Light, Bernard MT Condensed;
 /*	font-family: thin;*/
 	/* first # is top and bottom, second # is left and right margin */
 	margin: 0.25rem 0.5rem;
@@ -77,23 +78,24 @@ p,code,figcaption{
 
 .button{
 	display: inline-block;
+	font-family: MTF Sweet Cheeks;
 
 	text-decoration: none;
 }
 
 nav .button{
-	background-color: rgb(133,157,166);
+	background-color: #F39873;
 	color: white;
 	border-radius: 0.25rem;
 /*	margin: 0.5rem 0.25rem 0.75rem 0.8rem;*/
     margin: 0.25rem 0.5rem;
     padding: 0.25rem 0.45rem;
-    font-family: Courier, sans-serif;
+    font-family: MTF Sweet Cheeks;
 }
 
 nav .button:hover{
-	background-color: rgb(58,196,242);
-	color: #000;
+	background-color: #F39873;
+	color: #C2BFBB;
 	text-decoration: none;
 }
 
@@ -102,7 +104,7 @@ a{
 }
 
 .checkoutbutton{
-	background-color: rgb(133,157,166);
+	background-color: #EDEEEE;
 	color: white;
 	border-radius: 0.25rem;
 /*	margin: 0.5rem 0.25rem 0.75rem 0.8rem;*/
@@ -114,8 +116,8 @@ a{
 }
 
 .checkoutbutton:hover{
-	background-color: rgb(58,196,242);
-	color: #000;
+	background-color: #C2BFBB;
+	color: #929595;
 	text-decoration: none;
 	text-align: center;
 }
@@ -136,7 +138,7 @@ figure{
 }
 
 form{
-	background-color: rgb(245,238,216);
+	background-color: #FFFDFA;
 	display: inline-block;
 	padding: 1rem;
 	width: 40%
@@ -149,7 +151,7 @@ label{
     margin-right: 0.5em;
     display: block
     font-size: 0.8rem;
-	font-family: Helvetica Neue Light, sans-serif;
+	font-family: MTF Sweet Cheeks;
 /*	font-family: thin;*/
 	/* first # is top and bottom, second # is left and right margin */
 	margin: 0.25rem 0.5rem;
@@ -157,7 +159,7 @@ label{
 
 input.submit,input.reset,input.text,textarea{
 
-	background-color: rgb(133,157,166);
+	background-color: #EDEEEE;
 	color: white;
 	border-radius: 0.25rem;
 	margin: 0.25rem 0.5rem;
@@ -165,19 +167,29 @@ input.submit,input.reset,input.text,textarea{
 }
 
 input.submit:hover,input.reset:,input.text:hover,textarea:hover{
-	background-color: rgb(58,196,242);
-	color: #000;
+	background-color: #FCBCA7;
+	color: #FCBCA7;
 	text-decoration: none;
 }
 
 input{
-	background-color: rgb(133,157,166);
+	font-family: Abadi MT Condensed Light;
+	background-color: white;
 	color: white;
+	border: solid 1px #FCBCA7;
+
+}
+
+textarea{
+	font-family: Abadi MT Condensed Light;
+	background-color: white;
+	color: white;
+	border: solid 1px #FCBCA7;
 }
 
 input:hover{
-	background-color: rgb(58,196,242);
-	color: #000;
+	background-color: #FCBCA7;
+	color: #C2C0BC;
 }
 
 article {
@@ -190,30 +202,33 @@ article {
 	box-sizing: border-box;
 }
 
+
 .button-nav, .button-nav:visited{
 	display: inline-block;
-	background-color: rgb(133,157,166);
+	background-color:  #F39873;
 	color: white;
     border-style: solid;
-    border-width: 1px;
-    border-color: rgb(65,97,110);
-	padding: 1em 1.25em;
+    border-width: 2px;
+    
+	padding: 1.5em 2em;
 	text-decoration: none;
 	-webkit-transition: background-color 0.5s;
 	transition: background-color 0.5s;
 	width:100%;
+	border-radius:10px;
+
 /*    border-radius: 0.25rem;*/
-	font-family: Courier New, sans-serif;
+	font-family: MTF Sweet Cheeks;
 	font-weight: normal;
 	font-size: 1.2em;
 	text-align: center;
 }
 
 .button-nav:hover, .button-nav:active, .button-nav:focus{
-	background-color: rgb(58,196,242);
-	color: #000;
+	background-color: #FCBCA7;
+	color: #C2C0BC;
 /*    border-radius: 0.25rem;*/
-	font-family: Courier New, sans-serif;
+	font-family:  MTF Sweet Cheeks;;
 	font-weight: normal;
 	font-size: 1.2em;
 	text-align: center;
