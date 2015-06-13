@@ -100,9 +100,9 @@
 	-ms-flex-shrink: 1;
 	flex-shrink: 1;
 
-	-webkit-flex-basis: 20em;
-	-ms-flex-basis: 20em;
-	flex-basis: 20em;
+	-webkit-flex-basis: 5em;
+	-ms-flex-basis: 5em;
+	flex-basis: 5em;
 	text-align: center;
 	width: 33.3%;
 }
@@ -121,9 +121,9 @@
 	-ms-flex-shrink: 1;
 	flex-shrink: 1;
 
-	-webkit-flex-basis: 20em;
-	-ms-flex-basis: 20em;
-	flex-basis: 20em;
+	-webkit-flex-basis: 5em;
+	-ms-flex-basis: 5em;
+	flex-basis: 5em;
 	text-align: center;
 	width: 100%;
 }
@@ -142,9 +142,9 @@
 	-ms-flex-shrink: 1;
 	flex-shrink: 1;
 
-	-webkit-flex-basis: 20em;
-	-ms-flex-basis: 20em;
-	flex-basis: 20em;
+	-webkit-flex-basis: 5em;
+	-ms-flex-basis: 5em;
+	flex-basis: 5em;
 	text-align: center;
 	width: 180%;
 }
@@ -163,8 +163,8 @@
 	-ms-flex-shrink: 1;
 	flex-shrink: 1;
 
-	-webkit-flex-basis: 20em;
-	-ms-flex-basis: 20em;
-	flex-basis: 20em;
+	-webkit-flex-basis: 5em;
+	-ms-flex-basis: 5em;
+	flex-basis: 5em;
 	text-align: left;
 }
