@@ -1,0 +1,101 @@
+
+/* 
+	This tutorial draws from "Don't Overthink Grids" available at
+	http://css-tricks.com/dont-overthink-it-grids/
+*/
+
+
+/*
+	With this selector, we are specifying that all objects use
+	the border-box model (not the content-box model)
+*/
+*, *:after, *:before {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+
+/*
+	Here we are using a 'fancy' css selector that is 
+	specifying if the class of an item starts with
+	'grid-col-', then we should apply the styling listed
+*/
+[class^='grid-col-'] {
+/*	float: left;*/
+	padding: 0; 
+	text-align: center; /* center the content in this block */
+}
+
+
+/*
+	Here using @media queries, we are specifying when the display
+	has a width less than 50em it should collapse the 5/10 columns 
+	into one stack (hence width: 100%)
+*/
+@media (max-width: 50em) {
+
+	.grid-col-3of10 {
+		width: 100%;
+	}
+
+}
+
+
+/*
+	Here we are defining our 20% wide column (for 2 columns of a 10 col grid)
+*/
+.grid-col-2of10 {
+	float: left;
+	width: 20%;
+}
+
+/* login methods grid */
+.grid-col-8of10{
+	float: right;
+	width: 8%;
+}
+
+/* main navigation menu grid */
+.grid-col-1of10 {
+	float: left;
+	width: 10%;
+}
+
+.grid-col-3of10 {
+	width: 30%;
+}
+
+
+/*
+	Using further @media queries, we specify that at a width of
+	less than 30em it should collapse the 2/10 columns into one stack
+*/
+@media (max-width: 30em) {
+
+	.grid-col-2of10 {
+		width: 100%;
+	}
+
+}
+
+@media (max-width: 30em) {
+
+	.grid-col-1of10 {
+		width: 100%;
+	}
+
+}
+
+/*
+	Much like last week, we are clearing the floating items so
+	that our 'grid' structure can be stacked on others
+*/
+.product-category-grid:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+
+
