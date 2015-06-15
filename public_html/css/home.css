@@ -1,0 +1,308 @@
+/* *,* means everything and after everything*/
+
+*, *:after, *:before{
+	box-sizing:border-box;
+}
+
+body{
+	color:black;
+	background-color:white;
+	font-size: 16px;
+	color:#929595;
+}
+
+h1{
+   font-size: 2.2rem;
+   font-weight: 700;
+   margin-bottom: 0;
+   padding: 1em;
+   left: 5em;
+   position: relative;
+   font-family: Austie Bost Kitten Klub;
+}
+
+h2{
+   font-size: 1.6rem;
+   font-size: normal;
+   font-family:Janda Safe and Sound;
+}
+
+h3{
+   font-size: 1.0rem;
+   font-size: normal;
+   font-family:Seravek;
+}
+
+h4{
+   font-size: 1.1rem;
+   font-size: normal;
+   font-family: Courier New, sans-serif;
+}
+
+h2 a{
+   font-style: italic;
+   font-size: 1.8em;
+}
+
+ul,ol{
+   font-size: 1.2rem;
+   font-family: Abadi MT Condensed Light;
+/*   font-family: thin;*/
+}
+
+
+
+p,code,figcaption{
+	font-size: 0.9rem;
+	font-family:Abadi MT Condensed Extra Bold;
+/*	font-family: thin;*/
+	/* first # is top and bottom, second # is left and right margin */
+	margin: 0.25rem 0.5rem;
+}
+
+tr { 
+	vertical-align: top;
+}
+
+.pstyle{
+	font-size: 0.9rem;
+	font-family: Abadi MT Condensed Light;
+/*	font-family: thin;*/
+	/* first # is top and bottom, second # is left and right margin */
+	margin: 0.25rem 0.5rem;
+/*	try make a paragraph half-page length*/
+    width: 50%
+}
+
+.link{
+	font-size: 0.9rem;
+	font-family: Helvetica Neue Light, Bernard MT Condensed;
+/*	font-family: thin;*/
+	/* first # is top and bottom, second # is left and right margin */
+	margin: 0.25rem 0.5rem;
+	color: rgb(0,0,255);
+}
+
+.button{
+	display: inline-block;
+	font-family: MTF Sweet Cheeks;
+
+	text-decoration: none;
+}
+
+nav .button{
+	background-color: #F39873;
+	color: white;
+	border-radius: 0.8rem;
+	float: 5em;
+	left:8em;
+
+    margin: 1em;
+}
+
+.nav1{
+	display: inline-block;
+	background-color: #F39873;
+	color: white;
+    font-family: MTF Sweet Cheeks;
+    padding: 1em;
+    
+
+}
+
+.nav2{
+	display: inline-block;
+	background-color: #F39873;
+	color: white;
+    font-family: MTF Sweet Cheeks;
+    padding: 1em;
+   
+}
+
+.nav3{
+	display: inline-block;
+	background-color: #F39873;
+	color: white;
+    font-family: MTF Sweet Cheeks;
+    padding: 1em;
+}
+
+.nav4{
+	display: inline-block;
+	background-color: #F39873;
+	color: white;
+    font-family: MTF Sweet Cheeks;
+    padding: 1em;
+   
+}
+
+.nav5{
+	display: inline-block;
+	background-color: #F39873;
+	color: white;
+    font-family: MTF Sweet Cheeks;
+    padding: 1em;
+    overflow: scroll;
+}
+
+nav .button:hover{
+	background-color: #F39873;
+	color: #C2BFBB;
+	text-decoration: none;
+}
+
+a{
+	text-decoration: none;
+}
+
+. button-nav.bg2:hover{
+	background-color: #F39873;
+	color: #C2BFBB;
+	text-decoration: none;
+}
+
+
+.scrolling-kitty{
+
+	display: scroll;
+	scroll-behavior:auto;
+
+
+}
+
+
+
+a{
+	text-decoration: none;
+}
+
+.checkoutbutton{
+	background-color: #C2BFBB;
+	color: white;
+	border-radius: 0.25rem;
+/*	margin: 0.5rem 0.25rem 0.75rem 0.8rem;*/
+    margin: 0.25rem 0.5rem;
+    padding: 0.25rem 0.45rem;
+    font-family: Courier, sans-serif;
+    text-align: center;
+    font-size: 1.3em;
+}
+
+.checkoutbutton:hover{
+	background-color: #C2BFBB;
+	color: #929595;
+	text-decoration: none;
+	text-align: center;
+}
+
+a:hover{
+	text-decoration: underline;
+	color: orange;
+}
+
+/*responsive image styles*/
+img{
+    height: auto;
+    max-width: 100%;
+}
+
+figure{
+	margin: 0;
+}
+
+form{
+	background-color: #FFFDFA;
+	display: inline-block;
+	padding: 1rem;
+	width: 40%
+    font-family: Courier, sans-serif;
+}
+
+label{
+    float: left;
+    text-align: left;
+    margin-right: 0.5em;
+    display: block
+    font-size: 0.8rem;
+	font-family: MTF Sweet Cheeks;
+/*	font-family: thin;*/
+	/* first # is top and bottom, second # is left and right margin */
+	margin: 0.25rem 0.5rem;
+}
+
+input.submit,input.reset,input.text,textarea{
+
+	background-color: #C2BFBB;
+	color: white;
+	border-radius: 0.25rem;
+	margin: 0.25rem 0.5rem;
+	padding: 0.25rem 0.45rem;
+}
+
+input.submit:hover,input.reset:,input.text:hover,textarea:hover{
+	background-color: #FCBCA7;
+	color: white;
+	text-decoration: none;
+}
+
+input{
+	font-family: Abadi MT Condensed Light;
+	background-color: white;
+	color: white;
+	border: solid 1px #FCBCA7;
+
+}
+
+textarea{
+	font-family: Abadi MT Condensed Light;
+	background-color: white;
+	color: white;
+	border: solid 1px #FCBCA7;
+}
+
+input:hover{
+	background-color: #FCBCA7;
+	color: #C2C0BC;
+}
+
+article {
+	text-align: left;
+	margin: 2rem 0; 
+	padding: 2rem;
+/* the border does not look nice */
+/*	border: 1px solid blue;*/
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+
+.button-nav, .button-nav:visited{
+	display: inline-block;
+	background-color:  #F39873;
+	color: white;
+    border-style: solid;
+    border-width: 2px;
+    
+	padding: 1.5em 2em;
+	text-decoration: none;
+	-webkit-transition: background-color 0.5s;
+	transition: background-color 0.5s;
+	width:100%;
+	border-radius:10px;
+
+/*    border-radius: 0.25rem;*/
+	font-family: MTF Sweet Cheeks;
+	font-weight: normal;
+	font-size: 1.2em;
+	text-align: center;
+}
+
+.button-nav:hover, .button-nav:active, .button-nav:focus{
+	background-color: #FCBCA7;
+	color: #C2C0BC;
+/*    border-radius: 0.25rem;*/
+	font-family:  MTF Sweet Cheeks;;
+	font-weight: normal;
+	font-size: 1.2em;
+	text-align: center;
+}
