@@ -40,9 +40,15 @@
 }
 
 .grid-col-3of10 {
-/*	clear: both;*/
-/*	float: left;*/
-	width: 30%;
+	clear: left;
+	float: right;
+	width: 33%;
+}
+
+.grid-col-5of10 {
+	clear: right;
+	float: left;
+	width: 33%;
 }
 
 /*
@@ -74,6 +80,14 @@
 @media (max-width: 40em) {
 
 	.grid-col-8of10 {
+		width: 100%;
+	}
+
+}
+
+@media (max-width: 5em) {
+
+	.grid-col-5of10 {
 		width: 100%;
 	}
 
