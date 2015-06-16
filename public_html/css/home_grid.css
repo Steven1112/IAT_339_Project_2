@@ -33,22 +33,24 @@
 */
 
 
-.grid-col-3of12 {
-	width: 30%;
-	position: absolute;
-	top: 30em;
+.grid-col-3of10 {
+	width: 20%;
+	position: relative;
+	top: 8em;
+	left:37em;
+	
 }
 
 
-.grid-col-4of12 {
-	width: 70em;
-	position: absolute;
-	top:10em;
-
+.grid-col-4of10 {
+	width: 20%;
+	position: relative;
+	top: -7em;
+	left:56em;
 }
 
 
-.grid-col-5of12 {
+.grid-col-5of10 {
 	width: 60%;
 	float:left;
 	position: absolute;
@@ -58,7 +60,7 @@
 }
 
 
-.grid-col-6of12 {
+.grid-col-6of10 {
 	width: 30%;
 	position: absolute;
 	top:35em;
@@ -66,7 +68,7 @@
 
 }
 
-.grid-col-7of12 {
+.grid-col-7of10 {
 	width: 30%;
 	position: absolute;
 	top:43em;
@@ -76,7 +78,7 @@
 
 
 
-.grid-col-8of12 {
+.grid-col-8of10 {
 	width: 8%;
 	float:right;
 
@@ -84,42 +86,37 @@
 }
 
 
-.grid-col-1of12 {
+.grid-col-1of10 {
 	width: 13%;
 	float:left;
+
 }
 
-.grid-col-10of12 {
-	width: 30%;
-	float:right;
-	position: absolute;
-	top:45em;
-	right: 1em;
+.grid-col-10of10 {
+	width: 100%;
+	position: relative;
+	top:3em;
+	opacity: 10%;
+	
 }
 
-.grid-col-9of12 {
-	width: 30%;
-	float:right;
+.grid-col-9of10 {
+	width: 20%;
 	position: absolute;
-	top:40em;
-	right: 1em;
+	left:12em;
+	top:22em;
+	background-color: rgba(255, 237, 221, 0.3);
 }
 
-.grid-col-11of12 {
-	width: 30%;
-	float:right;
-	position: absolute;
-	top:35em;
-	right: 22em;
+.grid-col-2of10 {
+	width: 80%;
+	position: relative;
+	left:8em;
+	top:-19em;
+	background-color: rgba(255, 237, 221, 0.3);
 }
 
-.grid-col-12of12 {
-	width: 30%;
-	float:right;
-	position: absolute;
-	top:35em;
-	right: 1em;
-}
+
 /*
 	Here using @media queries, we are specifying when the display
 	has a width less than 50em it should collapse the 5/10 columns 
@@ -127,7 +124,7 @@
 */
 @media (max-width: 50em) {
 
-	.grid-col-5of12 {
+	.grid-col-5of10 {
 		width: 100%;
 	}
 
@@ -136,22 +133,13 @@
 
 /*
 	Here we are defining our 20% wide column (for 2 columns of a 10 col grid)
-*/
-.grid-col-2of12 {
-	width: 10%;
-}
-
-.grid-col-1of12 {
-	width: 15%;
-	float: left;
-}
 /*
 	Using further @media queries, we specify that at a width of
 	less than 30em it should collapse the 2/10 columns into one stack
 */
 @media (max-width: 30em) {
 
-	.grid-col-2of12 {
+	.grid-col-2of10 {
 		width: 100%;
 	}
 

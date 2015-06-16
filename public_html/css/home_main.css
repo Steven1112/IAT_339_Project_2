@@ -15,7 +15,8 @@ h1{
    margin-bottom: 0;
    font-family: Austie Bost Kitten Klub;
    margin-left: 5em;
-   margin-top: 1em;
+   margin-top: 0.5em;
+
 }
 
 h2{
@@ -32,6 +33,12 @@ h3{
 
 h4{
    font-size: 1.1rem;
+   font-size: normal;
+   font-family: Courier New, sans-serif;
+}
+
+h5{
+   font-size: 0.1rem;
    font-size: normal;
    font-family: Courier New, sans-serif;
 }
@@ -57,6 +64,64 @@ p,code,figcaption{
 	margin: 0.25rem 0.5rem;
 }
 
+.square-box1{
+    position: relative;
+    top:12.35em;
+    width: 100%;
+    overflow: hidden;
+    background: #929595;
+
+}
+
+.square-box2{
+    position: relative;
+    top:41em;
+    width: 100%;
+    overflow: hidden;
+    background: #929595;
+
+}
+
+.square-box3{
+    position: relative;
+    top:65em;
+    width: 100%;
+    overflow: hidden;
+    background: #929595;
+
+}
+
+.square-box4{
+    position: relative;
+    top:46.5em;
+    left:37.5em;
+    width: 20%;
+    overflow: hidden;
+    background: #929595;
+
+}
+
+.square-box5{
+    position: relative;
+    top:46.15em;
+    left:55.5em;
+    width: 20%;
+    overflow: hidden;
+    background: #929595;
+
+}
+
+.square-content{
+	color:transparent;
+}
+
+.home-image{
+	position: relative;
+	top:-25em;
+	left:10em;
+
+}
+
 .pstyle{
 	font-size: 0.9rem;
 	font-family: Abadi MT Condensed Light;
@@ -76,11 +141,12 @@ p,code,figcaption{
 }
 
 .psubtitle{
-	font-size: 0.9rem;
+	font-size: 1.2rem;
 	font-family:Abadi MT Condensed Extra Bold;
 /*	font-family: thin;*/
 	/* first # is top and bottom, second # is left and right margin */
-	margin: 0.25rem 0.5rem;
+	position: relative;
+	left:1em;
 }
 
 .p-payment-method{
@@ -198,9 +264,19 @@ a:hover{
 
 /*responsive image styles*/
 img{
-    height: auto;
-    max-width: auto;
+    
+    background-color: rgba(255, 237, 221, 0.3);
+
 }
+
+#home_img{
+	position: absolute;
+	left: 10em;
+	width: 50%;
+	opacity: 30%;
+
+}
+
 
 figure{
 	margin: 0;
@@ -225,6 +301,21 @@ label{
 	/* first # is top and bottom, second # is left and right margin */
 	margin: 0.25rem 0.5rem;
 }
+
+
+.bgSizeCover {
+  height: 450px;
+  width: auto;
+  background-image: url('http://www.catbreedspic.co/wp-content/uploads/2014/09/cute-black-and-white-kittensdownload-wallpaper-cute-black-and-white-kitten--1366-x-768-hgdln7h9.jpg');
+  background-size: cover;
+  border: 2px solid #929595;
+  color: #000; text-shadow: 1px 1px 0 #fff;
+  position: relative;
+  }
+
+
+  
+
 
 input.submit,input.reset{
 
@@ -302,7 +393,7 @@ article {
 /*	margin: 2rem 0rem;*/ 
 /*	padding: 2rem;*/
 /* the border does not look nice */
-	border: 3px solid #929595;
+	border: 2px solid #929595;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 }
@@ -323,7 +414,7 @@ article {
 /*  border-radius: 0.25rem;*/
 	font-family: MTF Sweet Cheeks;
 	font-weight: normal;
-	font-size: 1.2em;
+	font-size: 1em;
 	text-align: center;
 
 	float: right;
@@ -457,7 +548,7 @@ article {
 /* set layout for three login buttons */
  .login-methods{
  	margin-right: 8em;
-	margin-top: 1.5em;
+	margin-top: 2em;
 	margin-left: 8em;
  }
 
