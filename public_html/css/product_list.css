@@ -19,9 +19,14 @@ h1{
 }
 
 h2{
-   font-size: 1.6rem;
+   font-size: 1.2rem;
    font-size: normal;
    font-family:Janda Safe and Sound;
+   margin-left: 6.5em;
+   margin-right: 6.5em;
+   margin-top: 3em;
+   text-align: left;
+   position: relative;
 }
 
 h3{
@@ -46,8 +51,6 @@ ul,ol{
    font-family: Abadi MT Condensed Light;
 /*   font-family: thin;*/
 }
-
-
 
 p,code,figcaption{
 	font-size: 0.9rem;
@@ -264,7 +267,7 @@ article {
 	text-align: left;
 /*	margin: 2rem 0; */
 /*	padding: 2rem; */
-/*	border: 1px solid blue;*/
+	border: 3px solid #929595;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 	display: inline-block;
@@ -286,7 +289,7 @@ article {
 /*  border-radius: 0.25rem;*/
 	font-family: MTF Sweet Cheeks;
 	font-weight: normal;
-	font-size: 1.2em;
+	font-size: 1em;
 	text-align: center;
 
 	float: right;
@@ -362,12 +365,12 @@ article {
 /* set layout for three login buttons */
  .login-methods{
  	margin-right: 8em;
-	margin-top: 1.5em;
+	margin-top: 2em;
 	margin-left: 8em;
  }
 
  .cat-foods-product-list-image-layout{
- 	margin-top: 5em;
+ 	margin-top: 2em;
  }
 
  .cat-foods-product-list-text-layout{

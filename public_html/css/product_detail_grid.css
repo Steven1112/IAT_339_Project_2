@@ -24,7 +24,7 @@
 [class^='grid-col-'] {
 /*	float: left;*/
 	padding: 0; 
-	text-align: center; /* center the content in this block */
+	text-align: center;
 }
 
 /* login methods grid */
@@ -39,6 +39,13 @@
 	width: 13%;
 }
 
+.grid-col-5of10 {
+	clear: left;
+	float: right;
+	display: inline-block;
+	width: 50%;
+}
+
 .grid-col-3of10 {
 	clear: left;
 	float: right;
@@ -46,14 +53,15 @@
 	width: 33%;
 }
 
-.grid-col-5of10 {
-	clear: right;
-	float: left;
-	width: 33%;
-}
-
 .grid-col-6of10 {
 	clear: both;
+	float: left;
+	width: 33%;
+	text-align: left;
+}
+
+.grid-col-7of10 {
+	clear: right;
 	float: left;
 	width: 33%;
 }
@@ -78,6 +86,14 @@
 */
 @media (max-width: 55em) {
 
+	.grid-col-5of10 {
+		width: 100%;
+	}
+
+}
+
+@media (max-width: 70em) {
+
 	.grid-col-3of10 {
 		width: 100%;
 	}
@@ -92,7 +108,7 @@
 
 }
 
-@media (max-width: 60em) {
+@media (max-width: 75em) {
 
 	.grid-col-5of10 {
 		width: 100%;

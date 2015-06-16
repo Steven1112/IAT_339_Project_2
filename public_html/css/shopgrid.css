@@ -40,9 +40,22 @@
 }
 
 .grid-col-3of10 {
-/*	clear: both;*/
-/*	float: left;*/
-	width: 30%;
+	clear: left;
+	float: right;
+	display: inline-block;
+	width: 33%;
+}
+
+.grid-col-5of10 {
+	clear: right;
+	float: left;
+	width: 33%;
+}
+
+.grid-col-6of10 {
+	clear: both;
+	float: left;
+	width: 33%;
 }
 
 /*
@@ -79,6 +92,21 @@
 
 }
 
+@media (max-width: 60em) {
+
+	.grid-col-5of10 {
+		width: 100%;
+	}
+
+}
+
+@media (max-width: 100em) {
+
+	.grid-col-6of10 {
+		width: 100%;
+	}
+
+}
 /*
 	Much like last week, we are clearing the floating items so
 	that our 'grid' structure can be stacked on others

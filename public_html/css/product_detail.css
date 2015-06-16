@@ -27,12 +27,14 @@ h2{
    margin-top: 3em;
    text-align: left;
    position: relative;
+   display: inline-block;
 }
 
 h3{
-   font-size: 1.0rem;
+   font-size: 1.1rem;
    font-size: normal;
    font-family:Seravek;
+   text-align: center;
 }
 
 h4{
@@ -51,8 +53,6 @@ ul,ol{
    font-family: Abadi MT Condensed Light;
 /*   font-family: thin;*/
 }
-
-
 
 p,code,figcaption{
 	font-size: 0.9rem;
@@ -78,6 +78,7 @@ p,code,figcaption{
 /*	font-family: thin;*/
 	/* first # is top and bottom, second # is left and right margin */
 	margin: 0.25rem 0.5rem;
+	text-align: center;
 }
 
 .psubtitle{
@@ -86,6 +87,8 @@ p,code,figcaption{
 /*	font-family: thin;*/
 	/* first # is top and bottom, second # is left and right margin */
 	margin: 0.25rem 0.5rem;
+	display: inline-block;
+    text-align: left;
 }
 
 .p-payment-method{
@@ -93,8 +96,8 @@ p,code,figcaption{
 	font-family:Abadi MT Condensed Extra Bold;
 	text-align: left;
 	display: inline-block;
-/*	margin: 0.25rem 0.5rem;*/
-
+	margin-left: 1.5em;
+	margin-top: 2em;
 }
 
 .link{
@@ -222,16 +225,20 @@ input.submit:hover,input.reset:,input.text:hover,textarea:hover{
 
 input.submitcomment{
 
+	display: inline-block;
 	background-color: #F39873;
 	color: white;
-/*	border-radius: 0.25rem;*/
 	margin: 0.25rem 0.5rem;
-	padding: 0.25rem 0.45rem;
 	font-size: 1.2em;
 	border-style: solid;
     border-width: 0.1rem;
     border-color: #929595;
-    float: right;
+    padding: 0.3em 0.3em;
+	text-decoration: none;
+	font-family: MTF Sweet Cheeks;
+	font-size: 1.2em;
+
+	float: right;
 }
 
 input.submitcomment{
@@ -255,7 +262,7 @@ textarea{
 	font-family: Abadi MT Condensed Light;
 	background-color: white;
 	color: white;
-	width: 80rem;
+	width: 75rem;
 	height: 10rem;
 }
 
@@ -266,12 +273,40 @@ input:hover{
 
 article {
 	text-align: left;
-/*	margin: 2rem 0rem;*/ 
-/*	padding: 2rem;*/
-/* the border does not look nice */
-/*	border: 1px solid blue;*/
+/*	margin: 2rem 0; */
+/*	padding: 2rem; */
+/*	border: 3px solid #929595;*/
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
+	display: inline-block;
+}
+
+.text-article {
+	text-align: left;
+	margin: 2rem 0; 
+	padding: 2rem; 
+	border: 3px solid #929595;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	display: inline-block;
+
+	margin-top: 2em;
+ 	margin-right: 6em;
+ 	margin-left: 6em;
+}
+
+.text-article-related-product {
+	text-align: left;
+	margin: 2rem 0; 
+	padding: 2rem; 
+	border: 3px solid #929595;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	display: inline-block;
+
+	margin-top: 2em;
+ 	margin-right: 3em;
+ 	margin-left: 3em;
 }
 
 .login-button-nav, .login-button-nav:visited{
@@ -325,65 +360,7 @@ article {
 	text-align: center;
 }
 
-.image-button-nav-cat-toys, .image-button-nav-cat-toys:visited{
-	/*	add background image for the cat toys product list image button */
-	background: transparent url(../img/Cat_Toys_Icon.png) no-repeat;
-	display: inline-block;
-	position: relative;
-	width: 30rem;
-	height: 24rem;
-
-	/*	background-color:  #F39873;*/
-	color: white;
-    border-style: solid;
-    border-width: 0.1rem;
-    border-color: #929595;
-	padding: 0.3em 0.3em;
-	text-decoration: none;
-	-webkit-transition: background-color 0.5s;
-	transition: background-color 0.5s;
-	font-family: MTF Sweet Cheeks;
-	font-weight: normal;
-	font-size: 1em;
-	text-align: center;
-}
-
-.image-button-nav-cat-clothes, .image-button-nav-cat-clothes:visited{
-	/*	add background image for the cat toys product list image button */
-	background: transparent url(../img/Cat_Clothes_Icon.jpg) no-repeat;
-	display: inline-block;
-	position: relative;
-	width: 30rem;
-	height: 24rem;
-
-	/*	background-color:  #F39873;*/
-	color: white;
-    border-style: solid;
-    border-width: 0.1rem;
-    border-color: #929595;
-	padding: 0.3em 0.3em;
-	text-decoration: none;
-	-webkit-transition: background-color 0.5s;
-	transition: background-color 0.5s;
-	font-family: MTF Sweet Cheeks;
-	font-weight: normal;
-	font-size: 1em;
-	text-align: center;
-}
-
 .image-button-nav-cat-foods:hover, .image-button-nav-cat-foods:active, .image-button-nav-cat-foods:focus{
-	background-color: #FCBCA7;
-	color: #C2C0BC;
-/*    border-radius: 0.25rem;*/
-}
-
-.image-button-nav-cat-toys:hover, .image-button-nav-cat-toys:active, .image-button-nav-cat-toys:focus{
-	background-color: #FCBCA7;
-	color: #C2C0BC;
-/*    border-radius: 0.25rem;*/
-}
-
-.image-button-nav-cat-clothes:hover, .image-button-nav-cat-clothes:active, .image-button-nav-cat-clothes:focus{
 	background-color: #FCBCA7;
 	color: #C2C0BC;
 /*    border-radius: 0.25rem;*/
@@ -428,26 +405,51 @@ article {
 	margin-left: 8em;
  }
 
- .cat-foods-image-button-layout{
- 	margin-left: 8em;
- 	margin-right: 8em;
+ .cat-foods-product-list-image-layout{
  	margin-top: 2em;
- }
-
- .cat-toys-image-button-layout{
- 	margin-left: 8em;
- 	margin-right: 8em;
- 	margin-top: 2em;
- }
-
- .cat-clothes-image-button-layout{
- 	margin-left: 8em;
- 	margin-right: 8em;
- 	margin-top: 2em;
+/* 	margin-right: 8em;*/
+ 	margin-left: 3em;
+ 	margin-right: 3em;
  }
 
  .payment-methods-layout{
- 	margin-right: 8em;
-	margin-top: 2em;
-	margin-left: 8em;
+	margin-top: 3em;
+	margin-left: 5em;
+	margin-right: 5em;
+ }
+
+.addtoccart-button{
+	background-color: #F39873;
+	color: white;
+/*    border-radius: 0.25rem;*/
+	font-family:  MTF Sweet Cheeks;;
+	font-weight: normal;
+	text-align: center;
+	margin: 0.25rem 0.5rem;
+	padding: 0.25rem 0.45rem;
+	font-size: 1.2em;
+	border-style: solid;
+    border-width: 0.1rem;
+    border-color: #929595;
+
+	float: right;
+}
+
+.addtoccart-button:hover{
+	background-color: #F39873;
+	color: #C2BFBB;
+/*    border-radius: 0.25rem;*/
+	font-family:  MTF Sweet Cheeks;;
+ }
+
+ #customer-reviews{
+ 	margin-top: 1em;
+ 	margin-left: 7em;
+ 	margin-right: 7em;
+ }
+
+ #comments{
+ 	margin-top: 1em;
+ 	margin-left: 7em;
+ 	margin-right: 5.7em;
  }
