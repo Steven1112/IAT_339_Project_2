@@ -14,8 +14,6 @@ h1{
    font-weight: 700;
    margin-bottom: 0;
    font-family: Austie Bost Kitten Klub;
-   margin-left: 5em;
-   margin-top: 1em;
 }
 
 h2{
@@ -24,15 +22,20 @@ h2{
    font-family:Janda Safe and Sound;
    margin-left: 6.5em;
    margin-right: 6.5em;
-   margin-top: 3em;
    text-align: left;
    position: relative;
+   margin-top: 3em;
 }
 
 h3{
-   font-size: 1.0rem;
+   font-size: 1.2rem;
    font-size: normal;
-   font-family:Seravek;
+   font-family:Janda Safe and Sound;
+   margin-left: 6.5em;
+   margin-right: 6.5em;
+   text-align: left;
+   position: relative;
+   margin-top: 1.5em;
 }
 
 h4{
@@ -49,25 +52,22 @@ h2 a{
 ul,ol{
    font-size: 1.2rem;
    font-family: Abadi MT Condensed Light;
-/*   font-family: thin;*/
 }
 
 p,code,figcaption{
-	font-size: 0.9rem;
+	font-size: 1rem;
 	font-family: Abadi MT Condensed Light;
-/*	font-family: thin;*/
-	/* first # is top and bottom, second # is left and right margin */
 	margin: 0.25rem 0.5rem;
 }
 
 .pstyle{
-	font-size: 0.9rem;
+	font-size: 1rem;
 	font-family: Abadi MT Condensed Light;
 /*	font-family: thin;*/
 	/* first # is top and bottom, second # is left and right margin */
 	margin: 0.25rem 0.5rem;
 /*	try make a paragraph half-page length*/
-    width: 50%
+    display: inline;
 }
 
 .pprice{
@@ -76,7 +76,6 @@ p,code,figcaption{
 /*	font-family: thin;*/
 	/* first # is top and bottom, second # is left and right margin */
 	margin: 0.25rem 0.5rem;
-	text-align: center;
 }
 
 .psubtitle{
@@ -92,17 +91,14 @@ p,code,figcaption{
 	font-family:Abadi MT Condensed Extra Bold;
 	text-align: left;
 	display: inline-block;
-/*	margin: 0.25rem 0.5rem;*/
 
 }
 
 .link{
 	font-size: 0.9rem;
 	font-family: Helvetica Neue Light, Bernard MT Condensed;
-/*	font-family: thin;*/
-	/* first # is top and bottom, second # is left and right margin */
-	margin: 0.25rem 0.5rem;
 	color: rgb(0,0,255);
+	margin-left: 8.5em;
 }
 
 .button{
@@ -115,8 +111,6 @@ p,code,figcaption{
 nav .button{
 	background-color: #F39873;
 	color: white;
-/*	border-radius: 0.25rem;*/
-/*	margin: 0.5rem 0.25rem 0.75rem 0.8rem;*/
     margin: 0.25rem 0.5rem;
     padding: 0.25rem 0.45rem;
     font-family: MTF Sweet Cheeks;
@@ -133,28 +127,6 @@ nav .button:hover{
 
 a{
 	text-decoration: none;
-}
-
-.checkoutbutton{
-	background-color: #F39873;
-	color: white;
-/*	border-radius: 0.25rem;*/
-/*	margin: 0.5rem 0.25rem 0.75rem 0.8rem;*/
-    margin: 0.25rem 0.5rem;
-    padding: 0.25rem 0.45rem;
-    font-family: Abadi MT Condensed Light;
-    text-align: center;
-    font-size: 1.2em;
-    border-style: solid;
-    border-width: 0.1rem;
-    border-color: #929595;
-}
-
-.checkoutbutton:hover{
-	background-color: #C2BFBB;
-	color: #929595;
-	text-decoration: none;
-	text-align: center;
 }
 
 a:hover{
@@ -185,10 +157,8 @@ label{
     text-align: left;
     margin-right: 0.5em;
     display: block
-    font-size: 0.8rem;
+    font-size: 0.9rem;
 	font-family: MTF Sweet Cheeks;
-/*	font-family: thin;*/
-	/* first # is top and bottom, second # is left and right margin */
 	margin: 0.25rem 0.5rem;
 }
 
@@ -196,19 +166,18 @@ input.submit,input.reset{
 
 	background-color: #F39873;
 	color: white;
-/*	border-radius: 0.25rem;*/
 	margin: 0.25rem 0.5rem;
 	padding: 0.25rem 0.45rem;
 	font-size: 1.2em;
 	border-style: solid;
     border-width: 0.1rem;
     border-color: #929595;
+    float: right;
 }
 
 input.text,textarea{
 	background-color: #F39873;
 	color: white;
-/*	border-radius: 0.25rem;*/
 	margin: 0.25rem 0.5rem;
 	padding: 0.25rem 0.45rem;
 }
@@ -246,7 +215,6 @@ input{
 	font-family: Abadi MT Condensed Light;
 	background-color: white;
 	color: white;
-/*	border: solid 1px #FCBCA7;*/
 
 }
 
@@ -254,8 +222,10 @@ textarea{
 	font-family: Abadi MT Condensed Light;
 	background-color: white;
 	color: white;
-	width: 80rem;
-	height: 10rem;
+	width: 100%;
+	height: 80%;
+	min-width: 40em;
+	min-height: 15em;
 }
 
 input:hover{
@@ -265,12 +235,14 @@ input:hover{
 
 article {
 	text-align: left;
-/*	margin: 2rem 0; */
-/*	padding: 2rem; */
-	border: 3px solid #929595;
+/*  border is hided for now */
+/*	border: 3px solid #929595;*/
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 	display: inline-block;
+	padding: 0em 18em 0em 3em;
+	margin-left: 8em;
+	margin-right: 8em;
 }
 
 .login-button-nav, .login-button-nav:visited{
@@ -285,8 +257,6 @@ article {
 	-webkit-transition: background-color 0.5s;
 	transition: background-color 0.5s;
 	width:100%;
-/*	border-radius:10px;*/
-/*  border-radius: 0.25rem;*/
 	font-family: MTF Sweet Cheeks;
 	font-weight: normal;
 	font-size: 1em;
@@ -298,36 +268,6 @@ article {
 .login-button-nav:hover, .login-button-nav:active, .login-button-nav:focus{
 	background-color: #FCBCA7;
 	color: #C2C0BC;
-/*    border-radius: 0.25rem;*/
-}
-
-.image-button-nav-cat-foods, .image-button-nav-cat-foods:visited{
-	/*	add background image for the cat foods product list image button */
-	background: transparent url(../img/Cat_Foods_Icon.jpg) no-repeat;
-	display: inline-block;
-    position: relative;
-	width: 30rem;
-	height: 24rem;
-
-	/*	background-color:  #F39873;*/
-	color: white;
-    border-style: solid;
-    border-width: 0.1rem;
-    border-color: #929595;
-	padding: 0.3em 0.3em;
-	text-decoration: none;
-	-webkit-transition: background-color 0.5s;
-	transition: background-color 0.5s;
-	font-family: MTF Sweet Cheeks;
-	font-weight: normal;
-	font-size: 1em;
-	text-align: center;
-}
-
-.image-button-nav-cat-foods:hover, .image-button-nav-cat-foods:active, .image-button-nav-cat-foods:focus{
-	background-color: #FCBCA7;
-	color: #C2C0BC;
-/*    border-radius: 0.25rem;*/
 }
 
 .button-nav, .button-nav:visited{
@@ -342,8 +282,6 @@ article {
 	-webkit-transition: background-color 0.5s;
 	transition: background-color 0.5s;
 	width:100%;
-/*	border-radius:10px;*/
-/*  border-radius: 0.25rem;*/
 	font-family: MTF Sweet Cheeks;
 	font-weight: normal;
 	font-size: 1.2em;
@@ -355,35 +293,7 @@ article {
 	color: #C2C0BC;
 }
 
-/* set top main navigation layout */
- .topmenu{
-    margin-left: 8em;
-	margin-top: 2.5em;
-	margin-right: 8em;
- }
-
-/* set layout for three login buttons */
- .login-methods{
- 	margin-right: 8em;
-	margin-top: 2em;
-	margin-left: 8em;
- }
-
- .cat-foods-product-list-image-layout{
- 	margin-top: 2em;
- }
-
- .cat-foods-product-list-text-layout{
- 	margin-top: 2em;
- }
-
- .payment-methods-layout{
-	margin-top: 3em;
-	margin-left: 5em;
-	margin-right: 5em;
- }
-
- .onpage-button-nav, .button-nav:visited{
+.onpage-button-nav, .button-nav:visited{
 	display: inline-block;
 	background-color:  #F39873;
 	color: white;
@@ -407,3 +317,53 @@ article {
 	color: #C2C0BC;
 	opacity: 0.7;
 }
+
+/* set top main navigation layout */
+ .topmenu{
+    margin-left: 8em;
+	margin-top: 7em;
+	margin-right: 8em;
+ }
+
+/* set layout for three login buttons */
+ .login-methods{
+ 	margin-right: 8em;
+	margin-top: 2em;
+	margin-left: 8em;
+ }
+
+ #title{
+	margin-right: 3em;
+	margin-top: 1.5em;
+	margin-left: 3em;
+ }
+
+ .contact-text{
+ 	margin-right: 0em;
+	margin-top: 2em;
+	margin-left: 0em;
+ }
+
+ .article-border{
+    text-align: left;
+	border: 3px solid #929595;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	display: inline-block;
+	margin-left: 8em;
+	margin-right: 8em;
+	padding: 2em 4em 2.5em 3em;
+ }
+
+ #contact-information{
+/* 	margin-top: 3em;*/
+ 	margin-bottom: 3em;
+ 	margin-left: 3em;
+	margin-right: 3em;
+ }
+
+ #FAQ{
+ 	margin-right: 7em;
+	margin-left: 7em;
+	margin-bottom: 3em;
+ }
