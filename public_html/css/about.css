@@ -14,6 +14,9 @@ h1{
    font-weight: 700;
    margin-bottom: 0;
    font-family: Austie Bost Kitten Klub;
+   margin-left: 5em;
+   margin-top: 0.5em;
+
 }
 
 h2{
@@ -22,7 +25,6 @@ h2{
    font-family:Janda Safe and Sound;
    margin-left: 6.5em;
    margin-right: 6.5em;
-   margin-top: 3em;
    text-align: left;
    position: relative;
    margin-top: 3em;
@@ -40,6 +42,12 @@ h4{
    font-family: Courier New, sans-serif;
 }
 
+h5{
+   font-size: 0.1rem;
+   font-size: normal;
+   font-family: Courier New, sans-serif;
+}
+
 h2 a{
    font-style: italic;
    font-size: 1.8em;
@@ -51,12 +59,72 @@ ul,ol{
 /*   font-family: thin;*/
 }
 
+
+
 p,code,figcaption{
 	font-size: 0.9rem;
 	font-family: Abadi MT Condensed Light;
 /*	font-family: thin;*/
 	/* first # is top and bottom, second # is left and right margin */
 	margin: 0.25rem 0.5rem;
+}
+
+
+.col-image-cool{
+	position: absolute;
+	top:-16em;
+	right:30em;
+}
+
+.square-box_top{
+    position: relative;
+    top:30em;
+    width: 100%;
+    overflow: hidden;
+    background: #929595;
+
+}
+
+.square-box_bottom{
+    position: relative;
+    top:10em;
+    width: 100%;
+    overflow: hidden;
+    background: #929595;
+
+}
+
+.square-box_top{
+    position: relative;
+    top:65em;
+    width: 100%;
+    overflow: hidden;
+    background: #929595;
+
+}
+
+.square-box_bottom{
+    position: relative;
+    top:46.5em;
+    left:37.5em;
+    width: 20%;
+    overflow: hidden;
+    background: #929595;
+
+}
+
+.square-box_text{
+    position: relative;
+    top:46.15em;
+    left:55.5em;
+    width: 20%;
+    overflow: hidden;
+    background: #929595;
+
+}
+
+.square-content{
+	color:transparent;
 }
 
 .pstyle{
@@ -69,6 +137,16 @@ p,code,figcaption{
     width: 50%
 }
 
+.pstyle2{
+	font-size: 1rem;
+	font-family: Abadi MT Condensed Light;
+/*	font-family: thin;*/
+	/* first # is top and bottom, second # is left and right margin */
+	margin: 0.25rem 0.5rem;
+/*	try make a paragraph half-page length*/
+    display: inline;
+}
+
 .pprice{
 	font-size: 1.2rem;
 	font-family:Abadi MT Condensed Extra Bold;
@@ -78,11 +156,12 @@ p,code,figcaption{
 }
 
 .psubtitle{
-	font-size: 0.9rem;
+	font-size: 1.2rem;
 	font-family:Abadi MT Condensed Extra Bold;
 /*	font-family: thin;*/
 	/* first # is top and bottom, second # is left and right margin */
-	margin: 0.25rem 0.5rem;
+	position: relative;
+	left:1em;
 }
 
 .p-payment-method{
@@ -97,10 +176,8 @@ p,code,figcaption{
 .link{
 	font-size: 0.9rem;
 	font-family: Helvetica Neue Light, Bernard MT Condensed;
-/*	font-family: thin;*/
-	/* first # is top and bottom, second # is left and right margin */
-	margin: 0.25rem 0.5rem;
 	color: rgb(0,0,255);
+	margin-left: 8.5em;
 }
 
 .button{
@@ -109,6 +186,44 @@ p,code,figcaption{
 
 	text-decoration: none;
 }
+
+
+.button-nav_back{
+	background-color: #F39873;
+	color: white;
+/*	border-radius: 0.25rem;*/
+/*	margin: 0.5rem 0.25rem 0.75rem 0.8rem;*/
+    margin: 0.25rem 0.5rem;
+    padding: 0.25rem 0.45rem;
+    font-family: MTF Sweet Cheeks;
+    border-style: solid;
+    border-width: 0.1rem;
+    border-color: #929595;
+	position: absolute;
+	float:left;
+	left:4em;
+	top:25em;
+
+}
+
+.button-nav_forward{
+	background-color: #F39873;
+	color: white;
+/*	border-radius: 0.25rem;*/
+/*	margin: 0.5rem 0.25rem 0.75rem 0.8rem;*/
+    margin: 0.25rem 0.5rem;
+    padding: 0.25rem 0.45rem;
+    font-family: MTF Sweet Cheeks;
+    border-style: solid;
+    border-width: 0.1rem;
+    border-color: #929595;
+	position: absolute;
+	float:right;
+	right:25em;
+	top:25em;
+
+}
+
 
 nav .button{
 	background-color: #F39873;
@@ -162,9 +277,35 @@ a:hover{
 
 /*responsive image styles*/
 img{
-    height: auto;
-    max-width: auto;
+    
+    background-color: rgba(255, 237, 221, 0.3);
+
 }
+
+
+.coltext_left{
+	opacity: 30%;
+	font-size: 0.9rem;
+	font-family: Abadi MT Condensed Light;
+/*	font-family: thin;*/
+	/* first # is top and bottom, second # is left and right margin */
+	margin: 0.25rem 0.5rem;
+	float:left;
+
+}
+
+.coltext_right{
+    opacity: 30%;
+	font-size: 0.9rem;
+	font-family: Abadi MT Condensed Light;
+/*	font-family: thin;*/
+	/* first # is top and bottom, second # is left and right margin */
+	margin: 0.25rem 0.5rem;
+	float: left;
+
+}
+
+
 
 figure{
 	margin: 0;
@@ -189,6 +330,46 @@ label{
 	/* first # is top and bottom, second # is left and right margin */
 	margin: 0.25rem 0.5rem;
 }
+
+
+.top_Picture_Cover{
+  height: auto;
+  width: auto;
+  background-image: url('http://www.catbreedspic.co/wp-content/uploads/2014/09/cute-black-and-white-kittensdownload-wallpaper-cute-black-and-white-kitten--1366-x-768-hgdln7h9.jpg');
+  background-size: 100% 160%;
+  border: 3px solid #929595;
+  color: #000; text-shadow: 1px 1px 0 #fff;
+  margin-left: 8em;
+  margin-right: 8em;
+  margin-top: 2em;
+  min-width: 32em;
+  min-height: 20em;
+  height: 60%;
+ }
+
+
+.bottom_Picture_Cover{
+  height: 400px;
+  width: 400px;
+  background-image: url('http://www.nipandbones.com/images/products/mice/cat-toys/cat-supplies/hypnomice.jpg');
+  background-size: 100%;
+  border: 2px solid white;
+  color: #000; 
+  float: left;
+ 
+  }
+
+
+
+ .cooltext-top{
+ 	color:#929595;
+ 	top:10em;
+ 	padding: -20em;
+ 	float:left;
+ 	background-color: rgba(255, 237, 221, 0.3);
+
+ }
+
 
 input.submit,input.reset{
 
@@ -263,13 +444,20 @@ input:hover{
 
 article {
 	text-align: left;
-/*	margin: 2rem 0rem;*/ 
-/*	padding: 2rem;*/
-/* the border does not look nice */
-/*	border: 1px solid blue;*/
+/*	border: 2px solid #929595;*/
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
+	display: inline-block;
+	text-align: left;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	display: inline-block;
+/*	padding: 0em 18em 0em 3em;
+	margin-left: 8em;
+	margin-right: 8em;*/
 }
+
+
 
 .login-button-nav, .login-button-nav:visited{
 	display: inline-block;
@@ -302,9 +490,10 @@ article {
 .image-button-nav-cat-foods, .image-button-nav-cat-foods:visited{
 	/*	add background image for the cat foods product list image button */
 	background: transparent url(../img/Cat_Foods_Icon.jpg) no-repeat;
-	background-position: center center;
 	display: inline-block;
     position: relative;
+	width: 30rem;
+	height: 24rem;
 
 	/*	background-color:  #F39873;*/
 	color: white;
@@ -324,9 +513,10 @@ article {
 .image-button-nav-cat-toys, .image-button-nav-cat-toys:visited{
 	/*	add background image for the cat toys product list image button */
 	background: transparent url(../img/Cat_Toys_Icon.png) no-repeat;
-	background-position: center center;
 	display: inline-block;
 	position: relative;
+	width: 30rem;
+	height: 24rem;
 
 	/*	background-color:  #F39873;*/
 	color: white;
@@ -346,9 +536,10 @@ article {
 .image-button-nav-cat-clothes, .image-button-nav-cat-clothes:visited{
 	/*	add background image for the cat toys product list image button */
 	background: transparent url(../img/Cat_Clothes_Icon.jpg) no-repeat;
-	background-position: 30% 20%;
 	display: inline-block;
 	position: relative;
+	width: 30rem;
+	height: 24rem;
 
 	/*	background-color:  #F39873;*/
 	color: white;
@@ -368,21 +559,18 @@ article {
 .image-button-nav-cat-foods:hover, .image-button-nav-cat-foods:active, .image-button-nav-cat-foods:focus{
 	background-color: #FCBCA7;
 	color: #C2C0BC;
-	opacity: 0.5;
 /*    border-radius: 0.25rem;*/
 }
 
 .image-button-nav-cat-toys:hover, .image-button-nav-cat-toys:active, .image-button-nav-cat-toys:focus{
 	background-color: #FCBCA7;
 	color: #C2C0BC;
-	opacity: 0.5;
 /*    border-radius: 0.25rem;*/
 }
 
 .image-button-nav-cat-clothes:hover, .image-button-nav-cat-clothes:active, .image-button-nav-cat-clothes:focus{
 	background-color: #FCBCA7;
 	color: #C2C0BC;
-	opacity: 0.5;
 /*    border-radius: 0.25rem;*/
 }
 
@@ -414,7 +602,7 @@ article {
 /* set top main navigation layout */
  .topmenu{
     margin-left: 8em;
-	margin-top: 7em;
+	margin-top: 2.5em;
 	margin-right: 8em;
  }
 
@@ -426,58 +614,18 @@ article {
  }
 
  .cat-foods-image-button-layout{
- 	margin-left: 4em;
- 	margin-right: 4em;
- 	margin-top: 2em;
+ 	margin-left: 8em;
+ 	margin-top: 10em;
  }
 
  .cat-toys-image-button-layout{
- 	margin-left: 4em;
- 	margin-right: 4em;
- 	margin-top: 2em;
+ 	margin-left: 8em;
+/* 	margin-top: 10em;*/
  }
 
  .cat-clothes-image-button-layout{
- 	margin-left: 4em;
- 	margin-right: 4em;
- 	margin-top: 2em;
- }
-
- a.image-button-nav-cat-foods {
-    border-radius: 50em;
-    min-height: 20em;
-    min-width: 20em;
-    max-width: 50em;
-    max-height: 50em;
- }
-
- a.image-button-nav-cat-toys {
-    border-radius: 50em;
-    min-height: 20em;
-    min-width: 20em;
-    max-width: 50em;
-    max-height: 50em;
- }
-
- a.image-button-nav-cat-clothes {
-    border-radius: 50em;
-    min-height: 20em;
-    min-width: 20em;
-    max-width: 50em;
-    max-height: 50em;
- }
-
- .button-nav-cat-text {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-left: -25%;
- }
-
- #title{
-	margin-right: 3em;
-	margin-top: 1.5em;
-	margin-left: 3em;
+ 	margin-left: 8em;
+/* 	margin-top: 10em;*/
  }
 
  .payment-methods-layout{
@@ -509,4 +657,24 @@ article {
 	background-color: #FCBCA7;
 	color: #C2C0BC;
 	opacity: 0.7;
+}
+
+.about_image{
+	margin-left: 8em;
+	margin-right: 8em;
+	margin-top: 2em;
+	width: 88%;
+	height: 88%;
+	min-width: 16em;
+	min-height: 10em;
+	border: 3px solid #929595;
+	color: #000; text-shadow: 1px 1px 0 #fff;
+}
+
+.about-text{
+	margin-left: 8em;
+	margin-right: 8em;
+	margin-top: 2em;
+	width: 80%;
+	height: auto;
 }

@@ -454,7 +454,7 @@ article {
  	margin-right: 5.7em;
  }
 
-  .onpage-button-nav, .button-nav:visited{
+  .onpage-button-nav, .onpage-button-nav:visited{
 	display: inline-block;
 	background-color:  #F39873;
 	color: white;
@@ -473,7 +473,7 @@ article {
 	opacity: 0.7;
 }
 
-.onpage-button-nav:hover, .button-nav:active, .button-nav:focus{
+.onpage-button-nav:hover, .onpage-button-nav:active, .onpage-button-nav:focus{
 	background-color: #FCBCA7;
 	color: #C2C0BC;
 	opacity: 0.7;
