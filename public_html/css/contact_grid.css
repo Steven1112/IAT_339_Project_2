@@ -83,5 +83,5 @@
 .grid:after {
 	content: "";
 	clear: both;
-	display: inline-block;
+	display: block;
 }
