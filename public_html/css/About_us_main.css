@@ -270,26 +270,31 @@ img{
 
 }
 
+.home-img{
+	position: relative;
+	left: 10em;
+	width: 50%;
+	opacity: 30%;
+	top:5em;
+
+
+}
 
 .coltext_left{
+position: relative;
+	left: 0em;
+	width: 100%;
 	opacity: 30%;
-	font-size: 0.9rem;
-	font-family: Abadi MT Condensed Light;
-/*	font-family: thin;*/
-	/* first # is top and bottom, second # is left and right margin */
-	margin: 0.25rem 0.5rem;
-	float:left;
+	top:-10em;
 
 }
 
 .coltext_right{
-    opacity: 30%;
-	font-size: 0.9rem;
-	font-family: Abadi MT Condensed Light;
-/*	font-family: thin;*/
-	/* first # is top and bottom, second # is left and right margin */
-	margin: 0.25rem 0.5rem;
-	float: left;
+position: relative;
+	left: 20em;
+	width: 100%;
+	opacity: 30%;
+	top:-10em;
 
 }
 
@@ -320,35 +325,26 @@ label{
 }
 
 
-.top_Picture_Cover{
+.bgSizeCover {
   height: 450px;
   width: auto;
-  background-image: url('http://www.catbreedspic.co/wp-content/uploads/2014/09/cute-black-and-white-kittensdownload-wallpaper-cute-black-and-white-kitten--1366-x-768-hgdln7h9.jpg');
-  background-size: 100% 160%;
-  border: 3px solid #929595;
+  background-image: url('http://www.travelettes.net/wp-content/uploads/2012/04/herb-lester-city-maps-03.jpg');
+  background-size: cover;
+  border: 2px solid #929595;
   color: #000; text-shadow: 1px 1px 0 #fff;
-  
+  position: relative;
+  top:20em;
+  display: center;
   }
-
-
-.bottom_Picture_Cover{
-  height: 400px;
-  width: 400px;
-  background-image: url('http://www.nipandbones.com/images/products/mice/cat-toys/cat-supplies/hypnomice.jpg');
-  background-size: 100%;
-  border: 2px solid white;
-  color: #000; 
-  float: left;
- 
-  }
-
 
 
  .cooltext-top{
  	color:#929595;
- 	top:10em;
- 	padding: -20em;
- 	float:left;
+ 	position: relative;
+ 	top:-22em;
+ 	width: 30%;
+ 	max-height: 50em;
+ 	left:5em;
  	background-color: rgba(255, 237, 221, 0.3);
 
  }
@@ -434,8 +430,6 @@ article {
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 }
-
-
 
 .login-button-nav, .login-button-nav:visited{
 	display: inline-block;

@@ -31,9 +31,58 @@
 /*
 	Here we are defining our 50% wide column (for a 10 col grid)
 */
-.grid-col-8of100 {
+
+
+.grid-col-3of10 {
+	width: 20%;
+	position: relative;
+	top: 8em;
+	left:37em;
+	
+}
+
+
+.grid-col-4of10 {
+	width: 20%;
+	position: relative;
+	top: -7em;
+	left:56em;
+}
+
+
+.grid-col-5of10 {
+	width: 60%;
+	float:left;
+	position: absolute;
+	top:7em;
+	margin: 8em;
+
+}
+
+
+.grid-col-6of10 {
+	width: 30%;
+	position: absolute;
+	top:35em;
+	left: 8.5em;
+
+}
+
+.grid-col-7of10 {
+	width: 30%;
+	position: absolute;
+	top:43em;
+	left: 8.5em;
+
+}
+
+
+
+.grid-col-8of10 {
 	width: 8%;
 	float:right;
+
+
 }
 
 
@@ -51,90 +100,6 @@
 	
 }
 
-.grid-col-3of10 {
-	width: 40%;
-	position: relative;
-	top:-18em;
-	left:4em;
-	
-}
-
-.grid-col-4of10 {
-	width: 40%;
-	float:left;
-	margin: -10em; 
-}
-
-
-.grid-col-20of100{
-    width: 20%;
-	float: left;
-	position: relative;
-	left:15em;
-	top:-3em;
-}
-
-.grid-col-40of100{
-    width: 40%;
-   position: relative;
-   top:-9em;
-
-}
-
-
-.grid-col-7of10 {
-	width: 70%;
-	float: left;
-}
-
-
-.grid-col-8of10 {
-	width: 80%;
-	float: left;
-	position: relative;
-	top:-10em;
-	left:4em;
-}
-
-
-
-
-
-
-
-
-.grid-col-5of10 {
-	width: 50%;
-	float:left;
-/*	position: absolute;
-	top:7em;
-	margin: 8em;*/
-
-}
-
-
-.grid-col-6of10 {
-	width: 30%;
-	position: absolute;
-	top:35em;
-	left: 8.5em;
-
-}
-
-
-
-
-
-
-
-.grid-col-10of10 {
-	width: 100%;
-	position: relative;
-	top:3em;
-	opacity: 10%;
-	
-}
-
 .grid-col-9of10 {
 	width: 20%;
 	position: absolute;
@@ -143,6 +108,13 @@
 	background-color: rgba(255, 237, 221, 0.3);
 }
 
+.grid-col-2of10 {
+	width: 80%;
+	position: relative;
+	left:8em;
+	top:-9em;
+	background-color: rgba(255, 237, 221, 0.3);
+}
 
 
 /*
@@ -150,82 +122,22 @@
 	has a width less than 50em it should collapse the 5/10 columns 
 	into one stack (hence width: 100%)
 */
-
-
-@media (max-width: 50em) {
-
-	.grid-col-8of100 {
-		width: 100%;
-	}
-
-@media (max-width: 50em) {
-
-	.grid-col-1of10 {
-		width: 100%;
-	}
-
-}
-
-
 @media (max-width: 50em) {
 
 	.grid-col-10of10 {
 		width: 100%;
 	}
-}
 
-@media (max-width: 50em) {
+	
 
-	.grid-col-3of10 {
-		width: 80%;
+	.grid-col-2of10 {
+		width: 30%;
 	}
 
 
 }
 
-@media (max-width: 50em) {
 
-.grid-col-4of10{
-    width: 40%;
-    position: relative;
-	left:40em;
-}
-
-}
-
-
-@media (max-width: 50em) {
-
-.grid-col-20of100{
-    width: 69%;
-    position: relative;
-    top:-10em;
-    left:5em;
-}
-
-}
-
-
-@media (max-width:50em) {
-
-.grid-col-8of10{
-    width: 69%;
-    position: relative;
-    top:-12em;
-    left:5em;
-}
-
-
-@media (max-width: 50em) {
-
-.grid-col-40-of100{
-    width: 69%;
-    position: relative;
-    top:-12em;
-    float: left;
-    left:18em;
-}
-}
 /*
 	Here we are defining our 20% wide column (for 2 columns of a 10 col grid)
 /*
