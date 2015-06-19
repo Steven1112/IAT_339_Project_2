@@ -60,7 +60,7 @@
 .grid-col-4of10 {
 	width: 40%;
 	float:left;
-	margin: -10em; 
+
 }
 
 
@@ -135,6 +135,11 @@
 	position: relative;
 	/* top:3em; */
 	opacity: 10%;
+	
+}
+
+.grid-col-10of10 {
+	width: 100%;
 	
 }
 
