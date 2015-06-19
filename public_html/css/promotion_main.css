@@ -1,0 +1,530 @@
+*, *:after, *:before{
+	box-sizing:border-box;
+}
+
+body{
+	color:black;
+	background-color:white;
+	font-size: 16px;
+	color:#929595;
+}
+
+h1{
+   font-size: 2.8rem;
+   font-weight: 700;
+   margin-bottom: 0;
+   font-family: Austie Bost Kitten Klub;
+   margin-left: 5em;
+   margin-top: 1em;
+}
+
+h2{
+   font-size: 1.2rem;
+   font-size: normal;
+   font-family:Janda Safe and Sound;
+   margin-left: 6.5em;
+   margin-right: 6.5em;
+   margin-top: 3em;
+   text-align: left;
+   position: relative;
+   display: inline-block;
+}
+
+h3{
+   font-size: 0.1em;
+   font-size: normal;
+   /*font-family:Seravek;*/
+   font-family:Abadi MT Condensed Light;
+   text-align: center;
+   border-style: solid;
+   border-color:#929595;
+   background-color: #929595;
+   margin: 8em;
+}
+
+h4{
+   font-size: 1.1rem;
+   font-size: normal;
+   font-family: Courier New, sans-serif;
+}
+
+h5{
+	font-size: 1.2rem;
+   font-size: normal;
+   font-family:Janda Safe and Sound;
+   margin-left: 6.5em;
+   margin-right: 6.5em;
+   margin-top: 3em;
+   margin-bottom: 3em;
+   text-align: left;
+   position: relative;
+   display: inline-block;
+}
+
+h2 a{
+   font-style: italic;
+   font-size: 1.8em;
+}
+
+ul,ol{
+   font-size: 1.2rem;
+   font-family: Abadi MT Condensed Light;
+/*   font-family: thin;*/
+}
+
+p,code,figcaption{
+	font-size: 0.9rem;
+	font-family: Abadi MT Condensed Light;
+/*	font-family: thin;*/
+	/* first # is top and bottom, second # is left and right margin */
+	margin: 0.25rem 0.5rem;
+}
+
+.pstyle{
+	font-size: 0.9rem;
+	font-family: Abadi MT Condensed Light;
+/*	font-family: thin;*/
+	/* first # is top and bottom, second # is left and right margin */
+	margin: 0.25rem 0.5rem;
+/*	try make a paragraph half-page length*/
+    width: 50%
+}
+
+.pprice{
+	font-size: 1.2rem;
+	font-family:Abadi MT Condensed Extra Bold;
+/*	font-family: thin;*/
+	/* first # is top and bottom, second # is left and right margin */
+	margin: 0.25rem 0.5rem;
+	text-align: center;
+	background-border: red;
+
+}
+
+.specialprice{
+	font-size: 0.9rem;
+	font-family:Abadi MT Condensed Extra Bold;
+/*	font-family: thin;*/
+	/* first # is top and bottom, second # is left and right margin */
+	margin: 0.25rem 0.5rem;
+	text-align: center;
+	color:red;
+}
+
+.sdetail{
+	font-size: 0.9rem;
+	font-family: Abadi MT Condensed Light;
+	margin: 0.25rem 0.5rem;
+	text-align: center;
+	color:red;
+}
+
+.psubtitle{
+	font-size: 0.9rem;
+	font-family:Abadi MT Condensed Extra Bold;
+/*	font-family: thin;*/
+	/* first # is top and bottom, second # is left and right margin */
+	margin: 0.25rem 0.5rem;
+	display: inline-block;
+    text-align: left;
+}
+
+.p-payment-method{
+	font-size: 1.5rem;
+	font-family:Abadi MT Condensed Extra Bold;
+	text-align: left;
+	display: inline-block;
+	margin-left: 1.5em;
+	margin-top: 2em;
+}
+
+.link{
+	font-size: 0.9rem;
+	font-family: Helvetica Neue Light, Bernard MT Condensed;
+/*	font-family: thin;*/
+	/* first # is top and bottom, second # is left and right margin */
+	margin: 0.25rem 0.5rem;
+	color: rgb(0,0,255);
+}
+
+.linktop{
+	font-size: 0.9rem;
+	font-family: Helvetica Neue Light, Bernard MT Condensed;
+/*	font-family: thin;*/
+	/* first # is top and bottom, second # is left and right margin */
+	margin: 0.25rem 0.5rem;
+	color: rgb(0,0,255);
+	margin-left: 6.5em;
+
+
+}
+
+.button{
+	display: inline-block;
+	font-family: MTF Sweet Cheeks;
+
+	text-decoration: none;
+}
+
+nav .button{
+	background-color: #F39873;
+	color: white;
+/*	border-radius: 0.25rem;*/
+/*	margin: 0.5rem 0.25rem 0.75rem 0.8rem;*/
+    margin: 0.25rem 0.5rem;
+    padding: 0.25rem 0.45rem;
+    font-family: MTF Sweet Cheeks;
+    border-style: solid;
+    border-width: 0.1rem;
+    border-color: #929595;
+}
+
+nav .button:hover{
+	background-color: #F39873;
+	color: #C2BFBB;
+	text-decoration: none;
+}
+
+a{
+	text-decoration: none;
+}
+
+.checkoutbutton{
+	background-color: #F39873;
+	color: white;
+/*	border-radius: 0.25rem;*/
+/*	margin: 0.5rem 0.25rem 0.75rem 0.8rem;*/
+    margin: 0.25rem 0.5rem;
+    padding: 0.25rem 0.45rem;
+    font-family: Abadi MT Condensed Light;
+    text-align: center;
+    font-size: 1.2em;
+    border-style: solid;
+    border-width: 0.1rem;
+    border-color: #929595;
+}
+
+.checkoutbutton:hover{
+	background-color: #C2BFBB;
+	color: #929595;
+	text-decoration: none;
+	text-align: center;
+}
+
+a:hover{
+	text-decoration: underline;
+	color: orange;
+}
+
+/*responsive image styles*/
+img{
+    height: auto;
+    max-width: auto;
+}
+
+figure{
+	margin: 0;
+}
+
+form{
+	background-color: #FFFDFA;
+	display: inline-block;
+	padding: 1rem;
+	width: 40%
+    font-family: Abadi MT Condensed Light;
+}
+
+label{
+    float: left;
+    text-align: left;
+    margin-right: 0.5em;
+    display: block
+    font-size: 0.8rem;
+	font-family: MTF Sweet Cheeks;
+/*	font-family: thin;*/
+	/* first # is top and bottom, second # is left and right margin */
+	margin: 0.25rem 0.5rem;
+}
+
+input.submit,input.reset{
+
+	background-color: #F39873;
+	color: white;
+/*	border-radius: 0.25rem;*/
+	margin: 0.25rem 0.5rem;
+	padding: 0.25rem 0.45rem;
+	font-size: 1.2em;
+	border-style: solid;
+    border-width: 0.1rem;
+    border-color: #929595;
+}
+
+input.text,textarea{
+	background-color: #F39873;
+	color: white;
+/*	border-radius: 0.25rem;*/
+	margin: 0.25rem 0.5rem;
+	padding: 0.25rem 0.45rem;
+}
+
+input.submit:hover,input.reset:,input.text:hover,textarea:hover{
+	background-color: #FCBCA7;
+	color: white;
+	text-decoration: none;
+}
+
+input.submitcomment{
+
+	display: inline-block;
+	background-color: #F39873;
+	color: white;
+	margin: 0.25rem 0.5rem;
+	font-size: 1.2em;
+	border-style: solid;
+    border-width: 0.1rem;
+    border-color: #929595;
+    padding: 0.3em 0.3em;
+	text-decoration: none;
+	font-family: MTF Sweet Cheeks;
+	font-size: 1.2em;
+
+	float: right;
+}
+
+input.submitcomment{
+
+	background-color: #FCBCA7;
+	color: white;
+	text-decoration: none;
+
+}
+
+
+input{
+	font-family: Abadi MT Condensed Light;
+	background-color: white;
+	color: white;
+/*	border: solid 1px #FCBCA7;*/
+
+}
+
+textarea{
+	font-family: Abadi MT Condensed Light;
+	background-color: white;
+	color: white;
+	width: 75rem;
+	height: 10rem;
+}
+
+input:hover{
+	background-color: #FCBCA7;
+	color: #C2C0BC;
+}
+
+article {
+	text-align: left;
+/*	margin: 2rem 0; */
+/*	padding: 2rem; */
+/*	border: 3px solid #929595;*/
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	display: inline-block;
+}
+
+.text-article {
+	text-align: left;
+	margin: 2rem 0; 
+	padding: 2rem; 
+	border: 3px solid #929595;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	display: inline-block;
+
+	margin-top: 2em;
+ 	margin-right: 6em;
+ 	margin-left: 6em;
+}
+
+.text-article-related-product {
+	text-align: left;
+	margin: 2rem 0; 
+	padding: 2rem; 
+	border: 3px solid #929595;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	display: inline-block;
+
+	margin-top: 2em;
+ 	margin-right: 3em;
+ 	margin-left: 3em;
+}
+
+.login-button-nav, .login-button-nav:visited{
+	display: inline-block;
+	background-color:  #F39873;
+	color: white;
+    border-style: solid;
+    border-width: 0.1rem;
+    border-color: #929595;
+	padding: 0.3em 0.3em;
+	text-decoration: none;
+	-webkit-transition: background-color 0.5s;
+	transition: background-color 0.5s;
+	width:100%;
+/*	border-radius:10px;*/
+/*  border-radius: 0.25rem;*/
+	font-family: MTF Sweet Cheeks;
+	font-weight: normal;
+	font-size: 1em;
+	text-align: center;
+
+	float: right;
+}
+
+.login-button-nav:hover, .login-button-nav:active, .login-button-nav:focus{
+	background-color: #FCBCA7;
+	color: #C2C0BC;
+/*    border-radius: 0.25rem;*/
+}
+
+.image-button-nav-cat-foods, .image-button-nav-cat-foods:visited{
+	/*	add background image for the cat foods product list image button */
+	background: transparent url(../img/Cat_Foods_Icon.jpg) no-repeat;
+	display: inline-block;
+    position: relative;
+	width: 30rem;
+	height: 24rem;
+
+	/*	background-color:  #F39873;*/
+	color: white;
+    border-style: solid;
+    border-width: 0.1rem;
+    border-color: #929595;
+	padding: 0.3em 0.3em;
+	text-decoration: none;
+	-webkit-transition: background-color 0.5s;
+	transition: background-color 0.5s;
+	font-family: MTF Sweet Cheeks;
+	font-weight: normal;
+	font-size: 1em;
+	text-align: center;
+}
+
+.image-button-nav-cat-foods:hover, .image-button-nav-cat-foods:active, .image-button-nav-cat-foods:focus{
+	background-color: #FCBCA7;
+	color: #C2C0BC;
+/*    border-radius: 0.25rem;*/
+}
+
+.button-nav, .button-nav:visited{
+	display: inline-block;
+	background-color:  #F39873;
+	color: white;
+    border-style: solid;
+    border-width: 0.1rem;
+    border-color: #929595;
+	padding: 0.3em 0.3em;
+	text-decoration: none;
+	-webkit-transition: background-color 0.5s;
+	transition: background-color 0.5s;
+	width:100%;
+/*	border-radius:10px;*/
+/*  border-radius: 0.25rem;*/
+	font-family: MTF Sweet Cheeks;
+	font-weight: normal;
+	font-size: 1.2em;
+	text-align: center;
+}
+
+.button-nav:hover, .button-nav:active, .button-nav:focus{
+	background-color: #FCBCA7;
+	color: #C2C0BC;
+}
+
+/* set top main navigation layout */
+ .topmenu{
+    margin-left: 8em;
+	margin-top: 2.5em;
+	margin-right: 8em;
+ }
+
+/* set layout for three login buttons */
+ .login-methods{
+ 	margin-right: 8em;
+	margin-top: 2em;
+	margin-left: 8em;
+ }
+
+ .cat-foods-product-list-image-layout{
+ 	margin-top: 2em;
+/* 	margin-right: 8em;*/
+ 	margin-left: 3em;
+ 	margin-right: 3em;
+ }
+
+ .payment-methods-layout{
+	margin-top: 3em;
+	margin-left: 5em;
+	margin-right: 5em;
+ }
+
+.addtoccart-button{
+	background-color: #F39873;
+	color: white;
+/*    border-radius: 0.25rem;*/
+	font-family:  MTF Sweet Cheeks;;
+	font-weight: normal;
+	text-align: center;
+	margin: 0.25rem 0.5rem;
+	padding: 0.25rem 0.45rem;
+	font-size: 1.2em;
+	border-style: solid;
+    border-width: 0.1rem;
+    border-color: #929595;
+
+	float: right;
+}
+
+.addtoccart-button:hover{
+	background-color: #F39873;
+	color: #C2BFBB;
+/*    border-radius: 0.25rem;*/
+	font-family:  MTF Sweet Cheeks;;
+ }
+
+ #customer-reviews{
+ 	margin-top: 1em;
+ 	margin-left: 7em;
+ 	margin-right: 7em;
+ }
+
+ #comments{
+ 	margin-top: 1em;
+ 	margin-left: 7em;
+ 	margin-right: 5.7em;
+ }
+
+  .onpage-button-nav, .onpage-button-nav:visited{
+	display: inline-block;
+	background-color:  #F39873;
+	color: white;
+    border-style: solid;
+    border-width: 0.1rem;
+    border-color: #929595;
+	padding: 0.3em 0.3em;
+	text-decoration: none;
+	-webkit-transition: background-color 0.5s;
+	transition: background-color 0.5s;
+	width:100%;
+	font-family: MTF Sweet Cheeks;
+	font-weight: normal;
+	font-size: 1.2em;
+	text-align: center;
+	opacity: 0.7;
+}
+
+.onpage-button-nav:hover, .onpage-button-nav:active, .onpage-button-nav:focus{
+	background-color: #FCBCA7;
+	color: #C2C0BC;
+	opacity: 0.7;
+}

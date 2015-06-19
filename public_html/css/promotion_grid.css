@@ -1,0 +1,139 @@
+
+/* 
+	This tutorial draws from "Don't Overthink Grids" available at
+	http://css-tricks.com/dont-overthink-it-grids/
+*/
+
+
+/*
+	With this selector, we are specifying that all objects use
+	the border-box model (not the content-box model)
+*/
+*, *:after, *:before {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+
+/*
+	Here we are using a 'fancy' css selector that is 
+	specifying if the class of an item starts with
+	'grid-col-', then we should apply the styling listed
+*/
+[class^='grid-col-'] {
+/*	float: left;*/
+	padding: 0; 
+	text-align: center;
+}
+
+/* login methods grid */
+.grid-col-8of10{
+	float: right;
+	width: 8%;
+}
+
+/* main navigation menu grid */
+.grid-col-1of10 {
+	float: left;
+	width: 13%;
+}
+
+.grid-col-5of10 {
+	clear: left;
+	float: right;
+	display: inline-block;
+	width: 50%;
+}
+
+.grid-col-3of10 {
+	clear: left;
+	float: right;
+	display: inline-block;
+	width: 33%;
+}
+
+.grid-col-6of10 {
+	clear: both;
+	float: left;
+	width: 33%;
+	text-align: left;
+}
+
+.grid-col-7of10 {
+	clear: right;
+	float: left;
+	width: 33%;
+}
+
+.grid-col-4of10 {
+	float: left;
+	width: 10%;
+	margin: 10em;
+}
+
+.grid-col-80of100 {
+	width: 80%;
+	float: left;
+	padding-left:8em;
+	
+}
+
+
+/*
+	Using further @media queries, we specify that at a width of
+	less than 30em it should collapse the 4/10 columns into one stack
+*/
+
+@media (max-width: 40em) {
+
+	.grid-col-1of10 {
+		width: 100%;
+	}
+
+}
+
+/*
+	Here using @media queries, we are specifying when the display
+	has a width less than 50em it should collapse the 5/10 columns 
+	into one stack (hence width: 100%)
+*/
+@media (max-width: 55em) {
+
+	.grid-col-3of10 {
+		width: 40%;
+	}
+
+}
+
+
+
+@media (max-width: 30em) {
+
+	.grid-col-3of10 {
+		width: 100%;
+	}
+
+}
+
+@media (max-width: 10em) {
+
+	.grid-col-5of10 {
+		width: 100%;
+	}
+
+}
+
+
+
+/*
+	Much like last week, we are clearing the floating items so
+	that our 'grid' structure can be stacked on others
+*/
+
+.grid:after {
+	content: "";
+	display: block;
+	clear: both;
+	display: inline-block;
+}
