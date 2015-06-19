@@ -83,13 +83,24 @@
 
 .grid-col-8of10 {
 	width: 80%;
-	float: left;
-	position: relative;
-	top:-10em;
-	left:4em;
+	padding-left: 8em;
+	margin-top: 15em;
+	
 }
 
+.grid-col-50of100{
+    width: 100%;
+   padding-top: 2em;
 
+}
+
+.grid-col-60of100{
+    width: 80%;
+    float:left;
+
+ 
+
+}
 
 
 
@@ -107,14 +118,15 @@
 
 
 .grid-col-6of10 {
-	width: 60%;
+	width: 90%;
 	float: left;
+	padding-left:0.5em;
 }
 
 
 .grid-col-4of10{
 	width: 40%;
-	float: left;
+	float: right;
 }
 
 
@@ -122,9 +134,8 @@
 
 .grid-col-10of10 {
 	width: 100%;
-	position: relative;
-	top:3em;
 	opacity: 10%;
+	padding-top:5em;
 	
 }
 
@@ -188,11 +199,9 @@
 
 @media (max-width:50em) {
 
-.grid-col-8of10{
-    width: 69%;
-    position: relative;
-    top:-12em;
-    left:5em;
+.grid-col-100of100{
+    width: 80%;
+
 }
 
 

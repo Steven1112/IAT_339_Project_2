@@ -28,6 +28,7 @@ h2{
    text-align: left;
    position: relative;
    margin-top: 3em;
+   padding-left: 0.5em;
 }
 
 h3{
@@ -43,9 +44,15 @@ h4{
 }
 
 h5{
-   font-size: 0.1rem;
+   font-size: 0.5em;
    font-size: normal;
    font-family: Courier New, sans-serif;
+   background color:#929595;
+   color: #929595;
+   border-style: solid;
+   border-color: #929595;
+   border-background:#929595;
+   background color:#929595;
 }
 
 h2 a{
@@ -134,7 +141,7 @@ p,code,figcaption{
 	/* first # is top and bottom, second # is left and right margin */
 	margin: 0.25rem 0.5rem;
 /*	try make a paragraph half-page length*/
-    width: 50%
+    
 }
 
 .pstyle2{
@@ -175,6 +182,14 @@ p,code,figcaption{
 
 .link{
 	font-size: 0.9rem;
+	font-family: Helvetica Neue Light, Bernard MT Condensed;
+	color: rgb(0,0,255);
+	margin-left: 8.5em;
+}
+
+.linkbottom{
+	padding-left: 3em;
+	font-size: 0.7rem;
 	font-family: Helvetica Neue Light, Bernard MT Condensed;
 	color: rgb(0,0,255);
 	margin-left: 8.5em;
