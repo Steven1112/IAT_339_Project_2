@@ -187,7 +187,7 @@ p,code,figcaption{
     border-style: solid;
     border-width: 0.1rem;
     border-color: #929595;
-	position: absolute;
+	/*position: absolute;*/
 	float:left;
 	left:4em;
 	top:25em;
@@ -205,7 +205,7 @@ p,code,figcaption{
     border-style: solid;
     border-width: 0.1rem;
     border-color: #929595;
-	position: absolute;
+/*	position: absolute;*/
 	float:right;
 	right:25em;
 	top:25em;
@@ -270,15 +270,20 @@ img{
 
 }
 
+.mainpage-img{
+	float: left;
+}
+
 
 .coltext_left{
-	opacity: 30%;
 	font-size: 0.9rem;
 	font-family: Abadi MT Condensed Light;
 /*	font-family: thin;*/
 	/* first # is top and bottom, second # is left and right margin */
 	margin: 0.25rem 0.5rem;
-	float:left;
+	padding-top: 8em;
+
+	
 
 }
 
@@ -289,7 +294,8 @@ img{
 /*	font-family: thin;*/
 	/* first # is top and bottom, second # is left and right margin */
 	margin: 0.25rem 0.5rem;
-	float: left;
+	padding-top: 8em;
+	
 
 }
 
@@ -323,12 +329,26 @@ label{
 .top_Picture_Cover{
   height: 450px;
   width: auto;
-  background-image: url('http://www.catbreedspic.co/wp-content/uploads/2014/09/cute-black-and-white-kittensdownload-wallpaper-cute-black-and-white-kitten--1366-x-768-hgdln7h9.jpg');
   background-size: 100% 160%;
   border: 3px solid #929595;
   color: #000; text-shadow: 1px 1px 0 #fff;
+  margin-top: 1em;
+  position: relative;
+  opacity: 10%;
   
-  }
+}
+
+.about_image{
+	/*margin-left: 8em;
+	margin-right: 8em;*/
+	margin-top: 0.5em;
+	width: 100%;
+	height: 78%;
+	min-width: 16em;
+	min-height: 10em;
+	border: 3px solid #929595;
+	color: #000; text-shadow: 1px 1px 0 #fff;
+}
 
 
 .bottom_Picture_Cover{
@@ -340,7 +360,8 @@ label{
   color: #000; 
   float: left;
  
-  }
+  /* margin: 0 auto; */
+}
 
 
 
@@ -348,11 +369,19 @@ label{
  	color:#929595;
  	top:10em;
  	padding: -20em;
- 	float:left;
+ 	/* float:left; */
+ 	margin-left: 10em;
+ 	margin-top: 6em;
+ 	position: absolute;
  	background-color: rgba(255, 237, 221, 0.3);
+ 
+ 	max-width: 20em;
+}
 
- }
 
+.coltext_bottom{
+	padding-left: 10em;
+}
 
 input.submit,input.reset{
 
