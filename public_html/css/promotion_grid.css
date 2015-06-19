@@ -39,11 +39,11 @@
 	width: 13%;
 }
 
-.grid-col-5of10 {
-	clear: left;
+.grid-col-33of100 {
+/*	clear: left;
 	float: right;
-	display: inline-block;
-	width: 50%;
+	display: inline-block;*/
+	width: 33%;
 }
 
 .grid-col-3of10 {
@@ -108,7 +108,7 @@
 
 
 
-@media (max-width: 30em) {
+@media (max-width: 45em) {
 
 	.grid-col-3of10 {
 		width: 100%;
@@ -124,6 +124,13 @@
 
 }
 
+
+@media (max-width: 40em) {
+
+	.grid-col-8of10 {
+		width: 100%;
+	}
+}
 
 
 /*
