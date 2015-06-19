@@ -135,13 +135,11 @@ p,code,figcaption{
 }
 
 .pstyle{
-	font-size: 0.9rem;
+	font-size: 1rem;
 	font-family: Abadi MT Condensed Light;
-/*	font-family: thin;*/
-	/* first # is top and bottom, second # is left and right margin */
 	margin: 0.25rem 0.5rem;
-/*	try make a paragraph half-page length*/
-    
+    display: inline;
+    text-align: left;
 }
 
 .pstyle2{
@@ -184,7 +182,7 @@ p,code,figcaption{
 	font-size: 0.9rem;
 	font-family: Helvetica Neue Light, Bernard MT Condensed;
 	color: rgb(0,0,255);
-	margin-left: 8.5em;
+	margin-left: 8em;
 }
 
 .linkbottom{

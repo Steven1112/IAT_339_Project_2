@@ -84,7 +84,7 @@
 .grid-col-8of10 {
 	width: 80%;
 	padding-left: 8em;
-	margin-top: 15em;
+	margin-top: 5em;
 	
 }
 
@@ -100,8 +100,6 @@
 
 }
 
-
-
 .grid-col-5of10 {
 	width: 50%;
 	float:left;
@@ -109,6 +107,11 @@
 	top:7em;
 	margin: 8em;*/
 
+}
+
+.grid-col-100of100{
+	width: 100%;
+	float: left;
 }
 
 
@@ -176,7 +179,7 @@
 @media (max-width: 50em) {
 
 	.grid-col-3of10 {
-		width: 80%;
+		width: 100%;
 	}
 
 }
@@ -195,7 +198,7 @@
 @media (max-width:50em) {
 
 .grid-col-100of100{
-    width: 80%;
+    width: 100%;
 
 }
 
