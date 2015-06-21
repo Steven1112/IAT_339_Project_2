@@ -40,7 +40,11 @@
 .grid-col-1of10 {
 	width: 13%;
 	float:left;
-	z-index: 1;
+	
+}
+
+.grid-col-2of10 {
+	width: 25%;
 
 }
 
@@ -50,10 +54,7 @@
 }
 
 .grid-col-3of10 {
-	width: 40%;
-	/* position: relative; */
-	/* top:-18em; */
-	/* left:4em; */
+	width: 30%;
 	
 }
 
@@ -182,21 +183,29 @@
 	}
 }
 
-@media (max-width: 50em) {
+@media (max-width: 80em) {
 
 	.grid-col-3of10 {
-		width: 80%;
+		width: 90%;
 	}
 
 
 }
 
-@media (max-width: 50em) {
+@media (max-width: 80em) {
 
-.grid-col-4of10{
-    width: 40%;
-    position: relative;
-	left:40em;
+.grid-col-2of10{
+    width: 60%;
+  
+}
+
+}
+
+@media (max-width: 80em) {
+
+.grid-col-10of10{
+    height: 400%;
+  
 }
 
 }
