@@ -1,5 +1,50 @@
 *, *:after, *:before{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
 	box-sizing:border-box;
+}
+
+.button-nav, .button-nav:visited{
+	display: inline-block;
+	background-color:  #F39873;
+	color: white;
+    border-style: solid;
+    border-width: 0.1rem;
+    border-color: #929595;
+	padding: 0.3em 0.3em;
+	text-decoration: none;
+	-webkit-transition: background-color 0.5s ease-out;
+	transition: background-color 0.5s ease-out;
+	width:100%;
+/*	border-radius:10px;*/
+/*  border-radius: 0.25rem;*/
+	font-family: MTF Sweet Cheeks;
+	font-weight: normal;
+	font-size: 1.2em;
+	text-align: center;
+}
+
+.button-nav:hover, .button-nav:active, .button-nav:focus{
+	background-color: #FCBCA7;
+	color: #C2C0BC;
+}
+
+.dd-button{
+	transition: background-color 0.5s ease-out;
+}
+
+.hide{
+	visibility: hidden;
+	opacity: 0;
+}
+
+.dd > .dd-list{
+	position: absolute;
+}
+
+.dd:hover > .dd-list: {
+	visibility: visible;
+	opacity: 1;
 }
 
 body{
@@ -786,7 +831,10 @@ article {
 	box-sizing: border-box;
 }
 
-
+a:hover{
+	text-decoration: none;
+	font-weight: bold;
+}
 
 
 
@@ -877,7 +925,10 @@ article {
 /*    border-radius: 0.25rem;*/
 }
 
+<<<<<<< Updated upstream
 
+=======
+>>>>>>> Stashed changes
 /* set top main navigation layout */
  .topmenu{
     margin-left: 8em;
@@ -936,4 +987,37 @@ article {
 	background-color: #FCBCA7;
 	color: #C2C0BC;
 	opacity: 0.7;
+}
+
+.dd {
+	position: relative;
+	max-width: 20em;
+}
+
+.dd-list {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+/* Just giving our drop-down items some styling */
+.dd-list li a {
+	display: block;
+	width: 100%;
+	margin: 0.1em 0;
+	padding: 0.5em 0.7em;
+	background-color: yellow;
+	list-style-type: none;
+}
+
+.dd-button {
+	display: block;
+	color: white;
+	background-color: orange;
+	padding: 0.5em 0.7em;
+	text-decoration: none;
+}
+
+.dd-button:hover {
+	background-color: #CCC;
 }
