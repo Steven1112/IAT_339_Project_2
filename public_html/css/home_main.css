@@ -60,17 +60,17 @@
 }
 
 body{
-        color:black;
-        background-color:white;
-        font-size: 16px;
-        color:#929595;
+    color:black;
+    background-color:white;
+    font-size: 16px;
+    color:#929595;
 }
 
 h1{
    font-size: 2.8rem;
    font-weight: 700;
    font-family: Austie Bost Kitten Klub;
-   text-align: center;
+   text-align: left;
    color: #F39873;
 }
 
@@ -147,9 +147,10 @@ p,code,figcaption{
 }
 
 
-.topname{
+.logo-name{
     margin-left: auto;
     margin-right: auto;
+/*  margin-top: 5em;*/
 }
 
 .topimage{
@@ -826,7 +827,7 @@ article {
 /* set top main navigation layout */
  .topmenu{
     margin-left: 8em;
-    margin-top: 2.5em;
+    margin-top: 0em;
     margin-right: 8em;
  }
 
@@ -957,4 +958,46 @@ article {
 a:hover {
 	text-decoration: none;
 	font-weight: bold;
+}
+
+.logo-image-button, .logo-image-button:visited{
+/*  add background image for the cat foods product list image button */
+    background: transparent url(../img/catlogo.png) no-repeat;
+/*  background-position: center;*/
+/*  background-size: 100% 160%;*/
+/*  position: relative;*/
+    display: inline-block;
+    margin-left: 8em;
+    margin-right: 8em;
+    margin-top: 1em;
+    margin-bottom: 2em;
+    width: auto;
+    height: auto;
+    min-width: 26.4em;
+    min-height: 16em;
+    z-index: 3;
+    float: left;
+    /*opacity: 0.9;*/
+    /*filter: alpha(opacity=40);*/
+
+/*  background-color:  #F39873;*/
+/*    color: white;
+    border-style: solid;
+    border-width: 0.1rem;
+    border-color: #929595;*/
+    padding: 0.3em 0.3em;
+    text-decoration: none;
+    -webkit-transition: background-color 0.5s;
+    transition: background-color 0.5s;
+    font-family: MTF Sweet Cheeks;
+    font-weight: normal;
+    font-size: 1em;
+    text-align: center;
+}
+
+.logo-image-button:hover, .logo-image-button:active, .logo-image-button:focus{
+/*  background-color: #FCBCA7;
+    color: #C2C0BC;*/
+/*  border-radius: 0.25rem;*/
+    opacity: 0.5;
 }
