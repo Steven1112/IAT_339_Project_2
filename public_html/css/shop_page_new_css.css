@@ -115,7 +115,7 @@ ul,ol{
 
 p,code,figcaption{
     font-size: 0.9rem;
-    font-family: Courier New;
+    font-family: Abadi MT Condensed Light;
 /*  font-family: thin;*/
    /* first # is top and bottom, second # is left and right margin */
     margin: 0.25rem 0.5rem;
@@ -179,7 +179,7 @@ p,code,figcaption{
     width:100%;
 /*  border-radius:10px;*/
 /*  border-radius: 0.25rem;*/
-    font-family: BAD SPIRIT;
+    font-family: MTF Sweet Cheeks;
     font-weight: normal;
     font-size: 1.5em;
     text-align: center;
@@ -203,7 +203,7 @@ p,code,figcaption{
 /*  margin: 0.5rem 0.25rem 0.75rem 0.8rem;*/
     margin: 0.25rem 0.5rem;
     padding: 0.25rem 0.45rem;
-    font-family: BAD SPIRIT;
+    font-family: MTF Sweet Cheeks;
     /*border-style: solid;
     border-width: 0.1rem;
     border-color: #929595;*/
@@ -220,7 +220,7 @@ p,code,figcaption{
 /*  margin: 0.5rem 0.25rem 0.75rem 0.8rem;*/
     margin: 0.25rem 0.5rem;
     padding: 0.25rem 0.45rem;
-    font-family: BAD SPIRIT;
+    font-family: MTF Sweet Cheeks;
     /*border-style: solid;
     border-width: 0.1rem;
     border-color: #929595;*/
@@ -247,7 +247,7 @@ p,code,figcaption{
     width:100%;
 /*  border-radius:10px;*/
 /*  border-radius: 0.25rem;*/
-    font-family: BAD SPIRIT;
+    font-family: MTF Sweet Cheeks;
     font-weight: normal;
     font-size: 1.2em;
     text-align: center;
@@ -352,7 +352,7 @@ p,code,figcaption{
     width:100%;
 /*  border-radius:10px;*/
 /*  border-radius: 0.25rem;*/
-    font-family: BAD SPIRIT;
+    font-family: MTF Sweet Cheeks;
     font-weight: normal;
     font-size: 1.2em;
     text-align: center;
@@ -394,22 +394,21 @@ p.prightstext{
 }
 
 .squareup{
-    height: 10%;
+    height: 20%;
     width: 100%;
-    /*background-color:#C2C0BC;*/
-    border-style: dashed;
+    background-color:#C2C0BC;
     border-width: 0.1rem;
-    /*border-color: #929595;*/
-    margin-top: 5em;
+    border-color: #929595;
+    background-color: red;
 }
 
 .squaredown{
-    height: 35%;
+    height: 20%;
     width: 100%;
-    /*background-color:#C2C0BC;*/
-    border-style: dashed;
+    background-color:#C2C0BC;
     border-width: 0.1rem;
     border-color: #929595;
+    background-color: red;
 }
 
 
@@ -419,7 +418,7 @@ p.prightstext{
     border-style: dotted;
     border-width: 0.1rem;
     border-color: #929595;
-    background-color: #f1e4d2;
+    background-color: red;
 
 
 }

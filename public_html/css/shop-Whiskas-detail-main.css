@@ -1,56 +1,56 @@
 /*
-	Just reminding you how transitions work in CSS;
-	i.e. transition: property length easing;
-	i.e. transition: width 1s linear;
+    Just reminding you how transitions work in CSS;
+    i.e. transition: property length easing;
+    i.e. transition: width 1s linear;
 */
 .dd-button {
-	-webkit-transition: background-color 0.5s ease-out;
-	transition: background-color 0.5s ease-out;
+    -webkit-transition: background-color 0.5s ease-out;
+    transition: background-color 0.5s ease-out;
 }
 
 
 
 /*
-	Here we have set up a class (.hide) to hide any element it
-	is applied to by setting it's visibility and opacity 
-	properties accordingly
+    Here we have set up a class (.hide) to hide any element it
+    is applied to by setting it's visibility and opacity 
+    properties accordingly
 */
 .hide {
-	visibility: hidden;
-	opacity: 0;
+    visibility: hidden;
+    opacity: 0;
 }
 
 
 /*
-	Here we are applying a bit of transitioning to both the 
-	visibility and the opacity. We have to set the visibility
-	to transition due to the way the timing plays out in 
-	setting transitions in the page
+    Here we are applying a bit of transitioning to both the 
+    visibility and the opacity. We have to set the visibility
+    to transition due to the way the timing plays out in 
+    setting transitions in the page
 */
 
 
 .dd>.dd-list {
-	/* 
-		To make sure that the list doesn't pop up when we hover
-		over the area it usually sits in, we need to set its
-		positioning to absolute
-	*/
-	position: absolute;
+    /* 
+        To make sure that the list doesn't pop up when we hover
+        over the area it usually sits in, we need to set its
+        positioning to absolute
+    */
+    position: absolute;
 
-	-webkit-transition: visibility 0s linear 0.5s, opacity 0.5s ease-out;
-	transition: visibility 0s linear 0.5s, opacity 0.5s ease-out;
+    -webkit-transition: visibility 0s linear 0.5s, opacity 0.5s ease-out;
+    transition: visibility 0s linear 0.5s, opacity 0.5s ease-out;
 }
 
 
 /*
-	Because we wrapped the drop-down list in a div (.dd), we can
-	now select it when the div is hovered over using child
-	selectors
+    Because we wrapped the drop-down list in a div (.dd), we can
+    now select it when the div is hovered over using child
+    selectors
 */
 .dd:hover>.dd-list {
-	visibility: visible;
-	opacity: 1;
-	transition-delay: 0s;
+    visibility: visible;
+    opacity: 1;
+    transition-delay: 0s;
 }
 
 
@@ -71,7 +71,7 @@ h1{
    font-weight: 700;
    font-family: Austie Bost Kitten Klub;
    text-align: left;
-   color: #F39873;
+   color: grey;
 }
 
 h2{
@@ -181,7 +181,7 @@ p,code,figcaption{
 /*  border-radius: 0.25rem;*/
     font-family: BAD SPIRIT;
     font-weight: normal;
-    font-size: 1.5em;
+    font-size: 1.2em;
     text-align: center;
 
     float: right;
@@ -189,10 +189,10 @@ p,code,figcaption{
 
 .login-button-nav:hover, .login-button-nav:active, .login-button-nav:focus{
 /*  border-radius: 0.25rem;*/
-/*	background-color: #FCBCA7;
+/*  background-color: #FCBCA7;
     color: #C2C0BC;*/
     text-decoration: none;
-	font-weight: bold;
+    font-weight: bold;
 }
 
 
@@ -254,10 +254,10 @@ p,code,figcaption{
 }
 
 .button-nav:hover, .button-nav:active, .button-nav:focus{
-    /*	background-color: #FCBCA7;
+    /*  background-color: #FCBCA7;
     color: #C2C0BC;*/
     text-decoration: none;
-	font-weight: bold;
+    font-weight: bold;
 }
 
 /*Top Area closed*/
@@ -267,6 +267,117 @@ p,code,figcaption{
 
 
 /*Middle Area Open*/
+
+.paymentmethods{
+    /* background-color: #39261e;*/
+    color: grey;
+/*  border-radius: 0.25rem;*/
+/*  margin: 0.5rem 0.25rem 0.75rem 0.8rem;*/
+    margin: 0.25rem 0.5rem;
+    padding: 0.25rem 0.45rem;
+    font-size: 1.2em;
+    font-family:Folktale;
+    /*border-style: solid;
+    border-width: 0.1rem;
+    border-color: #929595;*/
+    /*position: absolute;*/
+    float:left;
+    left:4em;
+    top:25em;
+
+}
+
+.feedguildlines-p{
+    font-size: 0.9rem;
+    font-family: Courier New;
+/*  font-family: thin;*/
+   /* first # is top and bottom, second # is left and right margin */
+    margin: 0.25rem 0.5rem;
+}
+
+
+
+.speicalprice-feedguildlines{
+    color: grey;
+/*  border-radius: 0.25rem;*/
+/*  margin: 0.5rem 0.25rem 0.75rem 0.8rem;*/
+    margin: 0.25rem 0.5rem;
+    padding: 0.25rem 0.45rem;
+    font-family:Folktale;
+    font-size: 1.2em;
+    /*border-style: solid;
+    border-width: 0.1rem;
+    border-color: #929595;*/
+    /*position: absolute;*/
+    float:center;
+    left:4em;
+    top:25em;
+
+}
+
+.specialprice{
+     /* background-color: #39261e;*/
+    color: grey;
+/*  border-radius: 0.25rem;*/
+/*  margin: 0.5rem 0.25rem 0.75rem 0.8rem;*/
+    margin: 0.25rem 0.5rem;
+    padding: 0.25rem 0.45rem;
+    font-family:Folktale;
+    /*border-style: solid;
+    border-width: 0.1rem;
+    border-color: #929595;*/
+    /*position: absolute;*/
+    float:center;
+    left:4em;
+    top:25em;
+
+}
+
+.pprice{
+    /* background-color: #39261e;*/
+    color: grey;
+/*  border-radius: 0.25rem;*/
+/*  margin: 0.5rem 0.25rem 0.75rem 0.8rem;*/
+    margin: 0.25rem 0.5rem;
+    padding: 0.25rem 0.45rem;
+    font-family:courier new;
+    /*border-style: solid;
+    border-width: 0.1rem;
+    border-color: #929595;
+    background-color: #929595;*/
+    float:center;
+    left:4em;
+    top:25em;
+}
+
+.intext-button-nav{
+   /* background-color: #39261e;*/
+    color: #b5cabb;
+/*  border-radius: 0.25rem;*/
+/*  margin: 0.5rem 0.25rem 0.75rem 0.8rem;*/
+    margin: 0.25rem 0.5rem;
+    padding: 0.25rem 0.45rem;
+    font-family:Folktale;
+    /*border-style: solid;
+    border-width: 0.1rem;
+    border-color: #929595;*/
+    /*position: absolute;*/
+    float:center;
+    left:4em;
+    top:25em;
+
+}
+
+.whiskas1{
+    margin-left: 10em;
+    margin-top: 8em;
+
+}
+
+
+
+
+
  .pmiddle{
     font-size: 3rem;
     font-family:Abadi MT Condensed Extra Bold;
@@ -322,7 +433,7 @@ p,code,figcaption{
 /*  font-family: thin;*/
 /*  first # is top and bottom, second # is left and right margin */
     margin: 0.25rem 0.5rem;
-    margin-top: 30em;
+    margin-top: 10em;
     margin-left: 5em;
     border-style: dashed;
     border-width: 0.1rem;
@@ -377,6 +488,15 @@ p.prightstext{
     /*background: #f3e9c2;*/
     text-align: left;
 }
+
+
+
+.cat-foods-product-list-image-layout{
+    margin-top: 2em;
+/*  margin-right: 8em;*/
+    margin-left: 3em;
+    margin-right: 3em;
+ }
 /*Middle Area closed*/
 
 
@@ -640,8 +760,8 @@ label{
   height: 450px;
   width: auto;
   background-size: 100% 160%;
-  border: 3px solid #929595;
-  color: #000; text-shadow: 1px 1px 0 #fff;
+  /*border: 3px solid #929595;
+  color: #000; text-shadow: 1px 1px 0 #fff;*/
   margin-top: 1em;
   position: relative;
   opacity: 10%;
@@ -653,7 +773,7 @@ label{
   width: 400px;
   background-image: url('http://www.nipandbones.com/images/products/mice/cat-toys/cat-supplies/hypnomice.jpg');
   background-size: 100%;
-  border: 2px solid white;
+ /* border: 2px solid white;*/
   color: #000; 
   float: left;
  
@@ -667,9 +787,9 @@ input.submit,input.reset{
     margin: 0.25rem 0.5rem;
     padding: 0.25rem 0.45rem;
     font-size: 1.2em;
-    border-style: solid;
+    /*border-style: solid;
     border-width: 0.1rem;
-    border-color: #929595;
+    border-color: #929595;*/
 }
 
 input.text,textarea{
@@ -693,9 +813,9 @@ input.submitcomment{
     margin: 0.25rem 0.5rem;
     padding: 0.25rem 0.45rem;
     font-size: 1.2em;
-    border-style: solid;
+    /*border-style: solid;
     border-width: 0.1rem;
-    border-color: #929595;
+    border-color: #929595;*/
     float: right;
 }
 
@@ -731,7 +851,7 @@ article {
 /*  margin: 2rem 0rem;*/ 
 /*  padding: 2rem;*/
 /*  the border does not look nice */
-    border: 2px solid #929595;
+    /*border: 2px solid #929595;*/
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
@@ -747,9 +867,9 @@ article {
 
 /*  background-color:  #F39873;*/
     color: white;
-    border-style: solid;
+    /*border-style: solid;
     border-width: 0.1rem;
-    border-color: #929595;
+    border-color: #929595;*/
     padding: 0.3em 0.3em;
     text-decoration: none;
     -webkit-transition: background-color 0.5s;
@@ -861,12 +981,12 @@ article {
  }
 
   .onpage-button-nav, .onpage-button-nav:visited{
-  	display: inline-block;
+    display: inline-block;
     background-color:  #F39873;
 /*  color: #F39873;*/
     color: white;
     text-decoration: none;
-	font-weight: bold;
+    font-weight: bold;
     
     margin-left: auto;
     margin-right:auto;
@@ -884,31 +1004,31 @@ article {
 }
 
 .onpage-button-nav:hover, .onpage-button-nav:active, .onpage-button-nav:focus{
-/*	background-color: #FCBCA7;
+/*  background-color: #FCBCA7;
     color: #C2C0BC;*/
     text-decoration: none;
-	font-weight: bold;
+    font-weight: bold;
 /*  opacity: 0.7;*/
 }
 
 .dd {
-	position: relative;
-/*	max-width: 20em;*/
+    position: relative;
+/*  max-width: 20em;*/
 }
 
 .dd-list {
-	margin: 0;
-	padding: 0;
-	width: 100%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
 }
 
 /* Just giving our drop-down items some styling */
 .dd-list li a {
-	display: block;
-/*	margin: 0.1em 0;*/
-/*	padding: 0.5em 0.7em;*/
+    display: block;
+/*  margin: 0.1em 0;*/
+/*  padding: 0.5em 0.7em;*/
     color: #F39873;
-	margin-left: auto;
+    margin-left: auto;
     margin-right:auto;
 
     padding: 0.3em 0.3em;
@@ -925,14 +1045,14 @@ article {
 }
 
 .dd-list li a:hover{
-/*	background-color: #FCBCA7;
+/*  background-color: #FCBCA7;
     color: #C2C0BC;*/
     text-decoration: none;
-	font-weight: bold;
+    font-weight: bold;
 }
 
 .dd-button {
-	display: inline-block;
+    display: inline-block;
     color: #F39873;
     margin-left: auto;
     margin-right:auto;
@@ -950,15 +1070,15 @@ article {
 }
 
 .dd-button:hover {
-/*	background-color: #FCBCA7;
+/*  background-color: #FCBCA7;
     color: #C2C0BC;*/
     text-decoration: none;
-	font-weight: bold;
+    font-weight: bold;
 }
 
 a:hover {
-	text-decoration: none;
-	font-weight: bold;
+    text-decoration: none;
+    font-weight: bold;
 }
 
 .logo-image-button, .logo-image-button:visited{
