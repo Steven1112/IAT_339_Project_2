@@ -26,7 +26,9 @@
     float:right;
 }
 
-
+.grid-col-100of100 {
+    width: 100%;
+}
 
 .grid-col-25of100 {
     width: 25%;
@@ -40,11 +42,18 @@
     width: 30%;    
 }
 
+.grid-col-4of10 {
+    width: 40%;    
+}
+
 
 .grid-col-84of100 {
     width: 84%;
 }
 
+.grid-col-33of100{
+    width: 33%;
+}
 
 /*
     Here using @media queries, we are specifying when the display
@@ -75,6 +84,7 @@
     }
 }
 
+
 @media (max-width: 80em) {
 
     .grid-col-3of10 {
@@ -102,6 +112,81 @@
 	.grid-col-10of10{
 		width: 100%;
 	}
+}
+
+@media (max-width:65em) {
+
+    .grid-col-4of10{
+        width: 100%;
+        margin-left: 8em;
+        margin-right: 8em;
+    }
+}
+
+@media (max-width: 65em) {
+
+    .grid-col-33of100 {
+        width: 100%;
+    }
+
+    .bottomtext_left{
+        margin-left: 3em;
+        margin-right: 3em;
+        margin-top: 2em;
+    }
+
+    .bottomtext_right{
+        margin-left: 3em;
+        margin-right: 3em;
+        margin-top: 2em;
+    }
+
+    .bottomimage{
+        margin-left: 3em;
+        margin-right: 3em;
+        margin-top: 2em;
+    }
+
+}
+
+@media (max-width:70em) {
+
+    .textmiddle{
+        width: 50%;
+        margin-left: 40%;
+        margin-right: 10%;
+        margin-top: -40%;
+    }
+
+    .pmiddle{
+        font-size: 2rem;
+        font-family:Abadi MT Condensed Extra Bold;
+    }
+
+    .pmiddletext{
+        font-size: 0.8rem;
+    }
+
+}
+
+@media (max-width:40em) {
+
+    .textmiddle{
+        width: 50%;
+        margin-left: 30%;
+        margin-right: 10%;
+        margin-top: -45%;
+    }
+
+    .pmiddle{
+        font-size: 1rem;
+        font-family:Abadi MT Condensed Extra Bold;
+    }
+
+    .pmiddletext{
+        font-size: 0.6rem;
+    }
+
 }
 
 

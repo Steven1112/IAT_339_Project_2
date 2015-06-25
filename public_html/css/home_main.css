@@ -67,23 +67,25 @@ body{
 }
 
 h1{
-   font-size: 2.8rem;
+   font-size: 3.3rem;
    font-weight: 700;
    font-family: Austie Bost Kitten Klub;
    text-align: left;
-   color: #F39873;
+/*   color: #F39873;*/
 }
 
 h2{
    font-size: 1.6rem;
    font-size: normal;
-   font-family:Janda Safe and Sound;
+/* font-family:Janda Safe and Sound;*/
+   font-family:Folktale;
+   text-align: left;
 }
 
 h3{
    font-size: 1.0rem;
    font-size: normal;
-   font-family:Seravek;
+   font-family: Courier New, sans-serif;
 }
 
 h4{
@@ -115,22 +117,12 @@ ul,ol{
 
 p,code,figcaption{
     font-size: 0.9rem;
-    font-family: Courier New;
+    font-family: Courier New, sans-serif;
 /*  font-family: thin;*/
    /* first # is top and bottom, second # is left and right margin */
-    margin: 0.25rem 0.5rem;
 }
 
 
-
-
- /*Top Area*/
-
- .toparea{
-    /*display: block;
-    margin-left: auto;
-    margin-right: auto;*/
- }
 
 .catlogo{
     display: block;
@@ -155,13 +147,14 @@ p,code,figcaption{
 
 .topimage{
   z-index: -999;
-  min-height: 100%;
-  min-width: 1024px;
+  min-width: 25.6em;
+  min-height: 16em;
   width: 100%;
   height: auto;
-  /*position: fixed;*/
+  position: relative;
   top: 0;
   left: 0;
+/*margin-bottom: 3em;*/
 }
 
 
@@ -179,9 +172,10 @@ p,code,figcaption{
     width:100%;
 /*  border-radius:10px;*/
 /*  border-radius: 0.25rem;*/
-    font-family: BAD SPIRIT;
+/*    font-family: BAD SPIRIT;*/
+    font-family: MTF Sweet Cheeks;
     font-weight: normal;
-    font-size: 1.5em;
+    font-size: 1.2em;
     text-align: center;
 
     float: right;
@@ -247,9 +241,10 @@ p,code,figcaption{
     width:100%;
 /*  border-radius:10px;*/
 /*  border-radius: 0.25rem;*/
-    font-family: BAD SPIRIT;
+/*    font-family: BAD SPIRIT;*/
+    font-family: MTF Sweet Cheeks;
     font-weight: normal;
-    font-size: 1.2em;
+    font-size: 1.5em;
     text-align: center;
 }
 
@@ -272,7 +267,6 @@ p,code,figcaption{
     font-family:Abadi MT Condensed Extra Bold;
 /*  font-family: thin;*/
     /* first # is top and bottom, second # is left and right margin */
-    margin: 0.25rem 0.5rem;
 }
 
 .textmiddle{
@@ -282,12 +276,15 @@ p,code,figcaption{
     /*top:10em;*/
     /*padding: -20em;*/
     /* float:left; */
-    margin-left:40em;
-    margin-top: -30em;
-    /*position: absolute;*/
+    margin-left: 50%;
+    margin-right: 10%;
+    margin-top: -35%;
+    position: absolute;
     /*background-color: rgba(255, 237, 221, 0.8);*/
     max-width: 50em;
     min-width: 20em;
+    margin-bottom: 20em;
+    position: absolute;
 }
 
 
@@ -296,7 +293,6 @@ p,code,figcaption{
     font-family: Abadi MT Condensed Light;
 /*  font-family: thin;*/
     /* first # is top and bottom, second # is left and right margin */
-    margin: 0.25rem 0.5rem;
 }
 
 
@@ -306,14 +302,12 @@ p,code,figcaption{
     font-family: Abadi MT Condensed Light;
 /*  font-family: thin;*/
 /*  first # is top and bottom, second # is left and right margin */
-    margin: 0.25rem 0.5rem;
-    margin-top: 30em;
     border-style: dashed;
     border-width: 0.1rem;
     border-color: #929595;
-    margin: 0.25rem 0.5rem;
-    margin-top: 30em;
-    margin-left: 5em;
+    margin-top: 5em;
+    margin-left: 8em;
+    margin-right: 2em;
 }
 
 .bottomtext_right{
@@ -321,9 +315,9 @@ p,code,figcaption{
     font-family: Abadi MT Condensed Light;
 /*  font-family: thin;*/
 /*  first # is top and bottom, second # is left and right margin */
-    margin: 0.25rem 0.5rem;
-    margin-top: 30em;
-    margin-left: 5em;
+    margin-top: 5em;
+    margin-left: 6em;
+    margin-right: 4em;
     border-style: dashed;
     border-width: 0.1rem;
     border-color: #929595;
@@ -331,8 +325,9 @@ p,code,figcaption{
 
 
 .bottomimage{
-    margin-left: 10em;
-    margin-top: 25em;
+    margin-left: 4em;
+    margin-right: 8em;
+    margin-top: 5em;
 }
 
 
@@ -352,7 +347,10 @@ p,code,figcaption{
     width:100%;
 /*  border-radius:10px;*/
 /*  border-radius: 0.25rem;*/
-    font-family: BAD SPIRIT;
+/*  font-family: BAD SPIRIT;*/
+    font-family:Folktale;
+    font-weight: thin;
+
     font-weight: normal;
     font-size: 1.2em;
     text-align: center;
@@ -612,8 +610,12 @@ img{
 }
 
 figure{
-        margin: 0;
+    margin: 0;
+}
 
+.payment-figure{
+    margin: 0;
+    text-align: left;
 }
 
 form{
@@ -878,7 +880,7 @@ article {
 
     font-family: MTF Sweet Cheeks;
     font-weight: normal;
-    font-size: 1.2em;
+    font-size: 1.5em;
     text-align: center;
 /*  opacity: 0.7;*/
 }
@@ -945,7 +947,7 @@ article {
 
     font-family: MTF Sweet Cheeks;
     font-weight: normal;
-    font-size: 1.2em;
+    font-size: 1.5em;
     text-align: center;
 }
 
@@ -1001,4 +1003,11 @@ a:hover {
     color: #C2C0BC;*/
 /*  border-radius: 0.25rem;*/
     opacity: 0.5;
+}
+
+.copyright{
+    font-size: 0.9rem;
+    font-family: Courier New, sans-serif;
+/*  font-family: thin;*/
+   /* first # is top and bottom, second # is left and right margin */
 }
