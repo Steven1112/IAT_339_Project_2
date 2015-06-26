@@ -1,224 +1,133 @@
-
-/* 
-	This tutorial draws from "Don't Overthink Grids" available at
-	http://css-tricks.com/dont-overthink-it-grids/
-*/
-
-
 /*
-	With this selector, we are specifying that all objects use
-	the border-box model (not the content-box model)
+    With this selector, we are specifying that all objects use
+    the border-box model (not the content-box model)
 */
 *, *:after, *:before {
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 
 /*
-	Here we are using a 'fancy' css selector that is 
-	specifying if the class of an item starts with
-	'grid-col-', then we should apply the styling listed
+    Here we are using a 'fancy' css selector that is 
+    specifying if the class of an item starts with
+    'grid-col-', then we should apply the styling listed
 */
 [class^='grid-col-'] {
-	float: left;
-	padding: 0; 
-	text-align: center; /* center the content in this block */
-}
-
-
-/*
-	Here we are defining our 50% wide column (for a 10 col grid)
-*/
-.grid-col-8of100 {
-	width: 8%;
-	float:right;
-}
-
-
-.grid-col-1of10 {
-	width: 13%;
-	float:left;
-
-}
-
-.grid-col-10of10 {
-	width: 100%;
-	position: relative;
-	top:3em;
-	opacity: 10%;
-	
-}
-
-.grid-col-3of10 {
-	width: 40%;
-	position: relative;
-	top:-18em;
-	left:4em;
-	
-}
-
-.grid-col-20of100{
-    width: 20%;
-	float: left;
-	position: relative;
-	left:15em;
-	top:-3em;
-}
-
-.grid-col-40of100{
-    width: 40%;
-   position: relative;
-   top:-9em;
-
-}
-
-
-.grid-col-7of10 {
-	width: 70%;
-	float: left;
+    float: left;
+    padding: 0; 
+    text-align: center; /* center the content in this block */
 }
 
 
 .grid-col-8of10 {
-	width: 80%;
-	padding-left: 8em;
-	margin-top: 5em;
-	
-}
-
-.grid-col-50of100{
-    width: 100%;
-   padding-top: 2em;
-
-}
-
-.grid-col-60of100{
     width: 80%;
-    float:left;
-
-}
-
-.grid-col-5of10 {
-	width: 50%;
-	float:left;
-/*	position: absolute;
-	top:7em;
-	margin: 8em;*/
-
-}
-
-.grid-col-100of100{
-	width: 100%;
-	float: left;
-}
-
-
-.grid-col-6of10 {
-	width: 90%;
-	float: left;
-	padding-left:0.5em;
-}
-
-
-.grid-col-4of10{
-	width: 40%;
-	float: right;
+    
 }
 
 
 
+.grid-col-25of100 {
+    width: 25%;
+}
 
 .grid-col-10of10 {
-	width: 100%;
-	opacity: 10%;
-	padding-top:5em;
-	
+    width: 100%;
 }
 
-.grid-col-9of10 {
-	width: 20%;
-	position: absolute;
-	left:12em;
-	top:22em;
-	background-color: rgba(255, 237, 221, 0.3);
+.grid-col-3of10 {
+    width: 25%;    
 }
 
 
+.grid-col-84of100 {
+    width: 84%;
+}
 
+.grid-col-6of10{
+    width:60%;
+}
+
+.grid-col-4of10{
+    width:40%;
+}
+
+.grid-col-5of10{
+    width: 50%;
+
+}
+
+
+.grid-col-2of10{
+    width: 20%;
+   
+}
 /*
-	Here using @media queries, we are specifying when the display
-	has a width less than 50em it should collapse the 5/10 columns 
-	into one stack (hence width: 100%)
+    Here using @media queries, we are specifying when the display
+    has a width less than 50em it should collapse the 5/10 columns 
+    into one stack (hence width: 100%)
 */
 
 
 @media (max-width: 50em) {
 
-	.grid-col-8of100 {
-		width: 100%;
-	}
+    .grid-col-8of100 {
+        width: 100%;
+    }
+}
 
 @media (max-width: 50em) {
 
-	.grid-col-1of10 {
-		width: 100%;
-	}
-
+    .grid-col-25of100 {
+        width: 100%;
+    }
 }
 
 
 @media (max-width: 50em) {
 
-	.grid-col-10of10 {
-		width: 100%;
-	}
+    .grid-col-10of10 {
+        width: 100%;
+    }
 }
-
-@media (max-width: 50em) {
-
-	.grid-col-3of10 {
-		width: 100%;
-	}
-
-}
-
 
 @media (max-width: 80em) {
 
-	.grid-col-4of10{
-		width: 100%;
+    .grid-col-3of10 {
+        width: 100%;
     }
-
 }
 
+@media (max-width: 80em) {
+
+	.grid-col-84of100{
+		width: 100%;  
+	}
+}
+
+@media (max-width: 80em) {
+
+	.grid-col-10of10{
+		height: 400%;
+	}
+}
 
 
 @media (max-width:50em) {
 
-.grid-col-100of100{
-    width: 100%;
-
+	.grid-col-10of10{
+		width: 100%;
+	}
 }
 
 
 /*
-	Here we are defining our 20% wide column (for 2 columns of a 10 col grid)
-/*
-	Using further @media queries, we specify that at a width of
-	less than 30em it should collapse the 2/10 columns into one stack
-*/
-
-
-
-
-/*
-	Much like last week, we are clearing the floating items so
-	that our 'grid' structure can be stacked on others
+    Much like last week, we are clearing the floating items so
+    that our 'grid' structure can be stacked on others
 */
 .grid:after {
-	content: "";
-	display: block;
-	clear: both;
+    content: "";
+    display: block;
+    clear: both;
 }
