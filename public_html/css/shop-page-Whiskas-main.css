@@ -1108,3 +1108,29 @@ a:hover{
     min-width: 8em;
     min-height: 8em;
 }
+
+.button-nav-detail{
+    display: inline-block;
+    background-color:  #f3e9c2;
+    color: #F39873;
+    margin-left: auto;
+    margin-right:auto;
+    /*border-style: solid;
+    border-width: 0.1rem;
+    border-color: #929595;*/
+    padding: 0.3em 0.3em;
+    text-decoration: none;
+    -webkit-transition: background-color 0.5s;
+    transition: background-color 0.5s;
+    width:100%;
+/*  border-radius:10px;*/
+/*  border-radius: 0.25rem;*/
+    font-family:Oswald;
+    font-size: 1.4rem;
+    font-weight: normal;
+    text-align: center;
+}
+
+.button-nav-detail:hover{
+    font-weight: bold;
+}

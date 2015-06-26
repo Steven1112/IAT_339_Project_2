@@ -75,11 +75,18 @@ h1{
 }
 
 h2{
-   font-size: 1.6rem;
-   text-align: left;
-   font-size: normal;
-   font-family:Oswald;
-   font-weight: bold;
+    text-align: left;
+
+    display: inline-block;
+    margin-left: auto;
+    margin-right:auto;
+    text-decoration: none;
+    -webkit-transition: background-color 0.5s;
+    transition: background-color 0.5s;
+    width:100%;
+    font-family:Oswald;
+    font-size: 1.6rem;
+    font-weight: bold;
 }
 
 h3{
@@ -117,13 +124,11 @@ ul,ol{
 
 p,code,figcaption{
     font-size: 0.9rem;
-    font-family: Courier New;
+    font-family: Oswald;
 /*  font-family: thin;*/
-   /* first # is top and bottom, second # is left and right margin */
-    margin: 0.25rem 0.5rem;
+    /* first # is top and bottom, second # is left and right margin */
+    font-weight: lighter;
 }
-
-
 
 
  /*Top Area*/
@@ -167,90 +172,6 @@ p,code,figcaption{
 }
 
 
-/*Middle Area Open*/
-label{
-    float: left;
-    text-align: left;
-    margin-right: 0.5em;
-    display: block
-    font-size: 0.8rem;
-    font-family: Folktale;
-/*  font-family: thin;*/
-    /* first # is top and bottom, second # is left and right margin */
-    margin: 0.25rem 0.5rem;
-}
-
-input.submit,input.reset{
-
-    background-color: #F39873;
-    color: white;
-/*  border-radius: 0.25rem;*/
-    margin: 0.25rem 0.5rem;
-    padding: 0.25rem 0.45rem;
-    font-size: 1.2em;
-    border-style: solid;
-    border-width: 0.1rem;
-    border-color: #929595;
-}
-
-input.text,textarea{
-    background-color: #F39873;
-    color: white;
-/*  border-radius: 0.25rem;*/
-    margin: 0.25rem 0.5rem;
-    padding: 0.25rem 0.45rem;
-}
-
-input.submit:hover,input.reset:,input.text:hover,textarea:hover{
-    background-color: #FCBCA7;
-    color: white;
-    text-decoration: none;
-}
-
-input.submitcomment{
-
-    background-color: #F39873;
-    color: white;
-/*  border-radius: 0.25rem;*/
-    margin: 0.25rem 0.5rem;
-    padding: 0.25rem 0.45rem;
-    font-size: 1.2em;
-    border-style: solid;
-    border-width: 0.1rem;
-    border-color: #929595;
-    float: right;
-}
-
-input.submitcomment{
-
-    background-color: #FCBCA7;
-    color: white;
-    text-decoration: none;
-
-}
-
-
-input{
-    font-family: Abadi MT Condensed Light;
-    background-color: white;
-    color: white;
-/*  border: solid 1px #FCBCA7;*/
-
-}
-
-textarea{
-    font-family: Abadi MT Condensed Light;
-    background-color: white;
-    color: white;
-    width: 5em;
-    height: 10rem;
-}
-
-input:hover{
-    background-color: #FCBCA7;
-    color: #C2C0BC;
-}
-
 .addtoccart-button{
     background-color: #F39873;
     color: white;
@@ -265,19 +186,6 @@ input:hover{
     /*border-width: 0.1rem;
     border-color: #929595;*/
     float: center;
-}
-
-.related_products{
-    color: grey;
-/*  border-radius: 0.25rem;*/
-/*  margin: 0.5rem 0.25rem 0.75rem 0.8rem;*/
-    margin: 0.25rem 0.5rem;
-    padding: 0.25rem 0.45rem;
-    font-family:Folktale;
-    font-size: 1.3em;
-
-    text-align: left;
-
 }
 
 
@@ -296,13 +204,6 @@ input:hover{
     /*border-style: solid;
     border-width: 0.1rem;
     border-color: #929595;*/
-}
-
-
-.catfoodintroduction{
-    margin-top: 5em;
-    float: right;
-
 }
 
 .paymentmethods{
@@ -353,68 +254,21 @@ input:hover{
 }
 
 .specialprice{
-     /* background-color: #39261e;*/
-    color: grey;
-/*  border-radius: 0.25rem;*/
-/*  margin: 0.5rem 0.25rem 0.75rem 0.8rem;*/
-    margin: 0.25rem 0.5rem;
-    padding: 0.25rem 0.45rem;
-    font-family:Folktale;
-
-    /*border-style: solid;
-    border-width: 0.1rem;
-    border-color: #929595;*/
-    /*position: absolute;*/
-    /*float:right;*/
-    /*left:4em;
-    top:25em;*/
-
-}
-
-.pprice{
-    /* background-color: #39261e;*/
-    color: grey;
-/*  border-radius: 0.25rem;*/
-/*  margin: 0.5rem 0.25rem 0.75rem 0.8rem;*/
-    margin: 0.25rem 0.5rem;
-    padding: 0.25rem 0.45rem;
-    font-family:courier new;
-    /*border-style: solid;
-    border-width: 0.1rem;
-    border-color: #929595;
-    background-color: #929595;*/
-    float:center;
-    left:4em;
-    top:25em;
+    font-size: 1.2rem;
+    font-family: Oswald;
+    font-weight: lighter;
+    text-align: center;
 }
 
 .intext-button-nav{
-   /* background-color: #39261e;*/
-    color: #b5cabb;
-/*  border-radius: 0.25rem;*/
-/*  margin: 0.5rem 0.25rem 0.75rem 0.8rem;*/
-    margin: 0.25rem 0.5rem;
-    padding: 0.25rem 0.45rem;
-    font-family:Folktale;
-    /*border-style: solid;
-    border-width: 0.1rem;
-    border-color: #929595;*/
-    /*position: absolute;*/
-    float:center;
-    left:4em;
-    top:25em;
+/*  color: #b5cabb;*/
+    color: #929595;
+    text-align: center;
 
+    font-family:Oswald;
+    font-size: 1.2rem;
+    font-weight: bold;
 }
-
-.whiskas1{
-    margin-left: 10em;
-    margin-top: 8em;
-
-}
-
-
-
-
 
  .pmiddle{
     font-size: 3rem;
@@ -501,10 +355,14 @@ input:hover{
     width:100%;
 /*  border-radius:10px;*/
 /*  border-radius: 0.25rem;*/
-    font-family: BAD SPIRIT;
+    font-family:Oswald;
+    font-size: 1.4rem;
     font-weight: normal;
-    font-size: 1.2em;
     text-align: center;
+}
+
+.button-nav-detail:hover{
+    font-weight: bold;
 }
 
 
@@ -535,11 +393,6 @@ p.prightstext{
     margin-left: 3em;
     margin-right: 3em;
  }
-
- .information_top{
-    margin: right;
- }
-/*Middle Area closed*/
 
 
 
@@ -773,28 +626,23 @@ img{
 }
 
 figure{
-        margin: 0;
 
 }
 
 form{
-        background-color: #FFFDFA;
-        display: inline-block;
-        padding: 1rem;
-        width: 40%
+    background-color: #FFFDFA;
+    display: inline-block;
+    padding: 1rem;
+    width: 40%
     font-family: Abadi MT Condensed Light;
 }
 
 label{
-    float: left;
+    font-size: 1.2rem;
+    font-family: Oswald;
+    font-weight: lighter;
     text-align: left;
-    margin-right: 0.5em;
-    display: block
-    font-size: 0.8rem;
-        font-family: MTF Sweet Cheeks;
-/*        font-family: thin;*/
-        /* first # is top and bottom, second # is left and right margin */
-        margin: 0.25rem 0.5rem;
+    display: block;
 }
 
 .top_Picture_Cover{
@@ -825,9 +673,10 @@ input.submit,input.reset{
     background-color: #F39873;
     color: white;
 /*  border-radius: 0.25rem;*/
-    margin: 0.25rem 0.5rem;
-    padding: 0.25rem 0.45rem;
-    font-size: 1.2em;
+    font-family:Oswald;
+    font-size: 1.2rem;
+    font-weight: normal;
+    text-align: center;
     /*border-style: solid;
     border-width: 0.1rem;
     border-color: #929595;*/
@@ -842,9 +691,8 @@ input.text,textarea{
 }
 
 input.submit:hover,input.reset:,input.text:hover,textarea:hover{
-    background-color: #FCBCA7;
-    color: white;
     text-decoration: none;
+    font-weight: bold;
 }
 
 input.submitcomment{
@@ -868,33 +716,34 @@ input.submitcomment{
 
 
 input{
-    font-family: Abadi MT Condensed Light;
-    background-color: white;
-    color: white;
-/*  border: solid 1px #FCBCA7;*/
-}
 
-textarea{
-    font-family: Abadi MT Condensed Light;
-    background-color: white;
-    color: white;
-    width: 80rem;
-    height: 10rem;
 }
 
 input:hover{
-    background-color: #FCBCA7;
-    color: #C2C0BC;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+textarea{
+    background-color: white;
+    color: white;
+    width: 72.5rem;
+    width: 100%;
+    min-width: 10em;
+    min-height: 10rem;
+    font-size: 0.9rem;
+    font-family: Oswald;
+    font-weight: lighter;
+    text-align: left;
+    display: block;
+    resize: width;
 }
 
 article {
-    text-align: left;
-/*  margin: 2rem 0rem;*/ 
-/*  padding: 2rem;*/
-/*  the border does not look nice */
-    /*border: 2px solid #929595;*/
+    text-align: center;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
+    display: inline-block;
 }
 
 
@@ -1013,12 +862,6 @@ article {
  .cat-clothes-image-button-layout{
     margin-left: 8em;
 /*  margin-top: 10em;*/
- }
-
- .payment-methods-layout{
-    margin-right: 8em;
-    margin-top: 2em;
-    margin-left: 8em;
  }
 
 
@@ -1221,3 +1064,104 @@ article {
 /*  border-radius: 0.25rem;*/
     opacity: 0.5;
 }
+
+.Whiskas_large{
+    margin-top: 5em;
+    margin-left: 8em;
+    margin-right: 8em;
+}
+
+.catfoodintroduction{
+    margin-top: 5em;
+    margin-left: 0em;
+    margin-right: 8em;
+}
+
+.customer-reviews{
+    margin-left: 8em;
+    margin-right: 8em;
+    margin-top: 5em;
+}
+
+.comments{
+    margin-top: 5em;
+    margin-left: 8em;
+    margin-right: 8em;
+}
+
+.product-image{
+    display: inline-block;
+/*  position: relative;*/
+    width: 13em;
+    height: 13em;
+    min-width: 8em;
+    min-height: 8em;
+}
+
+.whiskas1{
+    margin-left: 8em;
+    margin-right: 5em;
+    margin-top: 3em;
+}
+
+.whiskas2{
+    margin-left: 5em;
+    margin-right: 5em;
+    margin-top: 3em;
+}
+
+.whiskas3{
+    margin-left: 5em;
+    margin-right: 8em;
+    margin-top: 3em;
+}
+
+.whiskas4{
+    margin-left: 8em;
+    margin-right: 5em;
+    margin-top: 3em;
+}
+
+.whiskas5{
+    margin-left: 5em;
+    margin-right: 5em;
+    margin-top: 3em;
+}
+
+.whiskas6{
+    margin-left: 5em;
+    margin-right: 8em;
+    margin-top: 3em;
+}
+
+
+.specialprice-title{
+    font-size: 1.4rem;
+    font-family: Oswald;
+/*  font-weight: lighter;*/
+}
+
+.pprice{
+    font-size: 1.2rem;
+    font-family: Oswald;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.sdetail{
+    font-size: 1rem;
+    font-family: Oswald;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.payment-figure{
+    margin: 0;
+    text-align: left;
+}
+
+.payment-methods-layout{
+    margin-right: 8em;
+    margin-top: 3em;
+    margin-left: 8em;
+ }
