@@ -39,7 +39,7 @@
 }
 
 .grid-col-3of10 {
-    width: 30%;    
+    width: 32%;    
 }
 
 .grid-col-4of10 {
@@ -53,6 +53,10 @@
 
 .grid-col-33of100{
     width: 33%;
+}
+
+.grid-col-5of10{
+    width: 50%;
 }
 
 /*
@@ -85,10 +89,40 @@
 }
 
 
-@media (max-width: 80em) {
+@media (max-width: 65em) {
 
     .grid-col-3of10 {
         width: 100%;
+    }
+
+    .whiskas1{
+        margin-left: 8em;
+        margin-right: 8em;
+    }
+
+    .whiskas2{
+        margin-left: 8em;
+        margin-right: 8em;
+    }
+
+    .whiskas3{
+        margin-left: 8em;
+        margin-right: 8em;
+    }
+
+    .whiskas4{
+        margin-left: 8em;
+        margin-right: 8em;
+    }
+
+    .whiskas5{
+        margin-left: 8em;
+        margin-right: 8em;
+    }
+
+    .whiskas6{
+        margin-left: 8em;
+        margin-right: 8em;
     }
 }
 
@@ -122,64 +156,18 @@
         width: 100%;
     }
 
-    .bottomtext_left{
-        margin-left: 3em;
-        margin-right: 3em;
-        margin-top: 2em;
-    }
-
-    .bottomtext_right{
-        margin-left: 3em;
-        margin-right: 3em;
-        margin-top: 2em;
-    }
-
-    .bottomimage{
-        margin-left: 3em;
-        margin-right: 3em;
-        margin-top: 2em;
-    }
-
 }
 
-@media (max-width:70em) {
+@media (max-width: 70em) {
 
-    .textmiddle{
-        width: 50%;
-        margin-left: 40%;
-        margin-right: 10%;
-        margin-top: -40%;
+    .grid-col-5of10{
+        width: 100%;
     }
 
-    .pmiddle{
-        font-size: 2rem;
-        font-family:Abadi MT Condensed Extra Bold;
+    .catfoodintroduction{
+        margin-left: 8em;
+        margin-right: 8em;
     }
-
-    .pmiddletext{
-        font-size: 0.8rem;
-    }
-
-}
-
-@media (max-width:40em) {
-
-    .textmiddle{
-        width: 50%;
-        margin-left: 30%;
-        margin-right: 10%;
-        margin-top: -45%;
-    }
-
-    .pmiddle{
-        font-size: 1rem;
-        font-family:Abadi MT Condensed Extra Bold;
-    }
-
-    .pmiddletext{
-        font-size: 0.6rem;
-    }
-
 }
 
 

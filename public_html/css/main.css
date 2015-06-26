@@ -59,9 +59,9 @@ h2 a{
 }
 
 ul,ol{
-   font-size: 1.2rem;
-   font-family: Abadi MT Condensed Light;
-/*   font-family: thin;*/
+    font-size: 1.2rem;
+	font-family: Oswald;
+	font-weight: lighter;
 }
 
 
@@ -297,6 +297,7 @@ p,code,figcaption{
     font-size: 1.0rem;
     font-weight: lighter;
     text-align: center;
+    color: #929595;
 }
 
 .link:hover{
@@ -311,27 +312,35 @@ p,code,figcaption{
 	text-decoration: none;
 }
 
-nav .button{
-	background-color: #F39873;
-	color: white;
-/*	border-radius: 0.25rem;*/
-/*	margin: 0.5rem 0.25rem 0.75rem 0.8rem;*/
-    margin: 0.25rem 0.5rem;
-    padding: 0.25rem 0.45rem;
-    font-family: Oswald;
-    font-weight: bold;
-    border-radius: 0.25rem;
+nav .button, nav .button:visited{
+    display: inline-block;
+    /*background-color:  #F39873;*/
+    color: #F39873;
+    margin-left: auto;
+    margin-right:auto;
     /*border-style: solid;
     border-width: 0.1rem;
     border-color: #929595;*/
+    padding: 0.3em 0.3em;
+    text-decoration: none;
+    -webkit-transition: background-color 0.5s;
+    transition: background-color 0.5s;
+    width:100%;
+/*  border-radius:10px;*/
+/*  border-radius: 0.25rem;*/
+/*    font-family: BAD SPIRIT;*/
+    font-size: normal;
+    font-family:Oswald;
+    font-size: 1.7em;
+    text-align: left;
 }
 
-nav .button:hover{
-	background-color: #F39873;
-	color: #C2BFBB;
-	text-decoration: none;
+nav .button:hover, nav .button:active, nav .button:focus{
+    /*  background-color: #FCBCA7;
+    color: #C2C0BC;*/
+    text-decoration: none;
+    font-weight: bold;
 }
-
 a{
 	text-decoration: none;
 }
@@ -358,11 +367,6 @@ a{
 	text-align: center;
 }
 
-a:hover{
-	text-decoration: underline;
-	color: orange;
-}
-
 /*responsive image styles*/
 img{
     height: auto;
@@ -374,7 +378,6 @@ figure{
 }
 
 form{
-	background-color: #FFFDFA;
 	display: inline-block;
 	padding: 1rem;
 	width: 40%;
@@ -398,24 +401,8 @@ input.submit,input.reset{
 	padding: 0.25rem 0.45rem;
 	font-size: 1.2em;
 	border-radius: 0.25rem;
-	/*border-style: solid;
-    border-width: 0.1rem;
-    border-color: #929595;*/
 }
 
-input.text,textarea{
-	background-color: #F39873;
-	color: white;
-	border-radius: 0.25rem;
-	margin: 0.25rem 0.5rem;
-	padding: 0.25rem 0.45rem;
-}
-
-input.submit:hover,input.reset:,input.text:hover,textarea:hover{
-	background-color: #FCBCA7;
-	color: #FAFCF9;
-	text-decoration: none;
-}
 
 input.submitcomment{
 
@@ -449,20 +436,7 @@ input:hover{
     font-weight: bold;
 }
 
-textarea{
-    background-color: #FAFCF9;
-    color: white;
-    width: 72.5rem;
-    width: 100%;
-    min-width: 10em;
-    min-height: 10rem;
-    font-size: 0.9rem;
-    font-family: Oswald;
-    font-weight: lighter;
-    text-align: left;
-    display: block;
-    resize: width;
-}
+
 
 article {
     text-align: center;
@@ -512,6 +486,7 @@ article {
 .hide {
     visibility: hidden;
     opacity: 0;
+    list-style-type: none;
 }
 
 
@@ -966,38 +941,10 @@ p.prightstext{
 }
 
 
-.link{
-    font-size: 0.9rem;
-    font-family: MTF Sweet Cheeks;
-/*  font-family: thin;*/
-/*  first # is top and bottom, second # is left and right margin */
-    margin: 0.25rem 0.5rem;
-    color: #F39873;;
-}
-
 .button{
     display: inline-block;
     font-family: MTF Sweet Cheeks;
 
-    text-decoration: none;
-}
-
-nav .button{
-    background-color: #F39873;
-    color: white;
-/*  border-radius: 0.25rem;*/
-/*  margin: 0.5rem 0.25rem 0.75rem 0.8rem;*/
-    margin: 0.25rem 0.5rem;
-    padding: 0.25rem 0.45rem;
-    font-family: MTF Sweet Cheeks;
-    border-style: solid;
-    border-width: 0.1rem;
-    border-color: #929595;
-}
-
-nav .button:hover{
-    background-color: #F39873;
-    color: #C2BFBB;
     text-decoration: none;
 }
 
@@ -1042,30 +989,10 @@ img{
 }
 
 .square-box{
-        margin-top:3em;
-        height: 0.5;
-        width: 100%;
-        background-color: #FFFDFA;
-}
-
-figure{
-
-}
-
-form{
+    margin-top:3em;
+    height: 0.5;
+    width: 100%;
     background-color: #FFFDFA;
-    display: inline-block;
-    padding: 1rem;
-    width: 40%
-    font-family: Abadi MT Condensed Light;
-}
-
-label{
-    font-size: 1.2rem;
-    font-family: Oswald;
-    font-weight: lighter;
-    text-align: left;
-    display: block;
 }
 
 .top_Picture_Cover{
@@ -1106,7 +1033,6 @@ input.submit,input.reset{
 }
 
 input.text,textarea{
-    background-color: #F39873;
     color: white;
 /*  border-radius: 0.25rem;*/
     margin: 0.25rem 0.5rem;
@@ -1119,20 +1045,6 @@ input.submit:hover,input.reset:,input.text:hover,textarea:hover{
 }
 
 input.submitcomment{
-    background-color: #F39873;
-    color: white;
-/*  border-radius: 0.25rem;*/
-    margin: 0.25rem 0.5rem;
-    padding: 0.25rem 0.45rem;
-    font-size: 0.7em;
-    /*border-style: solid;
-    border-width: 0.1rem;
-    border-color: #929595;*/
-    float: right;
-}
-
-input.submitcomment{
-    background-color: #FCBCA7;
     color: white;
     text-decoration: none;
 }
@@ -1160,6 +1072,9 @@ textarea{
     text-align: left;
     display: block;
     resize: width;
+    border-style: solid;
+    border-width: 0.1rem;
+    border-color: #929595;
 }
 
 article {
@@ -1302,8 +1217,6 @@ article {
 /* Just giving our drop-down items some styling */
 .dd-list li a {
     display: block;
-/*  margin: 0.1em 0;*/
-/*  padding: 0.5em 0.7em;*/
     color: #F39873;
     margin-left: auto;
     margin-right:auto;
@@ -1319,12 +1232,9 @@ article {
     font-size: 1.5em;
     text-align: center;
     margin-top: 0.5em;
-/*  background-color:  #F39873;*/
 }
 
 .dd-list li a:hover{
-/*  background-color: #FCBCA7;
-    color: #C2C0BC;*/
     text-decoration: none;
     font-weight: bold;
 }
@@ -1349,8 +1259,6 @@ article {
 }
 
 .dd-button:hover {
-/*  background-color: #FCBCA7;
-    color: #C2C0BC;*/
     text-decoration: none;
     font-weight: bold;
 }
@@ -1498,12 +1406,21 @@ article {
     margin-top: 5em;
     margin-left: 0em;
     margin-right: 8em;
+    border-style: dashed;
+    border-width: 0.1rem;
+    border-color: #929595;
 }
 
 .customer-reviews{
     margin-left: 8em;
     margin-right: 8em;
     margin-top: 5em;
+}
+
+.customer-reviews-texts{
+    border-style: dashed;
+    border-width: 0.1rem;
+    border-color: #929595;
 }
 
 .comments{
@@ -1525,14 +1442,15 @@ article {
 .specialprice-title{
     font-size: 1.4rem;
     font-family: Oswald;
-/*  font-weight: lighter;*/
+    text-align: center;
+    font-weight: normal;
 }
 
 .pprice{
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     font-family: Oswald;
-    font-weight: lighter;
     text-align: center;
+    font-weight: normal;
 }
 
 .sdetail{
@@ -1552,3 +1470,45 @@ article {
     margin-top: 3em;
     margin-left: 8em;
  }
+
+ .whiskas1{
+    margin-left: 8em;
+    margin-right: 5em;
+    margin-top: 3em;
+}
+
+.whiskas2{
+    margin-left: 5em;
+    margin-right: 5em;
+    margin-top: 3em;
+}
+
+.whiskas3{
+    margin-left: 5em;
+    margin-right: 8em;
+    margin-top: 3em;
+}
+
+.whiskas4{
+    margin-left: 8em;
+    margin-right: 5em;
+    margin-top: 3em;
+}
+
+.whiskas5{
+    margin-left: 5em;
+    margin-right: 5em;
+    margin-top: 3em;
+}
+
+.whiskas6{
+    margin-left: 5em;
+    margin-right: 8em;
+    margin-top: 3em;
+}
+
+.reference1{
+	margin-left: 8em;
+    margin-right: 8em;
+    margin-top: 3em;
+}
