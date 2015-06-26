@@ -8,7 +8,8 @@ body{
 	color:black;
 	background-color:white;
 	font-size: 16px;
-	color:#929595;
+	/*color:#929595;*/
+	color: black;
 }
 
 h1{
@@ -19,15 +20,19 @@ h1{
 }
 
 h2{
-   font-size: 1.6rem;
+   font-size: 2rem;
    font-size: normal;
-   font-family:Janda Safe and Sound;
+   font-family:Oswald;
+   font-weight: bold;
+   
 }
 
 h3{
    font-size: 1.0rem;
    font-size: normal;
-   font-family:Seravek;
+   font-family:Oswald;
+   font-weight: medium;
+
 }
 
 h4{
@@ -51,10 +56,11 @@ ul,ol{
 
 p,code,figcaption{
 	font-size: 0.9rem;
-	font-family: Abadi MT Condensed Light;
+	font-family: Oswald;
 /*	font-family: thin;*/
 	/* first # is top and bottom, second # is left and right margin */
 	margin: 0.25rem 0.5rem;
+	font-weight: lighter;
 }
 
 .pstyle{
@@ -69,8 +75,8 @@ p,code,figcaption{
 
 .pprice{
 	font-size: 1.2rem;
-	font-family:Abadi MT Condensed Extra Bold;
-/*	font-family: thin;*/
+	font-family:Oswald;
+	font-weight: bold;
 	/* first # is top and bottom, second # is left and right margin */
 	margin: 0.25rem 0.5rem;
 /*	try make a paragraph half-page length*/
@@ -87,16 +93,16 @@ p,code,figcaption{
 
 .link{
 	font-size: 0.9rem;
-	font-family: Helvetica Neue Light, Bernard MT Condensed;
+	font-family: Existence;
 /*	font-family: thin;*/
 	/* first # is top and bottom, second # is left and right margin */
 	margin: 0.25rem 0.5rem;
-	color: rgb(0,0,255);
+	color: #f39873;
 }
 
 .button{
 	display: inline-block;
-	font-family: MTF Sweet Cheeks;
+	font-family: Oswald;
 
 	text-decoration: none;
 }
@@ -108,10 +114,11 @@ nav .button{
 /*	margin: 0.5rem 0.25rem 0.75rem 0.8rem;*/
     margin: 0.25rem 0.5rem;
     padding: 0.25rem 0.45rem;
-    font-family: MTF Sweet Cheeks;
-    border-style: solid;
+    font-family: Oswald;
+    font-weight: bold;
+    /*border-style: solid;
     border-width: 0.1rem;
-    border-color: #929595;
+    border-color: #929595;*/
 }
 
 nav .button:hover{
@@ -131,12 +138,12 @@ a{
 /*	margin: 0.5rem 0.25rem 0.75rem 0.8rem;*/
     margin: 0.25rem 0.5rem;
     padding: 0.25rem 0.45rem;
-    font-family: Abadi MT Condensed Light;
+    font-family: Oswald;
     text-align: center;
     font-size: 1.2em;
-    border-style: solid;
-    border-width: 0.1rem;
-    border-color: #929595;
+   /* border-style: dashed;
+    border-width: 0.4rem;
+    border-color: #929595;*/
 }
 
 .checkoutbutton:hover{
@@ -165,8 +172,8 @@ form{
 	background-color: #FFFDFA;
 	display: inline-block;
 	padding: 1rem;
-	width: 40%
-    font-family: Abadi MT Condensed Light;
+	width: 40%;
+    font-family: Oswald;
 }
 
 label{
@@ -175,7 +182,7 @@ label{
     margin-right: 0.5em;
     display: block
     font-size: 0.8rem;
-	font-family: MTF Sweet Cheeks;
+	font-family: Oswald;
 /*	font-family: thin;*/
 	/* first # is top and bottom, second # is left and right margin */
 	margin: 0.25rem 0.5rem;
@@ -189,9 +196,9 @@ input.submit,input.reset{
 	margin: 0.25rem 0.5rem;
 	padding: 0.25rem 0.45rem;
 	font-size: 1.2em;
-	border-style: solid;
+	/*border-style: solid;
     border-width: 0.1rem;
-    border-color: #929595;
+    border-color: #929595;*/
 }
 
 input.text,textarea{
@@ -204,7 +211,7 @@ input.text,textarea{
 
 input.submit:hover,input.reset:,input.text:hover,textarea:hover{
 	background-color: #FCBCA7;
-	color: white;
+	color: #FAFCF9;
 	text-decoration: none;
 }
 
@@ -216,8 +223,8 @@ input.submitcomment{
 	margin: 0.25rem 0.5rem;
 	padding: 0.25rem 0.45rem;
 	font-size: 1.2em;
-	border-style: solid;
-    border-width: 0.1rem;
+	/*border-style: solid;*/
+    /*border-width: 0.1rem;*/
     border-color: #929595;
     float: right;
 }
@@ -232,16 +239,16 @@ input.submitcomment{
 
 
 input{
-	font-family: Abadi MT Condensed Light;
-	background-color: white;
+	font-family: Oswald;
+	background-color: #FAFCF9;
 	color: white;
 /*	border: solid 1px #FCBCA7;*/
 
 }
 
 textarea{
-	font-family: Abadi MT Condensed Light;
-	background-color: white;
+	font-family: Oswald;
+	background-color: #FAFCF9;
 	color: white;
 	width: 80rem;
 	height: 10rem;
@@ -265,9 +272,9 @@ article {
 
 .button-nav, .button-nav:visited{
 	display: inline-block;
-	background-color:  #F39873;
-	color: white;
-    border-style: solid;
+	/*background-color:  #F39873;*/
+	color: orange;
+    /*border-style: solid;*/
     border-width: 0.1rem;
     border-color: #929595;
 	padding: 1.5em 2em;
@@ -277,9 +284,9 @@ article {
 	width:100%;
 /*	border-radius:10px;*/
 /*  border-radius: 0.25rem;*/
-	font-family: MTF Sweet Cheeks;
-	font-weight: normal;
-	font-size: 1.2em;
+	font-family: Oswald;
+	font-weight: bolder;
+	font-size: 1.5em;
 	text-align: center;
 }
 
@@ -287,7 +294,7 @@ article {
 	background-color: #FCBCA7;
 	color: #C2C0BC;
 /*    border-radius: 0.25rem;*/
-	font-family:  MTF Sweet Cheeks;;
+	font-family:  Oswald;
 	font-weight: normal;
 	font-size: 1.2em;
 	text-align: center;
@@ -297,13 +304,13 @@ article {
 	background-color: #F39873;
 	color: white;
 /*    border-radius: 0.25rem;*/
-	font-family:  MTF Sweet Cheeks;;
+	font-family: Oswald;
 	font-weight: normal;
 	text-align: center;
 	margin: 0.25rem 0.5rem;
 	padding: 0.25rem 0.45rem;
 	font-size: 1.2em;
-	border-style: solid;
+	border-style: dashed;
     border-width: 0.1rem;
     border-color: #929595;
 	float: right;
@@ -313,5 +320,5 @@ article {
 	background-color: #F39873;
 	color: #C2BFBB;
 /*    border-radius: 0.25rem;*/
-	font-family:  MTF Sweet Cheeks;;
+	font-family:  Oswald;
  }

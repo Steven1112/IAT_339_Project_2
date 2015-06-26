@@ -208,9 +208,9 @@ p,code,figcaption{
     border-width: 0.1rem;
     border-color: #929595;*/
     /*position: absolute;*/
-    float:left;
-    left:4em;
-    top:25em;
+   /* float:left;*/
+    /*left:4em;
+    top:25em;*/
 }
 
 .button-nav_forward{
@@ -225,9 +225,9 @@ p,code,figcaption{
     border-width: 0.1rem;
     border-color: #929595;*/
 /*  position: absolute;*/
-    float:right;
-    right:25em;
-    top:25em;
+   /* float:right;*/
+   /* right:25em;
+    top:25em;*/
 }
 
 
@@ -267,116 +267,10 @@ p,code,figcaption{
 
 
 /*Middle Area Open*/
-label{
-    float: left;
-    text-align: left;
-    margin-right: 0.5em;
-    display: block
-    font-size: 0.8rem;
-    font-family: Folktale;
-/*  font-family: thin;*/
-    /* first # is top and bottom, second # is left and right margin */
-    margin: 0.25rem 0.5rem;
-}
 
-input.submit,input.reset{
-
-    background-color: #F39873;
-    color: white;
-/*  border-radius: 0.25rem;*/
-    margin: 0.25rem 0.5rem;
-    padding: 0.25rem 0.45rem;
-    font-size: 1.2em;
-    border-style: solid;
-    border-width: 0.1rem;
-    border-color: #929595;
-}
-
-input.text,textarea{
-    background-color: #F39873;
-    color: white;
-/*  border-radius: 0.25rem;*/
-    margin: 0.25rem 0.5rem;
-    padding: 0.25rem 0.45rem;
-}
-
-input.submit:hover,input.reset:,input.text:hover,textarea:hover{
-    background-color: #FCBCA7;
-    color: white;
-    text-decoration: none;
-}
-
-input.submitcomment{
-
-    background-color: #F39873;
-    color: white;
-/*  border-radius: 0.25rem;*/
-    margin: 0.25rem 0.5rem;
-    padding: 0.25rem 0.45rem;
-    font-size: 1.2em;
-    border-style: solid;
-    border-width: 0.1rem;
-    border-color: #929595;
-    float: right;
-}
-
-input.submitcomment{
-
-    background-color: #FCBCA7;
-    color: white;
-    text-decoration: none;
-
-}
-
-
-input{
-    font-family: Abadi MT Condensed Light;
-    background-color: white;
-    color: white;
-/*  border: solid 1px #FCBCA7;*/
-
-}
-
-textarea{
-    font-family: Abadi MT Condensed Light;
-    background-color: white;
-    color: white;
-    width: 5em;
-    height: 10rem;
-}
-
-input:hover{
-    background-color: #FCBCA7;
-    color: #C2C0BC;
-}
-
-.addtoccart-button{
-    background-color: #F39873;
-    color: white;
-/*    border-radius: 0.25rem;*/
-    font-family:  MTF Sweet Cheeks;;
-    font-weight: normal;
-    text-align: center;
-    margin: 0.25rem 0.5rem;
-    padding: 0.25rem 0.45rem;
-    font-size: 1.2em;
-    border-style: solid;
-    /*border-width: 0.1rem;
-    border-color: #929595;*/
-    float: center;
-}
-
-.related_products{
-    color: grey;
-/*  border-radius: 0.25rem;*/
-/*  margin: 0.5rem 0.25rem 0.75rem 0.8rem;*/
-    margin: 0.25rem 0.5rem;
-    padding: 0.25rem 0.45rem;
-    font-family:Folktale;
-    font-size: 1.3em;
-
-    text-align: left;
-
+.about-us{
+    margin: center;
+    margin-top: 5em;
 }
 
 
@@ -465,8 +359,8 @@ input:hover{
     border-color: #929595;*/
     /*position: absolute;*/
     /*float:right;*/
-    /*left:4em;
-    top:25em;*/
+    left:4em;
+    top:25em;
 
 }
 
@@ -953,7 +847,7 @@ input.submitcomment{
 /*  border-radius: 0.25rem;*/
     margin: 0.25rem 0.5rem;
     padding: 0.25rem 0.45rem;
-    font-size: 0.7em;
+    font-size: 1.2em;
     /*border-style: solid;
     border-width: 0.1rem;
     border-color: #929595;*/

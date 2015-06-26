@@ -21,9 +21,9 @@
 }
 
 
-.grid-col-8of100 {
-    width: 8%;
-    float:right;
+.grid-col-8of10 {
+    width: 80%;
+    
 }
 
 
@@ -37,7 +37,7 @@
 }
 
 .grid-col-3of10 {
-    width: 30%;    
+    width: 25%;    
 }
 
 
@@ -55,6 +55,13 @@
 
 .grid-col-5of10{
     width: 50%;
+
+}
+
+
+.grid-col-2of10{
+    width: 20%;
+   
 }
 /*
     Here using @media queries, we are specifying when the display
@@ -85,7 +92,7 @@
     }
 }
 
-@media (max-width: 50em) {
+@media (max-width: 80em) {
 
     .grid-col-3of10 {
         width: 100%;
@@ -99,18 +106,11 @@
 	}
 }
 
-@media (max-width: 50em) {
+@media (max-width: 80em) {
 
-	.grid-col-5of10{
-		width: 100%;
+	.grid-col-10of10{
+		height: 400%;
 	}
-}
-
-@media (max-width: 50em) {
-
-    .grid-col-4of10{
-        width: 100%;
-    }
 }
 
 
