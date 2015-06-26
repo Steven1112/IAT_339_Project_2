@@ -1075,12 +1075,21 @@ article {
     margin-top: 5em;
     margin-left: 0em;
     margin-right: 8em;
+    border-style: dashed;
+    border-width: 0.1rem;
+    border-color: #929595;
 }
 
 .customer-reviews{
     margin-left: 8em;
     margin-right: 8em;
     margin-top: 5em;
+}
+
+.customer-reviews-texts{
+    border-style: dashed;
+    border-width: 0.1rem;
+    border-color: #929595;
 }
 
 .comments{
@@ -1165,5 +1174,11 @@ article {
 .payment-methods-layout{
     margin-right: 8em;
     margin-top: 3em;
+    margin-left: 8em;
+ }
+
+ .copyright{
+    margin-top: 10em;
+    margin-right: 8em;
     margin-left: 8em;
  }

@@ -75,10 +75,18 @@ h1{
 }
 
 h2{
-   font-size: 1.6rem;
-   font-family:Oswald;
-   font-weight: bold;
-   text-align: center;
+    text-align: center;
+
+    display: inline-block;
+    margin-left: auto;
+    margin-right:auto;
+    text-decoration: none;
+    -webkit-transition: background-color 0.5s;
+    transition: background-color 0.5s;
+    width:100%;
+    font-family:Oswald;
+    font-size: 1.6rem;
+    font-weight: bold;
 }
 
 
@@ -125,16 +133,6 @@ p,code,figcaption{
 }
 
 
-.contact-us{
-	margin-top: 5em;
-    margin-left: 7em;
-    margin-right: 7em;
-    border-style: dashed;
-    border-width: 0.1rem;
-    border-color: #929595;
-    /*width: 45%;*/
-}
-
 
 .contact-form-border{
 	width:80%;
@@ -149,7 +147,7 @@ p,code,figcaption{
 	display: inline-block;
 	margin-left: auto;
 	margin-right: auto;
-	padding: 2em 35.5em 2em 2.5em;
+	padding: 2em 3.5em 2em 2.5em;
  }
 
  #contact-information{
@@ -166,15 +164,16 @@ p,code,figcaption{
 
 
 .link{
-	font-size: 0.9rem;
-	font-family: Existence;
-	color: orange;
-	text-align: left;
-	
+    font-family: Existence;
+    text-decoration: none;
+    -webkit-transition: background-color 0.5s;
+    transition: background-color 0.5s;
+    width:100%;
+/*  font-family:Oswald;*/
+    font-size: 1.0rem;
+    font-weight: lighter;
+    text-align: center;
 }
-
-
-
 
 
 .pstyle{
@@ -190,11 +189,9 @@ p,code,figcaption{
 
 .pprice{
 	font-size: 1.2rem;
-	font-family:Oswald;
-	font-weight: bold;
-	/* first # is top and bottom, second # is left and right margin */
-	margin: 0.25rem 0.5rem;
-/*	try make a paragraph half-page length*/
+    font-family: Oswald;
+    text-align: center;
+    font-weight: normal;
 }
 
 .psubtitle{
@@ -611,14 +608,14 @@ p.prightstext{
     font-size: 1.0rem;
     font-weight: lighter;
     text-align: center;
+    color: #929595;
 }
+
 
 .link:hover{
     text-decoration: underline;
     font-weight: bold;
 }
-
-
 
 
 
@@ -693,13 +690,11 @@ form{
 label{
     float: left;
     text-align: left;
-    margin-right: 0.5em;
-    display: block
-    font-size: 0.9rem;
+    font-size: 1.2rem;
     font-family: Oswald;
-/*        font-family: thin;*/
-        /* first # is top and bottom, second # is left and right margin */
-        margin: 0.25rem 0.5rem;
+    font-weight: lighter;
+    display: block;
+}
 }
 
 .top_Picture_Cover{
@@ -781,21 +776,20 @@ input.submitcomment{
 }
 
 
-input{
-    font-family: Oswald;
-    background-color: white;
-    color: white;
-/*  border: solid 1px #FCBCA7;*/
-}
-
 textarea{
 	font-family: Oswald;
+    font-weight: lighter;
 	background-color: #FAFCF9;
 	color: white;
 	width: 30rem;
+    width: 100%;
 	height: 10rem;
-	min-width: 30rem;
-	width: 100%;
+	min-width: 10rem;
+    min-height: 10rem;
+    font-size: 0.9rem;
+    text-align: left;
+    display: block;
+
 	/*width: 10rem;*/
     /*background-color: white;
     color: white;
@@ -811,14 +805,18 @@ textarea{
     resize: width;
 }
 
+
+input{
+
+}
+
 input:hover{
-    background-color: #FCBCA7;
-    color: #C2C0BC;
+    text-decoration: none;
+    font-weight: bold;
 }
 
 article {
-    text-align: left;
-/*  border: 2px solid #929595;*/
+    text-align: center;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     display: inline-block;
@@ -840,7 +838,7 @@ article {
 
  .payment-methods-layout{
     margin-right: 8em;
-    margin-top: 5em;
+    margin-top: 10em;
     margin-left: 8em;
  }
 
@@ -888,8 +886,7 @@ article {
 
 .dd-button {
     display: inline-block;
-    background-color:  #F39873;
-    color: white;
+    color: #F39873;
     margin-left: auto;
     margin-right:auto;
 
@@ -1222,4 +1219,34 @@ article {
 
 li{
     text-align: center;
+}
+
+.contact-us{
+    margin-top: 3em;
+    margin-left: 8em;
+    margin-right: 8em;
+    border-style: dashed;
+    border-width: 0.1rem;
+    border-color: #929595;
+    /*width: 45%;*/
+}
+
+.contact-us-left{
+    margin-top: 5em;
+    margin-left: 8em;
+    margin-right: 1em;
+    border-style: dashed;
+    border-width: 0.1rem;
+    border-color: #929595;
+    /*width: 45%;*/
+}
+
+.contact-us-right{
+    margin-top: 5em;
+    margin-left: 1em;
+    margin-right: 8em;
+    border-style: dashed;
+    border-width: 0.1rem;
+    border-color: #929595;
+    /*width: 45%;*/
 }

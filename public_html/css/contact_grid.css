@@ -91,22 +91,30 @@
 
 }
 
+@media (max-width: 50em) {
 
+    .grid-col-25of100 {
+        width: 100%;
+    }
+}
 
-
-@media (max-width: 80em) {
+@media (max-width: 50em) {
 
 	.grid-col-5of10 {
 		width: 100%;
 	}
 
-}
+	.contact-us-left{
+		margin-top: 5em;
+		margin-left: 8em;
+		margin-right: 8em;
+	}
 
-@media (max-width: 50em) {
-
-	/*.grid-col-10of10 {
-		width: 50%;
-	}*/
+	.contact-us-right{
+		margin-top: 5em;
+		margin-left: 8em;
+		margin-right: 8em;
+	}
 
 }
 
@@ -117,6 +125,15 @@
 		width: 100%;
 	}
 
+}
+
+@media (max-width:65em) {
+
+    .grid-col-4of10{
+        width: 100%;
+        margin-left: 8em;
+        margin-right: 8em;
+    }
 }
 
 .grid:after {
