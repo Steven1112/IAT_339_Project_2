@@ -67,23 +67,25 @@ body{
 }
 
 h1{
-   font-size: 2.8rem;
+   font-size: 3.3rem;
    font-weight: 700;
    font-family: Austie Bost Kitten Klub;
    text-align: left;
-   color: grey;
+/*   color: #F39873;*/
 }
 
 h2{
    font-size: 1.6rem;
+   text-align: left;
    font-size: normal;
-   font-family:Janda Safe and Sound;
+   font-family:Oswald;
+   font-weight: bold;
 }
 
 h3{
    font-size: 1.0rem;
    font-size: normal;
-   font-family:Seravek;
+   font-family: Courier New, sans-serif;
 }
 
 h4{
@@ -163,107 +165,6 @@ p,code,figcaption{
   top: 0;
   left: 0;
 }
-
-
-.login-button-nav, .login-button-nav:visited{
-    display: inline-block;
-    /*background-color:  #F39873;*/
-    color: #F39873;
-    /*border-style: solid;
-    border-width: 0.1rem;
-    border-color: #929595;*/
-    padding: 0.3em 0.3em;
-    text-decoration: none;
-    -webkit-transition: background-color 0.5s;
-    transition: background-color 0.5s;
-    width:100%;
-/*  border-radius:10px;*/
-/*  border-radius: 0.25rem;*/
-    font-family: BAD SPIRIT;
-    font-weight: normal;
-    font-size: 1.2em;
-    text-align: center;
-
-    float: right;
-}
-
-.login-button-nav:hover, .login-button-nav:active, .login-button-nav:focus{
-/*  border-radius: 0.25rem;*/
-/*  background-color: #FCBCA7;
-    color: #C2C0BC;*/
-    text-decoration: none;
-    font-weight: bold;
-}
-
-
-.button-nav_back{
-    background-color: #F39873;
-    color: white;
-/*  border-radius: 0.25rem;*/
-/*  margin: 0.5rem 0.25rem 0.75rem 0.8rem;*/
-    margin: 0.25rem 0.5rem;
-    padding: 0.25rem 0.45rem;
-    font-family: BAD SPIRIT;
-    /*border-style: solid;
-    border-width: 0.1rem;
-    border-color: #929595;*/
-    /*position: absolute;*/
-    float:left;
-    left:4em;
-    top:25em;
-}
-
-.button-nav_forward{
-    background-color: #F39873;
-    color: white;
-/*  border-radius: 0.25rem;*/
-/*  margin: 0.5rem 0.25rem 0.75rem 0.8rem;*/
-    margin: 0.25rem 0.5rem;
-    padding: 0.25rem 0.45rem;
-    font-family: BAD SPIRIT;
-    /*border-style: solid;
-    border-width: 0.1rem;
-    border-color: #929595;*/
-/*  position: absolute;*/
-    float:right;
-    right:25em;
-    top:25em;
-}
-
-
-.button-nav, .button-nav:visited{
-    display: inline-block;
-    /*background-color:  #F39873;*/
-    color: #F39873;
-    margin-left: auto;
-    margin-right:auto;
-    /*border-style: solid;
-    border-width: 0.1rem;
-    border-color: #929595;*/
-    padding: 0.3em 0.3em;
-    text-decoration: none;
-    -webkit-transition: background-color 0.5s;
-    transition: background-color 0.5s;
-    width:100%;
-/*  border-radius:10px;*/
-/*  border-radius: 0.25rem;*/
-    font-family: BAD SPIRIT;
-    font-weight: normal;
-    font-size: 1.2em;
-    text-align: center;
-}
-
-.button-nav:hover, .button-nav:active, .button-nav:focus{
-    /*  background-color: #FCBCA7;
-    color: #C2C0BC;*/
-    text-decoration: none;
-    font-weight: bold;
-}
-
-/*Top Area closed*/
-
-
-
 
 
 /*Middle Area Open*/
@@ -697,7 +598,7 @@ p.prightstext{
 
 
 .p-payment-method{
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     font-family:Abadi MT Condensed Extra Bold;
     text-align: left;
     display: inline-block;
@@ -851,8 +752,7 @@ a{
 }
 
 a:hover{
-    text-decoration: underline;
-    color: orange;
+    text-decoration: none;
 }
 
 /*responsive image styles*/
@@ -1121,36 +1021,6 @@ article {
     margin-left: 8em;
  }
 
-  .onpage-button-nav, .onpage-button-nav:visited{
-    display: inline-block;
-    background-color:  #F39873;
-/*  color: #F39873;*/
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-    
-    margin-left: auto;
-    margin-right:auto;
-    padding: 0.3em 0.3em;
-    text-decoration: none;
-    -webkit-transition: background-color 0.5s;
-    transition: background-color 0.5s;
-    width:100%;
-
-    font-family: MTF Sweet Cheeks;
-    font-weight: normal;
-    font-size: 1.2em;
-    text-align: center;
-/*  opacity: 0.7;*/
-}
-
-.onpage-button-nav:hover, .onpage-button-nav:active, .onpage-button-nav:focus{
-/*  background-color: #FCBCA7;
-    color: #C2C0BC;*/
-    text-decoration: none;
-    font-weight: bold;
-/*  opacity: 0.7;*/
-}
 
 .dd {
     position: relative;
@@ -1178,10 +1048,11 @@ article {
     transition: background-color 0.5s;
     width:100%;
 
-    font-family: MTF Sweet Cheeks;
-    font-weight: normal;
-    font-size: 1.0em;
+    font-size: normal;
+    font-family:Oswald;
+    font-size: 1.5em;
     text-align: center;
+    margin-top: 0.5em;
 /*  background-color:  #F39873;*/
 }
 
@@ -1194,7 +1065,8 @@ article {
 
 .dd-button {
     display: inline-block;
-    color: #F39873;
+    background-color:  #F39873;
+    color: white;
     margin-left: auto;
     margin-right:auto;
 
@@ -1204,9 +1076,9 @@ article {
     transition: background-color 0.5s;
     width:100%;
 
-    font-family: MTF Sweet Cheeks;
-    font-weight: normal;
-    font-size: 1.2em;
+    font-size: normal;
+    font-family:Oswald;
+    font-size: 1.7em;
     text-align: center;
 }
 
@@ -1217,7 +1089,93 @@ article {
     font-weight: bold;
 }
 
-a:hover {
+.onpage-button-nav, .onpage-button-nav:visited{
+    display: inline-block;
+    background-color:  #F39873;
+/*  color: #F39873;*/
+    color: white;
+    text-decoration: none;
+    
+    margin-left: auto;
+    margin-right:auto;
+    padding: 0.3em 0.3em;
+    text-decoration: none;
+    -webkit-transition: background-color 0.5s;
+    transition: background-color 0.5s;
+    width:100%;
+
+    font-size: normal;
+    font-family:Oswald;
+    font-size: 1.7em;
+    text-align: center;
+/*  opacity: 0.7;*/
+}
+
+.onpage-button-nav:hover, .onpage-button-nav:active, .onpage-button-nav:focus{
+/*  background-color: #FCBCA7;
+    color: #C2C0BC;*/
+    text-decoration: none;
+    font-weight: bold;
+/*  opacity: 0.7;*/
+}
+
+.login-button-nav, .login-button-nav:visited{
+    display: inline-block;
+    /*background-color:  #F39873;*/
+    color: #F39873;
+    /*border-style: solid;
+    border-width: 0.1rem;
+    border-color: #929595;*/
+    padding: 0.3em 0.3em;
+    text-decoration: none;
+    -webkit-transition: background-color 0.5s;
+    transition: background-color 0.5s;
+    width:100%;
+/*  border-radius:10px;*/
+/*  border-radius: 0.25rem;*/
+/*    font-family: BAD SPIRIT;*/
+    font-size: 1.2em;
+    text-align: center;
+    font-size: normal;
+    font-family:Oswald;
+    float: right;
+}
+
+.login-button-nav:hover, .login-button-nav:active, .login-button-nav:focus{
+/*  border-radius: 0.25rem;*/
+/*  background-color: #FCBCA7;
+    color: #C2C0BC;*/
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+.button-nav, .button-nav:visited{
+    display: inline-block;
+    /*background-color:  #F39873;*/
+    color: #F39873;
+    margin-left: auto;
+    margin-right:auto;
+    /*border-style: solid;
+    border-width: 0.1rem;
+    border-color: #929595;*/
+    padding: 0.3em 0.3em;
+    text-decoration: none;
+    -webkit-transition: background-color 0.5s;
+    transition: background-color 0.5s;
+    width:100%;
+/*  border-radius:10px;*/
+/*  border-radius: 0.25rem;*/
+/*    font-family: BAD SPIRIT;*/
+    font-size: normal;
+    font-family:Oswald;
+    font-size: 1.7em;
+    text-align: center;
+}
+
+.button-nav:hover, .button-nav:active, .button-nav:focus{
+    /*  background-color: #FCBCA7;
+    color: #C2C0BC;*/
     text-decoration: none;
     font-weight: bold;
 }

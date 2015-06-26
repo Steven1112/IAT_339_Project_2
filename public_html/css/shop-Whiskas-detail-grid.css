@@ -49,13 +49,18 @@
     width:60%;
 }
 
-.grid-col-4of10{
-    width:40%;
+.grid-col-4of10 {
+    width: 40%;    
 }
 
 .grid-col-5of10{
     width: 50%;
 }
+
+.grid-col-33of100{
+    width: 33%;
+}
+
 /*
     Here using @media queries, we are specifying when the display
     has a width less than 50em it should collapse the 5/10 columns 
@@ -106,10 +111,12 @@
 	}
 }
 
-@media (max-width: 50em) {
+@media (max-width:65em) {
 
     .grid-col-4of10{
         width: 100%;
+        margin-left: 8em;
+        margin-right: 8em;
     }
 }
 
@@ -119,6 +126,14 @@
 	.grid-col-10of10{
 		width: 100%;
 	}
+}
+
+@media (max-width: 65em) {
+
+    .grid-col-33of100 {
+        width: 100%;
+    }
+
 }
 
 
