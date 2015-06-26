@@ -56,7 +56,7 @@
 
 
 *, *:after, *:before{
-        box-sizing:border-box;
+    box-sizing:border-box;
 }
 
 body{
@@ -85,7 +85,7 @@ h2{
 h3{
    font-size: 1.0rem;
    font-size: normal;
-   font-family:Seravek;
+   font-family: Courier New, sans-serif;
 }
 
 h4{
@@ -118,9 +118,6 @@ ul,ol{
 p,code,figcaption{
     font-size: 0.9rem;
     font-family: Abadi MT Condensed Light;
-/*  font-family: thin;*/
-   /* first # is top and bottom, second # is left and right margin */
-    margin: 0.25rem 0.5rem;
 }
 
 
@@ -265,32 +262,34 @@ p,code,figcaption{
     font-weight: bold;
 }
 
+.subtitle{
+    display: inline-block;
+    /*background-color:  #F39873;*/
+    color: #F39873;
+    margin-left: auto;
+    margin-right:auto;
+    /*border-style: solid;
+    border-width: 0.1rem;
+    border-color: #929595;*/
+    padding: 0.3em 0.3em;
+    text-decoration: none;
+    -webkit-transition: background-color 0.5s;
+    transition: background-color 0.5s;
+    width:100%;
+/*  border-radius:10px;*/
+/*  border-radius: 0.25rem;*/
+/*    font-family: BAD SPIRIT;*/
+    font-family: MTF Sweet Cheeks;
+    font-weight: normal;
+    font-size: 1.5em;
+    text-align: center;
+}
+
 /*Top Area closed*/
 
 
-
-
-
-/*Middle Area Open*/
-
-.middle{
-    height: 0.25em;
-    width: 100%;
-    background-color: #f7dfc7;
-
-
-}
-
-
-.brand{
-    
-
-}
-
-
 .namelist{
-    margin: center;
-
+    text-align: center;
 }
 
 .foodbrand{
@@ -402,29 +401,34 @@ display: inline-block;
 .bottomtext_left{
     font-size: 0.9rem;
     font-family: Abadi MT Condensed Light;
-/*  font-family: thin;*/
-/*  first # is top and bottom, second # is left and right margin */
-    margin: 0.25rem 0.5rem;
-    margin-top: 30em;
     border-style: dashed;
     border-width: 0.1rem;
     border-color: #929595;
-    margin: 0.25rem 0.5rem;
-    margin-top: 30em;
-    margin-left: 5em;
+    margin-top: 3em;
+    margin-left: 10em;
+    margin-right: 3em;
+}
+
+.bottomtext_middle{
+    font-size: 0.9rem;
+    font-family: Abadi MT Condensed Light;
+    border-style: dashed;
+    border-width: 0.1rem;
+    border-color: #929595;
+    margin-top: 3em;
+    margin-left: 7.5em;
+    margin-right: 5em;
 }
 
 .bottomtext_right{
     font-size: 0.9rem;
     font-family: Abadi MT Condensed Light;
-/*  font-family: thin;*/
-/*  first # is top and bottom, second # is left and right margin */
-    margin: 0.25rem 0.5rem;
-    margin-top: 30em;
-    margin-left: 5em;
-   /* border-style: dashed;
+    border-style: dashed;
     border-width: 0.1rem;
-    border-color: #cb2a46;*/
+    border-color: #929595;
+    margin-top: 3em;
+    margin-left: 6em;
+    margin-right: 8em;
 }
 
 
@@ -828,8 +832,7 @@ article {
 /*  border: 2px solid #929595;*/
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    text-align: left;
-
+    display: inline-block;
 }
 
 /* set top main navigation layout */
@@ -1001,12 +1004,12 @@ a:hover {
  .brands-lists-image-button-layout{
     margin-top: 7em;
     margin-left: 8em;
-    margin-right: 4em;
+    margin-right: 6em;
  }
 
  .health-considerations-image-button-layout{
     margin-top: 7em;
-    margin-left: 4em;
+    margin-left: 6em;
     margin-right: 4em;
 /*  margin-top: 10em;*/
  }
@@ -1024,6 +1027,8 @@ a:hover {
     min-width: 20em;
     max-width: 50em;
     max-height: 40em;
+    width: 50%;
+    height: 50%;
  }
 
  a.image-button-nav-health-considerations {
@@ -1032,6 +1037,8 @@ a:hover {
     min-width: 20em;
     max-width: 50em;
     max-height: 40em;
+    width: 50%;
+    height: 50%;
  }
 
  a.image-button-nav-flavor {
@@ -1040,6 +1047,8 @@ a:hover {
     min-width: 20em;
     max-width: 50em;
     max-height: 40em;
+    width: 50%;
+    height: 50%;
  }
 
  .button-nav-brands-lists-text {
@@ -1065,7 +1074,7 @@ a:hover {
 
  .image-button-nav-brands-lists, .image-button-nav-brands-lists:visited{
     /*  add background image for the cat foods product list image button */
-    background: transparent url(../img/Cat_Foods_Icon.jpg) no-repeat;
+    background: transparent url(../img/brands_lists.png) no-repeat;
     background-position: center center;
     display: inline-block;
     position: relative;
@@ -1087,8 +1096,8 @@ a:hover {
 
 .image-button-nav-health-considerations, .image-button-nav-health-considerations:visited{
     /*  add background image for the cat toys product list image button */
-    background: transparent url(../img/Cat_Toys_Icon.png) no-repeat;
-    background-position: center center;
+    background: transparent url(../img/health_considerations.png) no-repeat;
+    background-position: 35% 40%;
     display: inline-block;
     position: relative;
 
@@ -1109,8 +1118,8 @@ a:hover {
 
 .image-button-nav-flavor, .image-button-nav-flavor:visited{
     /*  add background image for the cat toys product list image button */
-    background: transparent url(../img/Cat_Clothes_Icon.jpg) no-repeat;
-    background-position: 30% 20%;
+    background: transparent url(../img/flavor.png) no-repeat;
+    background-position: 25% 10%;
     display: inline-block;
     position: relative;
 
@@ -1160,4 +1169,8 @@ a:hover {
     font-family: Courier New, sans-serif;
 /*  font-family: thin;*/
    /* first # is top and bottom, second # is left and right margin */
+}
+
+li{
+    text-align: center;
 }

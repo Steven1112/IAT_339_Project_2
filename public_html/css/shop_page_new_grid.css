@@ -37,7 +37,7 @@
 }
 
 .grid-col-3of10 {
-    width: 30%;    
+    width: 33%;    
 }
 
 .grid-col-4of10 {
@@ -83,10 +83,51 @@
     }
 }
 
-@media (max-width: 80em) {
+@media (max-width: 65em) {
 
     .grid-col-3of10 {
         width: 100%;
+    }
+
+    .bottomtext_left{
+        margin-left: 8em;
+        margin-right: 8em;
+    }
+
+    .bottomtext_middle{
+        margin-left: 8em;
+        margin-right: 8em;
+    }
+
+    .bottomtext_right{
+        margin-left: 8em;
+        margin-right: 8em;
+    }
+
+    .brands-lists-image-button-layout{
+        margin-top: 3em;
+        margin-left: 8em;
+        margin-right: 8em;
+    }
+
+    .health-considerations-image-button-layout{
+        margin-top: 3em;
+        margin-left: 8em;
+        margin-right: 8em;
+    }
+
+    .flavor-image-button-layout{
+        margin-top: 3em;
+        margin-left: 8em;
+        margin-right: 8em;
+    }
+}
+
+
+@media (max-width: 65em) {
+
+    .grid-col-33of100 {
+        width: 100%;    
     }
 }
 
