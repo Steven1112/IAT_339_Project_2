@@ -1138,14 +1138,16 @@ article {
 .specialprice-title{
     font-size: 1.4rem;
     font-family: Oswald;
+    text-align: center;
+    font-weight: normal;
 /*  font-weight: lighter;*/
 }
 
 .pprice{
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     font-family: Oswald;
-    font-weight: lighter;
     text-align: center;
+    font-weight: normal;
 }
 
 .sdetail{

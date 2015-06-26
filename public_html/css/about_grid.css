@@ -21,12 +21,10 @@
 }
 
 
-.grid-col-8of10 {
-    width: 80%;
-    
+.grid-col-8of100 {
+    width: 8%;
+    float:right;
 }
-
-
 
 .grid-col-25of100 {
     width: 25%;
@@ -37,9 +35,16 @@
 }
 
 .grid-col-3of10 {
-    width: 25%;    
+    width: 33%;    
 }
 
+.grid-col-4of10 {
+    width: 40%;    
+}
+
+.grid-col-100of100 {
+    width: 100%;
+}
 
 .grid-col-84of100 {
     width: 84%;
@@ -55,14 +60,17 @@
 
 .grid-col-5of10{
     width: 50%;
-
 }
-
 
 .grid-col-2of10{
     width: 20%;
    
 }
+
+.grid-col-33of100{
+    width: 33%;
+}
+
 /*
     Here using @media queries, we are specifying when the display
     has a width less than 50em it should collapse the 5/10 columns 
@@ -106,21 +114,55 @@
 	}
 }
 
-@media (max-width: 80em) {
-
-	.grid-col-10of10{
-		height: 400%;
-	}
-}
-
 
 @media (max-width:50em) {
 
 	.grid-col-10of10{
 		width: 100%;
 	}
+
+    .grid-col-100of100{
+        width: 100%;
+    }
 }
 
+@media (max-width:65em) {
+
+    .grid-col-4of10{
+        width: 100%;
+        margin-left: 8em;
+        margin-right: 8em;
+    }
+}
+
+@media (max-width: 65em) {
+
+    .grid-col-33of100 {
+        width: 100%;
+    }
+
+}
+
+@media (max-width: 70em) {
+
+    .grid-col-5of10{
+        width: 100%;
+    }
+
+    .au1-image-button-layout{
+        margin-left: 8em;
+        margin-right: 8em;
+    }
+
+    .au2-image-button-layout{
+        margin-left: 8em;
+        margin-right: 8em;
+    }
+
+    .Whiskas_large{
+        margin-top: 5em;
+    }
+}
 
 /*
     Much like last week, we are clearing the floating items so
