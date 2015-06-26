@@ -30,19 +30,29 @@
 
 .grid-col-25of100 {
     width: 25%;
+    float: left;
 }
 
-.grid-col-10of10 {
+.grid-col-100of100 {
     width: 100%;
+    float: left;
 }
 
 .grid-col-3of10 {
-    width: 30%;    
+    width: 32%;    
 }
 
 
 .grid-col-84of100 {
     width: 84%;
+}
+
+.grid-col-4of10 {
+    width: 40%;    
+}
+
+.grid-col-33of100 {
+    width: 33%;
 }
 
 
@@ -70,15 +80,89 @@
 
 @media (max-width: 50em) {
 
-    .grid-col-10of10 {
+    .grid-col-100of100 {
         width: 100%;
     }
 }
 
 @media (max-width: 80em) {
 
+    .grid-col-33of100 {
+        width: 100%;
+    }
+}
+
+/*@media (max-width: 60em) {
+
+    .grid-col-3of10 {
+        width: 50%;
+    }
+
+    .whiskas1{
+        margin-left: 5em;
+        margin-right: 5em;
+    }
+
+    .whiskas2{
+        margin-left: 5em;
+        margin-right: 5em;
+    }
+
+    .whiskas3{
+        margin-left: 5em;
+        margin-right: 5em;
+    }
+
+    .whiskas4{
+        margin-left: 5em;
+        margin-right: 5em;
+    }
+
+    .whiskas5{
+        margin-left: 5em;
+        margin-right: 5em;
+    }
+
+    .whiskas6{
+        margin-left: 5em;
+        margin-right: 5em;
+    }
+}*/
+
+@media (max-width: 65em) {
+
     .grid-col-3of10 {
         width: 100%;
+    }
+
+    .whiskas1{
+        margin-left: 8em;
+        margin-right: 8em;
+    }
+
+    .whiskas2{
+        margin-left: 8em;
+        margin-right: 8em;
+    }
+
+    .whiskas3{
+        margin-left: 8em;
+        margin-right: 8em;
+    }
+
+    .whiskas4{
+        margin-left: 8em;
+        margin-right: 8em;
+    }
+
+    .whiskas5{
+        margin-left: 8em;
+        margin-right: 8em;
+    }
+
+    .whiskas6{
+        margin-left: 8em;
+        margin-right: 8em;
     }
 }
 
@@ -102,6 +186,15 @@
 	.grid-col-10of10{
 		width: 100%;
 	}
+}
+
+@media (max-width:80em) {
+
+    .grid-col-4of10{
+        width: 100%;
+        margin-left: 8em;
+        margin-right: 8em;
+    }
 }
 
 

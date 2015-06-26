@@ -67,17 +67,19 @@ body{
 }
 
 h1{
-   font-size: 2.8rem;
+   font-size: 3.3rem;
    font-weight: 700;
    font-family: Austie Bost Kitten Klub;
    text-align: left;
-   color: #F39873;
+/*   color: #F39873;*/
 }
 
 h2{
    font-size: 1.6rem;
    font-size: normal;
-   font-family: Courier New, sans-serif;
+/* font-family:Janda Safe and Sound;*/
+   font-family:Folktale;
+   text-align: left;
 }
 
 h3{
@@ -105,11 +107,11 @@ h2 a{
 }
 
 ul,ol{
-   font-size: 1.3rem;
-   font-family: Candara;
+   font-size: 1rem;
+   font-family: Abadi MT Condensed Light;
    list-style-type: none;
 /* color: #F39873;*/
- /*font-family: Bold;*/
+/* font-family: thin;*/
 }
 
 
@@ -165,69 +167,37 @@ p,code,figcaption{
 }
 
 
-/*.login-button-nav, .login-button-nav:visited{
+.login-button-nav, .login-button-nav:visited{
     display: inline-block;
-    background-color:  #F39873;
-    /*color: #939696;
-    color:white;
+    /*background-color:  #F39873;*/
+    color: #F39873;
     /*border-style: solid;
     border-width: 0.1rem;
-    border-color: #929595;
+    border-color: #929595;*/
     padding: 0.3em 0.3em;
     text-decoration: none;
     -webkit-transition: background-color 0.5s;
     transition: background-color 0.5s;
     width:100%;
-/*  border-radius:10px;
-  border-radius: 0.6rem;
-
+/*  border-radius:10px;*/
+/*  border-radius: 0.25rem;*/
+/*    font-family: BAD SPIRIT;*/
     font-family: MTF Sweet Cheeks;
     font-weight: normal;
     font-size: 1.2em;
     text-align: center;
 
     float: right;
-}*/
-
-
-.login-button-nav, .login-button-nav:visited{
-    display: inline-block;
-    background-color:  #F39873;
-    color: white;
-    border-style: none;
-    border-width: 0.1rem;
-    border-color: #929595;
-    padding: 1.5em 2em;
-    text-decoration: none;
-    -webkit-transition: background-color 0.5s;
-    transition: background-color 0.5s;
-    width:100%;
-/*  border-radius:10px;*/
-  border-radius: 1em 1em;
-    font-family: MTF Sweet Cheeks;
-    font-weight: normal;
-    font-size: 0.7em;
-    text-align: center;
 }
 
-.button-nav:hover, .button-nav:active, .button-nav:focus{
-    background-color: #FCBCA7;
-    color: #C2C0BC;
-/*    border-radius: 0.25rem;*/
-    font-family:  BAD SPIRIT;
-    font-weight: normal;
-    font-size: 1.2em;
-    text-align: center;
+.login-button-nav:hover, .login-button-nav:active, .login-button-nav:focus{
+/*  border-radius: 0.25rem;*/
+/*  background-color: #FCBCA7;
+    color: #C2C0BC;*/
+    text-decoration: none;
+    font-weight: bold;
 }
 
-
-/*login-button-nav:hover, .login-button-nav:active, .login-button-nav:focus{
-  border-radius: 0.25rem;
-/*	background-color: #FCBCA7;
-    color: #C2C0BC;
-    text-decoration: none;
-	font-weight: bold;
-}*/
 
 
 .button-nav_back{
@@ -281,17 +251,18 @@ p,code,figcaption{
     width:100%;
 /*  border-radius:10px;*/
 /*  border-radius: 0.25rem;*/
-    font-family: BAD SPIRIT;
+/*    font-family: BAD SPIRIT;*/
+    font-family: MTF Sweet Cheeks;
     font-weight: normal;
     font-size: 1.5em;
     text-align: center;
 }
 
 .button-nav:hover, .button-nav:active, .button-nav:focus{
-    /*	background-color: #FCBCA7;
+    /*  background-color: #FCBCA7;
     color: #C2C0BC;*/
     text-decoration: none;
-	font-weight: bold;
+    font-weight: bold;
 }
 
 /*Top Area closed*/
@@ -854,102 +825,12 @@ input:hover{
 
 article {
     text-align: left;
-/*  margin: 2rem 0rem;*/ 
-/*  padding: 2rem;*/
-/*  the border does not look nice */
-    border: 2px solid #929595;
+/*  border: 2px solid #929595;*/
     -moz-box-sizing: border-box;
     box-sizing: border-box;
+    text-align: left;
+
 }
-
-
-.image-button-nav-cat-foods, .image-button-nav-cat-foods:visited{
-/*  add background image for the cat foods product list image button */
-    background: transparent url(../img/Cat_Foods_Icon.jpg) no-repeat;
-    display: inline-block;
-    position: relative;
-    width: 30rem;
-    height: 24rem;
-
-/*  background-color:  #F39873;*/
-    color: white;
-    border-style: solid;
-    border-width: 0.1rem;
-    border-color: #929595;
-    padding: 0.3em 0.3em;
-    text-decoration: none;
-    -webkit-transition: background-color 0.5s;
-    transition: background-color 0.5s;
-    font-family: MTF Sweet Cheeks;
-    font-weight: normal;
-    font-size: 1em;
-    text-align: center;
-}
-
-.image-button-nav-cat-toys, .image-button-nav-cat-toys:visited{
-/*  add background image for the cat toys product list image button */
-    background: transparent url(../img/Cat_Toys_Icon.png) no-repeat;
-    display: inline-block;
-    position: relative;
-    width: 30rem;
-    height: 24rem;
-
-/*  background-color:  #F39873;*/
-    color: white;
-    border-style: solid;
-    border-width: 0.1rem;
-    border-color: #929595;
-    padding: 0.3em 0.3em;
-    text-decoration: none;
-    -webkit-transition: background-color 0.5s;
-    transition: background-color 0.5s;
-    font-family: MTF Sweet Cheeks;
-    font-weight: normal;
-    font-size: 1em;
-    text-align: center;
-}
-
-.image-button-nav-cat-clothes, .image-button-nav-cat-clothes:visited{
-/*  add background image for the cat toys product list image button */
-    background: transparent url(../img/Cat_Clothes_Icon.jpg) no-repeat;
-    display: inline-block;
-    position: relative;
-    width: 30rem;
-    height: 24rem;
-
-/*  background-color:  #F39873;*/
-    color: white;
-    border-style: solid;
-    border-width: 0.1rem;
-    border-color: #929595;
-    padding: 0.3em 0.3em;
-    text-decoration: none;
-    -webkit-transition: background-color 0.5s;
-    transition: background-color 0.5s;
-    font-family: MTF Sweet Cheeks;
-    font-weight: normal;
-    font-size: 1em;
-    text-align: center;
-}
-
-.image-button-nav-cat-foods:hover, .image-button-nav-cat-foods:active, .image-button-nav-cat-foods:focus{
-    background-color: #FCBCA7;
-    color: #C2C0BC;
-/*  border-radius: 0.25rem;*/
-}
-
-.image-button-nav-cat-toys:hover, .image-button-nav-cat-toys:active, .image-button-nav-cat-toys:focus{
-    background-color: #FCBCA7;
-    color: #C2C0BC;
-/*  border-radius: 0.25rem;*/
-}
-
-.image-button-nav-cat-clothes:hover, .image-button-nav-cat-clothes:active, .image-button-nav-cat-clothes:focus{
-    background-color: #FCBCA7;
-    color: #C2C0BC;
-/*  border-radius: 0.25rem;*/
-}
-
 
 /* set top main navigation layout */
  .topmenu{
@@ -965,34 +846,19 @@ article {
     margin-left: 8em;
  }
 
- .cat-foods-image-button-layout{
-    margin-left: 8em;
-    margin-top: 10em;
- }
-
- .cat-toys-image-button-layout{
-    margin-left: 8em;
-/*  margin-top: 10em;*/
- }
-
- .cat-clothes-image-button-layout{
-    margin-left: 8em;
-/*  margin-top: 10em;*/
- }
-
  .payment-methods-layout{
     margin-right: 8em;
     margin-top: 2em;
     margin-left: 8em;
  }
 
-  .onpage-button-nav, .onpage-button-nav:visited{
-  	display: inline-block;
+ .onpage-button-nav, .onpage-button-nav:visited{
+    display: inline-block;
     background-color:  #F39873;
 /*  color: #F39873;*/
     color: white;
     text-decoration: none;
-	font-weight: bold;
+    font-weight: bold;
     
     margin-left: auto;
     margin-right:auto;
@@ -1004,16 +870,16 @@ article {
 
     font-family: MTF Sweet Cheeks;
     font-weight: normal;
-    font-size: 1.2em;
+    font-size: 1.5em;
     text-align: center;
 /*  opacity: 0.7;*/
 }
 
 .onpage-button-nav:hover, .onpage-button-nav:active, .onpage-button-nav:focus{
-/*	background-color: #FCBCA7;
+/*  background-color: #FCBCA7;
     color: #C2C0BC;*/
     text-decoration: none;
-	font-weight: bold;
+    font-weight: bold;
 /*  opacity: 0.7;*/
 }
 
@@ -1045,7 +911,7 @@ article {
 
     font-family: MTF Sweet Cheeks;
     font-weight: normal;
-    font-size: 1.0em;
+    font-size: 1.3em;
     text-align: center;
 /*  background-color:  #F39873;*/
 }
@@ -1059,10 +925,14 @@ article {
 
 .dd-button {
 	display: inline-block;
-    color: #F39873;
+    background-color:  #F39873;
+/*  color: #F39873;*/
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    
     margin-left: auto;
     margin-right:auto;
-
     padding: 0.3em 0.3em;
     text-decoration: none;
     -webkit-transition: background-color 0.5s;
@@ -1071,15 +941,14 @@ article {
 
     font-family: MTF Sweet Cheeks;
     font-weight: normal;
-    font-size: 1.2em;
+    font-size: 1.5em;
     text-align: center;
 }
 
 .dd-button:hover {
-/*	background-color: #FCBCA7;
-    color: #C2C0BC;*/
     text-decoration: none;
-	font-weight: bold;
+    font-weight: bold;
+    color: white;
 }
 
 a:hover {
@@ -1127,4 +996,168 @@ a:hover {
     color: #C2C0BC;*/
 /*  border-radius: 0.25rem;*/
     opacity: 0.5;
+}
+
+ .brands-lists-image-button-layout{
+    margin-top: 7em;
+    margin-left: 8em;
+    margin-right: 4em;
+ }
+
+ .health-considerations-image-button-layout{
+    margin-top: 7em;
+    margin-left: 4em;
+    margin-right: 4em;
+/*  margin-top: 10em;*/
+ }
+
+ .flavor-image-button-layout{
+    margin-top: 7em;
+    margin-left: 4em;
+    margin-right: 8em;
+/*  margin-top: 10em;*/
+ }
+
+ a.image-button-nav-brands-lists {
+/*  border-radius: 50em;*/
+    min-height: 15em;
+    min-width: 20em;
+    max-width: 50em;
+    max-height: 40em;
+ }
+
+ a.image-button-nav-health-considerations {
+/*  border-radius: 50em;*/
+    min-height: 15em;
+    min-width: 20em;
+    max-width: 50em;
+    max-height: 40em;
+ }
+
+ a.image-button-nav-flavor {
+/*  border-radius: 50em;*/
+    min-height: 15em;
+    min-width: 20em;
+    max-width: 50em;
+    max-height: 40em;
+ }
+
+ .button-nav-brands-lists-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -12%;
+ }
+
+ .button-nav-health-considerations-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -20%;
+ }
+
+ .button-nav-flavor-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -7%;
+ }
+
+ .image-button-nav-brands-lists, .image-button-nav-brands-lists:visited{
+    /*  add background image for the cat foods product list image button */
+    background: transparent url(../img/Cat_Foods_Icon.jpg) no-repeat;
+    background-position: center center;
+    display: inline-block;
+    position: relative;
+
+    /*  background-color:  #F39873;*/
+    color: white;
+    border-style: solid;
+    border-width: 0.1rem;
+    border-color: #929595;
+    padding: 0.3em 0.3em;
+    text-decoration: none;
+    -webkit-transition: background-color 0.5s;
+    transition: background-color 0.5s;
+    font-family: MTF Sweet Cheeks;
+    font-weight: normal;
+    font-size: 1em;
+    text-align: center;
+}
+
+.image-button-nav-health-considerations, .image-button-nav-health-considerations:visited{
+    /*  add background image for the cat toys product list image button */
+    background: transparent url(../img/Cat_Toys_Icon.png) no-repeat;
+    background-position: center center;
+    display: inline-block;
+    position: relative;
+
+    /*  background-color:  #F39873;*/
+    color: white;
+    border-style: solid;
+    border-width: 0.1rem;
+    border-color: #929595;
+    padding: 0.3em 0.3em;
+    text-decoration: none;
+    -webkit-transition: background-color 0.5s;
+    transition: background-color 0.5s;
+    font-family: MTF Sweet Cheeks;
+    font-weight: normal;
+    font-size: 1em;
+    text-align: center;
+}
+
+.image-button-nav-flavor, .image-button-nav-flavor:visited{
+    /*  add background image for the cat toys product list image button */
+    background: transparent url(../img/Cat_Clothes_Icon.jpg) no-repeat;
+    background-position: 30% 20%;
+    display: inline-block;
+    position: relative;
+
+    /*  background-color:  #F39873;*/
+    color: white;
+    border-style: solid;
+    border-width: 0.1rem;
+    border-color: #929595;
+    padding: 0.3em 0.3em;
+    text-decoration: none;
+    -webkit-transition: background-color 0.5s;
+    transition: background-color 0.5s;
+    font-family: MTF Sweet Cheeks;
+    font-weight: normal;
+    font-size: 1em;
+    text-align: center;
+}
+
+.image-button-nav-brands-lists:hover, .image-button-nav-brands-lists:active, .image-button-nav-brands-lists:focus{
+    background-color: #FCBCA7;
+    color: #C2C0BC;
+    opacity: 0.5;
+/*    border-radius: 0.25rem;*/
+}
+
+.image-button-nav-health-considerations:hover, .image-button-nav-health-considerations:active, .image-button-nav-health-considerations:focus{
+    background-color: #FCBCA7;
+    color: #C2C0BC;
+    opacity: 0.5;
+/*    border-radius: 0.25rem;*/
+}
+
+.image-button-nav-flavor:hover, .image-button-nav-flavor:active, .image-button-nav-flavor:focus{
+    background-color: #FCBCA7;
+    color: #C2C0BC;
+    opacity: 0.5;
+/*    border-radius: 0.25rem;*/
+}
+
+.payment-figure{
+    margin: 0;
+    text-align: left;
+}
+
+.copyright{
+    font-size: 0.9rem;
+    font-family: Courier New, sans-serif;
+/*  font-family: thin;*/
+   /* first # is top and bottom, second # is left and right margin */
 }

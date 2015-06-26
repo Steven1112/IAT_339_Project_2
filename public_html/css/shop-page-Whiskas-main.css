@@ -67,16 +67,19 @@ body{
 }
 
 h1{
-   font-size: 2.8rem;
+   font-size: 3.3rem;
    font-weight: 700;
    font-family: Austie Bost Kitten Klub;
    text-align: left;
+/*   color: #F39873;*/
 }
 
 h2{
    font-size: 1.6rem;
    font-size: normal;
-   font-family: Courier New, sans-serif;
+/* font-family:Janda Safe and Sound;*/
+   font-family:Folktale;
+   text-align: left;
 }
 
 h3{
@@ -117,7 +120,6 @@ p,code,figcaption{
     font-family: Courier New;
 /*  font-family: thin;*/
    /* first # is top and bottom, second # is left and right margin */
-    margin: 0.25rem 0.5rem;
 }
 
 
@@ -178,7 +180,8 @@ p,code,figcaption{
     width:100%;
 /*  border-radius:10px;*/
 /*  border-radius: 0.25rem;*/
-    font-family: BAD SPIRIT;
+/*    font-family: BAD SPIRIT;*/
+    font-family: MTF Sweet Cheeks;
     font-weight: normal;
     font-size: 1.2em;
     text-align: center;
@@ -246,9 +249,10 @@ p,code,figcaption{
     width:100%;
 /*  border-radius:10px;*/
 /*  border-radius: 0.25rem;*/
-    font-family: BAD SPIRIT;
+/*    font-family: BAD SPIRIT;*/
+    font-family: MTF Sweet Cheeks;
     font-weight: normal;
-    font-size: 1.2em;
+    font-size: 1.5em;
     text-align: center;
 }
 
@@ -289,92 +293,27 @@ p,code,figcaption{
 .feedguildlines-p{
     font-size: 0.9rem;
     font-family: Courier New;
-/*  font-family: thin;*/
-   /* first # is top and bottom, second # is left and right margin */
-    margin: 0.25rem 0.5rem;
 }
 
 
 
 .speicalprice-feedguildlines{
-    color: grey;
-/*  border-radius: 0.25rem;*/
-/*  margin: 0.5rem 0.25rem 0.75rem 0.8rem;*/
-    margin: 0.25rem 0.5rem;
-    padding: 0.25rem 0.45rem;
     font-family:Folktale;
     font-size: 1.2em;
-    /*border-style: solid;
-    border-width: 0.1rem;
-    border-color: #929595;*/
-    /*position: absolute;*/
-    float:center;
-    left:4em;
-    top:25em;
-
+    text-align: center;
 }
 
 .specialprice{
-     /* background-color: #39261e;*/
-    color: grey;
-/*  border-radius: 0.25rem;*/
-/*  margin: 0.5rem 0.25rem 0.75rem 0.8rem;*/
-    margin: 0.25rem 0.5rem;
-    padding: 0.25rem 0.45rem;
     font-family:Folktale;
-    /*border-style: solid;
-    border-width: 0.1rem;
-    border-color: #929595;*/
-    /*position: absolute;*/
-    float:center;
-    left:4em;
-    top:25em;
-
+    text-align: center;
+    font-size: 0.9em;
 }
 
 .pprice{
-    /* background-color: #39261e;*/
-    color: grey;
-/*  border-radius: 0.25rem;*/
-/*  margin: 0.5rem 0.25rem 0.75rem 0.8rem;*/
-    margin: 0.25rem 0.5rem;
-    padding: 0.25rem 0.45rem;
     font-family:courier new;
-    /*border-style: solid;
-    border-width: 0.1rem;
-    border-color: #929595;
-    background-color: #929595;*/
-    float:center;
-    left:4em;
-    top:25em;
+    text-align: center;
+    font-size: 0.9em;
 }
-
-.intext-button-nav{
-   /* background-color: #39261e;*/
-    color: #b5cabb;
-/*  border-radius: 0.25rem;*/
-/*  margin: 0.5rem 0.25rem 0.75rem 0.8rem;*/
-    margin: 0.25rem 0.5rem;
-    padding: 0.25rem 0.45rem;
-    font-family:Folktale;
-    /*border-style: solid;
-    border-width: 0.1rem;
-    border-color: #929595;*/
-    /*position: absolute;*/
-    float:center;
-    left:4em;
-    top:25em;
-
-}
-
-.whiskas1{
-    margin-left: 10em;
-    margin-top: 8em;
-
-}
-
-
-
 
 
  .pmiddle{
@@ -426,23 +365,70 @@ p,code,figcaption{
     margin-left: 5em;
 }
 
-.bottomtext_right{
+.bottomimage{
+    margin-left: 10em;
+    margin-top: 25em;
+}
+
+
+.guideline{
     font-size: 0.9rem;
     font-family: Abadi MT Condensed Light;
 /*  font-family: thin;*/
 /*  first # is top and bottom, second # is left and right margin */
-    margin: 0.25rem 0.5rem;
-    margin-top: 10em;
-    margin-left: 5em;
+    margin-top: 7em;
+    margin-left: 8em;
+    margin-right: 8em;
     border-style: dashed;
     border-width: 0.1rem;
     border-color: #929595;
 }
 
+.whiskas1{
+    margin-left: 8em;
+    margin-right: 5em;
+    margin-top: 3em;
+}
 
-.bottomimage{
-    margin-left: 10em;
-    margin-top: 25em;
+.whiskas2{
+    margin-left: 5em;
+    margin-right: 5em;
+    margin-top: 3em;
+}
+
+.whiskas3{
+    margin-left: 5em;
+    margin-right: 8em;
+    margin-top: 3em;
+}
+
+.whiskas4{
+    margin-left: 8em;
+    margin-right: 5em;
+    margin-top: 3em;
+}
+
+.whiskas5{
+    margin-left: 5em;
+    margin-right: 5em;
+    margin-top: 3em;
+}
+
+.whiskas6{
+    margin-left: 5em;
+    margin-right: 8em;
+    margin-top: 3em;
+}
+
+.intext-button-nav{
+   /* background-color: #39261e;*/
+    color: #b5cabb;
+    font-family:Folktale;
+    font-size: 1.2rem;
+    font-family:Abadi MT Condensed Extra Bold;
+/*  font-family: thin;*/
+    /* first # is top and bottom, second # is left and right margin */
+    text-align: center;
 }
 
 
@@ -674,6 +660,7 @@ nav .button{
     border-style: solid;
     border-width: 0.1rem;
     border-color: #929595;
+    text-align: center;
 }
 
 nav .button:hover{
@@ -709,8 +696,7 @@ a{
 }
 
 a:hover{
-    text-decoration: underline;
-    color: orange;
+    text-decoration: none;
 }
 
 /*responsive image styles*/
@@ -724,22 +710,21 @@ img{
 }
 
 .square-box{
-        margin-top:3em;
-        height: 0.5;
-        width: 100%;
-        background-color: #FFFDFA;
+    margin-top:3em;
+    height: 0.5;
+    width: 100%;
+    background-color: #FFFDFA;
 }
 
 figure{
-        margin: 0;
 
 }
 
 form{
-        background-color: #FFFDFA;
-        display: inline-block;
-        padding: 1rem;
-        width: 40%
+    background-color: #FFFDFA;
+    display: inline-block;
+    padding: 1rem;
+    width: 40%
     font-family: Abadi MT Condensed Light;
 }
 
@@ -749,10 +734,10 @@ label{
     margin-right: 0.5em;
     display: block
     font-size: 0.8rem;
-        font-family: MTF Sweet Cheeks;
-/*        font-family: thin;*/
-        /* first # is top and bottom, second # is left and right margin */
-        margin: 0.25rem 0.5rem;
+    font-family: MTF Sweet Cheeks;
+/*  font-family: thin;*/
+/*  first # is top and bottom, second # is left and right margin */
+    margin: 0.25rem 0.5rem;
 }
 
 .top_Picture_Cover{
@@ -846,13 +831,10 @@ input:hover{
 }
 
 article {
-    text-align: left;
-/*  margin: 2rem 0rem;*/ 
-/*  padding: 2rem;*/
-/*  the border does not look nice */
-    /*border: 2px solid #929595;*/
+    text-align: center;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
+    display: inline-block;
 }
 
 
@@ -979,7 +961,7 @@ article {
     margin-left: 8em;
  }
 
-  .onpage-button-nav, .onpage-button-nav:visited{
+ .onpage-button-nav, .onpage-button-nav:visited{
     display: inline-block;
     background-color:  #F39873;
 /*  color: #F39873;*/
@@ -997,7 +979,7 @@ article {
 
     font-family: MTF Sweet Cheeks;
     font-weight: normal;
-    font-size: 1.2em;
+    font-size: 1.5em;
     text-align: center;
 /*  opacity: 0.7;*/
 }
@@ -1038,7 +1020,7 @@ article {
 
     font-family: MTF Sweet Cheeks;
     font-weight: normal;
-    font-size: 1.0em;
+    font-size: 1.3em;
     text-align: center;
 /*  background-color:  #F39873;*/
 }
@@ -1052,10 +1034,14 @@ article {
 
 .dd-button {
     display: inline-block;
-    color: #F39873;
+    background-color:  #F39873;
+/*  color: #F39873;*/
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    
     margin-left: auto;
     margin-right:auto;
-
     padding: 0.3em 0.3em;
     text-decoration: none;
     -webkit-transition: background-color 0.5s;
@@ -1064,7 +1050,7 @@ article {
 
     font-family: MTF Sweet Cheeks;
     font-weight: normal;
-    font-size: 1.2em;
+    font-size: 1.5em;
     text-align: center;
 }
 
@@ -1101,7 +1087,7 @@ a:hover {
     /*filter: alpha(opacity=40);*/
 
 /*  background-color:  #F39873;*/
-/*    color: white;
+/*  color: white;
     border-style: solid;
     border-width: 0.1rem;
     border-color: #929595;*/
@@ -1120,4 +1106,31 @@ a:hover {
     color: #C2C0BC;*/
 /*  border-radius: 0.25rem;*/
     opacity: 0.5;
+}
+
+.payment-figure{
+    margin: 0;
+    text-align: left;
+}
+
+.copyright{
+    font-size: 0.9rem;
+    font-family: Courier New, sans-serif;
+/*  font-family: thin;*/
+   /* first # is top and bottom, second # is left and right margin */
+}
+
+.sdetail{
+    font-size: 0.9rem;
+    font-family: Courier New;
+    text-align: center;
+}
+
+.product-image{
+    display: inline-block;
+/*  position: relative;*/
+    width: 13em;
+    height: 13em;
+    min-width: 8em;
+    min-height: 8em;
 }
