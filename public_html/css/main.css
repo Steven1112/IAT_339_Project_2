@@ -9,7 +9,7 @@ body{
 	background-color:white;
 	font-size: 16px;
 	/*color:#929595;*/
-	color: black;
+	color: #929595;
 }
 
 h1{
@@ -74,6 +74,192 @@ p,code,figcaption{
 	font-weight: lighter;
 }
 
+
+.dd {
+    position: relative;
+/*  max-width: 20em;*/
+}
+
+.dd-list {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+/* Just giving our drop-down items some styling */
+.dd-list li a {
+    display: block;
+/*  margin: 0.1em 0;*/
+/*  padding: 0.5em 0.7em;*/
+    color: #F39873;
+    margin-left: auto;
+    margin-right:auto;
+
+    padding: 0.3em 0.3em;
+    text-decoration: none;
+    -webkit-transition: background-color 0.5s;
+    transition: background-color 0.5s;
+    width:100%;
+
+    font-size: normal;
+    font-family:Oswald;
+    font-size: 1.5em;
+    text-align: center;
+    margin-top: 0.5em;
+/*  background-color:  #F39873;*/
+}
+
+.dd-list li a:hover{
+/*  background-color: #FCBCA7;
+    color: #C2C0BC;*/
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.dd-button {
+    display: inline-block;
+    background-color:  #F39873;
+    color: white;
+    margin-left: auto;
+    margin-right:auto;
+
+    padding: 0.3em 0.3em;
+    text-decoration: none;
+    -webkit-transition: background-color 0.5s;
+    transition: background-color 0.5s;
+    width:100%;
+
+    font-size: normal;
+    font-family:Oswald;
+    font-size: 1.7em;
+    text-align: center;
+}
+
+.dd-button:hover {
+/*  background-color: #FCBCA7;
+    color: #C2C0BC;*/
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.onpage-button-nav, .onpage-button-nav:visited{
+    display: inline-block;
+    background-color:  #F39873;
+/*  color: #F39873;*/
+    color: white;
+    text-decoration: none;
+    
+    margin-left: auto;
+    margin-right:auto;
+    padding: 0.3em 0.3em;
+    text-decoration: none;
+    -webkit-transition: background-color 0.5s;
+    transition: background-color 0.5s;
+    width:100%;
+
+    font-size: normal;
+    font-family:Oswald;
+    font-size: 1.7em;
+    text-align: center;
+/*  opacity: 0.7;*/
+}
+
+.onpage-button-nav:hover, .onpage-button-nav:active, .onpage-button-nav:focus{
+/*  background-color: #FCBCA7;
+    color: #C2C0BC;*/
+    text-decoration: none;
+    font-weight: bold;
+/*  opacity: 0.7;*/
+}
+
+.login-button-nav, .login-button-nav:visited{
+    display: inline-block;
+    /*background-color:  #F39873;*/
+    color: #F39873;
+    /*border-style: solid;
+    border-width: 0.1rem;
+    border-color: #929595;*/
+    padding: 0.3em 0.3em;
+    text-decoration: none;
+    -webkit-transition: background-color 0.5s;
+    transition: background-color 0.5s;
+    width:100%;
+/*  border-radius:10px;*/
+/*  border-radius: 0.25rem;*/
+/*    font-family: BAD SPIRIT;*/
+    font-size: 1.2em;
+    text-align: center;
+    font-size: normal;
+    font-family:Oswald;
+    float: right;
+}
+
+.login-button-nav:hover, .login-button-nav:active, .login-button-nav:focus{
+/*  border-radius: 0.25rem;*/
+/*  background-color: #FCBCA7;
+    color: #C2C0BC;*/
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+.button-nav, .button-nav:visited{
+    display: inline-block;
+    /*background-color:  #F39873;*/
+    color: #F39873;
+    margin-left: auto;
+    margin-right:auto;
+    /*border-style: solid;
+    border-width: 0.1rem;
+    border-color: #929595;*/
+    padding: 0.3em 0.3em;
+    text-decoration: none;
+    -webkit-transition: background-color 0.5s;
+    transition: background-color 0.5s;
+    width:100%;
+/*  border-radius:10px;*/
+  border-radius: 0.25rem;
+/*    font-family: BAD SPIRIT;*/
+    font-size: normal;
+    font-family:Oswald;
+    font-size: 1.7em;
+    text-align: center;
+}
+
+.button-nav:hover, .button-nav:active, .button-nav:focus{
+    /*  background-color: #FCBCA7;
+    color: #C2C0BC;*/
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+
+.button-nav-detail{
+    display: inline-block;
+    background-color:  #f3e9c2;
+    color: #F39873;
+    margin-left: auto;
+    margin-right:auto;
+    /*border-style: solid;
+    border-width: 0.1rem;
+    border-color: #929595;*/
+    padding: 0.3em 0.3em;
+    text-decoration: none;
+    -webkit-transition: background-color 0.5s;
+    transition: background-color 0.5s;
+    width:100%;
+/*  border-radius:10px;*/
+/*  border-radius: 0.25rem;*/
+    font-family:Oswald;
+    font-size: 1.4rem;
+    font-weight: normal;
+    text-align: center;
+}
+
+
+
+
 .pstyle{
 	font-size: 0.9rem;
 	font-family: Abadi MT Condensed Light;
@@ -94,7 +280,7 @@ p,code,figcaption{
 }
 
 .psubtitle{
-	ont-size: 1.1rem;
+	font-size: 1.1rem;
 	font-family:Oswald;
 	font-weight: lighter;
 	/* first # is top and bottom, second # is left and right margin */
@@ -153,7 +339,7 @@ a{
 .checkoutbutton{
 	background-color: #F39873;
 	color: white;
-/*	border-radius: 0.25rem;*/
+	border-radius: 0.25rem;
 /*	margin: 0.5rem 0.25rem 0.75rem 0.8rem;*/
     margin: 0.25rem 0.5rem;
     padding: 0.25rem 0.45rem;
@@ -286,38 +472,6 @@ article {
 }
 
 
-.button-nav, .button-nav:visited{
-	display: inline-block;
-	/*background-color:  #F39873;*/
-	color: black;
-    /*border-style: solid;*/
-    border-width: 0.1rem;
-    border-color: #929595;
-	padding: 1.5em 2em;
-	text-decoration: none;
-	-webkit-transition: background-color 0.5s;
-	transition: background-color 0.5s;
-	width:100%;
-/*	border-radius:10px;*/
-  border-radius: 0.25rem;
-	font-family: Oswald;
-	font-weight: bolder;
-	font-size: 1.5em;
-	text-align: center;
-}
-
-.button-nav:hover, .button-nav:active, .button-nav:focus{
-	background-color: #FCBCA7;
-	border-radius: 0.25rem;
-	/*color: #C2C0BC;*/
-	color: black;
-/*    border-radius: 0.25rem;*/
-	font-family:  Oswald;
-	font-weight: normal;
-	font-size: 1.5em;
-	text-align: center;
-}
-
 .addtoccart-button{
 	background-color: #F39873;
 	color: white;
@@ -339,4 +493,1062 @@ article {
 	color: #C2BFBB;
     border-radius: 0.25rem;
 	font-family:  Oswald;
+ }
+
+
+
+ .dd-button {
+    -webkit-transition: background-color 0.5s ease-out;
+    transition: background-color 0.5s ease-out;
+}
+
+
+
+/*
+    Here we have set up a class (.hide) to hide any element it
+    is applied to by setting it's visibility and opacity 
+    properties accordingly
+*/
+.hide {
+    visibility: hidden;
+    opacity: 0;
+}
+
+
+/*
+    Here we are applying a bit of transitioning to both the 
+    visibility and the opacity. We have to set the visibility
+    to transition due to the way the timing plays out in 
+    setting transitions in the page
+*/
+
+
+.dd>.dd-list {
+    /* 
+        To make sure that the list doesn't pop up when we hover
+        over the area it usually sits in, we need to set its
+        positioning to absolute
+    */
+    position: absolute;
+
+    -webkit-transition: visibility 0s linear 0.5s, opacity 0.5s ease-out;
+    transition: visibility 0s linear 0.5s, opacity 0.5s ease-out;
+}
+
+
+/*
+    Because we wrapped the drop-down list in a div (.dd), we can
+    now select it when the div is hovered over using child
+    selectors
+*/
+.dd:hover>.dd-list {
+    visibility: visible;
+    opacity: 1;
+    transition-delay: 0s;
+}
+
+
+
+*, *:after, *:before{
+        box-sizing:border-box;
+}
+
+
+ /*Top Area*/
+
+ .toparea{
+    /*display: block;
+    margin-left: auto;
+    margin-right: auto;*/
+ }
+
+.catlogo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0em;
+    width: auto;
+    height: auto;
+    min-width: 16em;
+    min-height: 10em;
+    z-index: 3;
+    /*opacity: 0.9;*/
+    /*filter: alpha(opacity=40);*/
+}
+
+
+.logo-name{
+    margin-left: auto;
+    margin-right: auto;
+/*  margin-top: 5em;*/
+}
+
+.topimage{
+  z-index: -999;
+  min-height: 100%;
+  min-width: 1024px;
+  width: 100%;
+  height: auto;
+  /*position: fixed;*/
+  top: 0;
+  left: 0;
+}
+
+
+.addtoccart-button{
+    background-color: #F39873;
+    color: white;
+/*    border-radius: 0.25rem;*/
+    font-family:  MTF Sweet Cheeks;;
+    font-weight: normal;
+    text-align: center;
+    margin: 0.25rem 0.5rem;
+    padding: 0.25rem 0.45rem;
+    font-size: 1.2em;
+    border-style: solid;
+    /*border-width: 0.1rem;
+    border-color: #929595;*/
+    float: center;
+}
+
+
+.addtoccart-button{
+    background-color: #F39873;
+    color: white;
+/*  border-radius: 0.25rem;*/
+/*  margin: 0.5rem 0.25rem 0.75rem 0.8rem;*/
+    margin: 0.25rem 0.5rem;
+    padding: 0.25rem 0.45rem;
+    font-family: Folktale;
+    text-align: center;
+    margin: center;
+    margin-top: 5em;
+    font-size: 1.2em;
+    /*border-style: solid;
+    border-width: 0.1rem;
+    border-color: #929595;*/
+}
+
+.paymentmethods{
+    /* background-color: #39261e;*/
+    color: grey;
+/*  border-radius: 0.25rem;*/
+/*  margin: 0.5rem 0.25rem 0.75rem 0.8rem;*/
+    margin: 0.25rem 0.5rem;
+    padding: 0.25rem 0.45rem;
+    font-size: 1.2em;
+    font-family:Folktale;
+    /*border-style: solid;
+    border-width: 0.1rem;
+    border-color: #929595;*/
+    /*position: absolute;*/
+    float:left;
+    left:4em;
+    top:25em;
+
+}
+
+.feedguildlines-p{
+    font-size: 0.9rem;
+    font-family: Courier New;
+/*  font-family: thin;*/
+   /* first # is top and bottom, second # is left and right margin */
+    margin: 0.25rem 0.5rem;
+}
+
+
+
+.speicalprice-feedguildlines{
+    color: grey;
+/*  border-radius: 0.25rem;*/
+/*  margin: 0.5rem 0.25rem 0.75rem 0.8rem;*/
+    margin: 0.25rem 0.5rem;
+    padding: 0.25rem 0.45rem;
+    font-family:Folktale;
+    font-size: 1.2em;
+    /*border-style: solid;
+    border-width: 0.1rem;
+    border-color: #929595;*/
+    /*position: absolute;*/
+    float:center;
+    left:4em;
+    top:25em;
+
+}
+
+.specialprice{
+    font-size: 1.2rem;
+    font-family: Oswald;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.intext-button-nav{
+/*  color: #b5cabb;*/
+    color: #929595;
+    text-align: center;
+
+    font-family:Oswald;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+ .pmiddle{
+    font-size: 3rem;
+    font-family:Abadi MT Condensed Extra Bold;
+/*  font-family: thin;*/
+    /* first # is top and bottom, second # is left and right margin */
+    margin: 0.25rem 0.5rem;
+}
+
+.textmiddle{
+    z-index: 100;
+    /*color:#929595;*/
+    color:white;
+    /*top:10em;*/
+    /*padding: -20em;*/
+    /* float:left; */
+    margin-left:40em;
+    margin-top: -30em;
+    /*position: absolute;*/
+    /*background-color: rgba(255, 237, 221, 0.8);*/
+    max-width: 50em;
+    min-width: 20em;
+}
+
+
+.pmiddletext{
+    font-size: 1rem;
+    font-family: Abadi MT Condensed Light;
+/*  font-family: thin;*/
+    /* first # is top and bottom, second # is left and right margin */
+    margin: 0.25rem 0.5rem;
+}
+
+
+
+.bottomtext_left{
+    font-size: 0.9rem;
+    font-family: Abadi MT Condensed Light;
+/*  font-family: thin;*/
+/*  first # is top and bottom, second # is left and right margin */
+    margin: 0.25rem 0.5rem;
+    margin-top: 30em;
+    border-style: dashed;
+    border-width: 0.1rem;
+    border-color: #929595;
+    margin: 0.25rem 0.5rem;
+    margin-top: 30em;
+    margin-left: 5em;
+}
+
+.bottomtext_right{
+    font-size: 0.9rem;
+    font-family: Abadi MT Condensed Light;
+/*  font-family: thin;*/
+/*  first # is top and bottom, second # is left and right margin */
+    margin: 0.25rem 0.5rem;
+    margin-top: 10em;
+    margin-left: 5em;
+    border-style: dashed;
+    border-width: 0.1rem;
+    border-color: #929595;
+}
+
+
+.bottomimage{
+    margin-left: 10em;
+    margin-top: 25em;
+}
+
+
+.button-nav-detail{
+    display: inline-block;
+    background-color:  #f3e9c2;
+    color: #F39873;
+    margin-left: auto;
+    margin-right:auto;
+    /*border-style: solid;
+    border-width: 0.1rem;
+    border-color: #929595;*/
+    padding: 0.3em 0.3em;
+    text-decoration: none;
+    -webkit-transition: background-color 0.5s;
+    transition: background-color 0.5s;
+    width:100%;
+/*  border-radius:10px;*/
+/*  border-radius: 0.25rem;*/
+    font-family:Oswald;
+    font-size: 1.4rem;
+    font-weight: normal;
+    text-align: center;
+}
+
+.button-nav-detail:hover{
+    font-weight: bold;
+}
+
+
+.coltext_bottom{
+    padding-left: 10em;
+    margin-top: 10em;
+    margin: center;
+}
+
+
+
+
+p.prightstext{
+    font-size: 1.1rem;
+    font-family: Abadi MT Condensed Light;
+/*  font-family: thin;*/
+/*  first # is top and bottom, second # is left and right margin */
+    margin: 0.25rem 0.5rem;
+    /*background: #f3e9c2;*/
+    text-align: left;
+}
+
+
+
+.cat-foods-product-list-image-layout{
+    margin-top: 2em;
+/*  margin-right: 8em;*/
+    margin-left: 3em;
+    margin-right: 3em;
+ }
+
+
+
+
+/*rights Area open*/
+
+.homebottom{     
+    margin-top: 5em;
+    z-index: -999;
+    min-height: 100%;
+    min-width: 1024px;
+    margin-left: -5em;
+    width: 150%;
+}
+
+.squareup{
+    height: 10%;
+    width: 100%;
+    /*background-color:#C2C0BC;*/
+    border-style: dashed;
+    border-width: 0.1rem;
+    /*border-color: #929595;*/
+    margin-top: 5em;
+}
+
+.squaredown{
+    height: 35%;
+    width: 100%;
+    /*background-color:#C2C0BC;*/
+    border-style: dashed;
+    border-width: 0.1rem;
+    border-color: #929595;
+}
+
+
+.rights_left{
+    margin-top: -7em;
+    margin-left: 15em;
+    border-style: dotted;
+    border-width: 0.1rem;
+    border-color: #929595;
+    background-color: #f1e4d2;
+
+
+}
+
+.rights_left2{
+    margin-top: -7em;
+    margin-left: 15em;
+
+    border-style: dotted;
+    border-width: 0.1rem;
+    border-color: #929595;
+    background-color: red;
+}
+
+
+.p-payment-method{
+    font-size: 1.7rem;
+    font-family:Abadi MT Condensed Extra Bold;
+    text-align: left;
+    display: inline-block;
+    color: #382843;
+/*  margin: 0.25rem 0.5rem;*/
+}
+
+/*rights Area Closed*/
+
+
+
+.col-image-cool{
+    position: absolute;
+    top:-16em;
+    right:30em;
+}
+
+.square-box_top{
+    position: relative;
+    top:30em;
+    width: 100%;
+    overflow: hidden;
+    background: #929595;
+
+}
+
+.square-box_bottom{
+    position: relative;
+    top:10em;
+    width: 100%;
+    overflow: hidden;
+    background: #929595;
+
+}
+
+.square-box_top{
+    position: relative;
+    top:65em;
+    width: 100%;
+    overflow: hidden;
+    background: #929595;
+
+}
+
+.square-box_bottom{
+    position: relative;
+    top:46.5em;
+    left:37.5em;
+    width: 20%;
+    overflow: hidden;
+    background: #929595;
+
+}
+
+.square-box_text{
+    position: relative;
+    top:46.15em;
+    left:55.5em;
+    width: 20%;
+    overflow: hidden;
+    background: #929595;
+
+}
+
+.square-content{
+        color:transparent;
+}
+
+
+.pstyle{
+    font-size: 0.9rem;
+    font-family: Abadi MT Condensed Light;
+/*  font-family: thin;*/
+/*  first # is top and bottom, second # is left and right margin */
+    margin: 0.25rem 0.5rem;
+/*  try make a paragraph half-page length*/
+    width: 50%
+}
+
+
+
+.psubtitle{
+    font-size: 1.2rem;
+    font-family:Abadi MT Condensed Extra Bold;
+/*  font-family: thin;*/
+/*  first # is top and bottom, second # is left and right margin */
+    position: relative;
+    left:1em;
+}
+
+
+.link{
+    font-size: 0.9rem;
+    font-family: MTF Sweet Cheeks;
+/*  font-family: thin;*/
+/*  first # is top and bottom, second # is left and right margin */
+    margin: 0.25rem 0.5rem;
+    color: #F39873;;
+}
+
+.button{
+    display: inline-block;
+    font-family: MTF Sweet Cheeks;
+
+    text-decoration: none;
+}
+
+nav .button{
+    background-color: #F39873;
+    color: white;
+/*  border-radius: 0.25rem;*/
+/*  margin: 0.5rem 0.25rem 0.75rem 0.8rem;*/
+    margin: 0.25rem 0.5rem;
+    padding: 0.25rem 0.45rem;
+    font-family: MTF Sweet Cheeks;
+    border-style: solid;
+    border-width: 0.1rem;
+    border-color: #929595;
+}
+
+nav .button:hover{
+    background-color: #F39873;
+    color: #C2BFBB;
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.checkoutbutton{
+    background-color: #F39873;
+    color: white;
+/*  border-radius: 0.25rem;*/
+/*  margin: 0.5rem 0.25rem 0.75rem 0.8rem;*/
+    margin: 0.25rem 0.5rem;
+    padding: 0.25rem 0.45rem;
+    font-family: Abadi MT Condensed Light;
+    text-align: center;
+    font-size: 1.2em;
+    border-style: solid;
+    border-width: 0.1rem;
+    border-color: #929595;
+}
+
+.checkoutbutton:hover{
+    background-color: #C2BFBB;
+    color: #929595;
+    text-decoration: none;
+    text-align: center;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+/*responsive image styles*/
+img{
+    background-color: rgba(255, 237, 221, 0.3);
+}
+
+
+.mainpage-img{
+    float: left;
+}
+
+.square-box{
+        margin-top:3em;
+        height: 0.5;
+        width: 100%;
+        background-color: #FFFDFA;
+}
+
+figure{
+
+}
+
+form{
+    background-color: #FFFDFA;
+    display: inline-block;
+    padding: 1rem;
+    width: 40%
+    font-family: Abadi MT Condensed Light;
+}
+
+label{
+    font-size: 1.2rem;
+    font-family: Oswald;
+    font-weight: lighter;
+    text-align: left;
+    display: block;
+}
+
+.top_Picture_Cover{
+  height: 450px;
+  width: auto;
+  background-size: 100% 160%;
+  /*border: 3px solid #929595;
+  color: #000; text-shadow: 1px 1px 0 #fff;*/
+  margin-top: 1em;
+  position: relative;
+  opacity: 10%;
+  
+}
+
+.bottom_Picture_Cover{
+  height: 400px;
+  width: 400px;
+  background-image: url('http://www.nipandbones.com/images/products/mice/cat-toys/cat-supplies/hypnomice.jpg');
+  background-size: 100%;
+ /* border: 2px solid white;*/
+  color: #000; 
+  float: left;
+ 
+  /* margin: 0 auto; */
+}
+
+input.submit,input.reset{
+    background-color: #F39873;
+    color: white;
+/*  border-radius: 0.25rem;*/
+    font-family:Oswald;
+    font-size: 1.2rem;
+    font-weight: normal;
+    text-align: center;
+    /*border-style: solid;
+    border-width: 0.1rem;
+    border-color: #929595;*/
+}
+
+input.text,textarea{
+    background-color: #F39873;
+    color: white;
+/*  border-radius: 0.25rem;*/
+    margin: 0.25rem 0.5rem;
+    padding: 0.25rem 0.45rem;
+}
+
+input.submit:hover,input.reset:,input.text:hover,textarea:hover{
+    text-decoration: none;
+    font-weight: bold;
+}
+
+input.submitcomment{
+    background-color: #F39873;
+    color: white;
+/*  border-radius: 0.25rem;*/
+    margin: 0.25rem 0.5rem;
+    padding: 0.25rem 0.45rem;
+    font-size: 0.7em;
+    /*border-style: solid;
+    border-width: 0.1rem;
+    border-color: #929595;*/
+    float: right;
+}
+
+input.submitcomment{
+    background-color: #FCBCA7;
+    color: white;
+    text-decoration: none;
+}
+
+
+input{
+
+}
+
+input:hover{
+    text-decoration: none;
+    font-weight: bold;
+}
+
+textarea{
+    background-color: white;
+    color: white;
+    width: 72.5rem;
+    width: 100%;
+    min-width: 10em;
+    min-height: 10rem;
+    font-size: 0.9rem;
+    font-family: Oswald;
+    font-weight: lighter;
+    text-align: left;
+    display: block;
+    resize: width;
+}
+
+article {
+    text-align: center;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+
+.image-button-nav-cat-foods, .image-button-nav-cat-foods:visited{
+/*  add background image for the cat foods product list image button */
+    background: transparent url(../img/Cat_Foods_Icon.jpg) no-repeat;
+    display: inline-block;
+    position: relative;
+    width: 30rem;
+    height: 24rem;
+
+/*  background-color:  #F39873;*/
+    color: white;
+    /*border-style: solid;
+    border-width: 0.1rem;
+    border-color: #929595;*/
+    padding: 0.3em 0.3em;
+    text-decoration: none;
+    -webkit-transition: background-color 0.5s;
+    transition: background-color 0.5s;
+    font-family: MTF Sweet Cheeks;
+    font-weight: normal;
+    font-size: 1em;
+    text-align: center;
+}
+
+.image-button-nav-cat-toys, .image-button-nav-cat-toys:visited{
+/*  add background image for the cat toys product list image button */
+    background: transparent url(../img/Cat_Toys_Icon.png) no-repeat;
+    display: inline-block;
+    position: relative;
+    width: 30rem;
+    height: 24rem;
+
+/*  background-color:  #F39873;*/
+    color: white;
+    border-style: solid;
+    border-width: 0.1rem;
+    border-color: #929595;
+    padding: 0.3em 0.3em;
+    text-decoration: none;
+    -webkit-transition: background-color 0.5s;
+    transition: background-color 0.5s;
+    font-family: MTF Sweet Cheeks;
+    font-weight: normal;
+    font-size: 1em;
+    text-align: center;
+}
+
+.image-button-nav-cat-clothes, .image-button-nav-cat-clothes:visited{
+/*  add background image for the cat toys product list image button */
+    background: transparent url(../img/Cat_Clothes_Icon.jpg) no-repeat;
+    display: inline-block;
+    position: relative;
+    width: 30rem;
+    height: 24rem;
+
+/*  background-color:  #F39873;*/
+    color: white;
+    border-style: solid;
+    border-width: 0.1rem;
+    border-color: #929595;
+    padding: 0.3em 0.3em;
+    text-decoration: none;
+    -webkit-transition: background-color 0.5s;
+    transition: background-color 0.5s;
+    font-family: MTF Sweet Cheeks;
+    font-weight: normal;
+    font-size: 1em;
+    text-align: center;
+}
+
+.image-button-nav-cat-foods:hover, .image-button-nav-cat-foods:active, .image-button-nav-cat-foods:focus{
+    background-color: #FCBCA7;
+    color: #C2C0BC;
+/*  border-radius: 0.25rem;*/
+}
+
+.image-button-nav-cat-toys:hover, .image-button-nav-cat-toys:active, .image-button-nav-cat-toys:focus{
+    background-color: #FCBCA7;
+    color: #C2C0BC;
+/*  border-radius: 0.25rem;*/
+}
+
+.image-button-nav-cat-clothes:hover, .image-button-nav-cat-clothes:active, .image-button-nav-cat-clothes:focus{
+    background-color: #FCBCA7;
+    color: #C2C0BC;
+/*  border-radius: 0.25rem;*/
+}
+
+
+/* set top main navigation layout */
+ .topmenu{
+    margin-left: 8em;
+    margin-top: 0em;
+    margin-right: 8em;
+ }
+
+/* set layout for three login buttons */
+ .login-methods{
+    margin-right: 8em;
+    margin-top: 2em;
+    margin-left: 8em;
+ }
+
+ .cat-foods-image-button-layout{
+    margin-left: 8em;
+    margin-top: 10em;
+ }
+
+ .cat-toys-image-button-layout{
+    margin-left: 8em;
+/*  margin-top: 10em;*/
+ }
+
+ .cat-clothes-image-button-layout{
+    margin-left: 8em;
+/*  margin-top: 10em;*/
+ }
+
+
+.dd {
+    position: relative;
+/*  max-width: 20em;*/
+}
+
+.dd-list {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+/* Just giving our drop-down items some styling */
+.dd-list li a {
+    display: block;
+/*  margin: 0.1em 0;*/
+/*  padding: 0.5em 0.7em;*/
+    color: #F39873;
+    margin-left: auto;
+    margin-right:auto;
+
+    padding: 0.3em 0.3em;
+    text-decoration: none;
+    -webkit-transition: background-color 0.5s;
+    transition: background-color 0.5s;
+    width:100%;
+
+    font-size: normal;
+    font-family:Oswald;
+    font-size: 1.5em;
+    text-align: center;
+    margin-top: 0.5em;
+/*  background-color:  #F39873;*/
+}
+
+.dd-list li a:hover{
+/*  background-color: #FCBCA7;
+    color: #C2C0BC;*/
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.dd-button {
+    display: inline-block;
+    background-color:  #F39873;
+    color: white;
+    margin-left: auto;
+    margin-right:auto;
+
+    padding: 0.3em 0.3em;
+    text-decoration: none;
+    -webkit-transition: background-color 0.5s;
+    transition: background-color 0.5s;
+    width:100%;
+
+    font-size: normal;
+    font-family:Oswald;
+    font-size: 1.7em;
+    text-align: center;
+}
+
+.dd-button:hover {
+/*  background-color: #FCBCA7;
+    color: #C2C0BC;*/
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.onpage-button-nav, .onpage-button-nav:visited{
+    display: inline-block;
+    background-color:  #F39873;
+/*  color: #F39873;*/
+    color: white;
+    text-decoration: none;
+    
+    margin-left: auto;
+    margin-right:auto;
+    padding: 0.3em 0.3em;
+    text-decoration: none;
+    -webkit-transition: background-color 0.5s;
+    transition: background-color 0.5s;
+    width:100%;
+
+    font-size: normal;
+    font-family:Oswald;
+    font-size: 1.7em;
+    text-align: center;
+/*  opacity: 0.7;*/
+}
+
+.onpage-button-nav:hover, .onpage-button-nav:active, .onpage-button-nav:focus{
+/*  background-color: #FCBCA7;
+    color: #C2C0BC;*/
+    text-decoration: none;
+    font-weight: bold;
+/*  opacity: 0.7;*/
+}
+
+.login-button-nav, .login-button-nav:visited{
+    display: inline-block;
+    /*background-color:  #F39873;*/
+    color: #F39873;
+    /*border-style: solid;
+    border-width: 0.1rem;
+    border-color: #929595;*/
+    padding: 0.3em 0.3em;
+    text-decoration: none;
+    -webkit-transition: background-color 0.5s;
+    transition: background-color 0.5s;
+    width:100%;
+/*  border-radius:10px;*/
+/*  border-radius: 0.25rem;*/
+/*    font-family: BAD SPIRIT;*/
+    font-size: 1.2em;
+    text-align: center;
+    font-size: normal;
+    font-family:Oswald;
+    float: right;
+}
+
+.login-button-nav:hover, .login-button-nav:active, .login-button-nav:focus{
+/*  border-radius: 0.25rem;*/
+/*  background-color: #FCBCA7;
+    color: #C2C0BC;*/
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+.button-nav, .button-nav:visited{
+    display: inline-block;
+    /*background-color:  #F39873;*/
+    color: #F39873;
+    margin-left: auto;
+    margin-right:auto;
+    /*border-style: solid;
+    border-width: 0.1rem;
+    border-color: #929595;*/
+    padding: 0.3em 0.3em;
+    text-decoration: none;
+    -webkit-transition: background-color 0.5s;
+    transition: background-color 0.5s;
+    width:100%;
+/*  border-radius:10px;*/
+/*  border-radius: 0.25rem;*/
+/*    font-family: BAD SPIRIT;*/
+    font-size: normal;
+    font-family:Oswald;
+    font-size: 1.7em;
+    text-align: center;
+}
+
+.button-nav:hover, .button-nav:active, .button-nav:focus{
+    /*  background-color: #FCBCA7;
+    color: #C2C0BC;*/
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.logo-image-button, .logo-image-button:visited{
+/*  add background image for the cat foods product list image button */
+    background: transparent url(../img/catlogo.png) no-repeat;
+/*  background-position: center;*/
+/*  background-size: 100% 160%;*/
+/*  position: relative;*/
+    display: inline-block;
+    margin-left: 8em;
+    margin-right: 8em;
+    margin-top: 1em;
+    margin-bottom: 2em;
+    width: auto;
+    height: auto;
+    min-width: 26.4em;
+    min-height: 16em;
+    z-index: 3;
+    float: left;
+    /*opacity: 0.9;*/
+    /*filter: alpha(opacity=40);*/
+
+/*  background-color:  #F39873;*/
+/*    color: white;
+    border-style: solid;
+    border-width: 0.1rem;
+    border-color: #929595;*/
+    padding: 0.3em 0.3em;
+    text-decoration: none;
+    -webkit-transition: background-color 0.5s;
+    transition: background-color 0.5s;
+    font-family: MTF Sweet Cheeks;
+    font-weight: normal;
+    font-size: 1em;
+    text-align: center;
+}
+
+.logo-image-button:hover, .logo-image-button:active, .logo-image-button:focus{
+/*  background-color: #FCBCA7;
+    color: #C2C0BC;*/
+/*  border-radius: 0.25rem;*/
+    opacity: 0.5;
+}
+
+.Whiskas_large{
+    margin-top: 5em;
+    margin-left: 8em;
+    margin-right: 8em;
+}
+
+.catfoodintroduction{
+    margin-top: 5em;
+    margin-left: 0em;
+    margin-right: 8em;
+}
+
+.customer-reviews{
+    margin-left: 8em;
+    margin-right: 8em;
+    margin-top: 5em;
+}
+
+.comments{
+    margin-top: 5em;
+    margin-left: 8em;
+    margin-right: 8em;
+}
+
+.product-image{
+    display: inline-block;
+/*  position: relative;*/
+    width: 13em;
+    height: 13em;
+    min-width: 8em;
+    min-height: 8em;
+}
+
+
+.specialprice-title{
+    font-size: 1.4rem;
+    font-family: Oswald;
+/*  font-weight: lighter;*/
+}
+
+.pprice{
+    font-size: 1.2rem;
+    font-family: Oswald;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.sdetail{
+    font-size: 1rem;
+    font-family: Oswald;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.payment-figure{
+    margin: 0;
+    text-align: left;
+}
+
+.payment-methods-layout{
+    margin-right: 8em;
+    margin-top: 3em;
+    margin-left: 8em;
  }

@@ -200,29 +200,44 @@
         <header id="home">
 
          <!-- use the flexbox model -->
-         <nav class="navigation">
-  
-          <div class="navigation-item-nav">
-            <br><a href="#home" class="button-nav">Home</a>
+         
+      <nav class="topmenu">
+
+        <div class="grid">
+
+          <div class="grid-col-25of100">
+            <a href="home.html" class="button-nav">Home</a>
           </div>
 
-          <div class="navigation-item-nav">
-            <br><a href="http://www.homesalive.ca/cat/food.html" class="button-nav">Shop</a>
+          <div class="grid-col-25of100">
+
+            <div class="dd">
+              <a href="shop_page.html" class="dd-button">Shop</a>
+              <ul class="dd-list hide">
+                <li><a href="#">Cat Food</a></li>
+                <li><a href="#">Cat Toy</a></li>
+                <li><a href="#">Cat Clothes</a></li>
+              </ul>
+            </div>
+<!--             <a href="shop_page.html" class="button-nav">Shop</a> -->
+
           </div>
 
-          <div class="navigation-item-nav">
-            <br><a href="http://torontocatrescue.ca/events/" class="button-nav">Special Offers</a>
+          <div class="grid-col-25of100">
+            <a href="about.html" class="button-nav">About Us</a>
           </div>
 
-          <div class="navigation-item-nav">
-            <br><a href="http://www.grumpycats.com/about-grumpy-cat/" class="button-nav">About Us</a>
+          <div class="grid-col-25of100">
+            <a href="contact.html" class="button-nav">Contact Us</a>
           </div>
 
-          <div class="navigation-item-nav">
-            <br><a href="http://www.grumpycats.com/contact-us/contact/" class="button-nav">Contact Us</a>
-          </div>
+          <div class="grid-col-25of100">
+            &nbsp;
+          </div> 
 
-         </nav>
+        </div>
+
+      </nav>
 
         </header>
 
@@ -286,82 +301,97 @@
           <h3>Rendered element: </h3>
 
           <div class="navigation-item-article-image"> <!-- Opening up the three images for the first three items -->
-            <figure>
-               <img alt="cat food 1" src="img/Cat_Food_1.jpg" width="300" height="300">
-               <img alt="cat food 2" src="img/Cat_Food_2.jpg" width="300" height="300">
-               <img alt="cat food 3" src="img/Cat_Food_3.jpg" width="300" height="300">
-            </figure>
+             <figure>
+                <img alt="cat food 2" src="img/Cat_Food_2.jpg" width="800" height="800">
+                <img alt="cat food 3" src="img/Cat_Food_3.jpg" width="800" height="800">
+                <img alt="cat food 4" src="img/Cat_Food_1.jpg" width="800" height="800"> 
+              </figure>
+            </div>
 
-          </div> <!-- Closing the first three previews of first three products -->
-          
-          <article id="cat-food-1" class="navigation-item-article">
+          </div>
+
           <div class="navigation"> <!-- Here we are opening a box in a box; useful for structuring smaller sections -->
-          <div class="navigation-item-article-text1"> <!-- Starting product 1 -->
-            <p class="pprice">Cat Food 1 &nbsp; $24.99</p>
-            <br><p class="psubtitle">Try Me! Your kitty will love you!</p>
-            <nav>
-               <br><a class="button" href="#customer-reviews">Choose</a>
-            </nav>
-          </div> <!-- Closing product 1 -->
 
-          <div class="navigation-item-article-text2"> <!-- Starting product 2 -->
-            <p class="pprice">Cat Food 2 &nbsp; $24.99</p>
-            <br><p class="psubtitle">Try Me! Otherwise, your kitty will hate you!</p>
-            <nav>
-               <br><a class="button" href="#customer-reviews">Choose</a>
-            </nav>
-          </div> <!-- Closing product 2 -->
+            <article id="cat-food-3" class="navigation-item-article">
+              
+              <div class="navigation"> <!-- Here we are opening a box in a box; useful for structuring smaller sections -->
+                              
+                <div class="navigation-item-article-text1"> <!-- Starting product 1 -->
+                  <p class="pprice">Cat Food 1 &nbsp; $24.99</p>
+                  <br><p class="psubtitle">Try it! Your kitty will love you!</p>
+                  <nav>
+                    <br><a class="button" href="#customer-reviews">Choose</a>
+                  </nav>
+                </div> <!-- Closing product 1 -->
 
-          <div class="navigation-item-article-text3"> <!-- Starting product 3 -->
-            <p class="pprice">Cat Food 3 &nbsp; $19.99</p>
-            <br><p class="psubtitle">Try Me! This is the new flavor.</p>
-            <nav>
-               <br><a class="button" href="#customer-reviews">Choose</a>
-            </nav>
-          </div> <!-- Closing product 3 -->
+                <div class="navigation-item-article-text2"> <!-- Starting product 2 -->
+                  <p class="pprice">Cat Food 2 &nbsp; $24.99</p>
+                  <br><p class="psubtitle">Try it! Otherwise, your kitty will hate you!</p>
+                  <nav>
+                    <br><a class="button" href="#customer-reviews">Choose</a>
+                  </nav>
+                </div> <!-- Closing product 2 -->
+
+                <div class="navigation-item-article-text3"> <!-- Starting product 3 -->
+                  <p class="pprice">Cat Food 3 &nbsp; $19.99</p>
+                  <br><p class="psubtitle">Try it! This is the new flavor.</p>
+                  <nav>
+                    <br><a class="button" href="#customer-reviews">Choose</a>
+                  </nav>
+                </div> <!-- Closing product 3 -->
+
+              </div>
 
           </div> 
 
           </article>
 
           <div class="navigation-item-article-image"> <!-- Opening up the three images for the first three items -->
-            <figure>
-               <img alt="cat food 1" src="img/Cat_Food_4.jpg" width="300" height="300">
-               <img alt="cat food 2" src="img/Cat_Food_5.jpg" width="300" height="300">
-               <img alt="cat food 3" src="img/Cat_Food_6.jpg" width="300" height="300">
-            </figure>
+             <figure>
+                <img alt="cat food 2" src="img/Cat_Food_4.jpg" width="800" height="800">
+                <img alt="cat food 3" src="img/Cat_Food_5.jpg" width="800" height="800">
+                <img alt="cat food 4" src="img/Cat_Food_6.jpg" width="800" height="800"> 
+              </figure>
+            </div>
 
-          </div> <!-- Closing the first three previews of first three products -->
+          </div>
 
-          <article id="cat-food-2" class="navigation-item-article">
           <div class="navigation"> <!-- Here we are opening a box in a box; useful for structuring smaller sections -->
-          <div class="navigation-item-article-text1"> <!-- Starting product 4 -->
-            <p class="pprice">Cat Food 4 &nbsp; $24.99</p>
-            <br><p class="psubtitle">Try it! For your royal cat!</p>
-            <nav>
-               <br><a class="button" href="#customer-reviews">Choose</a>
-            </nav>
-          </div> <!-- Closing product 4 -->
 
-          <div class="navigation-item-article-text2"> <!-- Starting product 5 -->
-            <p class="pprice">Cat Food 5 &nbsp; $19.99</p>
-            <br><p class="psubtitle">Try it! For your 1 year plus kitty!</p>
-            <nav>
-               <br><a class="button" href="#customer-reviews">Choose</a>
-            </nav>
-          </div> <!-- Closing product 5 -->
+            <article id="cat-food-3" class="navigation-item-article">
+              
+              <div class="navigation"> <!-- Here we are opening a box in a box; useful for structuring smaller sections -->
+                              
+                <div class="navigation-item-article-text1"> <!-- Starting product 1 -->
+                  <p class="pprice">Cat Food 4 &nbsp; $24.99</p>
+                  <br><p class="psubtitle">Try it! Your kitty will love you!</p>
+                  <nav>
+                    <br><a class="button" href="#customer-reviews">Choose</a>
+                  </nav>
+                </div> <!-- Closing product 1 -->
 
-          <div class="navigation-item-article-text3"> <!-- Starting product 6 -->
-            <p class="pprice">Cat Food 6 &nbsp; $24.99</p>
-            <br><p class="psubtitle">Try it! For your junior kitty!</p>
-            <nav>
-               <br><a class="button" href="#customer-reviews">Choose</a>
-            </nav>
-          </div> <!-- Closing product 6 -->
+                <div class="navigation-item-article-text2"> <!-- Starting product 2 -->
+                  <p class="pprice">Cat Food 5 &nbsp; $24.99</p>
+                  <br><p class="psubtitle">Try it! Otherwise, your kitty will hate you!</p>
+                  <nav>
+                    <br><a class="button" href="#customer-reviews">Choose</a>
+                  </nav>
+                </div> <!-- Closing product 2 -->
+
+                <div class="navigation-item-article-text3"> <!-- Starting product 3 -->
+                  <p class="pprice">Cat Food 6 &nbsp; $19.99</p>
+                  <br><p class="psubtitle">Try it! This is the new flavor.</p>
+                  <nav>
+                    <br><a class="button" href="#customer-reviews">Choose</a>
+                  </nav>
+                </div> <!-- Closing product 3 -->
+
+              </div>
 
           </div> 
 
-          </article>
+            </article>
+
 
 <!--           <div class="navigation-item-article-text2">
              <a class="checkoutbutton" href="#products">Check Out</a>
@@ -414,7 +444,7 @@
 
              <br><br><code>Other codes are quite similar to above codes.</code>
           
-          <h3>Rendered element: </h3>
+          <h2>Rendered element: </h2>
 
            <div class="navigation"> <!-- Here we are opening a box in a box; useful for structuring smaller sections -->
 
@@ -453,7 +483,7 @@
 
           <div id="related-products">
 
-            <h3>Related Products</h3>
+            <h2>Related Products</h2>
 
             <div class="navigation-item-article-image"> <!-- Opening up the three images for the first three items -->
               <figure>
@@ -473,7 +503,7 @@
                               
                 <div class="navigation-item-article-text1"> <!-- Starting product 1 -->
                   <p class="pprice">Cat Food 1 &nbsp; $24.99</p>
-                  <br><p class="pprice">Try it! Your kitty will love you!</p>
+                  <br><p class="psubtitle">Try it! Your kitty will love you!</p>
                   <nav>
                     <br><a class="button" href="#customer-reviews">Choose</a>
                   </nav>
@@ -481,7 +511,7 @@
 
                 <div class="navigation-item-article-text2"> <!-- Starting product 2 -->
                   <p class="pprice">Cat Food 2 &nbsp; $24.99</p>
-                  <br><p class="pprice">Try it! Otherwise, your kitty will hate you!</p>
+                  <br><p class="psubtitle">Try it! Otherwise, your kitty will hate you!</p>
                   <nav>
                     <br><a class="button" href="#customer-reviews">Choose</a>
                   </nav>
@@ -489,7 +519,7 @@
 
                 <div class="navigation-item-article-text3"> <!-- Starting product 3 -->
                   <p class="pprice">Cat Food 3 &nbsp; $19.99</p>
-                  <br><p class="pprice">Try it! This is the new flavor.</p>
+                  <br><p class="psubtitle">Try it! This is the new flavor.</p>
                   <nav>
                     <br><a class="button" href="#customer-reviews">Choose</a>
                   </nav>
@@ -503,7 +533,7 @@
 
           <div id="customer-reviews">
             
-            <h3>Customer Reviews</h3>
+            <h2>Customer Reviews</h2>
               
             <p class="pprice">Nathan:</p>
             <p>How does the grain free variety compare? It’s a good price and the ingredients seem okay to me. I use it as a supplemental food. Many of the FF meals do not have a high-quality nutritional profile such as this one. I like that meat and broth are the first ingredient vs by products. I also like that allergens such as soy, corn and wheat are absent from the ingredients. Both cats love it. Please don't change the ingredients.</p>
@@ -540,35 +570,35 @@
           <h3>Sample code: </h3>
              <code>&lt;a class="link" href="http://placekitten.com" class="in-text-link-text"&gt;in-text link style&lt;/a&gt;</code>
              <br><code>&lt;a class="link" href="http://placekitten.com"&gt;I am an external link.&lt;/a&gt;</code>
+  </div><!-- Closing a in-text link -->
 
-          <h3>Reference1:http://cache3.asset-cache.net/xc/519971769.jpg?v=2&c=IWSAsset&k=2&d=WYThnJLtbqAVSlEZ8MyHHJBUBUtezc4iwYyU7X6-O-XlzbXipQBiUgwBaCbwQ92P0 </h3>
+  <div class="reference1">
+    <h2>Reference
+          <p>Reference:http://cache3.asset-cache.net/xc/519971769.jpg?v=2&c=IWSAsset&k=2&d=WYThnJLtbqAVSlEZ8MyHHJBUBUtezc4iwYyU7X6-O-XlzbXipQBiUgwBaCbwQ92P0 </p>
 
-          http://www.coolanimalworld.com/wp-content/uploads/2013/08/Lovely-cat-and-beautifyl-owner-at-a-leisurely-rainy-day-04.jpg
+          <p>http://www.coolanimalworld.com/wp-content/uploads/2013/08/Lovely-cat-and-beautifyl-owner-at-a-leisurely-rainy-day-04.jpg</p>
 
-          http://blog.nj.com/hudsoncountynow_impact/2009/03/large_MORGA2.jpg
+          <p>http://blog.nj.com/hudsoncountynow_impact/2009/03/large_MORGA2.jpg</p>
 
-          http://media.oregonlive.com/oregon_city_news/photo/milandownerjpg-75c960a041da380c.jpg
+          <p>http://media.oregonlive.com/oregon_city_news/photo/milandownerjpg-75c960a041da380c.jpg</p>
 
-          http://jadelouisedesigns.com/wp-content/uploads/2013/09/IMG_9403.jpg
+          <p>http://jadelouisedesigns.com/wp-content/uploads/2013/09/IMG_9403.jpg</p>
 
 
-          http://i.huffpost.com/gen/1736904/images/o-PET-FOOD-facebook.jpg
+          <p>http://i.huffpost.com/gen/1736904/images/o-PET-FOOD-facebook.jpg</p>
 
-          http://www.pets4homes.co.uk/images/articles/1246/large/how-to-give-your-cat-a-monthly-health-check-52a3b2f3d92b2.jpg
+          <p>http://www.pets4homes.co.uk/images/articles/1246/large/how-to-give-your-cat-a-monthly-health-check-52a3b2f3d92b2.jpg</p>
 
-          http://www.catloversdiary.com/wp-content/uploads/2012/07/catnip_cat_care_cat_health.jpg
+          <p>http://www.catloversdiary.com/wp-content/uploads/2012/07/catnip_cat_care_cat_health.jpg</p>
 
-          http://img04.taobaocdn.com/bao/uploaded/i4/2323959333/TB2JJ_DbpXXXXXHXpXXXXXXXXXX_!!2323959333.jpg
+          <p>https://0.s3.envato.com/files/132291569/preview.jpg</p>
 
-          https://0.s3.envato.com/files/132291569/preview.jpg
+   </div>       
 
           
 
-          
-
-             <a class="link" href="http://placekitten.com">I am a in-text link.</a>
-             <br><a class="link" href="http://placekitten.com">I am an external link.</a>
+             <!-- <a class="link" href="http://placekitten.com">I am a in-text link.</a>
+             <br><a class="link" href="http://placekitten.com">I am an external link.</a> -->
 
         </div><!-- Closing a in-text link -->
-
 

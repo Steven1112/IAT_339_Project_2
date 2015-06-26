@@ -4,6 +4,13 @@
 	box-sizing: border-box;
 }
 
+
+
+.grid-col-25of100 {
+    width: 25%;
+    float: left;
+}
+
 .navigation{
 
 	display: -webkit-flex; /* For support in a series of Webkit browsers */
