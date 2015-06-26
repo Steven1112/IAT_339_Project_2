@@ -12,11 +12,11 @@
 
 /* main navigation menu grid */
 .grid-col-1of10 {
-	width: 13%;
+	width: 10%;
 }
 
 .grid-col-3of10 {
-	width: 33%;
+	width: 30%;
 }
 
 .grid-col-5of10 {
@@ -25,12 +25,48 @@
 
 /* login methods grid */
 .grid-col-2of10{
-	width: 8%;
+	width: 25%;
+}
+
+
+.grid-col-7of10{
+	width: 90%;
+}
+
+.grid-col-10of10{
+	width: 100%;
+}
+
+.grid-col-8of100 {
+    width: 8%;
+    float:right;
+}
+
+
+
+.grid-col-25of100 {
+    width: 25%;
 }
 
 .grid-col-10of10 {
-	width: 100%;
-	text-align: left;
+    width: 100%;
+}
+
+.grid-col-3of10 {
+    width: 33%;    
+}
+
+.grid-col-4of10 {
+    width: 40%;    
+}
+
+.grid-col-33of100 {
+    width: 33%;    
+}
+
+
+.grid-col-84of100 {
+    width: 84%;
 }
 
 @media (max-width: 70em) {
@@ -47,7 +83,7 @@
 	into one stack (hence width: 100%)
 */
 
-@media (max-width: 85em) {
+@media (max-width: 55em) {
 
 	.grid-col-2of10 {
 		width: 100%;
@@ -56,13 +92,7 @@
 }
 
 
-@media (max-width: 85em) {
 
-	.grid-col-3of10 {
-		width: 100%;
-	}
-
-}
 
 @media (max-width: 80em) {
 
@@ -72,7 +102,16 @@
 
 }
 
-@media (max-width: 20em) {
+@media (max-width: 50em) {
+
+	/*.grid-col-10of10 {
+		width: 50%;
+	}*/
+
+}
+
+
+@media (max-width: 50em) {
 
 	.grid-col-10of10 {
 		width: 100%;

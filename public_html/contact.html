@@ -11,114 +11,158 @@
     <link rel="stylesheet" href="css/contact.css">
     <link rel="stylesheet" href="css/contact_grid.css">
 
+    <style type="text/css"></style></head>
+
   </head>
 
 
   <body>
 
+    
     <header id="top">
 
-
       <nav class="login-methods">
+
+        <div class="grid-col-84of100">
+          &nbsp;
+        </div>
 
         <!-- 
           Here we are actually using our 10-column grid to 
           position navigation across the top accordingly
-        -->
-      <div class="grid"> <!-- Starting a different grid -->
-
-      <div id="title">
-        <div class="grid-col-3of10">
-          <h1>Kitty Lover</h1>
-        </div>
-      <div>
-
-        <div class="grid-col-5of10">
-          &nbsp;
+        -->        
+        <div class="grid-col-8of100">
+           <a href="#" class="login-button-nav">Sign up</a>
         </div>
 
-        <div class="grid-col-2of10">
-          <a href="#" class="login-button-nav">sign in</a>
+        <div class="grid-col-8of100">
+          <a href="login.html" class="login-button-nav">Log in</a>
         </div>
-
-        <div class="grid-col-2of10">
-           <a href="#" class="login-button-nav">sign up</a>
-        </div>
-
-      </div> <!-- Closing the grid -->
 
       </nav>
 
-      <nav class="topmenu">
-
 
       <div class="grid"> <!-- Starting a different grid -->
 
-        <div class="grid-col-1of10">
-          <a href="home.html" class="button-nav">Home</a>
+        <div class="grid-col-33of100"> <!-- Opening the first column of our grid -->
+
+          <!-- Adding a logo image button here -->
+          <a class="logo-image-button" href="home.html" alt="Click to back home page"></a>
+
         </div>
 
-        <div class="grid-col-1of10">
-          <a href="shop_page.html" class="button-nav">Shop</a>
-        </div>
+        <div class="grid-col-4of10">
 
-        <div class="grid-col-1of10">
-          <a href="promotion.html" class="button-nav">Special Offers</a>
-        </div>
+          <div class"logo-name">
+            <h1>Kitty Lover</h1>
+          </div>
+        </div>      
+       
+      </div>
 
-        <div class="grid-col-1of10">
-          <a href="about.html" class="button-nav">About Us</a>
-        </div>
 
-        <div class="grid-col-1of10">
-          <a href="contact.html" class="onpage-button-nav">Contact Us</a>
-        </div>
+      <nav class="topmenu">
 
-      </div> <!-- Closing the grid -->
+        <div class="grid">
+
+          <div class="grid-col-25of100">
+            <a href="home.html" class="button-nav">Home</a>
+          </div>
+
+          <div class="grid-col-25of100">
+
+            <div class="dd">
+              <a href="shop_page.html" class="dd-button">Shop</a>
+              <ul class="dd-list hide">
+                <li><a href="#">Cat Food</a></li>
+                <li><a href="#">Cat Toy</a></li>
+                <li><a href="#">Cat Clothes</a></li>
+              </ul>
+            </div>
+<!--             <a href="shop_page.html" class="button-nav">Shop</a> -->
+
+          </div>
+
+          <div class="grid-col-25of100">
+            <a href="about.html" class="button-nav">About Us</a>
+          </div>
+
+          <div class="grid-col-25of100">
+            <a href="contact.html" class="button-nav">Contact Us</a>
+          </div>
+
+          <div class="grid-col-25of100">
+            &nbsp;
+          </div> 
+
+        </div>
 
       </nav>
 
     </header>
 
-    <h2>Contact us:</h2>
+    
+
+
 
     <div class="grid"> <!-- Starting a different grid -->
 
-      <div class="contact-text">
+    
 
-        <article id="contact-form">
+ <div class="grid-col-5of10"> 
 
-        <div class="grid-col-5of10"> 
+<div class="contact-us">
+      <h2>Contact us:</h2>
 
-          <div id="contact-information">
+      <!-- <div class="grid-col-8of10"> 
+ -->
+        <!-- <article id="contact-form"> -->
+
+     
+          <!-- <div id="contact-information"> -->
+          <!-- <div class="address"> -->
 
             <strong><p class="pprice">Address:</p></strong>
             <p>8888 University Drive</p>
             <p>Burnaby, B.C.</p>
             <p>Canada. V5A 1S6</p>
-            <br><strong><p class="pprice">Phone:</p></strong>
+
+            <strong><p class="pprice">Phone:</p></strong>
             <p>778.782.3111</p>
-            <br><strong><p class="pprice">Fax:</p></strong>
+
+            <strong><p class="pprice">Fax:</p></strong>
             <p>778.782.6930</p>
-            <br><strong><p class="pprice">Email:</p></strong>
+
+            <strong><p class="pprice">Email:</p></strong>
             <p>kittylover@gmail.com</p>
-            <br><strong><p class="pprice">Open Hours:</p></strong>
+
+
+            <h2>Open Hours:</h2>
+           <!-- <strong><p class="pprice">Real Stores:</p></strong> -->
             <p>Mo-Fr: 9am-18pm</p>
             <p>Sa: 10am-17pm</p>
             <p>Su: Closed</p>
 
-          </div>
 
-        </div> 
+<!-- <strong><p class="pprice">Online Hours:</p></strong> -->
+          <!-- </div> -->
 
-        <div class="grid-col-5of10"> 
+      </div> <!-- close contact-us -->
+  </div> <!-- close 5 of 10 -->
 
-          <article id="contact-form-border"  class="article-border">
+<div class="grid-col-5of10"> 
+<div class="contact-us">
+    
+<h2>Online Advising</h2>
 
-            <strong><p class="pprice">Online Advising:</p></strong>
+<article id="contact-form-border"  class="article-border">
+            
+
+          
 
             <label for="form-first-name">First name:</label>
             <input type="text" id="form-first-name" placeholder="Please Type Here">
+
 
             <br><br><label for="form-last-name">Last name:</label>
             <input type="text" id="form-last-name" placeholder="Please Type Here">
@@ -134,15 +178,27 @@
 
           </article>
 
-        </div>
 
-        </article>
+  </div> <!-- close contact-us -->
 
-      </div>
 
-    </div> <!-- Closing the grid -->
+</div>  <!-- close 5 of 10 -->
 
-    <h3>FAQs</h3>
+
+    </div><!-- close grid -->
+<!--   </div> -->
+
+
+
+
+
+
+
+ 
+
+    <div class="contact-us">
+
+      <h2>Top 5 Questions</h2>
 
     <div class="grid"> <!-- Starting a different grid -->
 
@@ -154,12 +210,27 @@
         <strong><p class="pprice">2. Why the protein content discrepancy on your top pick canned kitten foods?</p></strong>
         <p class="pstyle">He asks why I list a particular canned kitten food as 50% protein when the label on the can clearly states 11%. Read my reply to this frequently asked question about cat food.</p>
 
+        <strong><p class="pprice">3. How I can order the cat food directly rather than online?</p></strong>
+        <p class="pstyle">Call us anytime when you need, we could help you to order the kitty stuff via phone, local stories.</p>
+
+        <strong><p class="pprice">4. How about if I want to return my purchase?</p></strong>
+        <p class="pstyle">Any local stories can do a return for you, or contact the online number we can do a return online.</p>
+
+        <strong><p class="pprice">5. Is that possible to apply more discounts?</p></strong>
+        <p class="pstyle">Accumulated your points of shopping is improtant, create your account anytime anywhere.</p>
+
       </div>
 
     </div> <!-- Closing the grid -->
 
+  </div>
 
-    <h2>Adoption Service External Links</h2>
+
+
+
+    
+    <div class="contact-us">
+      <h2>Adoption Service External Links</h2>
 
     <div class="grid"> <!-- Starting a different grid -->
 
@@ -167,12 +238,24 @@
 
         <a class="link" href="http://placekitten.com">Big Heart Rescue</a>
         <p class="pstyle">-&nbsp;small and medium sized cats, brought here from U.S. shelters. They adopt only to the Greater Victoria area.</p>
+      </div>
+
+      <div class="grid-col-10of10">
 
         <a class="link" href="http://placekitten.com">Cat's Cradle</a>
         <p class="pstyle">-&nbsp;foster home locations are listed on their website.</p>
 
-        <br><a class="link" href="http://placekitten.com">Vancouver Island Cat Rescue Society</a>
+      </div>
+
+      <div class="grid-col-10of10">
+
+        <a class="link" href="http://placekitten.com">Vancouver Island Cat Rescue Society</a>
         <p class="pstyle">-&nbsp;a fairly new (2013) rescue group; all sizes and ages of cats, operated through Shaw Pet Hospital.</p>
+
+      </div>
+
+
+      <div class="grid-col-10of10">
 
         <a class="link" href="http://placekitten.com">Victoria Adoptables</a>
         <p class="pstyle">-&nbsp;pound for City of Victoria.</p>
@@ -180,6 +263,8 @@
       </div>
 
     </div> <!-- Closing the grid -->
+
+      </div>
 
 
 

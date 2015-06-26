@@ -1,41 +1,91 @@
+/*
+	Just reminding you how transitions work in CSS;
+	i.e. transition: property length easing;
+	i.e. transition: width 1s linear;
+*/
+.dd-button {
+	-webkit-transition: background-color 0.5s ease-out;
+	transition: background-color 0.5s ease-out;
+}
+
+
+
+/*
+	Here we have set up a class (.hide) to hide any element it
+	is applied to by setting it's visibility and opacity 
+	properties accordingly
+*/
+.hide {
+	visibility: hidden;
+	opacity: 0;
+}
+
+
+/*
+	Here we are applying a bit of transitioning to both the 
+	visibility and the opacity. We have to set the visibility
+	to transition due to the way the timing plays out in 
+	setting transitions in the page
+*/
+
+
+.dd>.dd-list {
+	/* 
+		To make sure that the list doesn't pop up when we hover
+		over the area it usually sits in, we need to set its
+		positioning to absolute
+	*/
+	position: absolute;
+
+	-webkit-transition: visibility 0s linear 0.5s, opacity 0.5s ease-out;
+	transition: visibility 0s linear 0.5s, opacity 0.5s ease-out;
+}
+
+
+/*
+	Because we wrapped the drop-down list in a div (.dd), we can
+	now select it when the div is hovered over using child
+	selectors
+*/
+.dd:hover>.dd-list {
+	visibility: visible;
+	opacity: 1;
+	transition-delay: 0s;
+}
+
+
+
 *, *:after, *:before{
-	box-sizing:border-box;
+    box-sizing:border-box;
 }
 
 body{
-	color:black;
-	background-color:white;
-	font-size: 16px;
-	color:#929595;
+    color:black;
+    background-color:white;
+    font-size: 16px;
+    color:#929595;
 }
 
 h1{
-   font-size: 2.8rem;
+   font-size: 3.3rem;
    font-weight: 700;
-   margin-bottom: 0;
    font-family: Austie Bost Kitten Klub;
+   text-align: left;
+/*   color: #F39873;*/
 }
 
 h2{
-   font-size: 1.2rem;
-   font-size: normal;
-   font-family:Janda Safe and Sound;
-   margin-left: 6.5em;
-   margin-right: 6.5em;
-   text-align: left;
-   position: relative;
-   margin-top: 3em;
+   font-size: 1.6rem;
+   font-family:Oswald;
+   font-weight: bold;
+   text-align: center;
 }
 
+
 h3{
-   font-size: 1.2rem;
+   font-size: 1.0rem;
    font-size: normal;
-   font-family:Janda Safe and Sound;
-   margin-left: 6.5em;
-   margin-right: 6.5em;
-   text-align: left;
-   position: relative;
-   margin-top: 1.5em;
+   font-family: Courier New, sans-serif;
 }
 
 h4{
@@ -44,315 +94,62 @@ h4{
    font-family: Courier New, sans-serif;
 }
 
+h5{
+   font-size: 0.2em;
+   font-size: normal;
+   font-family: Courier New, sans-serif;
+   background-color:  #929595;
+}
+
 h2 a{
    font-style: italic;
    font-size: 1.8em;
 }
 
 ul,ol{
-   font-size: 1.2rem;
+   font-size: 1rem;
    font-family: Abadi MT Condensed Light;
+   list-style-type: none;
+/* color: #F39873;*/
+/* font-family: thin;*/
 }
+
 
 p,code,figcaption{
-	font-size: 1rem;
-	font-family: Abadi MT Condensed Light;
-	margin: 0.25rem 0.5rem;
-}
-
-.pstyle{
-	font-size: 1rem;
-	font-family: Abadi MT Condensed Light;
-/*	font-family: thin;*/
-	/* first # is top and bottom, second # is left and right margin */
-	margin: 0.25rem 0.5rem;
-/*	try make a paragraph half-page length*/
-    display: inline;
-}
-
-.pprice{
-	font-size: 1.2rem;
-	font-family:Abadi MT Condensed Extra Bold;
-/*	font-family: thin;*/
-	/* first # is top and bottom, second # is left and right margin */
-	margin: 0.25rem 0.5rem;
-}
-
-.psubtitle{
-	font-size: 0.9rem;
-	font-family:Abadi MT Condensed Extra Bold;
-/*	font-family: thin;*/
-	/* first # is top and bottom, second # is left and right margin */
-	margin: 0.25rem 0.5rem;
-}
-
-.p-payment-method{
-	font-size: 1.5rem;
-	font-family:Abadi MT Condensed Extra Bold;
-	text-align: left;
-	display: inline-block;
-
-}
-
-.link{
-	font-size: 0.9rem;
-	font-family: Helvetica Neue Light, Bernard MT Condensed;
-	color: rgb(0,0,255);
-	margin-left: 8.5em;
-}
-
-.button{
-	display: inline-block;
-	font-family: MTF Sweet Cheeks;
-
-	text-decoration: none;
-}
-
-nav .button{
-	background-color: #F39873;
-	color: white;
-    margin: 0.25rem 0.5rem;
-    padding: 0.25rem 0.45rem;
-    font-family: MTF Sweet Cheeks;
-    border-style: solid;
-    border-width: 0.1rem;
-    border-color: #929595;
-}
-
-nav .button:hover{
-	background-color: #F39873;
-	color: #C2BFBB;
-	text-decoration: none;
-}
-
-a{
-	text-decoration: none;
-}
-
-a:hover{
-	text-decoration: underline;
-	color: orange;
-}
-
-/*responsive image styles*/
-img{
-    height: auto;
-    max-width: auto;
-}
-
-figure{
-	margin: 0;
-}
-
-form{
-	background-color: #FFFDFA;
-	display: inline-block;
-	padding: 1rem;
-	width: 40%
-    font-family: Abadi MT Condensed Light;
-}
-
-label{
-    float: left;
-    text-align: left;
-    margin-right: 0.5em;
-    display: block
     font-size: 0.9rem;
-	font-family: MTF Sweet Cheeks;
+	font-family: Oswald;
+/*	font-family: thin;*/
+	/* first # is top and bottom, second # is left and right margin */
 	margin: 0.25rem 0.5rem;
+	font-weight: lighter;
 }
 
-input.submit,input.reset{
 
-	background-color: #F39873;
-	color: white;
-	margin: 0.25rem 0.5rem;
-	padding: 0.25rem 0.45rem;
-	font-size: 1.2em;
-	border-style: solid;
+.contact-us{
+	margin-top: 5em;
+    margin-left: 7em;
+    margin-right: 7em;
+    border-style: dashed;
     border-width: 0.1rem;
     border-color: #929595;
-    float: right;
-}
-
-input.text,textarea{
-	background-color: #F39873;
-	color: white;
-	margin: 0.25rem 0.5rem;
-	padding: 0.25rem 0.45rem;
-}
-
-input.submit:hover,input.reset:,input.text:hover,textarea:hover{
-	background-color: #FCBCA7;
-	color: white;
-	text-decoration: none;
-}
-
-input.submitcomment{
-
-	background-color: #F39873;
-	color: white;
-/*	border-radius: 0.25rem;*/
-	margin: 0.25rem 0.5rem;
-	padding: 0.25rem 0.45rem;
-	font-size: 1.2em;
-	border-style: solid;
-    border-width: 0.1rem;
-    border-color: #929595;
-    float: right;
-}
-
-input.submitcomment{
-
-	background-color: #FCBCA7;
-	color: white;
-	text-decoration: none;
-
+    /*width: 45%;*/
 }
 
 
-input{
-	font-family: Abadi MT Condensed Light;
-	background-color: white;
-	color: white;
-
+.contact-form-border{
+	width:80%;
 }
 
-textarea{
-	font-family: Abadi MT Condensed Light;
-	background-color: white;
-	color: white;
-	width: 100%;
-	height: 80%;
-	min-width: 40em;
-	min-height: 15em;
-}
 
-input:hover{
-	background-color: #FCBCA7;
-	color: #C2C0BC;
-}
-
-article {
-	text-align: left;
-/*  border is hided for now */
+ .article-border{
+    text-align: left;
 /*	border: 3px solid #929595;*/
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 	display: inline-block;
-	padding: 0em 18em 0em 3em;
-	margin-left: 8em;
-	margin-right: 8em;
-}
-
-.login-button-nav, .login-button-nav:visited{
-	display: inline-block;
-	background-color:  #F39873;
-	color: white;
-    border-style: solid;
-    border-width: 0.1rem;
-    border-color: #929595;
-	padding: 0.3em 0.3em;
-	text-decoration: none;
-	-webkit-transition: background-color 0.5s;
-	transition: background-color 0.5s;
-	width:100%;
-	font-family: MTF Sweet Cheeks;
-	font-weight: normal;
-	font-size: 1em;
-	text-align: center;
-
-	float: right;
-}
-
-.login-button-nav:hover, .login-button-nav:active, .login-button-nav:focus{
-	background-color: #FCBCA7;
-	color: #C2C0BC;
-}
-
-.button-nav, .button-nav:visited{
-	display: inline-block;
-	background-color:  #F39873;
-	color: white;
-    border-style: solid;
-    border-width: 0.1rem;
-    border-color: #929595;
-	padding: 0.3em 0.3em;
-	text-decoration: none;
-	-webkit-transition: background-color 0.5s;
-	transition: background-color 0.5s;
-	width:100%;
-	font-family: MTF Sweet Cheeks;
-	font-weight: normal;
-	font-size: 1.2em;
-	text-align: center;
-}
-
-.button-nav:hover, .button-nav:active, .button-nav:focus{
-	background-color: #FCBCA7;
-	color: #C2C0BC;
-}
-
-.onpage-button-nav, .onpage-button-nav:visited{
-	display: inline-block;
-	background-color:  #F39873;
-	color: white;
-    border-style: solid;
-    border-width: 0.1rem;
-    border-color: #929595;
-	padding: 0.3em 0.3em;
-	text-decoration: none;
-	-webkit-transition: background-color 0.5s;
-	transition: background-color 0.5s;
-	width:100%;
-	font-family: MTF Sweet Cheeks;
-	font-weight: normal;
-	font-size: 1.2em;
-	text-align: center;
-	opacity: 0.7;
-}
-
-.onpage-button-nav:hover, .onpage-button-nav:active, .onpage-button-nav:focus{
-	background-color: #FCBCA7;
-	color: #C2C0BC;
-	opacity: 0.7;
-}
-
-/* set top main navigation layout */
- .topmenu{
-    margin-left: 8em;
-	margin-top: 7em;
-	margin-right: 8em;
- }
-
-/* set layout for three login buttons */
- .login-methods{
- 	margin-right: 8em;
-	margin-top: 2em;
-	margin-left: 8em;
- }
-
- #title{
-	margin-right: 3em;
-	margin-top: 1.5em;
-	margin-left: 3em;
- }
-
- .contact-text{
- 	margin-right: 0em;
-	margin-top: 2em;
-	margin-left: 0em;
- }
-
- .article-border{
-    text-align: left;
-	border: 3px solid #929595;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
-	display: inline-block;
-	margin-left: 8em;
-	margin-right: 8em;
-	padding: 2em 4em 2.5em 3em;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 2em 35.5em 2em 2.5em;
  }
 
  #contact-information{
@@ -363,7 +160,1056 @@ article {
  }
 
  #FAQ{
- 	margin-right: 7em;
-	margin-left: 7em;
+ 	margin-top: 3em;
 	margin-bottom: 3em;
  }
+
+
+.link{
+	font-size: 0.9rem;
+	font-family: Existence;
+	color: orange;
+	text-align: left;
+	
+}
+
+
+
+
+
+.pstyle{
+	font-size: 0.9rem;
+	font-family: Oswald;
+/*	font-family: thin;*/
+	/* first # is top and bottom, second # is left and right margin */
+	/*margin: 0.25rem 0.5rem;*/
+/*	try make a paragraph half-page length*/
+    font-weight: lighter;
+    display: inline;
+}
+
+.pprice{
+	font-size: 1.2rem;
+	font-family:Oswald;
+	font-weight: bold;
+	/* first # is top and bottom, second # is left and right margin */
+	margin: 0.25rem 0.5rem;
+/*	try make a paragraph half-page length*/
+}
+
+.psubtitle{
+	font-size: 1.1rem;
+	font-family:Oswald;
+	font-weight: lighter;
+	margin: 0.25rem 0.5rem;
+}
+ /*Top Area*/
+
+ .toparea{
+    /*display: block;
+    margin-left: auto;
+    margin-right: auto;*/
+ }
+
+.catlogo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0em;
+    width: auto;
+    height: auto;
+    min-width: 16em;
+    min-height: 10em;
+    z-index: 3;
+    /*opacity: 0.9;*/
+    /*filter: alpha(opacity=40);*/
+}
+
+
+.logo-name{
+    margin-left: auto;
+    margin-right: auto;
+/*  margin-top: 5em;*/
+}
+
+.topimage{
+  z-index: -999;
+  min-height: 100%;
+  min-width: 1024px;
+  width: 100%;
+  height: auto;
+  /*position: fixed;*/
+  top: 0;
+  left: 0;
+}
+
+
+.subtitle{
+    display: inline-block;
+    /*background-color:  #F39873;*/
+    color: #F39873;
+    margin-left: auto;
+    margin-right:auto;
+    /*border-style: solid;
+    border-width: 0.1rem;
+    border-color: #929595;*/
+/*  padding: 0.3em 0.3em;*/
+    text-decoration: none;
+    -webkit-transition: background-color 0.5s;
+    transition: background-color 0.5s;
+    width:100%;
+/*  border-radius:10px;*/
+/*  border-radius: 0.25rem;*/
+/*    font-family: BAD SPIRIT;*/
+    font-family:Oswald;
+    font-size: 1.4rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+/*Top Area closed*/
+
+
+.namelist{
+    text-decoration: none;
+    -webkit-transition: background-color 0.5s;
+    transition: background-color 0.5s;
+    width:100%;
+    font-family:Oswald;
+    font-size: 1.0rem;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.foodbrand{
+display: inline-block;
+    background-color:  #f3e9c2;
+    color: #F39873;
+    margin-left: auto;
+    margin-right:auto;
+    /*border-style: solid;
+    border-width: 0.1rem;
+    border-color: #929595;*/
+    padding: 0.3em 0.3em;
+    text-decoration: none;
+    -webkit-transition: background-color 0.5s;
+    transition: background-color 0.5s;
+    width:100%;
+/*  border-radius:10px;*/
+/*  border-radius: 0.25rem;*/
+    font-family: MTF Sweet Cheeks;
+    font-weight: normal;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+
+
+.Health-Consideration{
+    margin-left: -1em;
+
+}
+
+.can1{
+    width: 10em;
+    height: 10em;
+    /*margin-left: 5em;*/
+}
+
+
+.can2{
+    width: 10em;
+    height: 10em;
+    /*margin-left: 25em;*/
+}
+
+.can3{
+    width: 10em;
+    height: 10em;
+    /*margin-left: 35em;*/
+}
+
+
+.text-article-related-product {
+    text-align: left;
+    margin: 2rem 0; 
+    padding: 2rem; 
+/*  border: 3px solid #929595;*/
+    /*-moz-box-sizing: border-box;
+    box-sizing: border-box;*/
+    display: inline-block;
+
+    margin-top: 2em;
+    margin-right: 3em;
+    margin-left: 3em;
+
+    
+}
+
+
+
+.product1{
+    margin-left: 10em;
+    margin-top: -30em;
+}
+
+ .pmiddle{
+    font-size: 3rem;
+    font-family:Abadi MT Condensed Extra Bold;
+/*  font-family: thin;*/
+    /* first # is top and bottom, second # is left and right margin */
+    margin: 0.25rem 0.5rem;
+}
+
+.textmiddle{
+    z-index: 100;
+    /*color:#929595;*/
+    color:white;
+    /*top:10em;*/
+    /*padding: -20em;*/
+    /* float:left; */
+    margin-left:40em;
+    margin-top: -30em;
+    /*position: absolute;*/
+    /*background-color: rgba(255, 237, 221, 0.8);*/
+    max-width: 50em;
+    min-width: 20em;
+}
+
+
+.pmiddletext{
+    font-size: 1rem;
+    font-family: Abadi MT Condensed Light;
+/*  font-family: thin;*/
+    /* first # is top and bottom, second # is left and right margin */
+    margin: 0.25rem 0.5rem;
+}
+
+
+
+.bottomtext_left{
+    border-style: dashed;
+    border-width: 0.1rem;
+    border-color: #929595;
+    margin-top: 5em;
+    margin-left: 10em;
+    margin-right: 3em;
+}
+
+.bottomtext_middle{
+    margin-top: 5em;
+    margin-left: 7.5em;
+    margin-right: 5em;
+    border-style: dashed;
+    border-width: 0.1rem;
+    border-color: #929595;
+}
+
+.bottomtext_right{
+    border-style: dashed;
+    border-width: 0.1rem;
+    border-color: #929595;
+    margin-top: 5em;
+    margin-left: 6em;
+    margin-right: 8em;
+}
+
+
+.bottomimage{
+    margin-left: 10em;
+    margin-top: 25em;
+}
+
+
+.button-nav-detail{
+    display: inline-block;
+    background-color:  #f3e9c2;
+    color: #F39873;
+    margin-left: auto;
+    margin-right:auto;
+    /*border-style: solid;
+    border-width: 0.1rem;
+    border-color: #929595;*/
+    padding: 0.3em 0.3em;
+    text-decoration: none;
+    -webkit-transition: background-color 0.5s;
+    transition: background-color 0.5s;
+    width:100%;
+/*  border-radius:10px;*/
+/*  border-radius: 0.25rem;*/
+    font-family:Oswald;
+    font-size: 1.4rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+.coltext_bottom{
+    padding-left: 10em;
+    margin-top: 10em;
+    margin: center;
+}
+
+
+
+
+p.prightstext{
+    font-size: 1.1rem;
+    font-family: Abadi MT Condensed Light;
+/*  font-family: thin;*/
+/*  first # is top and bottom, second # is left and right margin */
+    margin: 0.25rem 0.5rem;
+    /*background: #f3e9c2;*/
+    text-align: left;
+}
+/*Middle Area closed*/
+
+
+
+
+/*rights Area open*/
+
+.homebottom{     
+    margin-top: 5em;
+    z-index: -999;
+    min-height: 100%;
+    min-width: 1024px;
+    margin-left: -5em;
+    width: 150%;
+}
+
+.squareup{
+    height: 20%;
+    width: 100%;
+    background-color:#C2C0BC;
+    border-width: 0.1rem;
+    border-color: #929595;
+    background-color: red;
+}
+
+.squaredown{
+    height: 20%;
+    width: 100%;
+    background-color:#C2C0BC;
+    border-width: 0.1rem;
+    border-color: #929595;
+    background-color: red;
+}
+
+
+.rights_left{
+    margin-top: -7em;
+    margin-left: 15em;
+    border-style: dotted;
+    border-width: 0.1rem;
+    border-color: #929595;
+    background-color: red;
+
+
+}
+
+.rights_left2{
+    margin-top: -7em;
+    margin-left: 15em;
+
+    border-style: dotted;
+    border-width: 0.1rem;
+    border-color: #929595;
+    background-color: red;
+}
+
+
+.p-payment-method{
+    font-size: 1.5rem;
+    font-family:Abadi MT Condensed Extra Bold;
+    text-align: left;
+    display: inline-block;
+    color: #382843;
+/*  margin: 0.25rem 0.5rem;*/
+}
+
+/*rights Area Closed*/
+
+
+
+.col-image-cool{
+    position: absolute;
+    top:-16em;
+    right:30em;
+}
+
+.square-box_top{
+    position: relative;
+    top:30em;
+    width: 100%;
+    overflow: hidden;
+    background: #929595;
+
+}
+
+.square-box_bottom{
+    position: relative;
+    top:10em;
+    width: 100%;
+    overflow: hidden;
+    background: #929595;
+
+}
+
+.square-box_top{
+    position: relative;
+    top:65em;
+    width: 100%;
+    overflow: hidden;
+    background: #929595;
+
+}
+
+.square-box_bottom{
+    position: relative;
+    top:46.5em;
+    left:37.5em;
+    width: 20%;
+    overflow: hidden;
+    background: #929595;
+
+}
+
+.square-box_text{
+    position: relative;
+    top:46.15em;
+    left:55.5em;
+    width: 20%;
+    overflow: hidden;
+    background: #929595;
+
+}
+
+.square-content{
+    color:transparent;
+}
+
+
+.pstyle{
+    font-size: 0.9rem;
+    font-family: Abadi MT Condensed Light;
+/*  font-family: thin;*/
+/*  first # is top and bottom, second # is left and right margin */
+    margin: 0.25rem 0.5rem;
+/*  try make a paragraph half-page length*/
+    width: 50%
+}
+
+
+.link{
+    font-family: Existence;
+    text-decoration: none;
+    -webkit-transition: background-color 0.5s;
+    transition: background-color 0.5s;
+    width:100%;
+/*  font-family:Oswald;*/
+    font-size: 1.0rem;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.link:hover{
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.button{
+    display: inline-block;
+    font-family: MTF Sweet Cheeks;
+
+    text-decoration: none;
+}
+
+nav .button{
+    background-color: #F39873;
+    color: white;
+/*  border-radius: 0.25rem;*/
+/*  margin: 0.5rem 0.25rem 0.75rem 0.8rem;*/
+    margin: 0.25rem 0.5rem;
+    padding: 0.25rem 0.45rem;
+    font-family: MTF Sweet Cheeks;
+    border-style: solid;
+    border-width: 0.1rem;
+    border-color: #929595;
+}
+
+nav .button:hover{
+    background-color: #F39873;
+    color: #C2BFBB;
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.checkoutbutton{
+    background-color: #F39873;
+    color: white;
+/*  border-radius: 0.25rem;*/
+/*  margin: 0.5rem 0.25rem 0.75rem 0.8rem;*/
+    margin: 0.25rem 0.5rem;
+    padding: 0.25rem 0.45rem;
+    font-family: Abadi MT Condensed Light;
+    text-align: center;
+    font-size: 1.2em;
+    border-style: solid;
+    border-width: 0.1rem;
+    border-color: #929595;
+}
+
+.checkoutbutton:hover{
+    background-color: #C2BFBB;
+    color: #929595;
+    text-decoration: none;
+    text-align: center;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+/*responsive image styles*/
+img{
+    background-color: rgba(255, 237, 221, 0.3);
+}
+
+
+.mainpage-img{
+    float: left;
+}
+
+.square-box{
+        margin-top:3em;
+        height: 0.5;
+        width: 100%;
+        background-color: #FFFDFA;
+}
+
+figure{
+        margin: 0;
+
+}
+
+form{
+        background-color: #FFFDFA;
+        display: inline-block;
+        padding: 1rem;
+        width: 40%
+    font-family: Abadi MT Condensed Light;
+}
+
+label{
+    float: left;
+    text-align: left;
+    margin-right: 0.5em;
+    display: block
+    font-size: 0.9rem;
+    font-family: Oswald;
+/*        font-family: thin;*/
+        /* first # is top and bottom, second # is left and right margin */
+        margin: 0.25rem 0.5rem;
+}
+
+.top_Picture_Cover{
+  height: 450px;
+  width: auto;
+  background-size: 100% 160%;
+  border: 3px solid #929595;
+  color: #000; text-shadow: 1px 1px 0 #fff;
+  margin-top: 1em;
+  position: relative;
+  opacity: 10%;
+  
+}
+
+.bottom_Picture_Cover{
+  height: 400px;
+  width: 400px;
+  background-image: url('http://www.nipandbones.com/images/products/mice/cat-toys/cat-supplies/hypnomice.jpg');
+  background-size: 100%;
+  border: 2px solid white;
+  color: #000; 
+  float: left;
+ 
+  /* margin: 0 auto; */
+}
+
+input.submit,input.reset{
+    background-color: #F39873;
+    color: white;
+/*  border-radius: 0.25rem;*/
+    margin: 0.25rem 0.5rem;
+    padding: 0.25rem 0.45rem;
+    font-size: 1.2em;
+    border-style: solid;
+    border-width: 0.1rem;
+    border-color: #929595;
+}
+
+input.text,textarea{
+    background-color: #F39873;
+    color: white;
+/*  border-radius: 0.25rem;*/
+    margin: 0.25rem 0.5rem;
+    padding: 0.25rem 0.45rem;
+}
+
+input.submit:hover,input.reset:,input.text:hover,textarea:hover{
+    background-color: #FCBCA7;
+    color: white;
+    text-decoration: none;
+}
+
+input.submitcomment{
+    background-color: #F39873;
+    color: white;
+/*  border-radius: 0.25rem;*/
+    margin: 0.25rem 0.5rem;
+    padding: 0.25rem 0.45rem;
+    font-size: 1.2em;
+    border-style: solid;
+    border-width: 0.1rem;
+    border-color: #929595;
+    float: right;
+}
+
+input.submitcomment{
+    background-color: #FCBCA7;
+    color: white;
+    text-decoration: none;
+}
+
+
+input{
+    font-family: Oswald;
+    background-color: white;
+    color: white;
+/*  border: solid 1px #FCBCA7;*/
+}
+
+textarea{
+    font-family: Oswald;
+    background-color: white;
+    color: white;
+    width: 80rem;
+    height: 10rem;
+}
+
+input:hover{
+    background-color: #FCBCA7;
+    color: #C2C0BC;
+}
+
+article {
+    text-align: left;
+/*  border: 2px solid #929595;*/
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+/* set top main navigation layout */
+ .topmenu{
+    margin-left: 8em;
+    margin-top: 0em;
+    margin-right: 8em;
+ }
+
+/* set layout for three login buttons */
+ .login-methods{
+    margin-right: 8em;
+    margin-top: 2em;
+    margin-left: 8em;
+ }
+
+ .payment-methods-layout{
+    margin-right: 8em;
+    margin-top: 5em;
+    margin-left: 8em;
+ }
+
+
+.dd {
+	position: relative;
+/*	max-width: 20em;*/
+}
+
+.dd-list {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+/* Just giving our drop-down items some styling */
+.dd-list li a {
+    display: block;
+/*  margin: 0.1em 0;*/
+/*  padding: 0.5em 0.7em;*/
+    color: #F39873;
+    margin-left: auto;
+    margin-right:auto;
+
+    padding: 0.3em 0.3em;
+    text-decoration: none;
+    -webkit-transition: background-color 0.5s;
+    transition: background-color 0.5s;
+    width:100%;
+
+    font-size: normal;
+    font-family:Oswald;
+    font-size: 1.5em;
+    text-align: center;
+    margin-top: 0.5em;
+/*  background-color:  #F39873;*/
+}
+
+.dd-list li a:hover{
+/*  background-color: #FCBCA7;
+    color: #C2C0BC;*/
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.dd-button {
+    display: inline-block;
+    background-color:  #F39873;
+    color: white;
+    margin-left: auto;
+    margin-right:auto;
+
+    padding: 0.3em 0.3em;
+    text-decoration: none;
+    -webkit-transition: background-color 0.5s;
+    transition: background-color 0.5s;
+    width:100%;
+
+    font-size: normal;
+    font-family:Oswald;
+    font-size: 1.7em;
+    text-align: center;
+}
+
+.dd-button:hover {
+/*  background-color: #FCBCA7;
+    color: #C2C0BC;*/
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.onpage-button-nav, .onpage-button-nav:visited{
+    display: inline-block;
+    background-color:  #F39873;
+/*  color: #F39873;*/
+    color: white;
+    text-decoration: none;
+    
+    margin-left: auto;
+    margin-right:auto;
+    padding: 0.3em 0.3em;
+    text-decoration: none;
+    -webkit-transition: background-color 0.5s;
+    transition: background-color 0.5s;
+    width:100%;
+
+    font-size: normal;
+    font-family:Oswald;
+    font-size: 1.7em;
+    text-align: center;
+/*  opacity: 0.7;*/
+}
+
+.onpage-button-nav:hover, .onpage-button-nav:active, .onpage-button-nav:focus{
+/*  background-color: #FCBCA7;
+    color: #C2C0BC;*/
+    text-decoration: none;
+    font-weight: bold;
+/*  opacity: 0.7;*/
+}
+
+.login-button-nav, .login-button-nav:visited{
+    display: inline-block;
+    /*background-color:  #F39873;*/
+    color: #F39873;
+    /*border-style: solid;
+    border-width: 0.1rem;
+    border-color: #929595;*/
+    padding: 0.3em 0.3em;
+    text-decoration: none;
+    -webkit-transition: background-color 0.5s;
+    transition: background-color 0.5s;
+    width:100%;
+/*  border-radius:10px;*/
+/*  border-radius: 0.25rem;*/
+/*    font-family: BAD SPIRIT;*/
+    font-size: 1.2em;
+    text-align: center;
+    font-size: normal;
+    font-family:Oswald;
+    float: right;
+}
+
+.login-button-nav:hover, .login-button-nav:active, .login-button-nav:focus{
+/*  border-radius: 0.25rem;*/
+/*  background-color: #FCBCA7;
+    color: #C2C0BC;*/
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+.button-nav, .button-nav:visited{
+    display: inline-block;
+    /*background-color:  #F39873;*/
+    color: #F39873;
+    margin-left: auto;
+    margin-right:auto;
+    /*border-style: solid;
+    border-width: 0.1rem;
+    border-color: #929595;*/
+    padding: 0.3em 0.3em;
+    text-decoration: none;
+    -webkit-transition: background-color 0.5s;
+    transition: background-color 0.5s;
+    width:100%;
+/*  border-radius:10px;*/
+/*  border-radius: 0.25rem;*/
+/*    font-family: BAD SPIRIT;*/
+    font-size: normal;
+    font-family:Oswald;
+    font-size: 1.7em;
+    text-align: center;
+}
+
+.button-nav:hover, .button-nav:active, .button-nav:focus{
+    /*  background-color: #FCBCA7;
+    color: #C2C0BC;*/
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+.logo-image-button, .logo-image-button:visited{
+/*  add background image for the cat foods product list image button */
+    background: transparent url(../img/catlogo.png) no-repeat;
+/*  background-position: center;*/
+/*  background-size: 100% 160%;*/
+/*  position: relative;*/
+    display: inline-block;
+    margin-left: 8em;
+    margin-right: 8em;
+    margin-top: 1em;
+    margin-bottom: 2em;
+    width: auto;
+    height: auto;
+    min-width: 26.4em;
+    min-height: 16em;
+    z-index: 3;
+    float: left;
+    /*opacity: 0.9;*/
+    /*filter: alpha(opacity=40);*/
+
+/*  background-color:  #F39873;*/
+/*    color: white;
+    border-style: solid;
+    border-width: 0.1rem;
+    border-color: #929595;*/
+    padding: 0.3em 0.3em;
+    text-decoration: none;
+    -webkit-transition: background-color 0.5s;
+    transition: background-color 0.5s;
+    font-family: MTF Sweet Cheeks;
+    font-weight: normal;
+    font-size: 1em;
+    text-align: center;
+}
+
+.logo-image-button:hover, .logo-image-button:active, .logo-image-button:focus{
+/*  background-color: #FCBCA7;
+    color: #C2C0BC;*/
+/*  border-radius: 0.25rem;*/
+    opacity: 0.5;
+}
+
+ .brands-lists-image-button-layout{
+    margin-top: 12em;
+    margin-left: 8em;
+    margin-right: 6em;
+ }
+
+ .health-considerations-image-button-layout{
+    margin-top: 12em;
+    margin-left: 6em;
+    margin-right: 4em;
+/*  margin-top: 10em;*/
+ }
+
+ .flavor-image-button-layout{
+    margin-top: 12em;
+    margin-left: 4em;
+    margin-right: 8em;
+/*  margin-top: 10em;*/
+ }
+
+ a.image-button-nav-brands-lists {
+/*  border-radius: 50em;*/
+    min-height: 15em;
+    min-width: 20em;
+    max-width: 50em;
+    max-height: 40em;
+    width: 50%;
+    height: 50%;
+ }
+
+ a.image-button-nav-health-considerations {
+/*  border-radius: 50em;*/
+    min-height: 15em;
+    min-width: 20em;
+    max-width: 50em;
+    max-height: 40em;
+    width: 50%;
+    height: 50%;
+ }
+
+ a.image-button-nav-flavor {
+/*  border-radius: 50em;*/
+    min-height: 15em;
+    min-width: 20em;
+    max-width: 50em;
+    max-height: 40em;
+    width: 50%;
+    height: 50%;
+ }
+
+ .button-nav-brands-lists-text {
+    position: absolute;
+    top: 35%;
+    left: 40%;
+    margin-left: -12%;
+/*  background-color:  #929595;*/
+    font-family:Oswald;
+    font-size: 3rem;
+    font-weight: bold;
+    width: 50%;
+ }
+
+ .button-nav-health-considerations-text {
+    position: absolute;
+    top: 35%;
+    left: 40%;
+    margin-left: -40%;
+/*  background-color:  #929595;*/
+    font-family:Oswald;
+    font-size: 3rem;
+    font-weight: bold;
+ }
+
+ .button-nav-flavor-text {
+    position: absolute;
+    top: 43%;
+    left: 40%;
+    margin-left: -7%;
+/*  background-color:  #929595;*/
+    font-family:Oswald;
+    font-size: 3rem;
+    font-weight: bold;
+ }
+
+ .image-button-nav-brands-lists, .image-button-nav-brands-lists:visited{
+    /*  add background image for the cat foods product list image button */
+    background: transparent url(../img/brands_lists.png) no-repeat;
+    background-position: center center;
+    display: inline-block;
+    position: relative;
+
+/*  background-color:  #F39873;*/
+    color: white;
+    border-style: solid;
+    border-width: 0.1rem;
+    border-color: #929595;
+    padding: 0.3em 0.3em;
+    text-decoration: none;
+    -webkit-transition: background-color 0.5s;
+    transition: background-color 0.5s;
+    text-align: center;
+}
+
+.image-button-nav-health-considerations, .image-button-nav-health-considerations:visited{
+    /*  add background image for the cat toys product list image button */
+    background: transparent url(../img/health_considerations.png) no-repeat;
+    background-position: 35% 40%;
+    display: inline-block;
+    position: relative;
+
+/*  background-color:  #F39873;*/
+    color: white;
+    border-style: solid;
+    border-width: 0.1rem;
+    border-color: #929595;
+    padding: 0.3em 0.3em;
+    text-decoration: none;
+    -webkit-transition: background-color 0.5s;
+    transition: background-color 0.5s;
+    text-align: center;
+}
+
+.image-button-nav-flavor, .image-button-nav-flavor:visited{
+    /*  add background image for the cat toys product list image button */
+    background: transparent url(../img/flavor.png) no-repeat;
+    background-position: 25% 10%;
+    display: inline-block;
+    position: relative;
+
+/*  background-color:  #F39873;*/
+    color: white;
+    border-style: solid;
+    border-width: 0.1rem;
+    border-color: #929595;
+    padding: 0.3em 0.3em;
+    text-decoration: none;
+    -webkit-transition: background-color 0.5s;
+    transition: background-color 0.5s;
+    text-align: center;
+}
+
+.image-button-nav-brands-lists:hover, .image-button-nav-brands-lists:active, .image-button-nav-brands-lists:focus{
+    background-color: #FCBCA7;
+    color: #C2C0BC;
+    opacity: 0.5;
+/*    border-radius: 0.25rem;*/
+}
+
+.image-button-nav-health-considerations:hover, .image-button-nav-health-considerations:active, .image-button-nav-health-considerations:focus{
+    background-color: #FCBCA7;
+    color: #C2C0BC;
+    opacity: 0.5;
+/*    border-radius: 0.25rem;*/
+}
+
+.image-button-nav-flavor:hover, .image-button-nav-flavor:active, .image-button-nav-flavor:focus{
+    background-color: #FCBCA7;
+    color: #C2C0BC;
+    opacity: 0.5;
+/*    border-radius: 0.25rem;*/
+}
+
+.payment-figure{
+    margin: 0;
+    text-align: left;
+}
+
+.copyright{
+    font-size: 0.9rem;
+    font-family: Courier New, sans-serif;
+/*  font-family: thin;*/
+   /* first # is top and bottom, second # is left and right margin */
+}
+
+li{
+    text-align: center;
+}

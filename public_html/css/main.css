@@ -289,7 +289,7 @@ article {
 .button-nav, .button-nav:visited{
 	display: inline-block;
 	/*background-color:  #F39873;*/
-	color: orange;
+	color: black;
     /*border-style: solid;*/
     border-width: 0.1rem;
     border-color: #929595;
@@ -309,11 +309,12 @@ article {
 .button-nav:hover, .button-nav:active, .button-nav:focus{
 	background-color: #FCBCA7;
 	border-radius: 0.25rem;
-	color: #C2C0BC;
+	/*color: #C2C0BC;*/
+	color: black;
 /*    border-radius: 0.25rem;*/
 	font-family:  Oswald;
 	font-weight: normal;
-	font-size: 1.2em;
+	font-size: 1.5em;
 	text-align: center;
 }
 
