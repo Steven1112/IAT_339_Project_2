@@ -75,11 +75,23 @@ h1{
 }
 
 h2{
-   font-size: 1.6rem;
-   text-align: left;
-   font-size: normal;
-   font-family:Oswald;
-   font-weight: bold;
+    text-align: left;
+
+    display: inline-block;
+    margin-left: auto;
+    margin-right:auto;
+    /*border-style: solid;
+    border-width: 0.1rem;
+    border-color: #929595;*/
+    text-decoration: none;
+    -webkit-transition: background-color 0.5s;
+    transition: background-color 0.5s;
+    width:100%;
+/*  border-radius:10px;*/
+/*  border-radius: 0.25rem;*/
+    font-family:Oswald;
+    font-size: 1.6rem;
+    font-weight: bold;
 }
 
 h3{
@@ -117,11 +129,11 @@ ul,ol{
 
 p,code,figcaption{
     font-size: 0.9rem;
-    font-family: Courier New, sans-serif;
+    font-family: Oswald;
 /*  font-family: thin;*/
-   /* first # is top and bottom, second # is left and right margin */
+    /* first # is top and bottom, second # is left and right margin */
+    font-weight: lighter;
 }
-
 
 
 .catlogo{
@@ -168,9 +180,9 @@ p,code,figcaption{
 /*Middle Area Open*/
  .pmiddle{
     font-size: 3rem;
-    font-family:Abadi MT Condensed Extra Bold;
-/*  font-family: thin;*/
-    /* first # is top and bottom, second # is left and right margin */
+    font-family:Oswald;
+    text-align: center;
+    font-weight: bold;
 }
 
 .textmiddle{
@@ -193,8 +205,10 @@ p,code,figcaption{
 
 
 .pmiddletext{
-    font-size: 1rem;
-    font-family: Abadi MT Condensed Light;
+    font-family:Oswald;
+    font-size: 1.2rem;
+    font-weight: lighter;
+    text-align: center;
 /*  font-family: thin;*/
     /* first # is top and bottom, second # is left and right margin */
 }
@@ -231,7 +245,7 @@ p,code,figcaption{
 .bottomimage{
     margin-left: 4em;
     margin-right: 8em;
-    margin-top: 5em;
+    margin-top: 4em;
 }
 
 
@@ -251,13 +265,14 @@ p,code,figcaption{
     width:100%;
 /*  border-radius:10px;*/
 /*  border-radius: 0.25rem;*/
-/*  font-family: BAD SPIRIT;*/
-    font-family:Folktale;
-    font-weight: thin;
-
+    font-family:Oswald;
+    font-size: 1.4rem;
     font-weight: normal;
-    font-size: 1.2em;
     text-align: center;
+}
+
+.button-nav-detail:hover{
+    font-weight: bold;
 }
 
 
@@ -337,7 +352,7 @@ p.prightstext{
 }
 
 
-.p-payment-method{
+.payment-method{
     font-size: 1.5rem;
     font-family:Abadi MT Condensed Extra Bold;
     text-align: left;
