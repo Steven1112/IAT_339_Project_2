@@ -626,6 +626,7 @@ img{
 }
 
 figure{
+    margin: 0;
 
 }
 
@@ -1075,9 +1076,6 @@ article {
     margin-top: 5em;
     margin-left: 0em;
     margin-right: 8em;
-    border-style: dashed;
-    border-width: 0.1rem;
-    border-color: #929595;
 }
 
 .customer-reviews{
@@ -1087,9 +1085,7 @@ article {
 }
 
 .customer-reviews-texts{
-    border-style: dashed;
-    border-width: 0.1rem;
-    border-color: #929595;
+
 }
 
 .comments{

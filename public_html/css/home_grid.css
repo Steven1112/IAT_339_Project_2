@@ -94,17 +94,17 @@
 
 @media (max-width: 80em) {
 
-	.grid-col-84of100{
-		width: 100%;  
-	}
+    .grid-col-84of100{
+        width: 100%;  
+    }
 }
 
 
 @media (max-width:50em) {
 
-	.grid-col-10of10{
-		width: 100%;
-	}
+    .grid-col-10of10{
+        width: 100%;
+    }
 }
 
 @media (max-width:65em) {

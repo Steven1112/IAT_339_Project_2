@@ -1,56 +1,56 @@
 /*
-	Just reminding you how transitions work in CSS;
-	i.e. transition: property length easing;
-	i.e. transition: width 1s linear;
+    Just reminding you how transitions work in CSS;
+    i.e. transition: property length easing;
+    i.e. transition: width 1s linear;
 */
 .dd-button {
-	-webkit-transition: background-color 0.5s ease-out;
-	transition: background-color 0.5s ease-out;
+    -webkit-transition: background-color 0.5s ease-out;
+    transition: background-color 0.5s ease-out;
 }
 
 
 
 /*
-	Here we have set up a class (.hide) to hide any element it
-	is applied to by setting it's visibility and opacity 
-	properties accordingly
+    Here we have set up a class (.hide) to hide any element it
+    is applied to by setting it's visibility and opacity 
+    properties accordingly
 */
 .hide {
-	visibility: hidden;
-	opacity: 0;
+    visibility: hidden;
+    opacity: 0;
 }
 
 
 /*
-	Here we are applying a bit of transitioning to both the 
-	visibility and the opacity. We have to set the visibility
-	to transition due to the way the timing plays out in 
-	setting transitions in the page
+    Here we are applying a bit of transitioning to both the 
+    visibility and the opacity. We have to set the visibility
+    to transition due to the way the timing plays out in 
+    setting transitions in the page
 */
 
 
 .dd>.dd-list {
-	/* 
-		To make sure that the list doesn't pop up when we hover
-		over the area it usually sits in, we need to set its
-		positioning to absolute
-	*/
-	position: absolute;
+    /* 
+        To make sure that the list doesn't pop up when we hover
+        over the area it usually sits in, we need to set its
+        positioning to absolute
+    */
+    position: absolute;
 
-	-webkit-transition: visibility 0s linear 0.5s, opacity 0.5s ease-out;
-	transition: visibility 0s linear 0.5s, opacity 0.5s ease-out;
+    -webkit-transition: visibility 0s linear 0.5s, opacity 0.5s ease-out;
+    transition: visibility 0s linear 0.5s, opacity 0.5s ease-out;
 }
 
 
 /*
-	Because we wrapped the drop-down list in a div (.dd), we can
-	now select it when the div is hovered over using child
-	selectors
+    Because we wrapped the drop-down list in a div (.dd), we can
+    now select it when the div is hovered over using child
+    selectors
 */
 .dd:hover>.dd-list {
-	visibility: visible;
-	opacity: 1;
-	transition-delay: 0s;
+    visibility: visible;
+    opacity: 1;
+    transition-delay: 0s;
 }
 
 
@@ -211,29 +211,21 @@ p,code,figcaption{
 
 
 .bottomtext_left{
-    font-size: 0.9rem;
-    font-family: Abadi MT Condensed Light;
-/*  font-family: thin;*/
-/*  first # is top and bottom, second # is left and right margin */
-    border-style: dashed;
+/*  border-style: dashed;
     border-width: 0.1rem;
-    border-color: #929595;
+    border-color: #929595;*/
     margin-top: 5em;
     margin-left: 8em;
     margin-right: 2em;
 }
 
 .bottomtext_right{
-    font-size: 0.9rem;
-    font-family: Abadi MT Condensed Light;
-/*  font-family: thin;*/
-/*  first # is top and bottom, second # is left and right margin */
     margin-top: 5em;
     margin-left: 6em;
     margin-right: 4em;
-    border-style: dashed;
+/*  border-style: dashed;
     border-width: 0.1rem;
-    border-color: #929595;
+    border-color: #929595;*/
 }
 
 
@@ -777,23 +769,23 @@ article {
   
 
 .dd {
-	position: relative;
-/*	max-width: 20em;*/
+    position: relative;
+/*  max-width: 20em;*/
 }
 
 .dd-list {
-	margin: 0;
-	padding: 0;
-	width: 100%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
 }
 
 /* Just giving our drop-down items some styling */
 .dd-list li a {
-	display: block;
-/*	margin: 0.1em 0;*/
-/*	padding: 0.5em 0.7em;*/
+    display: block;
+/*  margin: 0.1em 0;*/
+/*  padding: 0.5em 0.7em;*/
     color: #F39873;
-	margin-left: auto;
+    margin-left: auto;
     margin-right:auto;
 
     padding: 0.3em 0.3em;
@@ -811,14 +803,14 @@ article {
 }
 
 .dd-list li a:hover{
-/*	background-color: #FCBCA7;
+/*  background-color: #FCBCA7;
     color: #C2C0BC;*/
     text-decoration: none;
-	font-weight: bold;
+    font-weight: bold;
 }
 
 .dd-button {
-	display: inline-block;
+    display: inline-block;
     color: #F39873;
     margin-left: auto;
     margin-right:auto;
@@ -836,10 +828,10 @@ article {
 }
 
 .dd-button:hover {
-/*	background-color: #FCBCA7;
+/*  background-color: #FCBCA7;
     color: #C2C0BC;*/
     text-decoration: none;
-	font-weight: bold;
+    font-weight: bold;
 }
 
 .onpage-button-nav, .onpage-button-nav:visited{
@@ -973,4 +965,4 @@ article {
     font-family: Courier New, sans-serif;
 /*  font-family: thin;*/
    /* first # is top and bottom, second # is left and right margin */
-}
+}9

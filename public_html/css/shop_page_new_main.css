@@ -180,21 +180,13 @@ p,code,figcaption{
 
 .subtitle{
     display: inline-block;
-    /*background-color:  #F39873;*/
     color: #F39873;
     margin-left: auto;
     margin-right:auto;
-    /*border-style: solid;
-    border-width: 0.1rem;
-    border-color: #929595;*/
-/*  padding: 0.3em 0.3em;*/
     text-decoration: none;
     -webkit-transition: background-color 0.5s;
     transition: background-color 0.5s;
     width:100%;
-/*  border-radius:10px;*/
-/*  border-radius: 0.25rem;*/
-/*    font-family: BAD SPIRIT;*/
     font-family:Oswald;
     font-size: 1.4rem;
     font-weight: bold;
@@ -322,9 +314,9 @@ display: inline-block;
 
 
 .bottomtext_left{
-    border-style: dashed;
+/*  border-style: dashed;
     border-width: 0.1rem;
-    border-color: #929595;
+    border-color: #929595;*/
     margin-top: 5em;
     margin-left: 10em;
     margin-right: 3em;
@@ -334,15 +326,9 @@ display: inline-block;
     margin-top: 5em;
     margin-left: 7.5em;
     margin-right: 5em;
-    border-style: dashed;
-    border-width: 0.1rem;
-    border-color: #929595;
 }
 
 .bottomtext_right{
-    border-style: dashed;
-    border-width: 0.1rem;
-    border-color: #929595;
     margin-top: 5em;
     margin-left: 6em;
     margin-right: 8em;

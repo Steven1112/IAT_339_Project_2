@@ -127,6 +127,13 @@
 
 }
 
+@media (max-width: 50em) {
+
+    .grid-col-8of100 {
+        width: 100%;file:///Users/Sidi/Desktop/Project_2_IAT339/public_html/shop-page-Whiskas.html
+    }
+}
+
 @media (max-width:65em) {
 
     .grid-col-4of10{

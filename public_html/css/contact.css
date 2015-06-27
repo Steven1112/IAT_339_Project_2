@@ -1,56 +1,56 @@
 /*
-	Just reminding you how transitions work in CSS;
-	i.e. transition: property length easing;
-	i.e. transition: width 1s linear;
+    Just reminding you how transitions work in CSS;
+    i.e. transition: property length easing;
+    i.e. transition: width 1s linear;
 */
 .dd-button {
-	-webkit-transition: background-color 0.5s ease-out;
-	transition: background-color 0.5s ease-out;
+    -webkit-transition: background-color 0.5s ease-out;
+    transition: background-color 0.5s ease-out;
 }
 
 
 
 /*
-	Here we have set up a class (.hide) to hide any element it
-	is applied to by setting it's visibility and opacity 
-	properties accordingly
+    Here we have set up a class (.hide) to hide any element it
+    is applied to by setting it's visibility and opacity 
+    properties accordingly
 */
 .hide {
-	visibility: hidden;
-	opacity: 0;
+    visibility: hidden;
+    opacity: 0;
 }
 
 
 /*
-	Here we are applying a bit of transitioning to both the 
-	visibility and the opacity. We have to set the visibility
-	to transition due to the way the timing plays out in 
-	setting transitions in the page
+    Here we are applying a bit of transitioning to both the 
+    visibility and the opacity. We have to set the visibility
+    to transition due to the way the timing plays out in 
+    setting transitions in the page
 */
 
 
 .dd>.dd-list {
-	/* 
-		To make sure that the list doesn't pop up when we hover
-		over the area it usually sits in, we need to set its
-		positioning to absolute
-	*/
-	position: absolute;
+    /* 
+        To make sure that the list doesn't pop up when we hover
+        over the area it usually sits in, we need to set its
+        positioning to absolute
+    */
+    position: absolute;
 
-	-webkit-transition: visibility 0s linear 0.5s, opacity 0.5s ease-out;
-	transition: visibility 0s linear 0.5s, opacity 0.5s ease-out;
+    -webkit-transition: visibility 0s linear 0.5s, opacity 0.5s ease-out;
+    transition: visibility 0s linear 0.5s, opacity 0.5s ease-out;
 }
 
 
 /*
-	Because we wrapped the drop-down list in a div (.dd), we can
-	now select it when the div is hovered over using child
-	selectors
+    Because we wrapped the drop-down list in a div (.dd), we can
+    now select it when the div is hovered over using child
+    selectors
 */
 .dd:hover>.dd-list {
-	visibility: visible;
-	opacity: 1;
-	transition-delay: 0s;
+    visibility: visible;
+    opacity: 1;
+    transition-delay: 0s;
 }
 
 
@@ -125,41 +125,41 @@ ul,ol{
 
 p,code,figcaption{
     font-size: 0.9rem;
-	font-family: Oswald;
-/*	font-family: thin;*/
-	/* first # is top and bottom, second # is left and right margin */
-	margin: 0.25rem 0.5rem;
-	font-weight: lighter;
+    font-family: Oswald;
+/*  font-family: thin;*/
+    /* first # is top and bottom, second # is left and right margin */
+    margin: 0.25rem 0.5rem;
+    font-weight: lighter;
 }
 
 
 
 .contact-form-border{
-	width:80%;
+    width:80%;
 }
 
 
  .article-border{
     text-align: left;
-/*	border: 3px solid #929595;*/
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
-	display: inline-block;
-	margin-left: auto;
-	margin-right: auto;
-	padding: 2em 3.5em 2em 2.5em;
+/*  border: 3px solid #929595;*/
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2em 3.5em 2em 2.5em;
  }
 
  #contact-information{
-/* 	margin-top: 3em;*/
- 	margin-bottom: 3em;
- 	margin-left: 3em;
-	margin-right: 3em;
+/*  margin-top: 3em;*/
+    margin-bottom: 3em;
+    margin-left: 3em;
+    margin-right: 3em;
  }
 
  #FAQ{
- 	margin-top: 3em;
-	margin-bottom: 3em;
+    margin-top: 3em;
+    margin-bottom: 3em;
  }
 
 
@@ -177,28 +177,28 @@ p,code,figcaption{
 
 
 .pstyle{
-	font-size: 0.9rem;
-	font-family: Oswald;
-/*	font-family: thin;*/
-	/* first # is top and bottom, second # is left and right margin */
-	/*margin: 0.25rem 0.5rem;*/
-/*	try make a paragraph half-page length*/
+    font-size: 0.9rem;
+    font-family: Oswald;
+/*  font-family: thin;*/
+    /* first # is top and bottom, second # is left and right margin */
+    /*margin: 0.25rem 0.5rem;*/
+/*  try make a paragraph half-page length*/
     font-weight: lighter;
     display: inline;
 }
 
 .pprice{
-	font-size: 1.2rem;
+    font-size: 1.2rem;
     font-family: Oswald;
     text-align: center;
     font-weight: normal;
 }
 
 .psubtitle{
-	font-size: 1.1rem;
-	font-family:Oswald;
-	font-weight: lighter;
-	margin: 0.25rem 0.5rem;
+    font-size: 1.1rem;
+    font-family:Oswald;
+    font-weight: lighter;
+    margin: 0.25rem 0.5rem;
 }
  /*Top Area*/
 
@@ -764,12 +764,12 @@ input.submitcomment{
 
 input.submitcomment{
     background-color: #F39873;
-	color: white;
-	border-radius: 0.25rem;
-	margin: 0.25rem 0.5rem;
-	padding: 0.25rem 0.45rem;
-	font-size: 1.2em;
-	/*border-style: solid;*/
+    color: white;
+    border-radius: 0.25rem;
+    margin: 0.25rem 0.5rem;
+    padding: 0.25rem 0.45rem;
+    font-size: 1.2em;
+    /*border-style: solid;*/
     /*border-width: 0.1rem;*/
     /*border-color: #929595;*/
     float: right;
@@ -777,20 +777,20 @@ input.submitcomment{
 
 
 textarea{
-	font-family: Oswald;
+    font-family: Oswald;
     font-weight: lighter;
-	background-color: #FAFCF9;
-	color: white;
-	width: 30rem;
+    background-color: #FAFCF9;
+    color: white;
+    width: 30rem;
     width: 100%;
-	height: 10rem;
-	min-width: 10rem;
+    height: 10rem;
+    min-width: 10rem;
     min-height: 10rem;
     font-size: 0.9rem;
     text-align: left;
     display: block;
 
-	/*width: 10rem;*/
+    /*width: 10rem;*/
     /*background-color: white;
     color: white;
     width: 150rem;
@@ -844,14 +844,14 @@ article {
 
 
 .dd {
-	position: relative;
-/*	max-width: 20em;*/
+    position: relative;
+/*  max-width: 20em;*/
 }
 
 .dd-list {
-	margin: 0;
-	padding: 0;
-	width: 100%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
 }
 
 /* Just giving our drop-down items some styling */
@@ -941,19 +941,12 @@ article {
 
 .login-button-nav, .login-button-nav:visited{
     display: inline-block;
-    /*background-color:  #F39873;*/
     color: #F39873;
-    /*border-style: solid;
-    border-width: 0.1rem;
-    border-color: #929595;*/
     padding: 0.3em 0.3em;
     text-decoration: none;
     -webkit-transition: background-color 0.5s;
     transition: background-color 0.5s;
     width:100%;
-/*  border-radius:10px;*/
-/*  border-radius: 0.25rem;*/
-/*    font-family: BAD SPIRIT;*/
     font-size: 1.2em;
     text-align: center;
     font-size: normal;
@@ -962,9 +955,6 @@ article {
 }
 
 .login-button-nav:hover, .login-button-nav:active, .login-button-nav:focus{
-/*  border-radius: 0.25rem;*/
-/*  background-color: #FCBCA7;
-    color: #C2C0BC;*/
     text-decoration: none;
     font-weight: bold;
 }
@@ -1225,9 +1215,6 @@ li{
     margin-top: 3em;
     margin-left: 8em;
     margin-right: 8em;
-    border-style: dashed;
-    border-width: 0.1rem;
-    border-color: #929595;
     /*width: 45%;*/
 }
 
@@ -1235,9 +1222,6 @@ li{
     margin-top: 5em;
     margin-left: 8em;
     margin-right: 1em;
-    border-style: dashed;
-    border-width: 0.1rem;
-    border-color: #929595;
     /*width: 45%;*/
 }
 
@@ -1245,8 +1229,5 @@ li{
     margin-top: 5em;
     margin-left: 1em;
     margin-right: 8em;
-    border-style: dashed;
-    border-width: 0.1rem;
-    border-color: #929595;
     /*width: 45%;*/
 }

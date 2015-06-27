@@ -165,16 +165,16 @@
 
 @media (max-width: 80em) {
 
-	.grid-col-84of100{
-		width: 100%;  
-	}
+    .grid-col-84of100{
+        width: 100%;  
+    }
 }
 
 @media (max-width: 70em) {
 
-	.grid-col-5of10{
-		width: 100%;
-	}
+    .grid-col-5of10{
+        width: 100%;
+    }
 
     .catfoodintroduction{
         margin-left: 8em;
@@ -194,9 +194,9 @@
 
 @media (max-width:50em) {
 
-	.grid-col-10of10{
-		width: 100%;
-	}
+    .grid-col-10of10{
+        width: 100%;
+    }
 }
 
 @media (max-width: 65em) {
