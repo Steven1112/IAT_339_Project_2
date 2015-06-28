@@ -154,13 +154,14 @@ p,code,figcaption{
 
 .topimage{
   z-index: -999;
-  min-width: 25.6em;
-  min-height: 16em;
+  /*min-width: 25.6em;
+  min-height: 16em;*/
   width: 100%;
   height: auto;
   position: relative;
   top: 0;
   left: 0;
+  /*opacity:0.5;*/
 /*margin-bottom: 3em;*/
 }
 
@@ -187,15 +188,16 @@ p,code,figcaption{
     /*top:10em;*/
     /*padding: -20em;*/
     /* float:left; */
-    margin-left: 50%;
+    /*margin: center;*/
+    margin-left: 15%;
     margin-right: 10%;
     margin-top: -35%;
     position: absolute;
     /*background-color: rgba(255, 237, 221, 0.8);*/
     max-width: 50em;
     min-width: 20em;
-    margin-bottom: 20em;
-    position: absolute;
+    /*margin-bottom: 20em;*/
+   
 }
 
 
@@ -741,8 +743,9 @@ article {
 /* set layout for three login buttons */
  .login-methods{
     margin-right: 8em;
-    margin-top: 2em;
+    margin-top: 1em;
     margin-left: 8em;
+    margin-bottom: 2em;
  }
 
  .cat-foods-image-button-layout{
@@ -931,17 +934,22 @@ article {
 /*  background-position: center;*/
 /*  background-size: 100% 160%;*/
 /*  position: relative;*/
-    display: inline-block;
+   /* display: inline-block;*/
+    display: block;
     margin-left: 8em;
     margin-right: 8em;
-    margin-top: 1em;
+    margin-top: 10em;
     margin-bottom: 2em;
-    width: auto;
-    height: auto;
-    min-width: 26.4em;
-    min-height: 16em;
+    width: 20%;
+    height: 20%;
+    /*width: 100em;
+    width: 30em;*/
+    /*min-width: 26.4em;
+    min-height: 16em;*/
+    min-width: 3em;
+    min-height: 3em;
     z-index: 3;
-    float: left;
+    /*float: left;*/
 
     padding: 0.3em 0.3em;
     text-decoration: none;
