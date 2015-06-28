@@ -70,8 +70,9 @@ h1{
    font-size: 3.3rem;
    font-weight: 700;
    font-family: Austie Bost Kitten Klub;
-   text-align: left;
+   text-align: center;
 /*   color: #F39873;*/
+   color: white;
 }
 
 h2{
@@ -146,69 +147,7 @@ p,code,figcaption{
 }
 
 
-.logo-name{
-    margin-left: auto;
-    margin-right: auto;
-/*  margin-top: 5em;*/
-}
-
-.topimage{
-  z-index: -999;
-  /*min-width: 25.6em;
-  min-height: 16em;*/
-  width: 100%;
-  height: auto;
-  position: relative;
-  top: 0;
-  left: 0;
-  /*opacity:0.5;*/
-/*margin-bottom: 3em;*/
-}
-
-
-
 /*Top Area closed*/
-
-
-
-
-
-/*Middle Area Open*/
- .pmiddle{
-    font-size: 3rem;
-    font-family:Oswald;
-    text-align: center;
-    font-weight: bold;
-}
-
-.textmiddle{
-    z-index: 100;
-    /*color:#929595;*/
-    color:white;
-    /*top:10em;*/
-    /*padding: -20em;*/
-    /* float:left; */
-    /*margin: center;*/
-    margin-left: 15%;
-    margin-right: 10%;
-    margin-top: -35%;
-    position: absolute;
-    /*background-color: rgba(255, 237, 221, 0.8);*/
-    max-width: 50em;
-    min-width: 20em;
-    /*margin-bottom: 20em;*/
-   
-}
-
-
-.pmiddletext{
-    font-family:Oswald;
-    font-size: 1.2rem;
-    font-weight: lighter;
-    text-align: center;
-/*  font-family: thin;*/
-    /* first # is top and bottom, second # is left and right margin */
-}
 
 
 
@@ -509,10 +448,10 @@ img{
 }
 
 .square-box{
-        margin-top:3em;
-        height: 0.5;
-        width: 100%;
-        background-color: #FFFDFA;
+    margin-top:3em;
+    height: 0.5;
+    width: 100%;
+    background-color: #FFFDFA;
 }
 
 figure{
@@ -731,22 +670,6 @@ article {
     color: #C2C0BC;
 /*  border-radius: 0.25rem;*/
 }
-
-
-/* set top main navigation layout */
- .topmenu{
-    margin-left: 8em;
-    margin-top: 0em;
-    margin-right: 8em;
- }
-
-/* set layout for three login buttons */
- .login-methods{
-    margin-right: 8em;
-    margin-top: 1em;
-    margin-left: 8em;
-    margin-bottom: 2em;
- }
 
  .cat-foods-image-button-layout{
     margin-left: 8em;
@@ -973,4 +896,87 @@ article {
     font-family: Courier New, sans-serif;
 /*  font-family: thin;*/
    /* first # is top and bottom, second # is left and right margin */
-}9
+}
+
+ .login-methods{
+    margin-right: 8em;
+    margin-top: -47%;
+    margin-left: 8em;
+    margin-bottom: 2em;
+    z-index: 1;
+/*    position: absolute;*/
+ }
+
+
+.logo-name{
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 1;
+/*    position: absolute;*/
+}
+
+ /* set top main navigation layout */
+ .topmenu{
+    margin-left: 8em;
+    margin-top: 0em;
+    margin-right: 8em;
+    z-index: 1;
+/*    position: absolute;*/
+ }
+
+ .topimage{
+/*  background: transparent url(../img/background_2.jpg) no-repeat;*/
+    display: block;
+    -webkit-transition: background-color 0.5s;
+    transition: background-color 0.5s;
+    z-index: -1;
+    width: 100%;
+    height: auto;
+    position: relative;
+    top: 0em;
+    left: 0em;
+/*  padding: 0.3em 0.3em;*/
+}
+
+ .pmiddle{
+    font-size: 1.8rem;
+    font-family:Oswald;
+    text-align: left;
+    font-weight: bold;
+/*    color:  #929595;*/
+/*    color: #F39873;*/
+    color: white;
+    opacity: 1;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+}
+
+.pmiddletext{
+    font-family:Oswald;
+    font-size: 1.2rem;
+    font-weight: lighter;
+    text-align: left;
+/*    color:  #929595;*/
+/*    color: #F39873;*/
+    color: white;
+    opacity: 1;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+
+.textmiddle{
+    z-index: 1;
+    margin-left: 8.8%;
+    margin-right: 30%;
+    margin-top: 5%;
+    position: absolute;
+    max-width: 50em;
+    min-width: 20em;
+    background-color: rgba(146, 149, 149, 0.6);
+    opacity: 1;
+}
+
+.bottom{
+    margin-top: 32%;
+}

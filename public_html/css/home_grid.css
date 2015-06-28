@@ -23,7 +23,6 @@
 
 .grid-col-8of100 {
     width: 8%;
-    float:right;
 }
 
 .grid-col-100of100 {
@@ -46,9 +45,12 @@
     width: 40%;    
 }
 
+.grid-col-30of100 {
+    width: 30%;
+}
 
-.grid-col-84of100 {
-    width: 84%;
+.grid-col-14of100 {
+    width: 14%;
 }
 
 .grid-col-33of100{
@@ -62,18 +64,19 @@
 */
 
 
-@media (max-width: 50em) {
-
-    .grid-col-8of100 {
-        width: 100%;
-    }
-}
-
-@media (max-width: 50em) {
+@media (max-width: 57em) {
 
     .grid-col-25of100 {
         width: 100%;
     }
+}
+
+@media (max-width: 60em) {
+
+    .grid-col-8of100 {
+        width: 100%;
+    }
+
 }
 
 
@@ -92,13 +95,6 @@
     }
 }
 
-@media (max-width: 80em) {
-
-    .grid-col-84of100{
-        width: 100%;  
-    }
-}
-
 
 @media (max-width:50em) {
 
@@ -107,16 +103,51 @@
     }
 }
 
-@media (max-width:65em) {
+@media (max-width:60em) {
 
     .grid-col-4of10{
         width: 100%;
-        margin-left: 8em;
-        margin-right: 8em;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: auto; 
     }
 }
 
-@media (max-width: 65em) {
+@media (max-width: 67em) {
+
+    .grid-col-33of100 {
+        width: 100%;
+        margin-left: auto;
+        margin-left: auto;
+    }
+
+    .payment-methods-layout{
+        margin-left: 5.5em;
+        margin-right: 5.5em;
+        margin-top: 2em;
+ }
+
+    .bottomtext_left{
+        margin-left: 3em;
+        margin-right: 3em;
+        margin-top: auto+5%;
+    }
+
+    .bottomtext_right{
+        margin-left: 3em;
+        margin-right: 3em;
+        margin-top: auto+5%;
+    }
+
+    .bottomimage{
+        margin-left: 3em;
+        margin-right: 3em;
+        margin-top: auto+5%;
+    }
+
+}
+
+@media (max-width: 50em) {
 
     .grid-col-33of100 {
         width: 100%;
@@ -125,39 +156,65 @@
     .bottomtext_left{
         margin-left: 3em;
         margin-right: 3em;
-        margin-top: 2em;
+        margin-top: auto+40%;
     }
 
     .bottomtext_right{
         margin-left: 3em;
         margin-right: 3em;
-        margin-top: 2em;
+        margin-top: auto+40%;
     }
 
     .bottomimage{
         margin-left: 3em;
         margin-right: 3em;
-        margin-top: 2em;
+        margin-top: auto+40%;
+    }
+
+    .bottom{
+        margin-top: 45%;
     }
 
 }
 
-@media (max-width:70em) {
+@media (max-width: 35em) {
+
+    .bottom{
+        margin-top: 55%;
+    }
+
+}
+
+@media (max-width: 30em) {
+
+    .bottom{
+        margin-top: 75%;
+    }
+
+}
+
+@media (max-width: 25em) {
+
+    .bottom{
+        margin-top: 88%;
+    }
+
+}
+
+
+@media (max-width:67em) {
 
     .textmiddle{
-        width: 50%;
-        margin-left: 40%;
-        margin-right: 10%;
-        margin-top: -40%;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
     }
 
-    .pmiddle{
-        font-size: 2rem;
-        font-family:Abadi MT Condensed Extra Bold;
-    }
-
-    .pmiddletext{
-        font-size: 0.8rem;
+    .topmenu{
+        margin-left: 8em;
+        margin-right: 8em;
+        margin-top: 5%;
+        margin-bottom: 10%;
     }
 
 }
@@ -165,19 +222,54 @@
 @media (max-width:40em) {
 
     .textmiddle{
-        width: 50%;
-        margin-left: 30%;
-        margin-right: 10%;
-        margin-top: -45%;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;;
     }
 
-    .pmiddle{
-        font-size: 1rem;
-        font-family:Abadi MT Condensed Extra Bold;
+    .topmenu{
+        margin-left: 8em;
+        margin-right: 8em;
+        margin-top: 5%;
+        margin-bottom: 10%;
     }
 
-    .pmiddletext{
-        font-size: 0.6rem;
+}
+
+@media (max-width:40em) {
+
+    .topimage{
+        width: 39em;
+        height: auto;
+    }
+
+    .grid-col-4of10{
+        width: 100%;
+        margin-left: 1%;
+        margin-right: 1%;
+        margin-top: -20%;
+    }
+
+}
+
+@media (max-width:30em) {
+
+    .grid-col-4of10{
+        width: 100%;
+        margin-left: 0%;
+        margin-right: 0%;
+        margin-top: -50%;
+    }
+
+}
+
+@media (max-width:25em) {
+
+    .grid-col-4of10{
+        width: 100%;
+        margin-left: 0%;
+        margin-right: 0%;
+        margin-top: -90%;
     }
 
 }
