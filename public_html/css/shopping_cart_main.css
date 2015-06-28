@@ -1,0 +1,259 @@
+*, *:after, *:before{
+  box-sizing:border-box;
+}
+
+
+body{
+  color:black;
+  background-color:white;
+  font-size: 16px;
+  color:#929595;
+}
+
+h1{
+  font-size: 3.3rem;
+  font-weight: 700;
+  font-family: Austie Bost Kitten Klub;
+  text-align: center;
+/*color: #F39873;*/
+  color: white;
+}
+
+h2{
+  text-align: left;
+
+  display: inline-block;
+  margin-left: auto;
+  margin-right:auto;
+  text-decoration: none;
+  -webkit-transition: background-color 0.5s;
+  transition: background-color 0.5s;
+  width:100%;
+  font-family:Oswald;
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+
+input{
+  background-color:  #f3e9c2;
+  color: #F39873;
+  margin: 0.25rem 0.5rem;
+  padding: 0.25rem 0.45rem;
+  font-size: 1.2em;
+  border-style: solid;
+  border-width: 0.1rem;
+  border-color: #929595;
+}
+
+#shopping-cart {
+  display: block;
+  border-collapse: collapse;
+  margin: 0;
+  width: 100%;
+}
+#shopping-cart thead th {
+  padding: 8px 0;
+  font-weight: bold;
+}
+
+#shopping-cart thead th.first {
+  width: 175px;
+}
+#shopping-cart thead th.second {
+  width: 230px;
+}
+#shopping-cart thead th.third {
+  width: 45px;
+}
+#shopping-cart thead th.fourth {
+  width: 130px;
+}
+#shopping-cart thead th.fifth {
+  width: 175px;
+}
+
+#shopping-cart tbody td {
+  text-align: center;
+  margin-top: 4px;
+}
+
+tr.shopping-cart-list {
+  height: 65px;
+  line-height: 65px;
+/*border-bottom: 1px solid #d7dbe0;*/
+}
+
+/*.remove {
+  cursor: pointer;
+  position: relative;
+  right: 12px;
+  top: 5px;
+}*/
+
+.hide {
+    visibility: hidden;
+    opacity: 0;
+}
+
+.product-image{
+    display: inline-block;
+/*  position: relative;*/
+    width: 13em;
+    height: 13em;
+    min-width: 8em;
+    min-height: 8em;
+}
+
+
+
+/** submit btn **/
+tr.checkout-area {
+/*  border-top: 1px solid #929595;
+  border-bottom: 1px solid #929595;*/
+}
+td.checkout {
+  padding: 12px 0;
+  padding-top: 20px;
+  width: 100%;
+  text-align: right;
+}
+
+th.specialprice-title{
+    font-size: 1.6rem;
+    font-family: Oswald;
+    text-align: center;
+    font-weight: normal;
+/*  font-weight: lighter;*/
+}
+
+td.specialprice-title{
+    font-size: 1.2rem;
+    font-family: Oswald;
+    text-align: center;
+    font-weight: normal;
+/*  font-weight: lighter;*/
+}
+
+td.shipping-title{
+    font-size: 1.2rem;
+    font-family: Oswald;
+    text-align: center;
+    font-weight: normal;
+    color: red;
+/*  font-weight: lighter;*/
+}
+
+td.totalprice-title{
+    font-size: 1.4rem;
+    font-family: Oswald;
+    text-align: center;
+    font-weight: bold;;
+/*  font-weight: lighter;*/
+}
+
+td.pprice{
+    font-size: 1.2rem;
+    font-family: Oswald;
+    text-align: center;
+    font-weight: normal;
+}
+
+td.shipping-price{
+    font-size: 1.2rem;
+    font-family: Oswald;
+    text-align: center;
+    font-weight: normal;
+    color: red;
+}
+
+td.total-price{
+    font-size: 1.4rem;
+    font-family: Oswald;
+    text-align: center;
+    font-weight: bold;
+}
+
+td.sdetail{
+    font-size: 1rem;
+    font-family: Oswald;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.checkout-button{
+    display: inline-block;
+    background-color:  #f3e9c2;
+    color: #F39873;
+    margin-left: 4.5%;
+    margin-right: 4.5%;
+    padding: 0.3em 0.3em;
+    text-decoration: none;
+    -webkit-transition: background-color 0.5s;
+    transition: background-color 0.5s;
+/*  width:100%;*/
+    font-family:Oswald;
+    font-size: 1.6rem;
+    font-weight: normal;
+    text-align: center;
+    float: right;
+}
+
+.checkout-button:hover{
+    font-weight: bold;
+}
+
+.remove-button{
+    display: inline-block;
+    background-color:  #f3e9c2;
+    color: #F39873;
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration: none;
+    width: 30%;
+    height: 30%;
+    -webkit-transition: background-color 0.5s;
+    transition: background-color 0.5s;
+/*  width:100%;*/
+    font-family:Oswald;
+    font-size: 1.2rem;
+    font-weight: normal;
+    text-align: center;
+}
+
+.remove-button:hover{
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+
+.payment-methods-layout{
+    margin-right: 8em;
+    margin-top: 10em;
+    margin-left: 8em;
+ }
+
+h2.subtitle{
+    text-align: left;
+
+    display: inline-block;
+    margin-left: auto;
+    margin-right:auto;
+    text-decoration: none;
+    -webkit-transition: background-color 0.5s;
+    transition: background-color 0.5s;
+    width:100%;
+    font-family:Oswald;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+
+table { border-collapse: collapse; border-spacing: 0; }
+
+
+#shopping-cart-page {
+  display: block;
+  background: #fff;
+  padding: 15px 0;
+  -webkit-box-shadow: 0 2px 4px rgba(0,0,0,0.4);
+  -moz-box-shadow: 0 2px 4px rgba(0,0,0,0.4);
+}

@@ -345,28 +345,6 @@ a{
 	text-decoration: none;
 }
 
-.checkoutbutton{
-	background-color: #F39873;
-	color: white;
-	border-radius: 0.25rem;
-/*	margin: 0.5rem 0.25rem 0.75rem 0.8rem;*/
-    margin: 0.25rem 0.5rem;
-    padding: 0.25rem 0.45rem;
-    font-family: Oswald;
-    text-align: center;
-    font-size: 1.2em;
-   /* border-style: dashed;
-    border-width: 0.4rem;
-    border-color: #929595;*/
-}
-
-.checkoutbutton:hover{
-	background-color: #C2BFBB;
-	color: #929595;
-	text-decoration: none;
-	text-align: center;
-}
-
 /*responsive image styles*/
 img{
     height: auto;
@@ -374,7 +352,7 @@ img{
 }
 
 figure{
-
+    margin: 0;
 }
 
 form{
@@ -952,26 +930,26 @@ a{
     text-decoration: none;
 }
 
-.checkoutbutton{
-    background-color: #F39873;
-    color: white;
-/*  border-radius: 0.25rem;*/
-/*  margin: 0.5rem 0.25rem 0.75rem 0.8rem;*/
-    margin: 0.25rem 0.5rem;
-    padding: 0.25rem 0.45rem;
-    font-family: Abadi MT Condensed Light;
+.checkout-button{
+    display: inline-block;
+    background-color:  #f3e9c2;
+    color: #F39873;
+    margin-left: 4.5%;
+    margin-right: 4.5%;
+    padding: 0.3em 0.3em;
+    text-decoration: none;
+    -webkit-transition: background-color 0.5s;
+    transition: background-color 0.5s;
+/*  width:100%;*/
+    font-family:Oswald;
+    font-size: 1.6rem;
+    font-weight: normal;
     text-align: center;
-    font-size: 1.2em;
-    border-style: solid;
-    border-width: 0.1rem;
-    border-color: #929595;
+    float: right;
 }
 
-.checkoutbutton:hover{
-    background-color: #C2BFBB;
-    color: #929595;
-    text-decoration: none;
-    text-align: center;
+.checkout-button:hover{
+    font-weight: bold;
 }
 
 a:hover{
@@ -1394,6 +1372,52 @@ article {
     color: #C2C0BC;*/
 /*  border-radius: 0.25rem;*/
     opacity: 0.5;
+}
+
+
+.checkout-button{
+    display: inline-block;
+    background-color:  #f3e9c2;
+    color: #F39873;
+    margin-left: 6%;
+    margin-right: 6%;
+    padding: 0.3em 0.3em;
+    text-decoration: none;
+    -webkit-transition: background-color 0.5s;
+    transition: background-color 0.5s;
+/*  width:100%;*/
+    font-family:Oswald;
+    font-size: 1.6rem;
+    font-weight: normal;
+    text-align: center;
+    float: right;
+}
+
+.checkout-button:hover{
+    font-weight: bold;
+}
+
+.remove-button{
+    display: inline-block;
+    background-color:  #f3e9c2;
+    color: #F39873;
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration: none;
+    width: 30%;
+    height: 30%;
+    -webkit-transition: background-color 0.5s;
+    transition: background-color 0.5s;
+/*  width:100%;*/
+    font-family:Oswald;
+    font-size: 1.2rem;
+    font-weight: normal;
+    text-align: center;
+}
+
+.remove-button:hover{
+    font-weight: bold;
+    font-size: 1.4rem;
 }
 
 .Whiskas_large{
