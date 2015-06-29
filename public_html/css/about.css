@@ -123,7 +123,7 @@ ul,ol{
 
 
 p,code,figcaption{
-    font-size: 0.9rem;
+    font-size: 1.3rem;
     font-family: Oswald;
 /*  font-family: thin;*/
     /* first # is top and bottom, second # is left and right margin */
@@ -244,10 +244,9 @@ p,code,figcaption{
 }
 
 .specialprice{
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     font-family: Oswald;
-    font-weight: lighter;
-    text-align: center;
+    font-weight: bold;
 }
 
 .pprice{
@@ -1330,7 +1329,6 @@ a:hover {
     font-family:Oswald;
     font-size: 1.4rem;
     font-weight: bold;
-    text-align: center;
 }
 
 .about-story{
