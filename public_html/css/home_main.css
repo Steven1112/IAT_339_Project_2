@@ -629,7 +629,7 @@ article {
 
 .image-button-nav-cat-clothes, .image-button-nav-cat-clothes:visited{
     /*  add background image for the cat toys product list image button */
-    background: transparent url(../img/Cat_Clothes_Icon.jpg) no-repeat;
+    background: transparent url(../img/Cat_Clothes.jpg) no-repeat;
     background-position: 45% 10%;
     display: inline-block;
     position: relative;
