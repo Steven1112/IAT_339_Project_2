@@ -70,9 +70,9 @@ h1{
    font-size: 3.3rem;
    font-weight: 700;
    font-family: Austie Bost Kitten Klub;
-   text-align: center;
-/*   color: #F39873;*/
-   color: white;
+   text-align: left;
+/* color: #F39873;*/
+/* color: white;*/
 }
 
 h2{
@@ -91,9 +91,18 @@ h2{
 }
 
 h3{
-   font-size: 1.0rem;
-   font-size: normal;
-   font-family: Courier New, sans-serif;
+   text-align: center;
+
+    display: inline-block;
+    margin-left: auto;
+    margin-right:auto;
+    text-decoration: none;
+    -webkit-transition: background-color 0.5s;
+    transition: background-color 0.5s;
+    width:100%;
+    font-family:Oswald;
+    font-size: 1.4rem;
+    font-weight: bold;
 }
 
 h4{
@@ -155,14 +164,14 @@ p,code,figcaption{
 /*  border-style: dashed;
     border-width: 0.1rem;
     border-color: #929595;*/
-    margin-top: 5em;
+    margin-top: 3em;
     margin-left: 8em;
-    margin-right: 2em;
+    margin-right: 0em;
 }
 
 .bottomtext_right{
-    margin-top: 5em;
-    margin-left: 6em;
+    margin-top: 3em;
+    margin-left: 4em;
     margin-right: 4em;
 /*  border-style: dashed;
     border-width: 0.1rem;
@@ -171,28 +180,26 @@ p,code,figcaption{
 
 
 .bottomimage{
-    margin-left: 4em;
+    margin-top: 3em;
+    margin-left: 0em;
     margin-right: 8em;
-    margin-top: 4em;
 }
 
 
 .button-nav-detail{
     display: inline-block;
-    background-color:  #f3e9c2;
-    color: #F39873;
+    background-color:  #F39873;
+    color: white;
+    text-decoration: none;
+    
     margin-left: auto;
     margin-right:auto;
-    /*border-style: solid;
-    border-width: 0.1rem;
-    border-color: #929595;*/
     padding: 0.3em 0.3em;
     text-decoration: none;
     -webkit-transition: background-color 0.5s;
     transition: background-color 0.5s;
-    width:100%;
-/*  border-radius:10px;*/
-/*  border-radius: 0.25rem;*/
+    width: 4em;
+
     font-family:Oswald;
     font-size: 1.4rem;
     font-weight: normal;
@@ -575,22 +582,19 @@ input:hover{
 
 article {
     text-align: left;
-/*  margin: 2rem 0rem;*/ 
-/*  padding: 2rem;*/
-/*  the border does not look nice */
-    border: 2px solid #929595;
+/*  border: 2px solid #929595;*/
     -moz-box-sizing: border-box;
     box-sizing: border-box;
+    display: inline-block;
 }
 
 
 .image-button-nav-cat-foods, .image-button-nav-cat-foods:visited{
-/*  add background image for the cat foods product list image button */
+    /*  add background image for the cat foods product list image button */
     background: transparent url(../img/Cat_Foods_Icon.jpg) no-repeat;
+    background-position: center center;
     display: inline-block;
     position: relative;
-    width: 30rem;
-    height: 24rem;
 
 /*  background-color:  #F39873;*/
     color: white;
@@ -601,19 +605,15 @@ article {
     text-decoration: none;
     -webkit-transition: background-color 0.5s;
     transition: background-color 0.5s;
-    font-family: MTF Sweet Cheeks;
-    font-weight: normal;
-    font-size: 1em;
     text-align: center;
 }
 
 .image-button-nav-cat-toys, .image-button-nav-cat-toys:visited{
-/*  add background image for the cat toys product list image button */
+    /*  add background image for the cat toys product list image button */
     background: transparent url(../img/Cat_Toys_Icon.png) no-repeat;
+    background-position: 70% 40%;
     display: inline-block;
     position: relative;
-    width: 30rem;
-    height: 24rem;
 
 /*  background-color:  #F39873;*/
     color: white;
@@ -624,19 +624,15 @@ article {
     text-decoration: none;
     -webkit-transition: background-color 0.5s;
     transition: background-color 0.5s;
-    font-family: MTF Sweet Cheeks;
-    font-weight: normal;
-    font-size: 1em;
     text-align: center;
 }
 
 .image-button-nav-cat-clothes, .image-button-nav-cat-clothes:visited{
-/*  add background image for the cat toys product list image button */
+    /*  add background image for the cat toys product list image button */
     background: transparent url(../img/Cat_Clothes_Icon.jpg) no-repeat;
+    background-position: 45% 10%;
     display: inline-block;
     position: relative;
-    width: 30rem;
-    height: 24rem;
 
 /*  background-color:  #F39873;*/
     color: white;
@@ -647,42 +643,47 @@ article {
     text-decoration: none;
     -webkit-transition: background-color 0.5s;
     transition: background-color 0.5s;
-    font-family: MTF Sweet Cheeks;
-    font-weight: normal;
-    font-size: 1em;
     text-align: center;
 }
 
 .image-button-nav-cat-foods:hover, .image-button-nav-cat-foods:active, .image-button-nav-cat-foods:focus{
     background-color: #FCBCA7;
     color: #C2C0BC;
+    opacity: 0.5;
 /*  border-radius: 0.25rem;*/
 }
 
 .image-button-nav-cat-toys:hover, .image-button-nav-cat-toys:active, .image-button-nav-cat-toys:focus{
     background-color: #FCBCA7;
     color: #C2C0BC;
+    opacity: 0.5;
 /*  border-radius: 0.25rem;*/
 }
 
 .image-button-nav-cat-clothes:hover, .image-button-nav-cat-clothes:active, .image-button-nav-cat-clothes:focus{
     background-color: #FCBCA7;
     color: #C2C0BC;
+    opacity: 0.5;
 /*  border-radius: 0.25rem;*/
 }
 
  .cat-foods-image-button-layout{
+    margin-top: 5em;
     margin-left: 8em;
-    margin-top: 10em;
+    margin-right: 0em;
  }
 
  .cat-toys-image-button-layout{
-    margin-left: 8em;
+    margin-top: 5em;
+    margin-left: 4em;
+    margin-right: 4em;
 /*  margin-top: 10em;*/
  }
 
  .cat-clothes-image-button-layout{
-    margin-left: 8em;
+    margin-top: 5em;
+    margin-left: 0em;
+    margin-right: 8em;
 /*  margin-top: 10em;*/
  }
 
@@ -691,6 +692,77 @@ article {
     margin-top: 2em;
     margin-left: 8em;
  }
+
+
+
+ a.image-button-nav-cat-foods {
+/*  border-radius: 50em;*/
+    min-height: 10em;
+    min-width: 20em;
+    max-width: 50em;
+    max-height: 40em;
+    width: 50%;
+    height: 40%;
+ }
+
+ a.image-button-nav-cat-toys {
+/*  border-radius: 50em;*/
+    min-height: 10em;
+    min-width: 20em;
+    max-width: 50em;
+    max-height: 40em;
+    width: 50%;
+    height: 40%;
+ }
+
+ a.image-button-nav-cat-clothes {
+/*  border-radius: 50em;*/
+    min-height: 10em;
+    min-width: 20em;
+    max-width: 50em;
+    max-height: 40em;
+    width: 50%;
+    height: 40%;
+ }
+
+ .button-nav-cat-foods-text {
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    margin-left: -12%;
+/*  background-color:  #929595;*/
+    font-family:Oswald;
+    font-size: 3rem;
+    font-weight: bold;
+    width: 50%;
+ }
+
+ .button-nav-cat-toys-text {
+    position: absolute;
+    top: 35%;
+    left: 40%;
+    margin-left: -12%;
+/*  background-color:  #929595;*/
+    font-family:Oswald;
+    font-size: 3rem;
+    font-weight: bold;
+    width: 50%;
+ }
+
+ .button-nav-cat-clothes-text {
+    position: absolute;
+    top: 35%;
+    left: 28%;
+    margin-left: -12%;
+/*  background-color:  #929595;*/
+    font-family:Oswald;
+    font-size: 3rem;
+    font-weight: bold;
+    width: 50%;
+ }
+
+
+
 
   
 
@@ -900,7 +972,7 @@ article {
 
  .login-methods{
     margin-right: 8em;
-    margin-top: -47%;
+    margin-top: 3%;
     margin-left: 8em;
     margin-bottom: 2em;
     z-index: 1;
@@ -933,9 +1005,15 @@ article {
     width: 100%;
     height: auto;
     position: relative;
-    top: 0em;
-    left: 0em;
+    top: 0;
+    left: 0;
+/*  min-width: 25.6em;
+    min-height: 16em;*/
 /*  padding: 0.3em 0.3em;*/
+}
+
+.topimage-layout{
+    margin-top: 1%;
 }
 
  .pmiddle{
@@ -969,14 +1047,10 @@ article {
     z-index: 1;
     margin-left: 8.8%;
     margin-right: 30%;
-    margin-top: 5%;
+    margin-top: -38%;
     position: absolute;
     max-width: 50em;
     min-width: 20em;
     background-color: rgba(146, 149, 149, 0.6);
     opacity: 1;
-}
-
-.bottom{
-    margin-top: 32%;
 }

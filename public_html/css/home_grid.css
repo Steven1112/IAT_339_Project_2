@@ -57,6 +57,14 @@
     width: 33%;
 }
 
+.grid-col-40of100{
+    width: 40%;
+}
+
+.grid-col-20of100{
+    width: 20%;
+}
+
 /*
     Here using @media queries, we are specifying when the display
     has a width less than 50em it should collapse the 5/10 columns 
@@ -68,6 +76,7 @@
 
     .grid-col-25of100 {
         width: 100%;
+        padding-bottom: 0.8em;
     }
 }
 
@@ -75,6 +84,7 @@
 
     .grid-col-8of100 {
         width: 100%;
+        padding-bottom: 0.5em;
     }
 
 }
@@ -85,6 +95,7 @@
     .grid-col-10of10 {
         width: 100%;
     }
+
 }
 
 
@@ -113,66 +124,194 @@
     }
 }
 
-@media (max-width: 67em) {
-
-    .grid-col-33of100 {
-        width: 100%;
-        margin-left: auto;
-        margin-left: auto;
-    }
-
-    .payment-methods-layout{
-        margin-left: 5.5em;
-        margin-right: 5.5em;
-        margin-top: 2em;
- }
+@media (max-width: 85em) {
 
     .bottomtext_left{
-        margin-left: 3em;
-        margin-right: 3em;
-        margin-top: auto+5%;
+        margin-left: 20%;
+        margin-right: 0em;
+        margin-top: 3em;
     }
 
     .bottomtext_right{
-        margin-left: 3em;
-        margin-right: 3em;
-        margin-top: auto+5%;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 3em;
     }
 
     .bottomimage{
+        margin-left: 0em;
+        margin-right: 20%;
+        margin-top: 3em;
+    }
+
+    .cat-foods-image-button-layout{
+        margin-top: 5em;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .cat-toys-image-button-layout{
+        margin-top: 5em;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .cat-clothes-image-button-layout{
+        margin-top: 5em;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media (max-width: 57em) {
+
+    .payment-methods-layout{
         margin-left: 3em;
-        margin-right: 3em;
-        margin-top: auto+5%;
+        margin-right: auto;
+        margin-top: 5em;
     }
 
 }
 
-@media (max-width: 50em) {
+@media (max-width: 62em) {
 
-    .grid-col-33of100 {
+    .grid-col-40of100 {
         width: 100%;
+        margin-left: auto;
+        margin-left: auto;
+    }
+
+    .grid-col-20of100{
+        width: 100%;
+        margin-left: auto;
+        margin-left: auto;
     }
 
     .bottomtext_left{
         margin-left: 3em;
         margin-right: 3em;
-        margin-top: auto+40%;
+        margin-top: 3em;
     }
 
     .bottomtext_right{
         margin-left: 3em;
         margin-right: 3em;
-        margin-top: auto+40%;
+        margin-top: 5em;
+    }
+
+    .grid-col-33of100{
+        width: 100%;
     }
 
     .bottomimage{
         margin-left: 3em;
         margin-right: 3em;
-        margin-top: auto+40%;
+        margin-top: 4em;
     }
 
-    .bottom{
-        margin-top: 45%;
+    .cat-foods-image-button-layout{
+        width: 100%;
+        margin-top: 5em;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .cat-toys-image-button-layout{
+        width: 100%;
+        margin-top: 5em;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .cat-clothes-image-button-layout{
+        width: 100%;
+        margin-top: 5em;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    article {
+        text-align: center;
+        display: block;
+    }
+
+    a.image-button-nav-cat-foods {
+        width: 62%;
+        height: 50%;
+    }
+
+    a.image-button-nav-cat-toys {
+        width:  62%;
+        height: 50%;
+    }
+
+    a.image-button-nav-cat-clothes {
+        width: 62%;
+        height: 50%;
+    }
+
+    .button-nav-cat-foods-text {
+        top: 40%;
+        left: 40%;
+        margin-left: -12%;
+        width: 50%;
+    }
+
+    .button-nav-cat-toys-text {
+        top: 40%;
+        left: 40%;
+        margin-left: -12%;
+        width: 50%;
+    }
+
+    .button-nav-cat-clothes-text {
+        top: 40%;
+        left: 40%;
+        margin-left: -12%;
+        width: 50%;
+    }
+
+}
+
+@media (max-width: 45em) {
+
+    .bottomtext_left{
+        margin-left: 3em;
+        margin-right: 3em;
+        margin-top: 5em;
+    }
+
+    .bottomtext_right{
+        margin-left: 3em;
+        margin-right: 3em;
+        margin-top: 5em;
+    }
+
+    .bottomimage{
+        margin-left: 3em;
+        margin-right: 3em;
+        margin-top: 4em;
+    }
+
+    .cat-foods-image-button-layout{
+        width: 100%;
+        margin-top: 25em;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .cat-toys-image-button-layout{
+        width: 100%;
+        margin-top: 5em;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .cat-clothes-image-button-layout{
+        width: 100%;
+        margin-top: 5em;
+        margin-left: auto;
+        margin-right: auto;
     }
 
 }
@@ -202,7 +341,7 @@
 }
 
 
-@media (max-width:67em) {
+@media (max-width:57em) {
 
     .textmiddle{
         width: 100%;
@@ -219,12 +358,13 @@
 
 }
 
-@media (max-width:40em) {
+@media (max-width:45em) {
 
     .textmiddle{
         width: 100%;
         margin-left: auto;
-        margin-right: auto;;
+        margin-right: auto;
+        margin-top: 10%;
     }
 
     .topmenu{
@@ -238,21 +378,21 @@
 
 @media (max-width:40em) {
 
-    .topimage{
+/*    .topimage{
         width: 39em;
         height: auto;
-    }
+    }*/
 
     .grid-col-4of10{
         width: 100%;
-        margin-left: 1%;
+/*        margin-left: 1%;
         margin-right: 1%;
-        margin-top: -20%;
+        margin-top: -20%;*/
     }
 
 }
 
-@media (max-width:30em) {
+/*@media (max-width:30em) {
 
     .grid-col-4of10{
         width: 100%;
@@ -261,9 +401,9 @@
         margin-top: -50%;
     }
 
-}
+}*/
 
-@media (max-width:25em) {
+/*@media (max-width:25em) {
 
     .grid-col-4of10{
         width: 100%;
@@ -272,7 +412,7 @@
         margin-top: -90%;
     }
 
-}
+}*/
 
 
 /*
