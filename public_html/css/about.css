@@ -133,11 +133,7 @@ p,code,figcaption{
 
  /*Top Area*/
 
- .toparea{
-    /*display: block;
-    margin-left: auto;
-    margin-right: auto;*/
- }
+ 
 
 .catlogo{
     display: block;
@@ -157,7 +153,6 @@ p,code,figcaption{
 .logo-name{
     margin-left: auto;
     margin-right: auto;
-    z-index: 1;
 /*  margin-top: 5em;*/
 }
 
@@ -174,7 +169,7 @@ p,code,figcaption{
   display: block;
     -webkit-transition: background-color 0.5s;
     transition: background-color 0.5s;
-   /* z-index: -1;*/
+    z-index: -1;
     width: 100%;
     height: auto;
     position: relative;
@@ -310,35 +305,43 @@ padding-top: 1.5em;
 
 
  .pmiddle{
-    font-size: 3rem;
-    font-family:Abadi MT Condensed Extra Bold;
-/*  font-family: thin;*/
-    /* first # is top and bottom, second # is left and right margin */
-    margin: 0.25rem 0.5rem;
+    font-size: 1.8rem;
+    font-family:Oswald;
+    text-align: left;
+    font-weight: bold;
+/*    color:  #929595;*/
+/*    color: #F39873;*/
+    color: white;
+    opacity: 1;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
 }
 
 .textmiddle{
-    z-index: 100;
-    /*color:#929595;*/
-    color:white;
-    /*top:10em;*/
-    /*padding: -20em;*/
-    /* float:left; */
-    margin-left:40em;
-    margin-top: -30em;
-    /*position: absolute;*/
-    /*background-color: rgba(255, 237, 221, 0.8);*/
+     z-index: 1;
+    margin-left: 8.8%;
+    margin-right: 30%;
+    margin-top: -38%;
+    position: absolute;
     max-width: 50em;
     min-width: 20em;
+    background-color: rgba(146, 149, 149, 0.6);
+    opacity: 1;
 }
 
 
 .pmiddletext{
-    font-size: 1rem;
-    font-family: Abadi MT Condensed Light;
-/*  font-family: thin;*/
-    /* first # is top and bottom, second # is left and right margin */
-    margin: 0.25rem 0.5rem;
+     font-family:Oswald;
+    font-size: 1.2rem;
+    font-weight: lighter;
+    text-align: left;
+/*    color:  #929595;*/
+/*    color: #F39873;*/
+    color: white;
+    opacity: 1;
+    padding-left: 2em;
+    padding-right: 2em;
+
 }
 
 
@@ -883,8 +886,9 @@ article {
 /* set layout for three login buttons */
  .login-methods{
     margin-right: 8em;
-    margin-top: 2em;
+    margin-top: 3%;
     margin-left: 8em;
+    margin-bottom: 2em;
  }
 
  .cat-foods-image-button-layout{

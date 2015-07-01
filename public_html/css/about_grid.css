@@ -342,11 +342,11 @@
 
 @media (max-width:57em) {
 
-    .textmiddle{
+    /*.textmiddle{
         width: 100%;
         margin-left: auto;
         margin-right: auto;
-    }
+    }*/
 
     .topmenu{
         margin-left: 8em;
@@ -359,12 +359,12 @@
 
 @media (max-width:45em) {
 
-    .textmiddle{
+    /*.textmiddle{
         width: 100%;
         margin-left: auto;
         margin-right: auto;
         margin-top: 10%;
-    }
+    }*/
 
     .topmenu{
         margin-left: 8em;
@@ -382,65 +382,20 @@
         height: auto;
     }*/
 
-    .grid-col-4of10{
+.grid-col-4of10{
         width: 100%;
 /*        margin-left: 1%;
         margin-right: 1%;
         margin-top: -20%;*/
     }
 
+
+
+
+
 }
 
 
-.grid-col-8of100 {
-    width: 8%;
-    float:right;
-}
-
-.grid-col-25of100 {
-    width: 25%;
-}
-
-.grid-col-10of10 {
-    width: 100%;
-}
-
-.grid-col-3of10 {
-    width: 33%;    
-}
-
-.grid-col-4of10 {
-    width: 40%;    
-}
-
-.grid-col-100of100 {
-    width: 100%;
-}
-
-.grid-col-84of100 {
-    width: 84%;
-}
-
-.grid-col-6of10{
-    width:60%;
-}
-
-.grid-col-4of10{
-    width:40%;
-}
-
-.grid-col-5of10{
-    width: 50%;
-}
-
-.grid-col-2of10{
-    width: 20%;
-   
-}
-
-.grid-col-33of100{
-    width: 33%;
-}
 
 /*
     Here using @media queries, we are specifying when the display
@@ -449,91 +404,135 @@
 */
 
 
-@media (max-width: 50em) {
 
-    .grid-col-8of100 {
-        width: 100%;
+
+
+
+/*@media (max-width: 85em) {
+    .payment-methods-layout{
+        margin-top: 13%;
+        width: 80%;
     }
-}
-
-@media (max-width: 50em) {
-
-    .grid-col-25of100 {
-        width: 100%;
-    }
-}
-
-
-@media (max-width: 50em) {
-
-    .grid-col-10of10 {
-        width: 100%;
-    }
-}
-
-@media (max-width: 80em) {
-
-    .grid-col-3of10 {
-        width: 100%;
-    }
-}
-
-@media (max-width: 80em) {
-
-	.grid-col-84of100{
-		width: 100%;  
-	}
-}
-
-
-@media (max-width:50em) {
-
-	.grid-col-10of10{
-		width: 100%;
-	}
-
-    .grid-col-100of100{
-        width: 100%;
-    }
-}
-
-@media (max-width:65em) {
-
-    .grid-col-4of10{
-        width: 100%;
-        margin-left: 8em;
-        margin-right: 8em;
-    }
-}
-
-@media (max-width: 65em) {
-
-    .grid-col-33of100 {
-        width: 100%;
-    }
-
-}
+}*/
 
 @media (max-width: 70em) {
+    /*.textmiddle{
+        margin-top: 3%;
+        width: 85%;
+        margin-left: 9%;
+    }*/
 
-    .grid-col-5of10{
-        width: 100%;
+    .payment-methods-layout{
+        margin-top: 13%;
+        width: 80%;
+        margin-left: 9%;
     }
 
-    .au1-image-button-layout{
-        margin-left: 8em;
-        margin-right: 8em;
-    }
-
-    .au2-image-button-layout{
-        margin-left: 8em;
-        margin-right: 8em;
-    }
-
-    .Whiskas_large{
-        margin-top: 5em;
-    }
 }
+
+
+
+
+@media (max-width: 65em) {
+    /*.textmiddle{
+        margin-top: 8%;
+        width: 80%;
+        margin-left: 9%;
+    }*/
+
+
+
+    .payment-methods-layout{
+        margin-top: 13%;
+        width: 80%;
+    }
+
+}
+
+
+@media (max-width: 53em) {
+
+    .textmiddle{
+        margin-top: 10%;
+        width: 90%;
+        margin-left: 3%;
+
+    }
+
+
+    .payment-methods-layout{
+        margin-top: 30%;
+        width: 80%;
+    }
+
+}
+
+@media (max-width: 50em) {
+
+    
+.payment-methods-layout{
+        margin-top: 30%;
+        padding-top: 15%;
+        width: 80%;
+    }
+    
+    
+
+}
+
+@media (max-width: 45em) {
+    .payment-methods-layout{
+        margin-top: 30%;
+        padding-top: 15%;
+        width: 80%;
+    }
+
+    }
+
+@media (max-width: 43em) {
+    .payment-methods-layout{
+        margin-top: 40%;
+        padding-top: 15%;
+        
+    }
+
+}
+
+@media (max-width: 38em) {
+    .payment-methods-layout{
+        margin-top: 30%;
+        padding-top: 15%;
+    }
+
+}
+@media (max-width: 35em) {
+    /*.payment-methods-layout{
+        margin-top: 30%;
+        padding-top: 5%;
+    }*/
+
+}
+
+
+
+
+
+@media (max-width: 13em) {
+/*    .payment-methods-layout{
+        margin-top: 25%;
+        width: 80%;
+    }*/
+
+    }
+
+
+    @media (max-width: 8em) {
+    /*.payment-methods-layout{
+        margin-top: 25%;
+        width: 80%;
+    }*/
+
+    }
 
 /*
     Much like last week, we are clearing the floating items so
