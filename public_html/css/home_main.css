@@ -979,13 +979,6 @@ article {
     opacity: 0.5;
 }
 
-.copyright{
-    font-size: 0.9rem;
-    font-family: Courier New, sans-serif;
-/*  font-family: thin;*/
-   /* first # is top and bottom, second # is left and right margin */
-}
-
  .login-methods{
     margin-right: 8em;
     margin-top: 3%;
@@ -1032,7 +1025,7 @@ article {
     margin-top: 1%;
 }
 
- .pmiddle{
+.pmiddle{
     font-size: 1.8rem;
     font-family:Oswald;
     text-align: left;
