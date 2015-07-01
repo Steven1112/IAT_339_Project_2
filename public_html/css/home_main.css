@@ -91,7 +91,7 @@ h2{
 }
 
 h3{
-   text-align: center;
+    text-align: left;
 
     display: inline-block;
     margin-left: auto;
@@ -133,11 +133,12 @@ ul,ol{
 
 
 p,code,figcaption{
-    font-size: 0.9rem;
+    font-size: 1rem;
     font-family: Oswald;
 /*  font-family: thin;*/
     /* first # is top and bottom, second # is left and right margin */
     font-weight: lighter;
+    text-align: left;
 }
 
 
@@ -167,12 +168,14 @@ p,code,figcaption{
     margin-top: 3em;
     margin-left: 8em;
     margin-right: 0em;
+    text-align: left;
 }
 
 .bottomtext_right{
     margin-top: 3em;
     margin-left: 4em;
     margin-right: 4em;
+    text-align: left;
 /*  border-style: dashed;
     border-width: 0.1rem;
     border-color: #929595;*/
@@ -208,6 +211,7 @@ p,code,figcaption{
 
 .button-nav-detail:hover{
     font-weight: bold;
+    font-size: 1.5rem;
 }
 
 
@@ -380,13 +384,21 @@ p.prightstext{
 
 
 .link{
-    font-size: 0.9rem;
-    font-family: MTF Sweet Cheeks;
-/*  font-family: thin;*/
-/*  first # is top and bottom, second # is left and right margin */
-    margin: 0.25rem 0.5rem;
-    color: #F39873;;
+    font-family: Existence;
+    font-size: 1.2rem;
+    font-weight: lighter;
+    text-align: left;
+    color: #F39873;
+    font-weight: bold;
 }
+
+
+.link:hover{
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
 
 .button{
     display: inline-block;
@@ -414,10 +426,6 @@ nav .button:hover{
     text-decoration: none;
 }
 
-a{
-    text-decoration: none;
-}
-
 .checkoutbutton{
     background-color: #F39873;
     color: white;
@@ -438,6 +446,10 @@ a{
     color: #929595;
     text-decoration: none;
     text-align: center;
+}
+
+a{
+    text-decoration: none;
 }
 
 a:hover{
@@ -752,7 +764,7 @@ article {
  .button-nav-cat-clothes-text {
     position: absolute;
     top: 35%;
-    left: 28%;
+    left: 40%;
     margin-left: -12%;
 /*  background-color:  #929595;*/
     font-family:Oswald;
@@ -830,6 +842,7 @@ article {
     color: #C2C0BC;*/
     text-decoration: none;
     font-weight: bold;
+    font-size: 1.8em;
 }
 
 .onpage-button-nav, .onpage-button-nav:visited{
@@ -859,6 +872,7 @@ article {
     color: #C2C0BC;*/
     text-decoration: none;
     font-weight: bold;
+    font-size: 1.8em;
 /*  opacity: 0.7;*/
 }
 
@@ -890,6 +904,7 @@ article {
     color: #C2C0BC;*/
     text-decoration: none;
     font-weight: bold;
+    font-size: 1.3em;
 }
 
 
@@ -921,6 +936,7 @@ article {
     color: #C2C0BC;*/
     text-decoration: none;
     font-weight: bold;
+    font-size: 1.8em;
 }
 
 .logo-image-button, .logo-image-button:visited{
@@ -1053,4 +1069,11 @@ article {
     min-width: 20em;
     background-color: rgba(146, 149, 149, 0.6);
     opacity: 1;
+}
+
+.copyright{
+    font-size: 0.9rem;
+    font-family: Oswald;
+    font-weight: lighter;
+    text-align: left;
 }
