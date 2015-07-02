@@ -77,6 +77,23 @@ p,code,figcaption{
     text-align: left;
 }
 
+.address-text{
+    font-size: 1rem;
+    font-family: Oswald;
+    font-weight: lighter;
+    text-align: left;
+    width: 80%;
+    margin-top: -0.3em;
+}
+
+.contact-text{
+    font-size: 1rem;
+    font-family: Oswald;
+    font-weight: lighter;
+    text-align: left;
+    margin-top: -0.3em;
+}
+
 .location{
     margin-top: 1.1em;
 }
@@ -259,8 +276,8 @@ p,code,figcaption{
     font-weight: normal;
     text-align: center;
 
-    margin-left: 0.5em;
-    margin-right: 9em;
+    margin-left: 1em;
+    margin-right: 8%;
     width: 4em;
     margin-top: 0.3em;
     margin-bottom: 0.3em;
@@ -371,7 +388,7 @@ textarea{
     font-family: Oswald;
     font-weight: lighter;
     /*width: 37.5em;*/
-    width: 29em;
+    width: 37.5em;
 
     height: 20rem;
     min-width: 10rem;
@@ -381,7 +398,8 @@ textarea{
     /*display: block;*/
     resize: width;
     background-color: #EDEBEC;
-    margin-top: 0.7%;
+    margin-top: 1%;
+    margin-left: 1.5%;
 }
 
 
@@ -729,7 +747,7 @@ article {
   margin-left: 8em;
   margin-right: 8em;
   margin-bottom: -2%;
-  /*margin-top: 3%;*/
+  margin-top: 5em;
 }
 
 .middleline{
@@ -745,10 +763,9 @@ article {
 }
 
 .contact-us-form{
-    /*float: right;*/
-    margin-left: 8em;
+/*  margin-left: 8em;
     margin-right: 8em;
-    margin-top: 3%;
+    margin-top: 3%;*/
 }
 
 .copyright{

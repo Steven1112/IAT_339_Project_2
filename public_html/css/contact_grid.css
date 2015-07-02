@@ -57,7 +57,9 @@
 
 
 .grid-col-48of100{
-	width: 48%;
+	width: 36%;
+    margin-left: 5%;
+    margin-right: 6em;
 }
 
 .grid-col-20of100{
@@ -105,14 +107,6 @@
 }
 
 
-@media (max-width: 80em) {
-
-    .grid-col-3of10 {
-        width: 100%;
-    }
-}
-
-
 @media (max-width:60em) {
 
     .grid-col-4of10{
@@ -149,140 +143,58 @@
         margin-left: auto;
     }
 
-    .bottomtext_left{
-        margin-left: 3em;
-        margin-right: 3em;
-        margin-top: 3em;
-    }
-
-    .bottomtext_right{
-        margin-left: 3em;
-        margin-right: 3em;
-        margin-top: 5em;
-    }
-
     .grid-col-33of100{
         width: 100%;
     }
-
-    .bottomimage{
-        margin-left: 3em;
-        margin-right: 3em;
-        margin-top: 4em;
-    }
-
 
     article {
         text-align: center;
         display: block;
     }
-
-
-}
-
-@media (max-width: 45em) {
-
-
-    .topmenu{
-        margin-left: 3em;
-        margin-top: 0em;
-        margin-right: 3em;
-    }
-
-
-}
-
-@media (max-width: 35em) {
-
-    .bottom{
-        margin-top: 55%;
-    }
-
-}
-
-@media (max-width: 30em) {
-
-    .bottom{
-        margin-top: 75%;
-    }
-
-}
-
-@media (max-width: 25em) {
-
-    .bottom{
-        margin-top: 88%;
-    }
-
-}
-
-@media (max-width:65em) {
-
-    .grid-col-15of100{
-        width: 15%;
-        color: white;
-       
-    }
-
 }
 
 
 @media (max-width:60em) {
 
-    .textmiddle{
-        width: 100%;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
     .topmenu{
         margin-left: 8em;
         margin-right: 8em;
         margin-top: 5%;
         margin-bottom: 10%;
-    }
-
-    
+    }  
 }
 
 @media (max-width:45em) {
 
-    .textmiddle{
-        width: 100%;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 10%;
-    }
-
     .topmenu{
         margin-left: 8em;
         margin-right: 8em;
         margin-top: 5%;
         margin-bottom: 10%;
     }
-
 }
 
 @media (max-width:40em) {
 
-/*    .topimage{
-        width: 39em;
-        height: auto;
-    }*/
-
     .grid-col-4of10{
         width: 100%;
-/*        margin-left: 1%;
-        margin-right: 1%;
-        margin-top: -20%;*/
+    }
+}
+
+@media (max-width:75em) {
+
+    .submit-button-nav{
+        margin-left: 1em;
+        margin-right: 0%;
     }
 
+    .reset-button-nav{
+        margin-right: 1%;
+    }
 }
 
 
-@media (max-width:45em) {
-
-  
+@media (max-width:66em) {
 
     .text-length{
         width: 100%;
@@ -294,11 +206,146 @@
         margin-left: 28.5%;
     }
 
-    .grid-col-30of100{
-        width: 100%;
-        margin-left: 0em;
+    .contact-us-contactus{
+        margin-left: 8em;
+        margin-right: 8em;
+        margin-bottom: -2%;
+        margin-top: 5em;
     }
 
+    .grid-col-15of100{
+        display: none;
+        visibility: collapse;
+        width: 0;
+        height: 0;
+        color: white;
+    }
+
+    .grid-col-48of100{
+        width: 50%;
+        margin-left: 9em;
+        margin-right: 9em;
+    }
+
+    .grid-col-3of10{
+        width: 100%;
+    }
+
+    .submit-button-nav{
+        margin-left: 1em;
+        margin-right: -27%;
+    }
+
+    .reset-button-nav{
+        margin-right: -13%;
+    }
+}
+
+
+@media (max-width:55em) {
+
+    .text-length{
+        width: 100%;
+    }
+
+    textarea{
+        width: 100%;
+    }
+
+    .grid-col-3of10{
+        width: 100%;
+    }
+
+    .contact-us-contactus{
+        margin-left: 8em;
+        margin-right: 8em;
+        margin-bottom: -2%;
+        margin-top: 5em;
+    }
+
+    .grid-col-48of100{
+        width: 45%;
+        margin-left: 9em;
+        margin-right: 9em;
+    }
+
+    .submit-button-nav{
+        margin-left: 1em;
+        margin-right: -28%;
+    }
+
+    .reset-button-nav{
+        margin-right: -10%;
+    }
+}
+
+
+@media (max-width:48em) {
+
+    .submit-button-nav{
+        margin-left: 1em;
+        margin-right: -28%;
+    }
+
+    .reset-button-nav{
+        margin-right: -5%;
+    }
+}
+
+
+
+@media (max-width:42em) {
+
+    .text-length{
+        width: 100%;
+    }
+
+    textarea{
+        width: 100%;
+    }
+
+    .grid-col-3of10{
+        width: 100%;
+    }
+
+    .contact-us-contactus{
+        margin-left: 8em;
+        margin-right: 8em;
+        margin-bottom: -2%;
+        margin-top: 5em;
+    }
+
+    .grid-col-48of100{
+        width: 40%;
+        margin-left: 9em;
+        margin-right: 9em;
+    }
+
+    .submit-button-nav{
+        margin-left: 1em;
+        margin-right: -28%;
+    }
+
+    .reset-button-nav{
+        margin-right: 0%;
+    }
+}
+
+
+@media (max-width:35em) {
+    .pptitle{
+        display: block;
+        width: 100%;
+        float: left;
+        text-align: left;
+        margin-bottom: 0em;
+    }
+
+    p{
+        float: left;
+        text-align: left;
+        display: inline-block;
+    }
 
     .pprice_line1{
         margin-top: 2em;
@@ -308,127 +355,29 @@
         margin-top: 2em;
     }
 
+    .contact-us-contactus{
+        margin-left: 3em;
+        margin-right: 3em;
+        margin-bottom: -2%;
+        margin-top: 5em;
+    }
+
     .top5questions{
         margin-left: 3em;
         margin-right: 3em;
     }
 
-
-    
-}
-
-@media (max-width:58em) {
-
-    .text-length{
-        width: 100%;
-        margin-left: 11em;
-    }
-
-    textarea{
-        width: 100%;
-        margin-left: 11em;
-    }
-
-
-    
-}
-
-
-
-
-
- 
-@media (max-width:66em) {
-    .contact-us-form{
-        width: 100%;
-    }
-
-}
-
-@media (max-width:60em) {
-
-    .text-length{
-        width: 60%;
-        margin-left: 1em;
-    }
-
-    textarea{
-        width: 60%;
-        margin-left: 1em;
-    }
-
-    
-
-}
-
-
-@media (max-width:45em) {
-.pptitle{
-    display: block;
-    width: 100%;
-    float: left;
-    text-align: left;
-    margin-bottom: 0em;
-
-}
-
-p{
-
-    float: left;
-
-    text-align: left;
-    display: inline-block;
-    /*margin-bottom: 30%;*/
-}
-
-
- .text-length{
-        width: 60%;
-        margin-left: -2em;
-    }
-
-    textarea{
-        width: 60%;
-        margin-left: -2em;
-    }
-
-    .grid-col-48of100{
-        margin-top: 5em;
-        width: 100%;
-        margin-left: 1em;
-    }
-
-
-}
-
-@media (max-width:45em) {
-    .grid-col-48of100{
-        margin-top: 0em;
-        width: 75%;
-        margin-left: 1em;
-    }
-
-    .contact-us-contactus{
+    .copyright{
         margin-left: 3em;
+        margin-right: 3em;
     }
 
-
-}
-
-@media (max-width:30em) {
     .grid-col-48of100{
-        margin-top: 3em;
-        width: 85%;
-        margin-left: 0em;
-    }
-
-    .contact-us-contactus{
+        width: 55%;
         margin-left: 3em;
+        margin-right: 3em;
     }
-
-
 }
-
 
 
 .grid:after {
