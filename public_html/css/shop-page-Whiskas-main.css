@@ -71,7 +71,8 @@ h1{
    font-weight: 700;
    font-family: Austie Bost Kitten Klub;
    text-align: left;
-/*   color: #F39873;*/
+/* color: #F39873;*/
+/* color: white;*/
 }
 
 h2{
@@ -90,9 +91,18 @@ h2{
 }
 
 h3{
-   font-size: 1.0rem;
-   font-size: normal;
-   font-family:Seravek;
+    text-align: left;
+
+    display: inline-block;
+    margin-left: auto;
+    margin-right:auto;
+    text-decoration: none;
+    -webkit-transition: background-color 0.5s;
+    transition: background-color 0.5s;
+    width:100%;
+    font-family:Oswald;
+    font-size: 1.4rem;
+    font-weight: bold;
 }
 
 h4{
@@ -123,23 +133,14 @@ ul,ol{
 
 
 p,code,figcaption{
-    font-size: 0.9rem;
+    font-size: 1rem;
     font-family: Oswald;
 /*  font-family: thin;*/
     /* first # is top and bottom, second # is left and right margin */
     font-weight: lighter;
+    text-align: left;
 }
 
-
-
-
- /*Top Area*/
-
- .toparea{
-    /*display: block;
-    margin-left: auto;
-    margin-right: auto;*/
- }
 
 .catlogo{
     display: block;
@@ -156,215 +157,61 @@ p,code,figcaption{
 }
 
 
-.logo-name{
-    margin-left: auto;
-    margin-right: auto;
-/*  margin-top: 5em;*/
-}
-
-.topimage{
-  z-index: -999;
-  min-height: 100%;
-  min-width: 1024px;
-  width: 100%;
-  height: auto;
-  /*position: fixed;*/
-  top: 0;
-  left: 0;
-}
-
-
-
-
-/*Middle Area Open*/
-
-.paymentmethods{
-    /* background-color: #39261e;*/
-    color: grey;
-/*  border-radius: 0.25rem;*/
-/*  margin: 0.5rem 0.25rem 0.75rem 0.8rem;*/
-    margin: 0.25rem 0.5rem;
-    padding: 0.25rem 0.45rem;
-    font-size: 1.2em;
-    font-family:Folktale;
-    /*border-style: solid;
-    border-width: 0.1rem;
-    border-color: #929595;*/
-    /*position: absolute;*/
-    float:left;
-    left:4em;
-    top:25em;
-
-}
-
-.feedguildlines-p{
-    font-size: 1rem;
-    font-family: Oswald;
-    font-weight: lighter;
-    text-align: center;
-}
-
-
-
-.speicalprice-feedguildlines{
-    font-family:Oswald;
-    font-size: 1.4rem;
-    font-weight: bold;
-    text-align: center;
-}
-
-.specialprice{
-    font-size: 1.2rem;
-    font-family: Oswald;
-    font-weight: lighter;
-    text-align: center;
-}
-
-.specialprice-title{
-    font-size: 1.4rem;
-    font-family: Oswald;
-    text-align: center;
-    font-weight: normal;
-}
-
-   
-
-.pprice{
-    font-size: 1.4rem;
-    font-family: Oswald;
-    text-align: center;
-    font-weight: normal;
-}
-
-
- .pmiddle{
-    font-size: 3rem;
-    font-family:Abadi MT Condensed Extra Bold;
-/*  font-family: thin;*/
-    /* first # is top and bottom, second # is left and right margin */
-    margin: 0.25rem 0.5rem;
-}
-
-.textmiddle{
-    z-index: 100;
-    /*color:#929595;*/
-    color:white;
-    /*top:10em;*/
-    /*padding: -20em;*/
-    /* float:left; */
-    margin-left:40em;
-    margin-top: -30em;
-    /*position: absolute;*/
-    /*background-color: rgba(255, 237, 221, 0.8);*/
-    max-width: 50em;
-    min-width: 20em;
-}
-
-
-.pmiddletext{
-    font-size: 1rem;
-    font-family: Abadi MT Condensed Light;
-/*  font-family: thin;*/
-    /* first # is top and bottom, second # is left and right margin */
-    margin: 0.25rem 0.5rem;
-}
+/*Top Area closed*/
 
 
 
 .bottomtext_left{
-    font-size: 0.9rem;
-    font-family: Abadi MT Condensed Light;
-/*  font-family: thin;*/
-/*  first # is top and bottom, second # is left and right margin */
-    margin: 0.25rem 0.5rem;
-    margin-top: 30em;
-    border-style: dashed;
+/*  border-style: dashed;
     border-width: 0.1rem;
-    border-color: #929595;
-    margin: 0.25rem 0.5rem;
-    margin-top: 30em;
-    margin-left: 5em;
+    border-color: #929595;*/
+    margin-top: 3em;
+    margin-left: 8em;
+    margin-right: 0em;
+    text-align: left;
 }
+
+.bottomtext_right{
+    margin-top: 3em;
+    margin-left: 4em;
+    margin-right: 4em;
+    text-align: left;
+/*  border-style: dashed;
+    border-width: 0.1rem;
+    border-color: #929595;*/
+}
+
 
 .bottomimage{
-    margin-left: 10em;
-    margin-top: 25em;
-}
-
-
-.guideline{
-    margin-top: 12em;
-    margin-left: 8em;
+    margin-top: 3em;
+    margin-left: 0em;
     margin-right: 8em;
-}
-
-.whiskas1{
-    margin-left: 8em;
-    margin-right: 5em;
-    margin-top: 3em;
-}
-
-.whiskas2{
-    margin-left: 5em;
-    margin-right: 5em;
-    margin-top: 3em;
-}
-
-.whiskas3{
-    margin-left: 5em;
-    margin-right: 8em;
-    margin-top: 3em;
-}
-
-.whiskas4{
-    margin-left: 8em;
-    margin-right: 5em;
-    margin-top: 3em;
-}
-
-.whiskas5{
-    margin-left: 5em;
-    margin-right: 5em;
-    margin-top: 3em;
-}
-
-.whiskas6{
-    margin-left: 5em;
-    margin-right: 8em;
-    margin-top: 3em;
-}
-
-.intext-button-nav{
-/*  color: #b5cabb;*/
-    color: #929595;
-    text-align: center;
-
-    font-family:Oswald;
-    font-size: 1.2rem;
-    font-weight: bold;
 }
 
 
 .button-nav-detail{
     display: inline-block;
-    background-color:  #f3e9c2;
-    color: #F39873;
+    background-color:  #F39873;
+    color: white;
+    text-decoration: none;
+    
     margin-left: auto;
     margin-right:auto;
-    /*border-style: solid;
-    border-width: 0.1rem;
-    border-color: #929595;*/
     padding: 0.3em 0.3em;
     text-decoration: none;
     -webkit-transition: background-color 0.5s;
     transition: background-color 0.5s;
-    width:100%;
-/*  border-radius:10px;*/
-/*  border-radius: 0.25rem;*/
-    font-family: BAD SPIRIT;
+    width: 4em;
+
+    font-family:Oswald;
+    font-size: 1.4rem;
     font-weight: normal;
-    font-size: 1.2em;
     text-align: center;
+}
+
+.button-nav-detail:hover{
+    font-weight: bold;
+    font-size: 1.5rem;
 }
 
 
@@ -386,15 +233,6 @@ p.prightstext{
     /*background: #f3e9c2;*/
     text-align: left;
 }
-
-
-
-.cat-foods-product-list-image-layout{
-    margin-top: 2em;
-/*  margin-right: 8em;*/
-    margin-left: 3em;
-    margin-right: 3em;
- }
 /*Middle Area closed*/
 
 
@@ -453,13 +291,12 @@ p.prightstext{
 }
 
 
-.p-payment-method{
+.payment-method{
     font-size: 1.5rem;
     font-family:Abadi MT Condensed Extra Bold;
     text-align: left;
     display: inline-block;
     color: #382843;
-/*  margin: 0.25rem 0.5rem;*/
 }
 
 /*rights Area Closed*/
@@ -547,13 +384,21 @@ p.prightstext{
 
 
 .link{
-    font-size: 0.9rem;
-    font-family: MTF Sweet Cheeks;
-/*  font-family: thin;*/
-/*  first # is top and bottom, second # is left and right margin */
-    margin: 0.25rem 0.5rem;
-    color: #F39873;;
+    font-family: Existence;
+    font-size: 1.2rem;
+    font-weight: lighter;
+    text-align: left;
+    color: #F39873;
+    font-weight: bold;
 }
+
+
+.link:hover{
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
 
 .button{
     display: inline-block;
@@ -573,16 +418,11 @@ nav .button{
     border-style: solid;
     border-width: 0.1rem;
     border-color: #929595;
-    text-align: center;
 }
 
 nav .button:hover{
     background-color: #F39873;
     color: #C2BFBB;
-    text-decoration: none;
-}
-
-a{
     text-decoration: none;
 }
 
@@ -608,7 +448,15 @@ a{
     text-align: center;
 }
 
-/*responsive image styles*/
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+
 img{
     background-color: rgba(255, 237, 221, 0.3);
 }
@@ -626,14 +474,19 @@ img{
 }
 
 figure{
+    margin: 0;
+}
 
+.payment-figure{
+    margin: 0;
+    text-align: left;
 }
 
 form{
-    background-color: #FFFDFA;
-    display: inline-block;
-    padding: 1rem;
-    width: 40%
+        background-color: #FFFDFA;
+        display: inline-block;
+        padding: 1rem;
+        width: 40%
     font-family: Abadi MT Condensed Light;
 }
 
@@ -643,18 +496,18 @@ label{
     margin-right: 0.5em;
     display: block
     font-size: 0.8rem;
-    font-family: MTF Sweet Cheeks;
-/*  font-family: thin;*/
-/*  first # is top and bottom, second # is left and right margin */
-    margin: 0.25rem 0.5rem;
+        font-family: MTF Sweet Cheeks;
+/*        font-family: thin;*/
+        /* first # is top and bottom, second # is left and right margin */
+        margin: 0.25rem 0.5rem;
 }
 
 .top_Picture_Cover{
   height: 450px;
   width: auto;
   background-size: 100% 160%;
-  /*border: 3px solid #929595;
-  color: #000; text-shadow: 1px 1px 0 #fff;*/
+  border: 3px solid #929595;
+  color: #000; text-shadow: 1px 1px 0 #fff;
   margin-top: 1em;
   position: relative;
   opacity: 10%;
@@ -666,7 +519,7 @@ label{
   width: 400px;
   background-image: url('http://www.nipandbones.com/images/products/mice/cat-toys/cat-supplies/hypnomice.jpg');
   background-size: 100%;
- /* border: 2px solid white;*/
+  border: 2px solid white;
   color: #000; 
   float: left;
  
@@ -680,9 +533,9 @@ input.submit,input.reset{
     margin: 0.25rem 0.5rem;
     padding: 0.25rem 0.45rem;
     font-size: 1.2em;
-    /*border-style: solid;
+    border-style: solid;
     border-width: 0.1rem;
-    border-color: #929595;*/
+    border-color: #929595;
 }
 
 input.text,textarea{
@@ -706,9 +559,9 @@ input.submitcomment{
     margin: 0.25rem 0.5rem;
     padding: 0.25rem 0.45rem;
     font-size: 1.2em;
-    /*border-style: solid;
+    border-style: solid;
     border-width: 0.1rem;
-    border-color: #929595;*/
+    border-color: #929595;
     float: right;
 }
 
@@ -728,7 +581,7 @@ input{
 
 textarea{
     font-family: Abadi MT Condensed Light;
-    background-color: #FAFCF9;
+    background-color: white;
     color: white;
     width: 80rem;
     height: 10rem;
@@ -740,7 +593,8 @@ input:hover{
 }
 
 article {
-    text-align: center;
+    text-align: left;
+/*  border: 2px solid #929595;*/
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     display: inline-block;
@@ -748,35 +602,30 @@ article {
 
 
 .image-button-nav-cat-foods, .image-button-nav-cat-foods:visited{
-/*  add background image for the cat foods product list image button */
+    /*  add background image for the cat foods product list image button */
     background: transparent url(../img/Cat_Foods_Icon.jpg) no-repeat;
+    background-position: center center;
     display: inline-block;
     position: relative;
-    width: 30rem;
-    height: 24rem;
 
 /*  background-color:  #F39873;*/
     color: white;
-    /*border-style: solid;
+    border-style: solid;
     border-width: 0.1rem;
-    border-color: #929595;*/
+    border-color: #929595;
     padding: 0.3em 0.3em;
     text-decoration: none;
     -webkit-transition: background-color 0.5s;
     transition: background-color 0.5s;
-    font-family: MTF Sweet Cheeks;
-    font-weight: normal;
-    font-size: 1em;
     text-align: center;
 }
 
 .image-button-nav-cat-toys, .image-button-nav-cat-toys:visited{
-/*  add background image for the cat toys product list image button */
+    /*  add background image for the cat toys product list image button */
     background: transparent url(../img/Cat_Toys_Icon.png) no-repeat;
+    background-position: 70% 40%;
     display: inline-block;
     position: relative;
-    width: 30rem;
-    height: 24rem;
 
 /*  background-color:  #F39873;*/
     color: white;
@@ -787,19 +636,15 @@ article {
     text-decoration: none;
     -webkit-transition: background-color 0.5s;
     transition: background-color 0.5s;
-    font-family: MTF Sweet Cheeks;
-    font-weight: normal;
-    font-size: 1em;
     text-align: center;
 }
 
 .image-button-nav-cat-clothes, .image-button-nav-cat-clothes:visited{
-/*  add background image for the cat toys product list image button */
-    background: transparent url(../img/Cat_Clothes_Icon.jpg) no-repeat;
+    /*  add background image for the cat toys product list image button */
+    background: transparent url(../img/Cat_Clothes.jpg) no-repeat;
+    background-position: 45% 10%;
     display: inline-block;
     position: relative;
-    width: 30rem;
-    height: 24rem;
 
 /*  background-color:  #F39873;*/
     color: white;
@@ -810,66 +655,128 @@ article {
     text-decoration: none;
     -webkit-transition: background-color 0.5s;
     transition: background-color 0.5s;
-    font-family: MTF Sweet Cheeks;
-    font-weight: normal;
-    font-size: 1em;
     text-align: center;
 }
 
 .image-button-nav-cat-foods:hover, .image-button-nav-cat-foods:active, .image-button-nav-cat-foods:focus{
     background-color: #FCBCA7;
     color: #C2C0BC;
+    opacity: 0.5;
 /*  border-radius: 0.25rem;*/
 }
 
 .image-button-nav-cat-toys:hover, .image-button-nav-cat-toys:active, .image-button-nav-cat-toys:focus{
     background-color: #FCBCA7;
     color: #C2C0BC;
+    opacity: 0.5;
 /*  border-radius: 0.25rem;*/
 }
 
 .image-button-nav-cat-clothes:hover, .image-button-nav-cat-clothes:active, .image-button-nav-cat-clothes:focus{
     background-color: #FCBCA7;
     color: #C2C0BC;
+    opacity: 0.5;
 /*  border-radius: 0.25rem;*/
 }
 
-
-/* set top main navigation layout */
- .topmenu{
-    margin-left: 8em;
-    margin-top: 0em;
-    margin-right: 8em;
- }
-
-/* set layout for three login buttons */
- .login-methods{
-    margin-right: 8em;
-    margin-top: 2em;
-    margin-left: 8em;
- }
-
  .cat-foods-image-button-layout{
+    margin-top: 5em;
     margin-left: 8em;
-    margin-top: 10em;
+    margin-right: 0em;
  }
 
  .cat-toys-image-button-layout{
-    margin-left: 8em;
+    margin-top: 5em;
+    margin-left: 4em;
+    margin-right: 4em;
 /*  margin-top: 10em;*/
  }
 
  .cat-clothes-image-button-layout{
-    margin-left: 8em;
+    margin-top: 5em;
+    margin-left: 0em;
+    margin-right: 8em;
 /*  margin-top: 10em;*/
  }
 
  .payment-methods-layout{
     margin-right: 8em;
-    margin-top: 3em;
+    margin-top: 2em;
     margin-left: 8em;
  }
 
+
+
+ a.image-button-nav-cat-foods {
+/*  border-radius: 50em;*/
+    min-height: 10em;
+    min-width: 20em;
+    max-width: 50em;
+    max-height: 40em;
+    width: 50%;
+    height: 40%;
+ }
+
+ a.image-button-nav-cat-toys {
+/*  border-radius: 50em;*/
+    min-height: 10em;
+    min-width: 20em;
+    max-width: 50em;
+    max-height: 40em;
+    width: 50%;
+    height: 40%;
+ }
+
+ a.image-button-nav-cat-clothes {
+/*  border-radius: 50em;*/
+    min-height: 10em;
+    min-width: 20em;
+    max-width: 50em;
+    max-height: 40em;
+    width: 50%;
+    height: 40%;
+ }
+
+ .button-nav-cat-foods-text {
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    margin-left: -12%;
+/*  background-color:  #929595;*/
+    font-family:Oswald;
+    font-size: 3rem;
+    font-weight: bold;
+    width: 50%;
+ }
+
+ .button-nav-cat-toys-text {
+    position: absolute;
+    top: 35%;
+    left: 40%;
+    margin-left: -12%;
+/*  background-color:  #929595;*/
+    font-family:Oswald;
+    font-size: 3rem;
+    font-weight: bold;
+    width: 50%;
+ }
+
+ .button-nav-cat-clothes-text {
+    position: absolute;
+    top: 35%;
+    left: 40%;
+    margin-left: -12%;
+/*  background-color:  #929595;*/
+    font-family:Oswald;
+    font-size: 3rem;
+    font-weight: bold;
+    width: 50%;
+ }
+
+
+
+
+  
 
 .dd {
     position: relative;
@@ -914,8 +821,7 @@ article {
 
 .dd-button {
     display: inline-block;
-    background-color:  #F39873;
-    color: white;
+    color: #F39873;
     margin-left: auto;
     margin-right:auto;
 
@@ -936,6 +842,7 @@ article {
     color: #C2C0BC;*/
     text-decoration: none;
     font-weight: bold;
+    font-size: 1.8em;
 }
 
 .onpage-button-nav, .onpage-button-nav:visited{
@@ -965,6 +872,7 @@ article {
     color: #C2C0BC;*/
     text-decoration: none;
     font-weight: bold;
+    font-size: 1.8em;
 /*  opacity: 0.7;*/
 }
 
@@ -996,6 +904,7 @@ article {
     color: #C2C0BC;*/
     text-decoration: none;
     font-weight: bold;
+    font-size: 1.3em;
 }
 
 
@@ -1027,10 +936,7 @@ article {
     color: #C2C0BC;*/
     text-decoration: none;
     font-weight: bold;
-}
-
-a:hover{
-    text-decoration: none;
+    font-size: 1.8em;
 }
 
 .logo-image-button, .logo-image-button:visited{
@@ -1039,25 +945,23 @@ a:hover{
 /*  background-position: center;*/
 /*  background-size: 100% 160%;*/
 /*  position: relative;*/
-    display: inline-block;
+   /* display: inline-block;*/
+    display: block;
     margin-left: 8em;
     margin-right: 8em;
-    margin-top: 1em;
+    margin-top: 10em;
     margin-bottom: 2em;
-    width: auto;
-    height: auto;
-    min-width: 26.4em;
-    min-height: 16em;
+    width: 20%;
+    height: 20%;
+    /*width: 100em;
+    width: 30em;*/
+    /*min-width: 26.4em;
+    min-height: 16em;*/
+    min-width: 3em;
+    min-height: 3em;
     z-index: 3;
-    float: left;
-    /*opacity: 0.9;*/
-    /*filter: alpha(opacity=40);*/
+    /*float: left;*/
 
-/*  background-color:  #F39873;*/
-/*  color: white;
-    border-style: solid;
-    border-width: 0.1rem;
-    border-color: #929595;*/
     padding: 0.3em 0.3em;
     text-decoration: none;
     -webkit-transition: background-color 0.5s;
@@ -1075,11 +979,6 @@ a:hover{
     opacity: 0.5;
 }
 
-.payment-figure{
-    margin: 0;
-    text-align: left;
-}
-
 .copyright{
     font-size: 0.9rem;
     font-family: Courier New, sans-serif;
@@ -1087,12 +986,108 @@ a:hover{
    /* first # is top and bottom, second # is left and right margin */
 }
 
-.sdetail{
-    font-size: 1rem;
+ .login-methods{
+    margin-right: 8em;
+    margin-top: 3%;
+    margin-left: 8em;
+    margin-bottom: 2em;
+    z-index: 1;
+/*    position: absolute;*/
+ }
+
+
+.logo-name{
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 1;
+/*    position: absolute;*/
+}
+
+ /* set top main navigation layout */
+ .topmenu{
+    margin-left: 8em;
+    margin-top: 0em;
+    margin-right: 8em;
+    z-index: 1;
+/*    position: absolute;*/
+ }
+
+ .topimage{
+/*  background: transparent url(../img/background_2.jpg) no-repeat;*/
+    display: block;
+    -webkit-transition: background-color 0.5s;
+    transition: background-color 0.5s;
+    z-index: -1;
+    width: 100%;
+    height: auto;
+    position: relative;
+    top: 0;
+    left: 0;
+/*  min-width: 25.6em;
+    min-height: 16em;*/
+/*  padding: 0.3em 0.3em;*/
+}
+
+.topimage-layout{
+    margin-top: 1%;
+}
+
+ .pmiddle{
+    font-size: 1.8rem;
+    font-family:Oswald;
+    text-align: left;
+    font-weight: bold;
+/*    color:  #929595;*/
+/*    color: #F39873;*/
+    color: white;
+    opacity: 1;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+}
+
+.pmiddletext{
+    font-family:Oswald;
+    font-size: 1.2rem;
+    font-weight: lighter;
+    text-align: left;
+/*    color:  #929595;*/
+/*    color: #F39873;*/
+    color: white;
+    opacity: 1;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+
+.textmiddle{
+    z-index: 1;
+    margin-left: 8.8%;
+    margin-right: 30%;
+    margin-top: -38%;
+    position: absolute;
+    max-width: 50em;
+    min-width: 20em;
+    background-color: rgba(146, 149, 149, 0.6);
+    opacity: 1;
+}
+
+.copyright{
+    font-size: 0.9rem;
     font-family: Oswald;
     font-weight: lighter;
-    text-align: center;
+    text-align: left;
 }
+
+.guideline{
+    background-color: pink;
+    margin-top: 2em;
+}
+
+.total_page{
+     background-color: pink;
+    margin-top: 2em;
+}
+
 
 .product-image{
     display: inline-block;
@@ -1101,30 +1096,4 @@ a:hover{
     height: 13em;
     min-width: 8em;
     min-height: 8em;
-}
-
-.button-nav-detail{
-    display: inline-block;
-    background-color:  #f3e9c2;
-    color: #F39873;
-    margin-left: auto;
-    margin-right:auto;
-    /*border-style: solid;
-    border-width: 0.1rem;
-    border-color: #929595;*/
-    padding: 0.3em 0.3em;
-    text-decoration: none;
-    -webkit-transition: background-color 0.5s;
-    transition: background-color 0.5s;
-    width:100%;
-/*  border-radius:10px;*/
-/*  border-radius: 0.25rem;*/
-    font-family:Oswald;
-    font-size: 1.4rem;
-    font-weight: normal;
-    text-align: center;
-}
-
-.button-nav-detail:hover{
-    font-weight: bold;
 }

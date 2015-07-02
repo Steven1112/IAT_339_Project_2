@@ -10,69 +10,10 @@
 	text-align: center; /* center the content in this block */
 }
 
-/* main navigation menu grid */
-.grid-col-1of10 {
-	width: 10%;
-}
 
-.grid-col-3of10 {
-	width: 30%;
-}
-
-.grid-col-5of10 {
-	width: 50%;
-}
-
-/* login methods grid */
 .grid-col-2of10{
-	width: 25%;
+	width: 20%;
 }
-
-
-.grid-col-7of10{
-	width: 90%;
-}
-
-.grid-col-10of10{
-	width: 100%;
-}
-
-.grid-col-8of100 {
-    width: 8%;
-    float:right;
-}
-
-
-
-.grid-col-25of100 {
-    width: 25%;
-}
-
-.grid-col-10of10 {
-    width: 100%;
-}
-
-.grid-col-3of10 {
-    width: 33%;    
-}
-
-.grid-col-4of10 {
-    width: 40%;    
-}
-
-.grid-col-33of100 {
-    width: 33%;    
-}
-
-
-.grid-col-84of100 {
-    width: 84%;
-}
-
-.grid-col-50of100 {
-    width: 40%;
-}
-
 
 .grid-col-8of100 {
     width: 8%;
@@ -114,9 +55,23 @@
     width: 40%;
 }
 
-.grid-col-20of100{
-    width: 20%;
+
+.grid-col-48of100{
+	width: 48%;
 }
+
+.grid-col-20of100{
+	width: 20%;
+}
+
+.grid-col-2of100{
+	width: 2%;
+}
+
+.grid-col-15of100{
+	width: 15%;
+}
+
 
 /*
     Here using @media queries, we are specifying when the display
@@ -139,7 +94,6 @@
         width: 100%;
         padding-bottom: 0.5em;
     }
-
 }
 
 
@@ -148,7 +102,6 @@
     .grid-col-10of10 {
         width: 100%;
     }
-
 }
 
 
@@ -159,13 +112,6 @@
     }
 }
 
-
-@media (max-width:50em) {
-
-    .grid-col-10of10{
-        width: 100%;
-    }
-}
 
 @media (max-width:60em) {
 
@@ -220,7 +166,7 @@
 
     .payment-methods-layout{
         margin-left: 3em;
-        margin-right: auto;
+        margin-right: 3em;
         margin-top: 5em;
     }
 
@@ -346,6 +292,12 @@
         margin-top: 4em;
     }
 
+    .topmenu{
+        margin-left: 3em;
+        margin-top: 0em;
+        margin-right: 3em;
+    }
+
     .cat-foods-image-button-layout{
         width: 100%;
         margin-top: 25em;
@@ -394,7 +346,7 @@
 }
 
 
-@media (max-width:57em) {
+@media (max-width:60em) {
 
     .textmiddle{
         width: 100%;
@@ -445,327 +397,156 @@
 
 }
 
-@media (max-width: 95em) {
 
-	.grid-col-50of100 {
-    width: 100%;
-}
+@media (max-width:60.479em) {
 
-.contact-us-contactus{
-
-  margin-left: 5%;
-  margin-top: 13%;
-  width: 100%;
-  
-}
-
-
-
-.contact-us-right{
-    /*float: right;*/
-    float: left;
-    margin-left: 5%;
-    
-    margin-top: 5%;
-
-   /* margin-right: 8%;*/
-    /*widtlefth: 45%;*/
-}
-
-.textarea{
-	width: 30%;
-}
-
-}
-
-@media (max-width: 40em) {
-
-	.grid-col-50of100 {
-    width: 70%;
-}
-
-.textarea{
-	width: 10%;
-}
-}
-
-
-@media (max-width: 30em) {
-
-	.grid-col-50of100 {
-    width: 80%;
-}
-}
-
-/*
-	Here using @media queries, we are specifying when the display
-	has a width less than 50em it should collapse the 5/10 columns 
-	into one stack (hence width: 100%)
-*/
-@media (max-width: 57em) {
-
-    .grid-col-25of100 {
-        width: 100%;
-        padding-bottom: 0.8em;
-    }
-}
-
-@media (max-width: 60em) {
-
-    .grid-col-8of100 {
-        width: 100%;
-        padding-bottom: 0.5em;
-    }
-
-}
-
-
-@media (max-width: 50em) {
-
-    .grid-col-10of10 {
-        width: 100%;
-    }
-
-}
-
-
-@media (max-width: 80em) {
-
-    .grid-col-3of10 {
-        width: 100%;
-    }
-}
-
-
-@media (max-width:50em) {
-
-    .grid-col-10of10{
-        width: 100%;
-    }
-}
-
-@media (max-width:60em) {
-
-    .grid-col-4of10{
-        width: 100%;
-        margin-left: 5%;
-        margin-right: 5%;
-        margin-top: auto; 
-    }
-}
-
-@media (max-width: 85em) {
-
-   
-}
-
-@media (max-width: 57em) {
-
-    .payment-methods-layout{
+    .contact-us-contactus{
         margin-left: 3em;
-        margin-right: auto;
-        margin-top: 5em;
     }
 
-}
 
-@media (max-width: 62em) {
 
-    .grid-col-40of100 {
+    .article-border{
+        margin-top: -1em;
+    }
+
+    .text-length{
         width: 100%;
-        margin-left: auto;
-        margin-left: auto;
+        margin-left: 28.5%;
     }
 
-    .grid-col-20of100{
+    textarea{
         width: 100%;
-        margin-left: auto;
-        margin-left: auto;
+        margin-left: 28.5%;
     }
 
-}
+    .grid-col-30of100{
+        width: 100%;
+        margin-left: 0em;
+    }
 
-@media (max-width: 45em) {
+    .grid-col-15of100{
+        width: 0%;
+       
+    }
+
+    .submit-button-nav{
+        margin-left: 40em;
+    }
+
+    .reset-button-nav{
+        margin-left: 103%;
+       /*margin-top: -2.25em;*/
+    }
+
+    .pprice_line1{
+        margin-top: 2em;
+    }
+
+    .pprice{
+        margin-top: 2em;
+    }
+
+    .submit-button-nav{
+        margin-left: 118%;
+    }
+
+    .reset-button-nav{
+        margin-left: 31.5em;
+       margin-top: -2.25em;
+    }
+
+    .top5questions{
+        margin-left: 3em;
+    }
+
 
     
-
 }
 
-@media (max-width: 35em) {
+@media (max-width:58em) {
+
+    .text-length{
+        width: 100%;
+        margin-left: 11em;
+    }
+
+    textarea{
+        width: 100%;
+        margin-left: 11em;
+    }
+
 
     
 }
 
-@media (max-width: 30em) {
+@media (max-width:49em) {
+    .submit-button-nav{
+        margin-left: 123%;
 
-    
-}
+    }
 
-@media (max-width: 25em) {
-
-   
-
-}
-
-
-@media (max-width:57em) {
-
-   
-
-}
-
-@media (max-width:45em) {
-
-    
+    .reset-button-nav{
+        margin-left: 100%;
+    }
 
 }
 
 @media (max-width:40em) {
 
-/*    .topimage{
-        width: 39em;
-        height: auto;
-    }*/
-
-    .grid-col-4of10{
+    .text-length{
         width: 100%;
-/*        margin-left: 1%;
-        margin-right: 1%;
-        margin-top: -20%;*/
+        margin-left: 9em;
     }
 
-}
-@media (max-width: 35em) {
-
-	.grid-col-2of10 {
-		width: 100%;
-	}
-
-}
-
-
-
-
-@media (max-width: 50em) {
-
-    .grid-col-8of100 {
+    textarea{
         width: 100%;
+        margin-left: 9em;
     }
+
+    .submit-button-nav{
+        margin-left: 122%;
+    }
+
+    .reset-button-nav{
+        margin-left: 122%;
+    }
+    
 }
 
-@media (max-width:65em) {
+@media (max-width:35em) {
 
-    .grid-col-4of10{
+    .text-length{
         width: 100%;
         margin-left: 8em;
-        margin-right: 8em;
     }
-}
 
-@media (max-width:60em) {
-
-
-
-.contact-us-right{
-    /*float: right;*/
-    /*float: left;*/
-    margin-left: 15%;
-    width: 100%;
-    margin-top: 0%;
-   /* margin-right: 8%;*/
-    /*widtlefth: 45%;*/
-}
+    textarea{
+        width: 100%;
+        margin-left: 8em;
+    }
 
 
-
-.contact-us-contactus{
-  /*float: left;*/
-  margin-left: 15%;
-  margin-top: 3%;
-  width: 100em;
-}
-
-.textarea{
-	width: 100%;
-}
-
-}
-
-
-@media (max-width:60em) {
-
-	.contact-us-right{
-    /*float: right;*/
-    /*float: left;*/
-    margin-left: 15%;
-    width: 100%;
-    margin-top: 0%;
-   /* margin-right: 8%;*/
-    /*widtlefth: 45%;*/
-}
-
-
-
-.contact-us-contactus{
-  /*float: left;*/
-  margin-left: 15%;
-  margin-top: 3%;
-  /*width: 100em;*/
-}
-	.textarea{
-	width: 50%;
-}
-}
-
-
-@media (max-width:48em) {
-.grid-col-50of100 {
-    width: 60%;
-   /* margin-left: auto;*/
     
-
 }
 
-.contact-us-contactus{
-  /*float: left;*/
-  margin-left: 15%;
-  margin-top: 3%;
-  width: 50em;
+@media (max-width:30em) {
+
+    .text-length{
+        width: 100%;
+        margin-left: 7em;
+    }
+
+    textarea{
+        width: 100%;
+        margin-left: 7em;
+    }
+
+
+    
 }
 
-.contact-us-right{
-    /*float: right;*/
-    /*float: left;*/
-    margin-left: 15%;
-   /* width: 100em;*/
-    margin-top: 3%;
-   /* margin-right: 8%;*/
-    /*widtlefth: 45%;*/
-}
-
-}
-
-@media (max-width:90em) {
-
-
-.contact-us-contactus{
-  /*float: left;*/
-  margin-left: 15%;
-  margin-top: 3%;
-  width: 60em;
-}
-
-.contact-us-right{
-    /*float: right;*/
-    /*float: left;*/
-    margin-left: 15%;
-   /* width: 100em;*/
-    margin-top: 3%;
-   /* margin-right: 8%;*/
-    /*widtlefth: 45%;*/
-}
-
-}
+ 
 
 
 .grid:after {
