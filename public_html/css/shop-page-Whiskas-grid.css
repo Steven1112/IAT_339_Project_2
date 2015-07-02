@@ -38,7 +38,8 @@
 }
 
 .grid-col-3of10 {
-    width: 30%;    
+    width: 30%;
+    margin-left: 3em;    
 }
 
 .grid-col-4of10 {
@@ -63,6 +64,17 @@
 
 .grid-col-20of100{
     width: 20%;
+}
+
+.grid-col-5of100{
+    width: 5%;
+}
+.grid-col-15of100 {
+    width: 15%;
+}
+
+.grid-col-50of100 {
+    width: 50%;
 }
 
 /*

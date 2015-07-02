@@ -201,17 +201,17 @@ p,code,figcaption{
     text-decoration: none;
     -webkit-transition: background-color 0.5s;
     transition: background-color 0.5s;
-    width: 4em;
+    width: 10em;
 
     font-family:Oswald;
-    font-size: 1.4rem;
+    font-size: 1.0em;
     font-weight: normal;
     text-align: center;
 }
 
 .button-nav-detail:hover{
     font-weight: bold;
-    font-size: 1.5rem;
+    font-size: 1.4em;
 }
 
 
@@ -1079,12 +1079,10 @@ article {
 }
 
 .guideline{
-    background-color: pink;
     margin-top: 2em;
 }
 
 .total_page{
-     background-color: pink;
     margin-top: 2em;
 }
 
@@ -1096,4 +1094,29 @@ article {
     height: 13em;
     min-width: 8em;
     min-height: 8em;
+    margin-top: 25%;
 }
+
+.trangle_left{
+    margin-left: 10%;
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-right: 10px solid red;
+    border-bottom: 10px solid transparent;
+    margin-top: 45%;
+} 
+
+.trangle_right{
+    margin-left: 10%;
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-left: 10px solid red;
+    border-bottom: 10px solid transparent;
+    margin-top: 45%;
+}
+
+
+
+

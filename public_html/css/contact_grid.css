@@ -123,44 +123,7 @@
     }
 }
 
-@media (max-width: 85em) {
 
-    .bottomtext_left{
-        margin-left: 20%;
-        margin-right: 0em;
-        margin-top: 3em;
-    }
-
-    .bottomtext_right{
-        margin-left: 5%;
-        margin-right: 5%;
-        margin-top: 3em;
-    }
-
-    .bottomimage{
-        margin-left: 0em;
-        margin-right: 20%;
-        margin-top: 3em;
-    }
-
-    .cat-foods-image-button-layout{
-        margin-top: 5em;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .cat-toys-image-button-layout{
-        margin-top: 5em;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .cat-clothes-image-button-layout{
-        margin-top: 5em;
-        margin-left: auto;
-        margin-right: auto;
-    }
-}
 
 @media (max-width: 57em) {
 
@@ -208,89 +171,17 @@
         margin-top: 4em;
     }
 
-    .cat-foods-image-button-layout{
-        width: 100%;
-        margin-top: 5em;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .cat-toys-image-button-layout{
-        width: 100%;
-        margin-top: 5em;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .cat-clothes-image-button-layout{
-        width: 100%;
-        margin-top: 5em;
-        margin-left: auto;
-        margin-right: auto;
-    }
 
     article {
         text-align: center;
         display: block;
     }
 
-    a.image-button-nav-cat-foods {
-        width: 62%;
-        height: 50%;
-    }
-
-    a.image-button-nav-cat-toys {
-        width:  62%;
-        height: 50%;
-    }
-
-    a.image-button-nav-cat-clothes {
-        width: 62%;
-        height: 50%;
-    }
-
-    .button-nav-cat-foods-text {
-        top: 40%;
-        left: 40%;
-        margin-left: -12%;
-        width: 50%;
-    }
-
-    .button-nav-cat-toys-text {
-        top: 40%;
-        left: 40%;
-        margin-left: -12%;
-        width: 50%;
-    }
-
-    .button-nav-cat-clothes-text {
-        top: 40%;
-        left: 40%;
-        margin-left: -12%;
-        width: 50%;
-    }
 
 }
 
 @media (max-width: 45em) {
 
-    .bottomtext_left{
-        margin-left: 3em;
-        margin-right: 3em;
-        margin-top: 5em;
-    }
-
-    .bottomtext_right{
-        margin-left: 3em;
-        margin-right: 3em;
-        margin-top: 5em;
-    }
-
-    .bottomimage{
-        margin-left: 3em;
-        margin-right: 3em;
-        margin-top: 4em;
-    }
 
     .topmenu{
         margin-left: 3em;
@@ -298,26 +189,6 @@
         margin-right: 3em;
     }
 
-    .cat-foods-image-button-layout{
-        width: 100%;
-        margin-top: 25em;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .cat-toys-image-button-layout{
-        width: 100%;
-        margin-top: 5em;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .cat-clothes-image-button-layout{
-        width: 100%;
-        margin-top: 5em;
-        margin-left: auto;
-        margin-right: auto;
-    }
 
 }
 
@@ -345,6 +216,16 @@
 
 }
 
+@media (max-width:65em) {
+
+    .grid-col-15of100{
+        width: 15%;
+        color: white;
+       
+    }
+
+}
+
 
 @media (max-width:60em) {
 
@@ -361,6 +242,7 @@
         margin-bottom: 10%;
     }
 
+    
 }
 
 @media (max-width:45em) {
@@ -400,16 +282,7 @@
 
 @media (max-width:45em) {
 
-    .contact-us-contactus{
-        margin-left: 3em;
-        margin-right: 3em;
-    }
-
-
-
-    .article-border{
-        margin-top: -5em;
-    }
+  
 
     .text-length{
         width: 100%;
@@ -426,19 +299,6 @@
         margin-left: 0em;
     }
 
-    .grid-col-15of100{
-        width: 0%;
-       
-    }
-
-    .submit-button-nav{
-        margin-left: 40em;
-    }
-
-    .reset-button-nav{
-        margin-left: 103%;
-       /*margin-top: -2.25em;*/
-    }
 
     .pprice_line1{
         margin-top: 2em;
@@ -446,15 +306,6 @@
 
     .pprice{
         margin-top: 2em;
-    }
-
-    .submit-button-nav{
-        margin-left: 118%;
-    }
-
-    .reset-button-nav{
-        margin-left: 31.5em;
-       margin-top: -2.25em;
     }
 
     .top5questions{
@@ -482,73 +333,102 @@
     
 }
 
-@media (max-width:49em) {
-    .submit-button-nav{
-        margin-left: 123%;
 
-    }
 
-    .reset-button-nav{
-        margin-left: 100%;
+
+
+ 
+@media (max-width:66em) {
+    .contact-us-form{
+        width: 100%;
     }
 
 }
 
-@media (max-width:40em) {
+@media (max-width:60em) {
 
     .text-length{
-        width: 100%;
-        margin-left: 9em;
+        width: 60%;
+        margin-left: 1em;
     }
 
     textarea{
-        width: 100%;
-        margin-left: 9em;
+        width: 60%;
+        margin-left: 1em;
     }
 
-    .submit-button-nav{
-        margin-left: 122%;
-    }
-
-    .reset-button-nav{
-        margin-left: 122%;
-    }
     
+
 }
 
-@media (max-width:35em) {
 
-    .text-length{
-        width: 100%;
-        margin-left: 8em;
+@media (max-width:45em) {
+.pptitle{
+    display: block;
+    width: 100%;
+    float: left;
+    text-align: left;
+    margin-bottom: 0em;
+
+}
+
+p{
+
+    float: left;
+
+    text-align: left;
+    display: inline-block;
+    /*margin-bottom: 30%;*/
+}
+
+
+ .text-length{
+        width: 60%;
+        margin-left: -2em;
     }
 
     textarea{
+        width: 60%;
+        margin-left: -2em;
+    }
+
+    .grid-col-48of100{
+        margin-top: 5em;
         width: 100%;
-        margin-left: 8em;
+        margin-left: 1em;
     }
 
 
-    
+}
+
+@media (max-width:45em) {
+    .grid-col-48of100{
+        margin-top: 0em;
+        width: 75%;
+        margin-left: 1em;
+    }
+
+    .contact-us-contactus{
+        margin-left: 3em;
+    }
+
+
 }
 
 @media (max-width:30em) {
-
-    .text-length{
-        width: 100%;
-        margin-left: 7em;
+    .grid-col-48of100{
+        margin-top: 3em;
+        width: 85%;
+        margin-left: 0em;
     }
 
-    textarea{
-        width: 100%;
-        margin-left: 7em;
+    .contact-us-contactus{
+        margin-left: 3em;
     }
 
 
-    
 }
 
- 
 
 
 .grid:after {

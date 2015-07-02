@@ -259,8 +259,8 @@ p,code,figcaption{
     font-weight: normal;
     text-align: center;
 
-    margin-left: 2em;
-    margin-right: 5.5em;
+    margin-left: 0.5em;
+    margin-right: 9em;
     width: 4em;
     margin-top: 0.3em;
     margin-bottom: 0.3em;
@@ -370,7 +370,8 @@ textarea{
     display: inline-block;
     font-family: Oswald;
     font-weight: lighter;
-    width: 37.5em;
+    /*width: 37.5em;*/
+    width: 29em;
 
     height: 20rem;
     min-width: 10rem;
