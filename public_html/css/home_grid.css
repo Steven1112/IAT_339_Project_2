@@ -80,6 +80,7 @@
     }
 }
 
+
 @media (max-width: 60em) {
 
     .grid-col-8of100 {
@@ -164,7 +165,7 @@
 
 }
 
-@media (max-width: 62em) {
+@media (max-width: 72em) {
 
     .grid-col-40of100 {
         width: 100%;
@@ -227,17 +228,17 @@
     }
 
     a.image-button-nav-cat-foods {
-        width: 62%;
+        width: 52%;
         height: 50%;
     }
 
     a.image-button-nav-cat-toys {
-        width:  62%;
+        width: 52%;
         height: 50%;
     }
 
     a.image-button-nav-cat-clothes {
-        width: 62%;
+        width: 52%;
         height: 50%;
     }
 
@@ -310,7 +311,6 @@
         margin-left: auto;
         margin-right: auto;
     }
-
 }
 
 @media (max-width: 35em) {

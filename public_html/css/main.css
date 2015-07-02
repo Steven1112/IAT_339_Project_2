@@ -1528,3 +1528,11 @@ article {
     font-weight: lighter;
     text-align: left;
 }
+
+table {
+    display: table;
+    border-collapse: collapse;
+/*  border-collapse: separate;*/
+    border-spacing: 2px;
+/*  border-spacing: 0; */
+}

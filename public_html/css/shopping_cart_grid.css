@@ -32,6 +32,247 @@
     into one stack (hence width: 100%)
 */
 
+.grid-col-3of10 {
+    width: 33%;    
+}
+ 
+
+.grid-col-5of10{
+    width: 50%;
+}
+
+.grid-col-8of100 {
+    width: 8%;
+}
+
+.grid-col-100of100 {
+    width: 100%;
+}
+
+.grid-col-25of100 {
+    width: 25%;
+}
+
+.grid-col-4of10 {
+    width: 40%;    
+}
+
+.grid-col-30of100 {
+    width: 30%;
+}
+
+.grid-col-14of100 {
+    width: 14%;
+}
+
+.grid-col-33of100{
+    width: 33%;
+}
+
+.grid-col-35of100{
+    width: 35%;
+}
+
+.grid-col-65of100{
+    width: 65%;
+}
+
+.grid-col-20of100{
+    width: 20%;
+}
+
+.grid-col-32of100{
+    width: 32%;
+}
+
+.grid-col-58of100{
+    width: 58%;
+}
+
+.grid-col-10of100{
+    width: 10%;
+}
+
+
+/*
+    Here using @media queries, we are specifying when the display
+    has a width less than 50em it should collapse the 5/10 columns 
+    into one stack (hence width: 100%)
+*/
+
+
+
+@media (max-width: 57em) {
+
+    .grid-col-3of10 {
+        width: 100%;
+    }
+
+    .comments{
+        margin-top: 6em;
+        margin-left: 8em;
+        margin-right: 8em;
+    }
+
+    .payment-methods-layout{
+        margin-left: 8em;
+        margin-right: 8em;
+        margin-top: 5em;
+    }
+
+    .whiskas1{
+        margin-left: 8em;
+        margin-right: 8em;
+        margin-bottom: 3em;
+    }
+
+    .whiskas2{
+        margin-left: 8em;
+        margin-right: 8em;
+        margin-bottom: 3em;
+    }
+
+    .whiskas3{
+        margin-left: 8em;
+        margin-right: 8em;
+    }
+
+    .whiskas4{
+        margin-left: 8em;
+        margin-right: 8em;
+        margin-bottom: 3em;
+    }
+
+    .whiskas5{
+        margin-left: 8em;
+        margin-right: 8em;
+        margin-bottom: 3em;
+    }
+
+    .whiskas6{
+        margin-left: 8em;
+        margin-right: 8em;
+    }
+}
+
+@media (max-width: 40em) {
+
+    .comments{
+        margin-top: 6em;
+        margin-left: 3em;
+        margin-right: 3em;
+    }
+
+    .payment-methods-layout{
+        margin-left: 3em;
+        margin-right: 3em;
+        margin-top: 5em;
+    }
+
+    .whiskas1{
+        margin-left: 3em;
+        margin-right: 3em;
+    }
+
+    .whiskas2{
+        margin-left: 3em;
+        margin-right: 3em;
+    }
+
+    .whiskas3{
+        margin-left: 3em;
+        margin-right: 3em;
+    }
+
+    .whiskas4{
+        margin-left: 3em;
+        margin-right: 3em;
+    }
+
+    .whiskas5{
+        margin-left: 3em;
+        margin-right: 3em;
+    }
+
+    .whiskas6{
+        margin-left: 3em;
+        margin-right: 3em;
+    }
+
+    .grid-col-52of100{
+        width: 52%;
+    }
+}
+
+
+@media (max-width: 70em) {
+
+    .grid-col-35of100{
+        width: 35%;
+    }
+
+    .grid-col-65of100{
+        width: 65%;
+    }
+
+    .catfoodintroduction{
+        margin-left: 8em;
+        margin-right: 8em;
+    }
+}
+
+
+@media (max-width: 60em) {
+
+    .grid-col-35of100{
+        width: 100%;
+    }
+
+    .grid-col-65of100{
+        width: 100%;
+    }
+
+    .Whiskas_large{
+        margin-top: 3em;
+        margin-left: 0em;
+        margin-right: 8em;
+        width: 100%;
+        height: auto;
+    }
+
+    .catfoodintroduction{
+        margin-top: 5em;
+        margin-left: 8em;
+        margin-right: 8em;
+    }
+}
+
+
+@media (max-width: 25em) {
+
+    .button-nav-cart{
+        margin-left: 2em;
+        margin-right: auto;
+    }
+}
+
+
+@media (max-width: 57em) {
+
+    .grid-col-25of100 {
+        width: 100%;
+        padding-bottom: 0.8em;
+    }
+}
+
+@media (max-width: 60em) {
+
+    .grid-col-8of100 {
+        width: 100%;
+        padding-bottom: 0.5em;
+    }
+
+}
 
 
 @media (max-width:50em) {
@@ -41,6 +282,243 @@
     }
 }
 
+@media (max-width:60em) {
+
+    .grid-col-4of10{
+        width: 100%;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: auto; 
+    }
+}
+
+
+@media (max-width: 62em) {
+
+    .grid-col-40of100 {
+        width: 100%;
+        margin-left: auto;
+        margin-left: auto;
+    }
+
+    .grid-col-20of100{
+        width: 100%;
+        margin-left: auto;
+        margin-left: auto;
+    }
+
+    .grid-col-33of100{
+        width: 100%;
+    }
+
+    article {
+        text-align: center;
+        display: block;
+    }
+
+    .grid-col-32of100{
+        width: 60%;
+    }
+
+    .grid-col-58of100{
+        width: 30%;
+    }
+
+    .shopping-cart-layout thead th.first {
+        width: 25%;
+    }
+
+    .shopping-cart-layout thead th.second {
+        display:none;
+        width:0;
+        height:0;
+        visibility: collapse; 
+        opacity: 0;
+    }
+
+    .shopping-cart-layout thead th.third {
+        width: 50%;
+    }
+
+    .shopping-cart-layout thead th.fourth {
+        width: 25%;
+    }
+
+    tr.shopping-cart-list td.specialprice-title{
+        display:none;
+        width:0;
+        height:0;
+        visibility: collapse; 
+        opacity: 0;
+    }
+
+    td.specialprice-title{
+        visibility: hidden;
+        opacity: 0;
+    }
+
+    .checkout-button{
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+}
+
+@media (max-width: 45em) {
+
+    #shopping-cart-page {
+        margin-left: 3em;
+        margin-right: 3em; 
+        top: 28%;
+    }
+
+    .grid-col-32of100{
+        width: 70%;
+    }
+
+    .grid-col-58of100{
+        width: 20%;
+    }
+
+    .Whiskas_large{
+        margin-top: 3em;
+        margin-left: -2em;
+        margin-right: 3em;
+        width: 100%;
+        height: auto;
+    }
+
+    .catfoodintroduction{
+        margin-top: 5em;
+        margin-left: 3em;
+        margin-right: 3em;
+    }
+
+    .topmenu{
+        margin-left: 3em;
+        margin-top: 0em;
+        margin-right: 3em;
+    }
+
+    .customer-reviews{
+        margin-left: 3em;
+        margin-right: 3em;
+        margin-top: 5em;
+    }
+
+    .shopping-cart-layout thead th.first {
+        width: 50%;
+    }
+
+    .shopping-cart-layout thead th.third {
+        width:0;
+        height:0;
+        visibility: hidden; 
+        opacity: 0;
+    }
+
+    .shopping-cart-layout thead th.fourth {
+        width: 50%;
+    }
+
+
+    tr.shopping-cart-list td input{
+        width:0;
+        height:0;
+        visibility: hidden; 
+        opacity: 0;
+    }
+
+    .checkout-button{
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+}
+
+
+@media (max-width: 40em) {
+
+    .grid-col-32of100{
+        width: 70%;
+    }
+
+    .grid-col-58of100{
+        width: 10%;
+    }
+
+    .shopping-cart-layout thead th.first {
+        width: 100%;
+    }
+
+    .shopping-cart-layout thead th.third {
+        display: none;
+        width:0;
+        height:0;
+        visibility: collapse; 
+        opacity: 0;
+    }
+
+    .shopping-cart-layout thead th.fourth {
+        display: none;
+        width:0;
+        height:0;
+        visibility: collapse; 
+        opacity: 0;
+    }
+
+
+    tr.shopping-cart-list td input{
+        display: none;
+        width:0;
+        height:0;
+        visibility: collapse; 
+        opacity: 0;
+    }
+
+    tr.shopping-cart-list td.pprice{
+        display: none;
+        width:0;
+        height:0;
+        visibility: collapse; 
+        opacity: 0;
+    }
+
+    .checkout-button{
+        margin-left: 3em;
+        margin-right: 3em;
+        width: 70%;
+    }
+
+    #shopping-cart-page {
+        margin-left: 2em;
+        margin-right: 2em;
+        width: 80%; 
+        top: 28%;
+    }
+}
+
+
+
+@media (max-width:60em) {
+
+    .topmenu{
+        margin-left: 8em;
+        margin-right: 8em;
+        margin-top: 5%;
+        margin-bottom: 10%;
+    }
+
+}
+
+@media (max-width:45em) {
+
+    .topmenu{
+        margin-left: 8em;
+        margin-right: 8em;
+        margin-top: 5%;
+        margin-bottom: 10%;
+    }
+
+}
 
 /*
     Much like last week, we are clearing the floating items so
