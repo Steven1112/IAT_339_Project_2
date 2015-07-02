@@ -12,12 +12,12 @@ body{
 }
 
 h1{
-  font-size: 3.3rem;
-  font-weight: 700;
-  font-family: Austie Bost Kitten Klub;
-  text-align: center;
-/*color: #F39873;*/
-/*color: white;*/
+   font-size: 3.3rem;
+   font-weight: 700;
+   font-family: Austie Bost Kitten Klub;
+   text-align: left;
+/* color: #F39873;*/
+/* color: white;*/
 }
 
 h2{
@@ -134,6 +134,9 @@ p,code,figcaption{
     font-family: Oswald;
     font-weight: lighter;
     text-align: left;
+    margin-right: 8em;
+    margin-top: 3em;
+    margin-left: 8em;
 }
 
 .cat-food-1-image{

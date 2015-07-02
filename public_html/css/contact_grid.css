@@ -398,16 +398,17 @@
 }
 
 
-@media (max-width:60.479em) {
+@media (max-width:45em) {
 
     .contact-us-contactus{
         margin-left: 3em;
+        margin-right: 3em;
     }
 
 
 
     .article-border{
-        margin-top: -1em;
+        margin-top: -5em;
     }
 
     .text-length{
@@ -458,6 +459,7 @@
 
     .top5questions{
         margin-left: 3em;
+        margin-right: 3em;
     }
 
 

@@ -18,31 +18,39 @@ h1{
    font-weight: 700;
    font-family: Austie Bost Kitten Klub;
    text-align: left;
-/*   color: #F39873;*/
+/* color: #F39873;*/
+/* color: white;*/
 }
 
 h2{
+    text-align: left;
+
     display: inline-block;
-    /*margin-left: 5%;*/
+    margin-left: auto;
     margin-right:auto;
     text-decoration: none;
     -webkit-transition: background-color 0.5s;
     transition: background-color 0.5s;
     width:100%;
     font-family:Oswald;
-    font-size: 1.6em;
+    font-size: 1.6rem;
     font-weight: bold;
-    text-align: left;
     margin-bottom: -2%;
-
-   
 }
 
-
 h3{
-   font-size: 1.0rem;
-   font-size: normal;
-   font-family: Courier New, sans-serif;
+    text-align: left;
+
+    display: inline-block;
+    margin-left: auto;
+    margin-right:auto;
+    text-decoration: none;
+    -webkit-transition: background-color 0.5s;
+    transition: background-color 0.5s;
+    width:100%;
+    font-family:Oswald;
+    font-size: 1.4rem;
+    font-weight: bold;
 }
 
 h4{
@@ -63,11 +71,10 @@ h5{
 
 
 p,code,figcaption{
-    display: inline-block;
-    font-size: 1em;
+    font-size: 1rem;
     font-family: Oswald;
-    float:left;
     font-weight: lighter;
+    text-align: left;
 }
 
 .location{
@@ -129,9 +136,6 @@ p,code,figcaption{
     /*margin-left: 3%;*/
     color: #929595;
     margin-top: 1.2%;
-
-
-
 }
 
 .pprice_line1{
@@ -161,7 +165,6 @@ p,code,figcaption{
     font-size: 1.2em;
     font-weight: bold;
     text-align: left;
-    margin-bottom: -2%;
 }
 
 .logo-name{
@@ -243,56 +246,49 @@ p,code,figcaption{
 
 .submit-button-nav{
     display: inline-block;
-    /*background-color:  #f3e9c2;*/
     background-color: #F39873;
     color: white;
-    /*float:left;*/
 
-   /* margin-left: 280%;*/
-    /*margin-right:auto;*/
-    /*border-style: solid;
-    border-width: 0.1rem;
-    border-color: #929595;*/
     padding: 0.3em 0.3em;
     text-decoration: none;
     -webkit-transition: background-color 0.5s;
     transition: background-color 0.5s;
-    width:4em;
-/*  border-radius:10px;*/
-/*  border-radius: 0.25rem;*/
+
     font-family:Oswald;
-    font-size: 1.2rem;
-    /*float: left;*/
-    font-weight: bold;
+    font-size: 1.2em;
+    font-weight: normal;
     text-align: center;
-    /*padding-top:2em;*/
+
+    margin-left: 2em;
+    margin-right: 5.5em;
+    width: 4em;
     margin-top: 0.3em;
     margin-bottom: 0.3em;
-    margin-left: 16em;
-
+    float: right;
 }
 
 .reset-button-nav{
     display: inline-block;
-    /*background-color:  #f3e9c2;*/
     background-color: #F39873;
     color: white;
+
     padding: 0.3em 0.3em;
     text-decoration: none;
     -webkit-transition: background-color 0.5s;
     transition: background-color 0.5s;
-    width:4em;
-/*  border-radius:10px;*/
-/*  border-radius: 0.25rem;*/
+
     font-family:Oswald;
-    font-size: 1.2rem;
-    /*float: left;*/
-    font-weight: bold;
+    font-size: 1.2em;
+    font-weight: normal;
     text-align: center;
-    /*padding-top:0.8em;*/
+
+    margin-left: auto;
+    margin-right: auto;
+    width: 4em;
 
     margin-top: 0.3em;
     margin-bottom: 0.3em;
+    float: right;
 }
 
 
@@ -374,15 +370,8 @@ textarea{
     display: inline-block;
     font-family: Oswald;
     font-weight: lighter;
-   /* background-color: #FAFCF9;*/
-   /*background: grey;*/
-   /*background-color: #F39873;*/
-    /*background color: #D3D1D2;*/
-    /*width: 51%;*/
-    width: 29em;
+    width: 37.5em;
 
-    /*float: left;*/
-   /* width: 100%;*/
     height: 20rem;
     min-width: 10rem;
     min-height: 10rem;
@@ -416,8 +405,9 @@ article {
 /* set layout for three login buttons */
  .login-methods{
     margin-right: 8em;
-    margin-top: 2em;
+    margin-top: 3%;
     margin-left: 8em;
+    margin-bottom: 2em;
  }
 
  .payment-methods-layout{
@@ -520,46 +510,25 @@ article {
     color: #C2C0BC;*/
     text-decoration: none;
     font-weight: bold;
+    font-size: 1.8em;
 /*  opacity: 0.7;*/
 }
 
-
-
-
-.mapimage{
-     display: block;
-    -webkit-transition: background-color 0.5s;
-    transition: background-color 0.5s;
-    z-index: -1;
-    width: 100%;
-    height: auto;
-    position: relative;
-    top: 0;
-    left: 0;
-    padding-top: 1.5em;
-/*  min-width: 25.6em;
-    min-height: 16em;*/
-/*  padding: 0.3em 0.3em;*/
-}
-
-
-
-
-
-
-
-
-
-
-
 .login-button-nav, .login-button-nav:visited{
     display: inline-block;
+    /*background-color:  #F39873;*/
     color: #F39873;
+    /*border-style: solid;
+    border-width: 0.1rem;
+    border-color: #929595;*/
     padding: 0.3em 0.3em;
     text-decoration: none;
     -webkit-transition: background-color 0.5s;
     transition: background-color 0.5s;
     width:100%;
+/*  border-radius:10px;*/
+/*  border-radius: 0.25rem;*/
+/*    font-family: BAD SPIRIT;*/
     font-size: 1.2em;
     text-align: center;
     font-size: normal;
@@ -568,8 +537,12 @@ article {
 }
 
 .login-button-nav:hover, .login-button-nav:active, .login-button-nav:focus{
+/*  border-radius: 0.25rem;*/
+/*  background-color: #FCBCA7;
+    color: #C2C0BC;*/
     text-decoration: none;
     font-weight: bold;
+    font-size: 1.3em;
 }
 
 
@@ -601,6 +574,25 @@ article {
     color: #C2C0BC;*/
     text-decoration: none;
     font-weight: bold;
+    font-size: 1.8em;
+}
+
+
+
+.mapimage{
+     display: block;
+    -webkit-transition: background-color 0.5s;
+    transition: background-color 0.5s;
+    z-index: -1;
+    width: 100%;
+    height: auto;
+    position: relative;
+    top: 0;
+    left: 0;
+    padding-top: 1.5em;
+/*  min-width: 25.6em;
+    min-height: 16em;*/
+/*  padding: 0.3em 0.3em;*/
 }
 
 
@@ -732,12 +724,10 @@ article {
 }
 
 
-
-
-
 .contact-us-contactus{
-
-  margin-left:8em;
+  margin-left: 8em;
+  margin-right: 8em;
+  margin-bottom: -2%;
   /*margin-top: 3%;*/
 }
 
@@ -755,7 +745,8 @@ article {
 
 .contact-us-form{
     /*float: right;*/
-    margin-left: 5%;
+    margin-left: 8em;
+    margin-right: 8em;
     margin-top: 3%;
 }
 
@@ -764,6 +755,7 @@ article {
     font-family: Oswald;
     font-weight: lighter;
     text-align: left;
+    margin-right: 8em;
+    margin-top: 3em;
+    margin-left: 8em;
 }
-
-
