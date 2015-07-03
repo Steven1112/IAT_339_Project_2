@@ -86,7 +86,7 @@ h2{
     transition: background-color 0.5s;
     width:100%;
     font-family:Oswald;
-    font-size: 1.6rem;
+    font-size: 1.8rem;
     font-weight: bold;
 }
 
@@ -756,7 +756,8 @@ textarea{
 }
 
 article {
-    text-align: center;
+    text-align: left;
+/*  border: 2px solid #929595;*/
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     display: inline-block;
@@ -966,7 +967,7 @@ article {
 
     font-size: normal;
     font-family:Oswald;
-    font-size: 1.7em;
+    font-size: 1.6em;
     text-align: center;
 /*  opacity: 0.7;*/
 }
@@ -976,7 +977,7 @@ article {
     color: #C2C0BC;*/
     text-decoration: none;
     font-weight: bold;
-    font-size: 1.8em;
+    font-size: 1.7em;
 /*  opacity: 0.7;*/
 }
 
@@ -1031,7 +1032,7 @@ article {
 /*    font-family: BAD SPIRIT;*/
     font-size: normal;
     font-family:Oswald;
-    font-size: 1.7em;
+    font-size: 1.6em;
     text-align: center;
 }
 
@@ -1040,7 +1041,7 @@ article {
     color: #C2C0BC;*/
     text-decoration: none;
     font-weight: bold;
-    font-size: 1.8em;
+    font-size: 1.7em;
 }
 
 .logo-image-button, .logo-image-button:visited{

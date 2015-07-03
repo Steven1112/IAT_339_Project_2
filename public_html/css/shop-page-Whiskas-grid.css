@@ -38,8 +38,7 @@
 }
 
 .grid-col-3of10 {
-    width: 30%;
-    margin-left: 3em;    
+    width: 33%;  
 }
 
 .grid-col-4of10 {
@@ -108,14 +107,6 @@
     }
 }
 
-
-@media (max-width:50em) {
-
-    .grid-col-10of10{
-        width: 100%;
-    }
-}
-
 @media (max-width:60em) {
 
     .grid-col-4of10{
@@ -126,6 +117,15 @@
     }
 }
 
+@media (max-width:60em) {
+
+    .topmenu{
+        margin-left: 8em;
+        margin-right: 8em;
+        margin-top: 5%;
+        margin-bottom: 10%;
+    }
+}
 
 @media (max-width: 57em) {
 
@@ -174,102 +174,37 @@
 
 }
 
-@media (max-width: 35em) {
-
-    .bottom{
-        margin-top: 55%;
-    }
-
-}
-
-@media (max-width: 30em) {
-
-    .bottom{
-        margin-top: 75%;
-    }
-
-}
-
-@media (max-width: 25em) {
-
-    .bottom{
-        margin-top: 88%;
-    }
-
-}
-
-
 
 
 @media (max-width:40em) {
 
-/*    .topimage{
-        width: 39em;
-        height: auto;
-    }*/
-
     .grid-col-4of10{
         width: 100%;
-/*        margin-left: 1%;
-        margin-right: 1%;
-        margin-top: -20%;*/
     }
-
 }
 
-@media (max-width:92em) {
 
-
-
-
-    .grid-col-3of10{
-        width: 20%;
-    }
-
-}
-
-@media (max-width:74em) {
-
-
+/*@media (max-width:74em) {
 
     .display_per_page_master_class{
         width: 100%;
     }
 
-    
-
-
-     .button-nav-pages{
-    margin-left: -1.2em;
-    margin-top: 0.6em;
-
-   }
+    .button-nav-pages{
+        margin-left: -1.2em;
+        margin-top: 0.6em;
+    }
 }
 
 @media (max-width:73em) {
 
-
     .grid-col-10of100{
         width: 20%;
     }
-
-   
-
-    .grid-col-3of10{
-        width: 60%;
-        margin-left:10em;
-    }
-
-
-
-
-
-
-}
+}*/
 
 
 @media (max-width:57em) {
-
 
 
     .button-nav-pages{
@@ -293,17 +228,143 @@
 }
 
 
+@media (max-width: 57em) {
 
-
-@media (max-width:53em) {
-
-
-    .grid-col-3of10{
-        width: 60%;
-        margin-left:7em;
+    .grid-col-3of10 {
+        width: 100%;
     }
 
+    .product-list-title-layout{
+        margin-top: 3em;
+        margin-left: 8em;
+        margin-right: 8em;
+    }
 
+    .payment-methods-layout{
+        margin-left: 8em;
+        margin-right: 8em;
+        margin-top: 5em;
+    }
+
+    .whiskas1{
+        margin-left: 8em;
+        margin-right: 8em;
+        margin-top: 3em;
+    }
+
+    .whiskas2{
+        margin-left: 8em;
+        margin-right: 8em;
+        margin-top: 8em;
+    }
+
+    .whiskas3{
+        margin-left: 8em;
+        margin-right: 8em;
+        margin-top: 8em;
+    }
+
+    .whiskas4{
+        margin-left: 8em;
+        margin-right: 8em;
+        margin-top: 8em;
+    }
+
+    .whiskas5{
+        margin-left: 8em;
+        margin-right: 8em;
+        margin-top: 8em;
+    }
+
+    .whiskas6{
+        margin-left: 8em;
+        margin-right: 8em;
+        margin-top: 8em;
+    }
+
+    .whiskas7{
+        margin-left: 8em;
+        margin-right: 8em;
+        margin-top: 8em;
+    }
+
+    .whiskas8{
+        margin-left: 8em;
+        margin-right: 8em;
+        margin-top: 8em;
+    }
+
+    .whiskas9{
+        margin-left: 8em;
+        margin-right: 8em;
+        margin-top: 8em;
+    }
+}
+
+@media (max-width: 40em) {
+
+    .product-list-title-layout{
+        margin-top: 3em;
+        margin-left: 3em;
+        margin-right: 3em;
+    }
+
+    .payment-methods-layout{
+        margin-left: 3em;
+        margin-right: 3em;
+        margin-top: 5em;
+    }
+
+    .whiskas1{
+        margin-left: 3em;
+        margin-right: 3em;
+    }
+
+    .whiskas2{
+        margin-left: 3em;
+        margin-right: 3em;
+    }
+
+    .whiskas3{
+        margin-left: 3em;
+        margin-right: 3em;
+    }
+
+    .whiskas4{
+        margin-left: 3em;
+        margin-right: 3em;
+    }
+
+    .whiskas5{
+        margin-left: 3em;
+        margin-right: 3em;
+    }
+
+    .whiskas6{
+        margin-left: 3em;
+        margin-right: 3em;
+    }
+
+    .whiskas7{
+        margin-left: 3em;
+        margin-right: 3em;
+    }
+
+    .whiskas8{
+        margin-left: 3em;
+        margin-right: 3em;
+    }
+
+    .whiskas9{
+        margin-left: 3em;
+        margin-right: 3em;
+    }
+
+    .copyright{
+        margin-left: 3em;
+        margin-right: 3em;
+        margin-top: 3em;
+    }
 }
 
 

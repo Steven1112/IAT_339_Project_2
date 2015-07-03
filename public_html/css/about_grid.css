@@ -70,7 +70,6 @@
         width: 100%;
         padding-bottom: 0.5em;
     }
-
 }
 
 
@@ -115,7 +114,7 @@
 }
 
 
-@media (max-width:57em) {
+@media (max-width:60em) {
 
     .topmenu{
         margin-left: 8em;
@@ -123,12 +122,14 @@
         margin-top: 5%;
         margin-bottom: 10%;
     }
+}
+
+@media (max-width:57em) {
 
     .grid-col-25of100 {
         width: 100%;
         padding-bottom: 0.8em;
     }
-
 }
 
 @media (max-width:53em) {

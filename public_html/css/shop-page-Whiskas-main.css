@@ -86,7 +86,7 @@ h2{
     transition: background-color 0.5s;
     width:100%;
     font-family:Oswald;
-    font-size: 1.6rem;
+    font-size: 1.8rem;
     font-weight: bold;
 }
 
@@ -196,24 +196,23 @@ p,code,figcaption{
     text-decoration: none;
     
     margin-left: auto;
-    margin-right:auto;
+    margin-right: auto;
     padding: 0.3em 0.3em;
     text-decoration: none;
     -webkit-transition: background-color 0.5s;
     transition: background-color 0.5s;
-    width: 10em;
+    width: 6em;
 
     font-family:Oswald;
-    font-size: 1.0em;
+    font-size: 1.4rem;
     font-weight: normal;
     text-align: center;
 }
 
 .button-nav-detail:hover{
     font-weight: bold;
-    font-size: 1.4em;
+    font-size: 1.5rem;
 }
-
 
 .coltext_bottom{
     padding-left: 10em;
@@ -699,14 +698,6 @@ article {
 /*  margin-top: 10em;*/
  }
 
- .payment-methods-layout{
-    margin-right: 8em;
-    margin-top: 2em;
-    margin-left: 8em;
- }
-
-
-
  a.image-button-nav-cat-foods {
 /*  border-radius: 50em;*/
     min-height: 10em;
@@ -862,7 +853,7 @@ article {
 
     font-size: normal;
     font-family:Oswald;
-    font-size: 1.7em;
+    font-size: 1.6em;
     text-align: center;
 /*  opacity: 0.7;*/
 }
@@ -872,7 +863,7 @@ article {
     color: #C2C0BC;*/
     text-decoration: none;
     font-weight: bold;
-    font-size: 1.8em;
+    font-size: 1.7em;
 /*  opacity: 0.7;*/
 }
 
@@ -927,7 +918,7 @@ article {
 /*    font-family: BAD SPIRIT;*/
     font-size: normal;
     font-family:Oswald;
-    font-size: 1.7em;
+    font-size: 1.6em;
     text-align: center;
 }
 
@@ -936,7 +927,7 @@ article {
     color: #C2C0BC;*/
     text-decoration: none;
     font-weight: bold;
-    font-size: 1.8em;
+    font-size: 1.7em;
 }
 
 .logo-image-button, .logo-image-button:visited{
@@ -977,13 +968,6 @@ article {
     color: #C2C0BC;*/
 /*  border-radius: 0.25rem;*/
     opacity: 0.5;
-}
-
-.copyright{
-    font-size: 0.9rem;
-    font-family: Courier New, sans-serif;
-/*  font-family: thin;*/
-   /* first # is top and bottom, second # is left and right margin */
 }
 
  .login-methods{
@@ -1051,13 +1035,6 @@ article {
     opacity: 1;
 }
 
-.copyright{
-    font-size: 0.9rem;
-    font-family: Oswald;
-    font-weight: lighter;
-    text-align: left;
-}
-
 .guideline{
     margin-top: 2em;
       margin-left: 5em;
@@ -1078,7 +1055,6 @@ article {
     height: 13em;
     min-width: 8em;
     min-height: 8em;
-    margin-top: 25%;
 }
 
 .trangle_left{
@@ -1170,5 +1146,109 @@ article {
 
 }
 
+.whiskas1{
+    margin-left: 8em;
+    margin-right: 0em;
+    margin-top: 2em;
+    text-align: left;
+}
 
+.whiskas2{
+    margin-left: 4em;
+    margin-right: 4em;
+    margin-top: 2em;
+    text-align: left;
+}
 
+.whiskas3{
+    margin-left: 0em;
+    margin-right: 8em;
+    margin-top: 2em;
+    text-align: left;
+}
+
+.whiskas4{
+    margin-left: 8em;
+    margin-right: 0em;
+    margin-top: 8em;
+    text-align: left;
+}
+
+.whiskas5{
+    margin-left: 4em;
+    margin-right: 4em;
+    margin-top: 8em;
+    text-align: left;
+}
+
+.whiskas6{
+    margin-left: 0em;
+    margin-right: 8em;
+    margin-top: 8em;
+    text-align: left;
+}
+
+.whiskas7{
+    margin-left: 8em;
+    margin-right: 0em;
+    margin-top: 8em;
+    text-align: left;
+}
+
+.whiskas8{
+    margin-left: 4em;
+    margin-right: 4em;
+    margin-top: 8em;
+    text-align: left;
+}
+
+.whiskas9{
+    margin-left: 0em;
+    margin-right: 8em;
+    margin-top: 8em;
+    text-align: left;
+}
+
+.payment-methods-layout{
+    margin-right: 8em;
+    margin-top: 8em;
+    margin-left: 8em;
+ }
+
+.copyright{
+    font-size: 0.9rem;
+    font-family: Oswald;
+    font-weight: lighter;
+    text-align: left;
+    margin-right: 8em;
+    margin-top: 3em;
+    margin-left: 8em;
+}
+
+.specialprice-title{
+    font-size: 1.4rem;
+    font-family: Oswald;
+    text-align: left;
+    font-weight: normal;
+/*  font-weight: lighter;*/
+}
+
+.pprice{
+    font-size: 1.4rem;
+    font-family: Oswald;
+    text-align: left;
+    font-weight: normal;
+}
+
+.sdetail{
+    font-size: 1rem;
+    font-family: Oswald;
+    font-weight: lighter;
+    text-align: left;
+}
+
+.product-list-title-layout{
+    margin-top: 1em;
+    margin-left: 8em;
+    margin-right: 8em;
+}
