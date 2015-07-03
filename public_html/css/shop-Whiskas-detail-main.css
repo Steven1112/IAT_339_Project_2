@@ -54,6 +54,42 @@
 }
 
 
+.customer-reviews-texts{
+    margin-top: 1em;
+}
+
+.rating{
+    color: #F39873;
+    /*background-color: #F39873;*/
+    content: '\2605'; /* Full star in UTF-8 */
+    font-size: 1.3em;
+    position: relative;
+}
+
+
+
+.pprice_comments{
+    font-size: 1.4rem;
+    font-family: Oswald;
+    text-align: left;
+    font-weight: normal;
+    margin-top: 1em;
+
+}
+
+
+@-moz-document url-prefix() { /* Firefox Hack :( */
+  .star-icon {
+    font-size: 50px;
+    line-height: 34px;
+  }
+}
+
+/*.rating > span:hover:before {
+   content: "\2605";
+   position: absolute;
+}
+*/
 
 *, *:after, *:before{
         box-sizing:border-box;
@@ -1104,7 +1140,8 @@ article {
     margin-top: 5em;
 }
 
-.customer-reviews-texts{
+.customer-reviews-texts_secondcomments{
+    margin-top: 5em;
 
 }
 
