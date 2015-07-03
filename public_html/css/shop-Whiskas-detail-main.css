@@ -1141,8 +1141,7 @@ article {
 }
 
 .customer-reviews-texts_secondcomments{
-    margin-top: 5em;
-
+    margin-top: 3em;
 }
 
 .comments{
@@ -1163,45 +1162,23 @@ article {
 .whiskas1{
     margin-left: 8em;
     margin-right: 0em;
-    margin-top: 1.5em;
+    margin-top: 2em;
     text-align: left;
 }
 
 .whiskas2{
     margin-left: 4em;
     margin-right: 4em;
-    margin-top: 1.5em;
+    margin-top: 2em;
     text-align: left;
 }
 
 .whiskas3{
     margin-left: 0em;
     margin-right: 8em;
-    margin-top: 1.5em;
+    margin-top: 2em;
     text-align: left;
 }
-
-.whiskas4{
-    margin-left: 8em;
-    margin-right: 0em;
-    margin-top: 1.5em;
-    text-align: left;
-}
-
-.whiskas5{
-    margin-left: 4em;
-    margin-right: 4em;
-    margin-top: 1.5em;
-    text-align: left;
-}
-
-.whiskas6{
-    margin-left: 0em;
-    margin-right: 8em;
-    margin-top: 1.5em;
-    text-align: left;
-}
-
 
 .specialprice-title{
     font-size: 1.4rem;
@@ -1232,7 +1209,7 @@ article {
 
 .payment-methods-layout{
     margin-right: 8em;
-    margin-top: 5em;
+    margin-top: 8em;
     margin-left: 8em;
  }
 

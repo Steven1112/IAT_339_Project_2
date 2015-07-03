@@ -127,16 +127,6 @@
     }
 }
 
-@media (max-width: 57em) {
-
-    .payment-methods-layout{
-        margin-left: 3em;
-        margin-right: 3em;
-        margin-top: 5em;
-    }
-
-}
-
 @media (max-width: 62em) {
 
     .grid-col-40of100 {
@@ -243,7 +233,7 @@
     .payment-methods-layout{
         margin-left: 8em;
         margin-right: 8em;
-        margin-top: 5em;
+        margin-top: 8em;
     }
 
     .whiskas1{
@@ -312,7 +302,7 @@
     .payment-methods-layout{
         margin-left: 3em;
         margin-right: 3em;
-        margin-top: 5em;
+        margin-top: 8em;
     }
 
     .whiskas1{

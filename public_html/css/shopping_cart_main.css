@@ -56,42 +56,21 @@ p,code,figcaption{
 .whiskas1{
     margin-left: 8em;
     margin-right: 0em;
-    margin-top: 1.5em;
+    margin-top: 2em;
     text-align: left;
 }
 
 .whiskas2{
     margin-left: 4em;
     margin-right: 4em;
-    margin-top: 1.5em;
+    margin-top: 2em;
     text-align: left;
 }
 
 .whiskas3{
     margin-left: 0em;
     margin-right: 8em;
-    margin-top: 1.5em;
-    text-align: left;
-}
-
-.whiskas4{
-    margin-left: 8em;
-    margin-right: 0em;
-    margin-top: 1.5em;
-    text-align: left;
-}
-
-.whiskas5{
-    margin-left: 4em;
-    margin-right: 4em;
-    margin-top: 1.5em;
-    text-align: left;
-}
-
-.whiskas6{
-    margin-left: 0em;
-    margin-right: 8em;
-    margin-top: 1.5em;
+    margin-top: 2em;
     text-align: left;
 }
 
@@ -125,7 +104,7 @@ p,code,figcaption{
 
 .payment-methods-layout{
     margin-right: 8em;
-    margin-top: 5em;
+    margin-top: 8em;
     margin-left: 8em;
  }
 
@@ -678,13 +657,6 @@ td.sdetail{
     font-size: 2rem;
 }
 
-.payment-methods-layout{
-    margin-right: 8em;
-    margin-top: 10em;
-    margin-left: 8em;
-/*  opacity: 0.5;*/
- }
-
 .subtitle{
     display: inline-block;
     margin-left: 1em;
@@ -709,7 +681,7 @@ table {
 /*  border-spacing: 0; */
 }
 
-*/
+
 .Whiskas_large{
     margin-top: 5em;
     margin-left: 3em;
@@ -758,4 +730,8 @@ table {
   left: 0;
   width: auto;
   height: auto;
+}
+
+.customer-reviews-texts_secondcomments{
+    margin-top: 3em;
 }

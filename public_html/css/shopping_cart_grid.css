@@ -117,41 +117,25 @@
     .payment-methods-layout{
         margin-left: 8em;
         margin-right: 8em;
-        margin-top: 5em;
+        margin-top: 8em;
     }
 
     .whiskas1{
         margin-left: 8em;
         margin-right: 8em;
-        margin-bottom: 3em;
+        margin-top: 3em;
     }
 
     .whiskas2{
         margin-left: 8em;
         margin-right: 8em;
-        margin-bottom: 3em;
+        margin-top: 8em;
     }
 
     .whiskas3{
         margin-left: 8em;
         margin-right: 8em;
-    }
-
-    .whiskas4{
-        margin-left: 8em;
-        margin-right: 8em;
-        margin-bottom: 3em;
-    }
-
-    .whiskas5{
-        margin-left: 8em;
-        margin-right: 8em;
-        margin-bottom: 3em;
-    }
-
-    .whiskas6{
-        margin-left: 8em;
-        margin-right: 8em;
+        margin-top: 8em;
     }
 }
 
@@ -166,7 +150,7 @@
     .payment-methods-layout{
         margin-left: 3em;
         margin-right: 3em;
-        margin-top: 5em;
+        margin-top: 8em;
     }
 
     .whiskas1{
@@ -184,23 +168,10 @@
         margin-right: 3em;
     }
 
-    .whiskas4{
+    .copyright{
         margin-left: 3em;
         margin-right: 3em;
-    }
-
-    .whiskas5{
-        margin-left: 3em;
-        margin-right: 3em;
-    }
-
-    .whiskas6{
-        margin-left: 3em;
-        margin-right: 3em;
-    }
-
-    .grid-col-52of100{
-        width: 52%;
+        margin-top: 3em;
     }
 }
 
