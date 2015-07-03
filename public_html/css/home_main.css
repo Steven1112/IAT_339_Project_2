@@ -1078,3 +1078,13 @@ article {
     width: 13em; 
     height: 3em;
 }
+
+.myname{
+    display: inline-block;
+    font-size: 1.2rem;
+    font-family: Oswald;
+    font-weight: bold;
+    text-align: left;
+    float: left;
+    color: #929595;
+}

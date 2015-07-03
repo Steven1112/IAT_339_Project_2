@@ -336,7 +336,7 @@
 
 @media (max-width: 45em) {
 
-    #shopping-cart-page {
+    .shopping-cart-page {
         margin-left: 3em;
         margin-right: 3em; 
         top: 28%;
@@ -459,7 +459,7 @@
         width: 70%;
     }
 
-    #shopping-cart-page {
+    .shopping-cart-page {
         margin-left: 2em;
         margin-right: 2em;
         width: 80%; 
