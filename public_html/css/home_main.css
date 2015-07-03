@@ -69,7 +69,7 @@ body{
 h1{
    font-size: 3.3rem;
    font-weight: 700;
-   font-family: Austie Bost Kitten Klub;
+   font-family: "AustieBostKittenKlub";
    text-align: left;
 /* color: #F39873;*/
 /* color: white;*/
@@ -85,7 +85,7 @@ h2{
     -webkit-transition: background-color 0.5s;
     transition: background-color 0.5s;
     width:100%;
-    font-family:Oswald;
+    font-family: "Oswald-Bold";
     font-size: 1.8rem;
     font-weight: bold;
 }
@@ -100,7 +100,7 @@ h3{
     -webkit-transition: background-color 0.5s;
     transition: background-color 0.5s;
     width:100%;
-    font-family:Oswald;
+    font-family: "Oswald-Bold";
     font-size: 1.4rem;
     font-weight: bold;
 }
@@ -134,7 +134,7 @@ ul,ol{
 
 p,code,figcaption{
     font-size: 1rem;
-    font-family: Oswald;
+    font-family: "Oswald-Light";
 /*  font-family: thin;*/
     /* first # is top and bottom, second # is left and right margin */
     font-weight: lighter;
@@ -203,7 +203,7 @@ p,code,figcaption{
     transition: background-color 0.5s;
     width: 4em;
 
-    font-family:Oswald;
+    font-family: "Oswald-Light";
     font-size: 1.4rem;
     font-weight: normal;
     text-align: center;
@@ -743,7 +743,7 @@ article {
     left: 40%;
     margin-left: -12%;
 /*  background-color:  #929595;*/
-    font-family:Oswald;
+    font-family: "Oswald-Light";
     font-size: 3rem;
     font-weight: bold;
     width: 50%;
@@ -755,7 +755,7 @@ article {
     left: 40%;
     margin-left: -12%;
 /*  background-color:  #929595;*/
-    font-family:Oswald;
+    font-family: "Oswald-Light";
     font-size: 3rem;
     font-weight: bold;
     width: 50%;
@@ -767,7 +767,7 @@ article {
     left: 40%;
     margin-left: -12%;
 /*  background-color:  #929595;*/
-    font-family:Oswald;
+    font-family: "Oswald-Light";
     font-size: 3rem;
     font-weight: bold;
     width: 50%;
@@ -805,7 +805,7 @@ article {
     width:100%;
 
     font-size: normal;
-    font-family:Oswald;
+    font-family: "Oswald-Light";
     font-size: 1.5em;
     text-align: center;
     margin-top: 0.5em;
@@ -832,7 +832,7 @@ article {
     width:100%;
 
     font-size: normal;
-    font-family:Oswald;
+    font-family: "Oswald-Bold";
     font-size: 1.7em;
     text-align: center;
 }
@@ -861,7 +861,7 @@ article {
     width:100%;
 
     font-size: normal;
-    font-family:Oswald;
+    font-family: "Oswald-Bold";
     font-size: 1.6em;
     text-align: center;
 /*  opacity: 0.7;*/
@@ -894,7 +894,7 @@ article {
     font-size: 1.2em;
     text-align: center;
     font-size: normal;
-    font-family:Oswald;
+    font-family: "Oswald-Bold";
     float: right;
 }
 
@@ -926,7 +926,7 @@ article {
 /*  border-radius: 0.25rem;*/
 /*    font-family: BAD SPIRIT;*/
     font-size: normal;
-    font-family:Oswald;
+    font-family: "Oswald-Bold";
     font-size: 1.6em;
     text-align: center;
 }
@@ -1027,7 +1027,7 @@ article {
 
 .pmiddle{
     font-size: 1.8rem;
-    font-family:Oswald;
+    font-family: "Oswald-Bold";
     text-align: left;
     font-weight: bold;
 /*    color:  #929595;*/
@@ -1039,7 +1039,7 @@ article {
 }
 
 .pmiddletext{
-    font-family:Oswald;
+    font-family: "Oswald-Light";
     font-size: 1.2rem;
     font-weight: lighter;
     text-align: left;
@@ -1066,7 +1066,7 @@ article {
 
 .copyright{
     font-size: 0.9rem;
-    font-family: Oswald;
+    font-family: "Oswald-Light";
     font-weight: lighter;
     text-align: left;
     margin-right: 8em;
@@ -1082,7 +1082,7 @@ article {
 .myname{
     display: inline-block;
     font-size: 1.2rem;
-    font-family: Oswald;
+    font-family: "Oswald-Bold";
     font-weight: bold;
     text-align: left;
     float: left;

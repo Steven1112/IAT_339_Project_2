@@ -1,7 +1,3 @@
-
-
-
-
 *, *:after, *:before{
     box-sizing:border-box;
 }
@@ -18,12 +14,11 @@ h1{
    font-weight: 700;
    font-family: Austie Bost Kitten Klub;
    text-align: left;
-/* color: #F39873;*/
-/* color: white;*/
 }
 
 h2{
     text-align: left;
+
     display: inline-block;
     margin-left: auto;
     margin-right:auto;
@@ -131,10 +126,7 @@ p,code,figcaption{
 .pstyle{
     font-size: 0.9rem;
     font-family: Oswald;
-/*  font-family: thin;*/
-    /* first # is top and bottom, second # is left and right margin */
-    /*margin: 0.25rem 0.5rem;*/
-/*  try make a paragraph half-page length*/
+
     font-weight: lighter;
     display: inline;
 }
@@ -143,17 +135,12 @@ p,code,figcaption{
     display: inline-block;
     font-size: 1.2rem;
     font-family: Oswald;
-    /*text-align: center;*/
+
     font-weight: bold;
     text-align: left;
-    /*float: left;*/
-    /*margin: 0.25rem 0.5rem;*/
+
     float:left;
-    /*margin-top: 4%;*/
-    /*padding-top:0.75em;*/
-    /*padding-right: 4em;*/
-    /*background-color: pink;*/
-    /*margin-left: 3%;*/
+
     color: #929595;
     margin-top: 1.2%;
 }
@@ -209,21 +196,16 @@ p,code,figcaption{
 
 .subtitle{
     display: inline-block;
-    /*background-color:  #F39873;*/
+
     color: #F39873;
     margin-left: auto;
     margin-right:auto;
-    /*border-style: solid;
-    border-width: 0.1rem;
-    border-color: #929595;*/
-/*  padding: 0.3em 0.3em;*/
+
     text-decoration: none;
     -webkit-transition: background-color 0.5s;
     transition: background-color 0.5s;
     width:100%;
-/*  border-radius:10px;*/
-/*  border-radius: 0.25rem;*/
-/*    font-family: BAD SPIRIT;*/
+
     font-family:Oswald;
     font-size: 1.4rem;
     font-weight: bold;
@@ -242,22 +224,13 @@ p,code,figcaption{
     font-family:Oswald;
     text-align: left;
     font-weight: bold;
-/*    color:  #929595;*/
-/*    color: #F39873;*/
+
     color: #929595;
     opacity: 1;
     text-decoration: none;
-   
-   
-
-
-
-    
-   /* width:100%;*/
-   
+ 
     font-size: 1.6rem;
     
-   
     padding-top: 0.7em;
 }
 
@@ -331,26 +304,12 @@ label{
 
 input.submit,input.reset{
 
-/*    background-color: #F39873;
-    text-decoration: none;
-    margin: 0.25rem 0.5rem;
-    font-size: 1.2em;
-    border-radius: 0.25rem;
-    font-family: Oswald;
-    float: left;
-    margin-top: 13%;*/
+
    
 }
 
 input.text,input.textarea{
-    /*background-color: #F39873;*/
-/*    background-color: #D3D1D2;
-    color: white;
-    border-radius: 0.25rem;
-    margin: 0.25rem 0.5rem;
-    padding: 0.25rem 0.45rem;
-    display: block;
-    width: 200px;*/
+
 }
 
 .text-length{
@@ -363,42 +322,29 @@ input.text,input.textarea{
     margin: 0.25rem 0.5rem;
     padding: 0.25rem 0.45rem;
     color: white;
-    /*width: 300px;*/
-
+    width: 100%;
 }
 
 input.submit:hover,input.reset:,input.text:hover,textarea:hover{
-/*    background-color: #FCBCA7;
-    color: white;
-    text-decoration: none;
-    border-radius: 0.2rem;*/
+
 }
 
 input.submitcomment{
-/*    background-color: #F39873;
-    color: white;*/
-/*  border-radius: 0.25rem;*/
-/*    margin: 0.25rem 0.5rem;
-    padding: 0.25rem 0.45rem;
-    font-size: 1.2em;
-    border-style: solid;
-    border-width: 0.1rem;
-    border-color: #929595;*/
+
 }
 
 textarea{
     display: inline-block;
     font-family: Oswald;
     font-weight: lighter;
-    /*width: 37.5em;*/
-    width: 37.5em;
+    width: 100%;
 
     height: 20rem;
     min-width: 10rem;
     min-height: 10rem;
     font-size: 1em;
     text-align: left;
-    /*display: block;*/
+
     resize: width;
     background-color: #EDEBEC;
     margin-top: 1%;
@@ -408,7 +354,7 @@ textarea{
 
 article {
     text-align: left;
-/*  border: 2px solid #929595;*/
+
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     display: inline-block;
@@ -437,76 +383,10 @@ article {
  }
 
 
-.dd {
-    position: relative;
-/*  max-width: 20em;*/
-}
-
-.dd-list {
-    margin: 0;
-    padding: 0;
-    width: 100%;
-}
-
-/* Just giving our drop-down items some styling */
-.dd-list li a {
-    display: block;
-/*  margin: 0.1em 0;*/
-/*  padding: 0.5em 0.7em;*/
-    color: #F39873;
-    margin-left: auto;
-    margin-right:auto;
-
-    padding: 0.3em 0.3em;
-    text-decoration: none;
-    -webkit-transition: background-color 0.5s;
-    transition: background-color 0.5s;
-    width:100%;
-
-    font-size: normal;
-    font-family:Oswald;
-    font-size: 1.5em;
-    text-align: center;
-    margin-top: 0.5em;
-/*  background-color:  #F39873;*/
-}
-
-.dd-list li a:hover{
-/*  background-color: #FCBCA7;
-    color: #C2C0BC;*/
-    text-decoration: none;
-    font-weight: bold;
-}
-
-.dd-button {
-    display: inline-block;
-    color: #F39873;
-    margin-left: auto;
-    margin-right:auto;
-
-    padding: 0.3em 0.3em;
-    text-decoration: none;
-    -webkit-transition: background-color 0.5s;
-    transition: background-color 0.5s;
-    width:100%;
-
-    font-size: normal;
-    font-family:Oswald;
-    font-size: 1.7em;
-    text-align: center;
-}
-
-.dd-button:hover {
-/*  background-color: #FCBCA7;
-    color: #C2C0BC;*/
-    text-decoration: none;
-    font-weight: bold;
-}
-
 .onpage-button-nav, .onpage-button-nav:visited{
     display: inline-block;
     background-color:  #F39873;
-/*  color: #F39873;*/
+
     color: white;
     text-decoration: none;
     
@@ -522,33 +402,25 @@ article {
     font-family:Oswald;
     font-size: 1.6em;
     text-align: center;
-/*  opacity: 0.7;*/
 }
 
 .onpage-button-nav:hover, .onpage-button-nav:active, .onpage-button-nav:focus{
-/*  background-color: #FCBCA7;
-    color: #C2C0BC;*/
     text-decoration: none;
     font-weight: bold;
     font-size: 1.7em;
-/*  opacity: 0.7;*/
 }
 
 .login-button-nav, .login-button-nav:visited{
     display: inline-block;
-    /*background-color:  #F39873;*/
+
     color: #F39873;
-    /*border-style: solid;
-    border-width: 0.1rem;
-    border-color: #929595;*/
+
     padding: 0.3em 0.3em;
     text-decoration: none;
     -webkit-transition: background-color 0.5s;
     transition: background-color 0.5s;
     width:100%;
-/*  border-radius:10px;*/
-/*  border-radius: 0.25rem;*/
-/*    font-family: BAD SPIRIT;*/
+
     font-size: 1.2em;
     text-align: center;
     font-size: normal;
@@ -557,9 +429,7 @@ article {
 }
 
 .login-button-nav:hover, .login-button-nav:active, .login-button-nav:focus{
-/*  border-radius: 0.25rem;*/
-/*  background-color: #FCBCA7;
-    color: #C2C0BC;*/
+
     text-decoration: none;
     font-weight: bold;
     font-size: 1.3em;
@@ -568,21 +438,17 @@ article {
 
 .button-nav, .button-nav:visited{
     display: inline-block;
-    /*background-color:  #F39873;*/
+
     color: #F39873;
     margin-left: auto;
     margin-right:auto;
-    /*border-style: solid;
-    border-width: 0.1rem;
-    border-color: #929595;*/
+
     padding: 0.3em 0.3em;
     text-decoration: none;
     -webkit-transition: background-color 0.5s;
     transition: background-color 0.5s;
     width:100%;
-/*  border-radius:10px;*/
-/*  border-radius: 0.25rem;*/
-/*    font-family: BAD SPIRIT;*/
+
     font-size: normal;
     font-family:Oswald;
     font-size: 1.6em;
@@ -590,8 +456,7 @@ article {
 }
 
 .button-nav:hover, .button-nav:active, .button-nav:focus{
-    /*  background-color: #FCBCA7;
-    color: #C2C0BC;*/
+
     text-decoration: none;
     font-weight: bold;
     font-size: 1.7em;
@@ -610,18 +475,13 @@ article {
     top: 0;
     left: 0;
     padding-top: 1.5em;
-/*  min-width: 25.6em;
-    min-height: 16em;*/
-/*  padding: 0.3em 0.3em;*/
 }
 
 
 .logo-image-button, .logo-image-button:visited{
 /*  add background image for the cat foods product list image button */
     background: transparent url(../img/catlogo.png) no-repeat;
-/*  background-position: center;*/
-/*  background-size: 100% 160%;*/
-/*  position: relative;*/
+
     display: inline-block;
     margin-left: 8em;
     margin-right: 8em;
@@ -633,14 +493,7 @@ article {
     min-height: 16em;
     z-index: 3;
     float: left;
-    /*opacity: 0.9;*/
-    /*filter: alpha(opacity=40);*/
 
-/*  background-color:  #F39873;*/
-/*    color: white;
-    border-style: solid;
-    border-width: 0.1rem;
-    border-color: #929595;*/
     padding: 0.3em 0.3em;
     text-decoration: none;
     -webkit-transition: background-color 0.5s;
@@ -652,9 +505,7 @@ article {
 }
 
 .logo-image-button:hover, .logo-image-button:active, .logo-image-button:focus{
-/*  background-color: #FCBCA7;
-    color: #C2C0BC;*/
-/*  border-radius: 0.25rem;*/
+
     opacity: 0.5;
 }
 
@@ -667,7 +518,6 @@ article {
     display: inline-block;
     position: relative;
 
-/*  background-color:  #F39873;*/
     color: white;
     border-style: solid;
     border-width: 0.1rem;
@@ -686,7 +536,6 @@ article {
     display: inline-block;
     position: relative;
 
-/*  background-color:  #F39873;*/
     color: white;
     border-style: solid;
     border-width: 0.1rem;
@@ -705,7 +554,6 @@ article {
     display: inline-block;
     position: relative;
 
-/*  background-color:  #F39873;*/
     color: white;
     border-style: solid;
     border-width: 0.1rem;
@@ -721,21 +569,18 @@ article {
     background-color: #FCBCA7;
     color: #C2C0BC;
     opacity: 0.5;
-/*    border-radius: 0.25rem;*/
 }
 
 .image-button-nav-health-considerations:hover, .image-button-nav-health-considerations:active, .image-button-nav-health-considerations:focus{
     background-color: #FCBCA7;
     color: #C2C0BC;
     opacity: 0.5;
-/*    border-radius: 0.25rem;*/
 }
 
 .image-button-nav-flavor:hover, .image-button-nav-flavor:active, .image-button-nav-flavor:focus{
     background-color: #FCBCA7;
     color: #C2C0BC;
     opacity: 0.5;
-/*    border-radius: 0.25rem;*/
 }
 
 .payment-figure{
@@ -767,7 +612,6 @@ article {
 .contact-us-form{
     margin-left: -4em;
     margin-right: 8em;
-/*  margin-top: 3%;*/
 }
 
 .copyright{

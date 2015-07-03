@@ -1,56 +1,56 @@
-/*
-	The @font-face declaration lets us load custom fonts for our website
-*/
-
-@font-face {
-	font-family: 'Existence';	/* Sets a name for our font family */
-	src: url('Existence-Light.otf');	/* Support for IE9 */
+@font-face{
+	font-family: "Oswald-Bold";
+	font-weight: normal;
+	font-style: normal;
+	src:url("../fonts/Oswald-Bold.ttf");
+	src:
+	  url("../fonts/Oswald-Bold.ttf"), format("truetype");
 }
 
-@font-face {
-	font-family: 'Existence';
+@font-face{
+	font-family: "Oswald-Light";
+	font-weight: normal;
+	font-style: normal;
+	src:url("../fonts/Oswald-Light.ttf");
+	src:
+	  url("../fonts/Oswald-Light.ttf"), format("truetype");
+}
+
+@font-face{
+	font-family: "Existence";
+	font-weight: normal;
+	font-style: normal;
+	src:url("../fonts/Existence-Light.otf");
+	src:
+	  url("../fonts/Existence-Light.otf"), format("opentype");
+}
+
+@font-face{
+	font-family: "AustieBostKittenKlub";
 	font-weight: bold;
 	font-style: normal;
-	src: url('fonts/Quan-Bold.eot');
-	src: 
-		url('fonts/Quan-Bold.eot?#iefix') format('embedded-opentype'),
-		url('fonts/Quan-Bold.woff') format('woff2'),
-		url('fonts/Quan-Bold.woff') format('woff'),
-		url('fonts/Quan-Bold.ttf') format('truetype');
+	src:url("../fonts/AustieBostKittenKlub.ttf");
+	src:
+	  url("../fonts/AustieBostKittenKlub.ttf"), format("truetype");
 }
-
-
-/*
-	Here we need to make sure that the while the browser tries to load
-	the Quan font, it should still fallback to other more likely
-	available fonts
-*/ 
-h1 {
-	font-family: Austie Bost Kitten Klub;
-}
-
-h2{
-	font-family:Oswald;
-}
-
-h3 {
-	font-family:Oswald;
-}
-
-ul,ol{
-	font-family: Oswald;
-}
-
-p,code,figcaption{
-	font-family: Oswald;
-}
-
-
 
 
 /* Some default styling for the tutorial */
 body {
-	font-family: Arial, sans-serif;
+	font-family: "Oswald";
+	margin: 1.5em;
+}
+
+*, *::after, *::before {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+
+/* Some default styling for the tutorial */
+body {
+	font-family: "Oswald";
 	margin: 1.5em;
 }
 
