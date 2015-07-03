@@ -56,10 +56,10 @@
 }
 
 
-.grid-col-48of100{
-	width: 36%;
-    margin-left: 5%;
-    margin-right: 6em;
+.grid-col-55of100{
+	width: 50%;
+/*    margin-left: 5%;
+    margin-right: 6em;*/
 }
 
 .grid-col-20of100{
@@ -181,11 +181,11 @@
     }
 }
 
-@media (max-width:75em) {
+@media (max-width:87em) {
 
     .submit-button-nav{
         margin-left: 1em;
-        margin-right: 0%;
+        margin-right: 1%;
     }
 
     .reset-button-nav{
@@ -194,16 +194,20 @@
 }
 
 
-@media (max-width:66em) {
+@media (max-width:71em) {
 
     .text-length{
         width: 100%;
-        margin-left: 28.5%;
     }
 
     textarea{
         width: 100%;
-        margin-left: 28.5%;
+    }
+
+    .contact-us-form{
+        margin-left: -1.5em;
+        margin-right: 8em;
+    /*  margin-top: 3%;*/
     }
 
     .contact-us-contactus{
@@ -221,8 +225,8 @@
         color: white;
     }
 
-    .grid-col-48of100{
-        width: 50%;
+    .grid-col-55of100{
+        width: 85%;
         margin-left: 9em;
         margin-right: 9em;
     }
@@ -233,103 +237,29 @@
 
     .submit-button-nav{
         margin-left: 1em;
-        margin-right: -27%;
+        margin-right: -1.5%;
     }
 
     .reset-button-nav{
-        margin-right: -13%;
+        margin-right: 1%;
     }
 }
 
 
 @media (max-width:55em) {
 
-    .text-length{
-        width: 100%;
-    }
-
-    textarea{
-        width: 100%;
-    }
-
-    .grid-col-3of10{
-        width: 100%;
-    }
-
-    .contact-us-contactus{
-        margin-left: 8em;
-        margin-right: 8em;
-        margin-bottom: -2%;
-        margin-top: 5em;
-    }
-
-    .grid-col-48of100{
-        width: 45%;
-        margin-left: 9em;
-        margin-right: 9em;
-    }
-
-    .submit-button-nav{
-        margin-left: 1em;
-        margin-right: -28%;
-    }
-
-    .reset-button-nav{
-        margin-right: -10%;
+    .grid-col-55of100{
+        width: 80%;
     }
 }
 
+@media (max-width:45em) {
 
-@media (max-width:48em) {
-
-    .submit-button-nav{
-        margin-left: 1em;
-        margin-right: -28%;
-    }
-
-    .reset-button-nav{
-        margin-right: -5%;
+    .grid-col-55of100{
+        width: 75%;
     }
 }
 
-
-
-@media (max-width:42em) {
-
-    .text-length{
-        width: 100%;
-    }
-
-    textarea{
-        width: 100%;
-    }
-
-    .grid-col-3of10{
-        width: 100%;
-    }
-
-    .contact-us-contactus{
-        margin-left: 8em;
-        margin-right: 8em;
-        margin-bottom: -2%;
-        margin-top: 5em;
-    }
-
-    .grid-col-48of100{
-        width: 40%;
-        margin-left: 9em;
-        margin-right: 9em;
-    }
-
-    .submit-button-nav{
-        margin-left: 1em;
-        margin-right: -28%;
-    }
-
-    .reset-button-nav{
-        margin-right: 0%;
-    }
-}
 
 
 @media (max-width:35em) {
@@ -372,8 +302,8 @@
         margin-right: 3em;
     }
 
-    .grid-col-48of100{
-        width: 55%;
+    .grid-col-55of100{
+        width: 110%;
         margin-left: 3em;
         margin-right: 3em;
     }

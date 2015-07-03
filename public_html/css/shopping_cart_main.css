@@ -735,3 +735,8 @@ table {
 .customer-reviews-texts_secondcomments{
     margin-top: 3em;
 }
+
+.payment-icon{
+    width: 13em; 
+    height: 3em;
+}

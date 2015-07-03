@@ -276,7 +276,7 @@ p,code,figcaption{
     text-align: center;
 
     margin-left: 1em;
-    margin-right: 8%;
+    margin-right: 6%;
     width: 4em;
     margin-top: 0.3em;
     margin-bottom: 0.3em;
@@ -402,14 +402,12 @@ textarea{
 }
 
 
-
-
 article {
-    margin-left: -45%;
-    margin-top: 3%;
+    text-align: left;
+/*  border: 2px solid #929595;*/
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    /*display: inline-block;*/
+    display: inline-block;
 }
 
 /* set top main navigation layout */
@@ -598,7 +596,7 @@ article {
 
 
 .mapimage{
-     display: block;
+    display: block;
     -webkit-transition: background-color 0.5s;
     transition: background-color 0.5s;
     z-index: -1;
@@ -750,8 +748,9 @@ article {
 }
 
 .middleline{
-    width:1%;
-    height:73%;
+    width: 0.3em;
+    height: 30em;
+    margin-left: 3em;
     background-color: #929595;
 }
 
@@ -762,9 +761,9 @@ article {
 }
 
 .contact-us-form{
-/*  margin-left: 8em;
+    margin-left: -4em;
     margin-right: 8em;
-    margin-top: 3%;*/
+/*  margin-top: 3%;*/
 }
 
 .copyright{

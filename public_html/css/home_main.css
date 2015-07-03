@@ -709,7 +709,7 @@ article {
 
  a.image-button-nav-cat-foods {
 /*  border-radius: 50em;*/
-    min-height: 10em;
+    min-height: 20em;
     min-width: 23em;
     max-width: 50em;
     max-height: 40em;
@@ -719,7 +719,7 @@ article {
 
  a.image-button-nav-cat-toys {
 /*  border-radius: 50em;*/
-    min-height: 10em;
+    min-height: 20em;
     min-width: 23em;
     max-width: 50em;
     max-height: 40em;
@@ -729,7 +729,7 @@ article {
 
  a.image-button-nav-cat-clothes {
 /*  border-radius: 50em;*/
-    min-height: 10em;
+    min-height: 20em;
     min-width: 23em;
     max-width: 50em;
     max-height: 40em;
@@ -1072,4 +1072,9 @@ article {
     margin-right: 8em;
     margin-top: 3em;
     margin-left: 8em;
+}
+
+.payment-icon{
+    width: 13em; 
+    height: 3em;
 }

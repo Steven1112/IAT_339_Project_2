@@ -1252,3 +1252,8 @@ article {
     margin-left: 8em;
     margin-right: 8em;
 }
+
+.payment-icon{
+    width: 13em; 
+    height: 3em;
+}
