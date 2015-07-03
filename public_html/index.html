@@ -41,7 +41,7 @@
 
           <p class="pprice">Rendered element: </p>
             <nav>
-             <a class="button-nav-detail" href="home.html">Home</a>
+             <a class="button-nav-detail" href="home.html">View Details</a>
             </nav>
 
       </div><!-- Closing a navigation button style -->
@@ -62,7 +62,7 @@
 
              <br><code>&lt;input type="text" id="form-subject" placeholder="Subject" size="95" class="text-length"&gt;</code>
 
-             <br><code>&lt;input type="text" id="form-subject" placeholder="Email/Phone Number" size="95" class="text-length"&gt;</code>
+             <br><code>&lt;input type="text" id="form-email" placeholder="Email/Phone Number" size="95" class="text-length"&gt;</code>
              <br><code>&lt;textarea id="form-comment" placeholder="Message"&gt;&lt;/textarea&gt;</code>
              <br><code>&lt;a href="home.html" class="submit-button-nav"&gt;Submit&lt;/a&gt;</code>
              <br><code>&lt;a href="home.html" class="reset-button-nav"&gt;Reset&lt;/a&gt;</code>
@@ -75,17 +75,18 @@
             <article id="contact-form-border" class="article-border">
             <input type="text" id="form-full-name" placeholder="Full Name" size="95" class="text-length">
             <input type="text" id="form-subject" placeholder="Subject" size="95" class="text-length">
-            <input type="text" id="form-subject" placeholder="Email/Phone Number" size="95" class="text-length">
+            <input type="text" id="form-email" placeholder="Email/Phone Number" size="95" class="text-length">
 
             <textarea id="form-comment" placeholder="Message"></textarea>
-
-            <br><a href="home.html" class="submit-button-nav">Submit</a>
-            <a href="home.html" class="reset-button-nav">Reset</a>
 
             </article>
          </div><!-- closing a text input field and label -->
 
+        </form>
+
+
          <div><!-- Starting a submit and button style -->
+
           <br><h2>D. Submit and reset button style</h2>
           <p class="pprice">CSS selector: </p> 
           <p>"submit-button-nav"</p>
@@ -100,7 +101,7 @@
  
           </div><!-- Starting a submit and button style -->
 
-        </form>
+
 
       </div><!-- Closing a form -->
 
@@ -111,16 +112,16 @@
           <p class="pprice">CSS selector: </p> 
           <p>"h1"</p>
           <p>"h2"</p>
-          <p>"pprice"</p>
+          <p>"h3"</p>
           <p class="pprice">Sample code: </p>
              <code>&lt;h1&gt;Heading level 1&lt;/h1&gt;</code>
              <br><code>&lt;h2&gt;Heading level 2&lt;/h2&gt;</code>
-             <br><code>&lt;p class="pprice"&gt;Heading level 3&lt;/p&gt;</code>
+             <br><code>&lt;h3&gt;Heading level 3&lt;/h3&gt;</code>
 
           <p class="pprice">Rendered element: </p>
              <h1>Heading level 1</h1>
              <h2>Heading level 2</h2>
-             <p class="pprice">Heading level 3</p>
+             <h3>Heading level 3</h3>
 
       </div><!-- Closing levels of headings -->
 
@@ -218,7 +219,7 @@
 
           </div>
 
-
+      </div> <!-- Closing the id "homepage" -->  
 
       <div id="products"><!-- Starting a product listing -->
 
@@ -404,7 +405,7 @@
 
     </div> <!-- Closing the grid -->
 
-               
+  </div> <!-- Closing the id "products" -->      
 
 
 
@@ -461,7 +462,7 @@
 
           <div class="Whiskas_large">
               <figure>
-                <img alt="cat food 1" src="img/Cat_Food_1.jpg" width="430px" height="430px">
+                <img alt="cat food 1" src="img/Cat_Food_1.jpg" width="430" height="430">
               </figure>
             <section id="add-cart">
               <nav>
@@ -527,12 +528,12 @@
             </div><!-- closing customer-reviews-texts_secondcomments-->
           
 
-            <p class="button-nav-detail" href="contact.html">Reply</p>
+            <a class="button-nav-detail" href="contact.html">Reply</a>
 
-            <br><br><br><label for="make-comment"><strong>Comment:</label></strong>
+            <br><br><br><label for="make-comment"><strong>Comment:</strong></label>
             <br><textarea id="make-comment" placeholder="Please give your comments here"></textarea>
 
-            <p class="button-nav-detail" href="contact.html">Submit</p>
+            <a class="button-nav-detail" href="contact.html">Submit</a>
 
     </div> <!-- closing customer-reviews -->
 
@@ -551,7 +552,7 @@
 
       <div class="grid-col-3of10"> <!-- Opening the first column of our grid -->
 
-        <article id="cat-food-4" class="whiskas1">  
+        <article id="cat-food-7" class="whiskas1">  
 
           <figure>
             <img alt="cat food 7" src="img/Cat_Food_4.jpg" class="product-image">
@@ -574,7 +575,7 @@
 
       <div class="grid-col-3of10"> <!-- Opening the second column of our grid -->
 
-        <article id="cat-food-2" class="whiskas2">
+        <article id="cat-food-8" class="whiskas2">
 
           <figure>
             <img alt="cat food 2" src="img/Cat_Food_2.jpg" class="product-image">
@@ -597,7 +598,7 @@
 
       <div class="grid-col-3of10"> <!-- Opening the third column of our grid -->
 
-        <article id="cat-food-3" class="whiskas3">
+        <article id="cat-food-9" class="whiskas3">
 
           
           <figure>
@@ -631,44 +632,45 @@
           <h2>Payment Methods</h2>
 
           <figure class="payment-figure">
-            <img alt="payment methods" src="img/Payment_Methods.png" width="170em" height="40em">
+            <img alt="payment methods" src="img/Payment_Methods.png" class="payment-icon">
           </figure>
 
-        </div><!-- closing payment-methods-layout  -->
+        </div>
 
-      </div><!-- Closing the grid -->
+      </div> <!-- closing payment-methods-layout  -->
+
+    </div> <!-- Closing the grid -->
+
+  </div> <!-- Closing the id "detailed-page" -->
 
 
     <div class="reference">
     
      <br><h2>L. References</h2>
      <p class="pprice">Related links</p>
-          <p>http://cache3.asset-cache.net/xc/519971769.jpg?v=2&c=IWSAsset&k=2&d=WYThnJLtbqAVSlEZ8MyHHJBUBUtezc4iwYyU7X6-O-XlzbXipQBiUgwBaCbwQ92P0 </p>
 
-          <p>http://www.coolanimalworld.com/wp-content/uploads/2013/08/Lovely-cat-and-beautifyl-owner-at-a-leisurely-rainy-day-04.jpg</p>
+          <br><a class="link" href="http://www.coolanimalworld.com/wp-content/uploads/2013/08/Lovely-cat-and-beautifyl-owner-at-a-leisurely-rainy-day-04.jpg">Reference Image 1</a>
 
-          <p>http://blog.nj.com/hudsoncountynow_impact/2009/03/large_MORGA2.jpg</p>
+          <br><a class="link" href="http://blog.nj.com/hudsoncountynow_impact/2009/03/large_MORGA2.jpg">Reference Image 2</a>
 
-          <p>http://media.oregonlive.com/oregon_city_news/photo/milandownerjpg-75c960a041da380c.jpg</p>
+          <br><a class="link" href="http://media.oregonlive.com/oregon_city_news/photo/milandownerjpg-75c960a041da380c.jpg">Reference Image 3</a>
 
-          <p>http://jadelouisedesigns.com/wp-content/uploads/2013/09/IMG_9403.jpg</p>
+          <br><a class="link" href="http://jadelouisedesigns.com/wp-content/uploads/2013/09/IMG_9403.jpg">Reference Image 4</a>
 
+          <br><a class="link" href="http://i.huffpost.com/gen/1736904/images/o-PET-FOOD-facebook.jpg">Reference Image 5</a>
 
-          <p>http://i.huffpost.com/gen/1736904/images/o-PET-FOOD-facebook.jpg</p>
+          <br><a class="link" href="http://www.pets4homes.co.uk/images/articles/1246/large/how-to-give-your-cat-a-monthly-health-check-52a3b2f3d92b2.jpg">Reference Image 6</a>
 
-          <p>http://www.pets4homes.co.uk/images/articles/1246/large/how-to-give-your-cat-a-monthly-health-check-52a3b2f3d92b2.jpg</p>
+          <br><a class="link" href="http://www.catloversdiary.com/wp-content/uploads/2012/07/catnip_cat_care_cat_health.jpg">Reference Image 7</a>
 
-          <p>http://www.catloversdiary.com/wp-content/uploads/2012/07/catnip_cat_care_cat_health.jpg</p>
-
-          <p>https://0.s3.envato.com/files/132291569/preview.jpg</p>
-
-          
-
+          <br><a class="link" href="https://0.s3.envato.com/files/132291569/preview.jpg">Reference Image 8</a>
 
 
  <p class="pprice">Google Map Reference</p>  
  <p>Reference Code of Google map<p>
-          <p>Website: http://www.w3schools.com/googleapi/tryit.asp?filename=tryhtml_map_overlays_infowindow</p>       
+          <p>Website:</p>
+          <a class="link" href="http://www.w3schools.com/googleapi/tryit.asp?filename=tryhtml_map_overlays_infowindow">Google Map Reference Link</a>
+
 <p>Original Code:</p>
 <code> &lt;!DOCTYPE html&gt;</code>
 <br><code> &lt;html&gt;</code>
@@ -710,9 +712,8 @@ src="http://maps.googleapis.com/maps/api/js"&gt;</code>
 
 
  <p class="pprice">Original Effects</p> 
-<!DOCTYPE html>
-<html>
-<head>
+
+
 <script
 src="http://maps.googleapis.com/maps/api/js">
 </script>
@@ -745,17 +746,13 @@ infowindow.open(map,marker);
 
 google.maps.event.addDomListener(window, 'load', initialize);
 </script>
-</head>
 
-<body>
+
+
 <div id="googleMap" style="width:500px;height:380px;"></div>
-</body>
-</html>
 
-
-
-
-    </div>       
+</div>
+     
 
   </body>
   
