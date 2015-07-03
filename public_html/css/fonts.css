@@ -1,0 +1,61 @@
+/*
+	The @font-face declaration lets us load custom fonts for our website
+*/
+
+@font-face {
+	font-family: 'Existence';	/* Sets a name for our font family */
+	src: url('Existence-Light.otf');	/* Support for IE9 */
+}
+
+@font-face {
+	font-family: 'Existence';
+	font-weight: bold;
+	font-style: normal;
+	src: url('fonts/Quan-Bold.eot');
+	src: 
+		url('fonts/Quan-Bold.eot?#iefix') format('embedded-opentype'),
+		url('fonts/Quan-Bold.woff') format('woff2'),
+		url('fonts/Quan-Bold.woff') format('woff'),
+		url('fonts/Quan-Bold.ttf') format('truetype');
+}
+
+
+/*
+	Here we need to make sure that the while the browser tries to load
+	the Quan font, it should still fallback to other more likely
+	available fonts
+*/ 
+h1 {
+	font-family: Austie Bost Kitten Klub;
+}
+
+h2{
+	font-family:Oswald;
+}
+
+h3 {
+	font-family:Oswald;
+}
+
+ul,ol{
+	font-family: Oswald;
+}
+
+p,code,figcaption{
+	font-family: Oswald;
+}
+
+
+
+
+/* Some default styling for the tutorial */
+body {
+	font-family: Arial, sans-serif;
+	margin: 1.5em;
+}
+
+*, *::after, *::before {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
