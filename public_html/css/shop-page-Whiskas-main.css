@@ -1012,26 +1012,6 @@ article {
 /*    position: absolute;*/
  }
 
- .topimage{
-/*  background: transparent url(../img/background_2.jpg) no-repeat;*/
-    display: block;
-    -webkit-transition: background-color 0.5s;
-    transition: background-color 0.5s;
-    z-index: -1;
-    width: 100%;
-    height: auto;
-    position: relative;
-    top: 0;
-    left: 0;
-/*  min-width: 25.6em;
-    min-height: 16em;*/
-/*  padding: 0.3em 0.3em;*/
-}
-
-.topimage-layout{
-    margin-top: 1%;
-}
-
  .pmiddle{
     font-size: 1.8rem;
     font-family:Oswald;
@@ -1080,10 +1060,14 @@ article {
 
 .guideline{
     margin-top: 2em;
+      margin-left: 5em;
 }
 
-.total_page{
+.display_per_page_title{
     margin-top: 2em;
+    margin-left: 5em;
+
+
 }
 
 
@@ -1102,8 +1086,19 @@ article {
     width: 0;
     height: 0;
     border-top: 10px solid transparent;
-    border-right: 10px solid red;
+    border-right: 10px solid #F39873;
     border-bottom: 10px solid transparent;
+    margin-top: 45%;
+} 
+
+
+.trangle_left:hover{
+    margin-left: 10%;
+    width: 0;
+    height: 0;
+    border-top: 11px solid transparent;
+    border-right: 11px solid #F39873;
+    border-bottom: 11px solid transparent;
     margin-top: 45%;
 } 
 
@@ -1112,11 +1107,68 @@ article {
     width: 0;
     height: 0;
     border-top: 10px solid transparent;
-    border-left: 10px solid red;
+    border-left: 10px solid #F39873;
     border-bottom: 10px solid transparent;
     margin-top: 45%;
 }
 
+.trangle_right:hover{
+    margin-left: 10%;
+    width: 0;
+    height: 0;
+    border-top: 11px solid transparent;
+    border-left: 11px solid #F39873;
+    border-bottom: 11px solid transparent;
+    margin-top: 45%;
+}
+
+.button-nav-pages{
+
+    display: inline-block;
+    /*background-color:  #F39873;*/
+    color: #F39873;
+    margin-left: auto;
+    margin-right:auto;
+    /*border-style: solid;
+    border-width: 0.1rem;
+    border-color: #929595;*/
+    padding: 0.3em 0.3em;
+    text-decoration: none;
+    -webkit-transition: background-color 0.5s;
+    transition: background-color 0.5s;
+    width:100%;
+    font-size: normal;
+    font-family:Oswald;
+    font-size: 1.4em;
+    text-align: center;
+    margin-top: 1em;
+    margin-left: -2.5em;
+
+}
+
+.button-nav-pages:hover{
+
+    display: inline-block;
+    /*background-color:  #F39873;*/
+    color: #F39873;
+    margin-left: auto;
+    margin-right:auto;
+    /*border-style: solid;
+    border-width: 0.1rem;
+    border-color: #929595;*/
+    padding: 0.3em 0.3em;
+    text-decoration: none;
+    -webkit-transition: background-color 0.5s;
+    transition: background-color 0.5s;
+    width:100%;
+    font-size: normal;
+    font-family:Oswald;
+    font-size: 1.5em;
+    text-align: center;
+    margin-top: 1em;
+    margin-left: -2em;
+
+}
 
 
 
