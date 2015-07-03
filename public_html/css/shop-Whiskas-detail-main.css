@@ -61,7 +61,7 @@
 .rating{
     color: #F39873;
     /*background-color: #F39873;*/
-    content: '\2605'; /* Full star in UTF-8 */
+    content: '2605'; /* Full star in UTF-8 */
     font-size: 1.3em;
     position: relative;
 }
@@ -70,7 +70,7 @@
 
 .pprice_comments{
     font-size: 1.4rem;
-    font-family: Oswald;
+    font-family: "Oswald-Regular";
     text-align: left;
     font-weight: normal;
     margin-top: 1em;
@@ -105,7 +105,7 @@ body{
 h1{
    font-size: 3.3rem;
    font-weight: 700;
-   font-family: Austie Bost Kitten Klub;
+   font-family: "AustieBostKittenKlub";
    text-align: left;
 /* color: #F39873;*/
 /* color: white;*/
@@ -121,7 +121,7 @@ h2{
     -webkit-transition: background-color 0.5s;
     transition: background-color 0.5s;
     width:100%;
-    font-family:Oswald;
+    font-family: "Oswald-Regular";
     font-size: 1.8rem;
     font-weight: bold;
 }
@@ -136,27 +136,9 @@ h3{
     -webkit-transition: background-color 0.5s;
     transition: background-color 0.5s;
     width:100%;
-    font-family:Oswald;
+    font-family: "Oswald-Regular";
     font-size: 1.4rem;
     font-weight: bold;
-}
-
-h4{
-   font-size: 1.1rem;
-   font-size: normal;
-   font-family: Courier New, sans-serif;
-}
-
-h5{
-   font-size: 0.2em;
-   font-size: normal;
-   font-family: Courier New, sans-serif;
-   background-color:  #929595;
-}
-
-h2 a{
-   font-style: italic;
-   font-size: 1.8em;
 }
 
 ul,ol{
@@ -170,7 +152,7 @@ ul,ol{
 
 p,code,figcaption{
     font-size: 1rem;
-    font-family: Oswald;
+    font-family: "Oswald-Light";
 /*  font-family: thin;*/
     /* first # is top and bottom, second # is left and right margin */
     font-weight: lighter;
@@ -292,7 +274,7 @@ p,code,figcaption{
 
 .specialprice{
     font-size: 1.2rem;
-    font-family: Oswald;
+    font-family: "Oswald-Light";
     font-weight: lighter;
     text-align: center;
 }
@@ -302,7 +284,7 @@ p,code,figcaption{
     color: #929595;
     text-align: left;
 
-    font-family:Oswald;
+    font-family: "Oswald-Light";
     font-size: 1.2rem;
     font-weight: bold;
 }
@@ -390,7 +372,7 @@ p,code,figcaption{
     transition: background-color 0.5s;
     width: 6em;
 
-    font-family:Oswald;
+    font-family: "Oswald-Light";
     font-size: 1.4rem;
     font-weight: normal;
     text-align: center;
@@ -417,7 +399,7 @@ p,code,figcaption{
     transition: background-color 0.5s;
     width: 6em;
 
-    font-family:Oswald;
+    font-family: "Oswald-Light";
     font-size: 1.4rem;
     font-weight: normal;
     text-align: center;
@@ -700,7 +682,7 @@ form{
 
 label{
     font-size: 1.2rem;
-    font-family: Oswald;
+    font-family: "Oswald-Light";
     font-weight: lighter;
     text-align: left;
     display: block;
@@ -734,7 +716,7 @@ input.submit,input.reset{
     background-color: #F39873;
     color: white;
 /*  border-radius: 0.25rem;*/
-    font-family:Oswald;
+    font-family: "Oswald-Light";
     font-size: 1.2rem;
     font-weight: normal;
     text-align: center;
@@ -793,7 +775,7 @@ textarea{
     min-width: 10em;
     min-height: 10rem;
     font-size: 0.9rem;
-    font-family: Oswald;
+    font-family: "Oswald-Light";
     font-weight: lighter;
     text-align: left;
     display: block;
@@ -928,72 +910,6 @@ article {
  }
 
 
-.dd {
-    position: relative;
-/*  max-width: 20em;*/
-}
-
-.dd-list {
-    margin: 0;
-    padding: 0;
-    width: 100%;
-}
-
-/* Just giving our drop-down items some styling */
-.dd-list li a {
-    display: block;
-/*  margin: 0.1em 0;*/
-/*  padding: 0.5em 0.7em;*/
-    color: #F39873;
-    margin-left: auto;
-    margin-right:auto;
-
-    padding: 0.3em 0.3em;
-    text-decoration: none;
-    -webkit-transition: background-color 0.5s;
-    transition: background-color 0.5s;
-    width:100%;
-
-    font-size: normal;
-    font-family:Oswald;
-    font-size: 1.5em;
-    text-align: center;
-    margin-top: 0.5em;
-/*  background-color:  #F39873;*/
-}
-
-.dd-list li a:hover{
-/*  background-color: #FCBCA7;
-    color: #C2C0BC;*/
-    text-decoration: none;
-    font-weight: bold;
-}
-
-.dd-button {
-    display: inline-block;
-    color: #F39873;
-    margin-left: auto;
-    margin-right:auto;
-
-    padding: 0.3em 0.3em;
-    text-decoration: none;
-    -webkit-transition: background-color 0.5s;
-    transition: background-color 0.5s;
-    width:100%;
-
-    font-size: normal;
-    font-family:Oswald;
-    font-size: 1.7em;
-    text-align: center;
-}
-
-.dd-button:hover {
-/*  background-color: #FCBCA7;
-    color: #C2C0BC;*/
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 1.8em;
-}
 
 .onpage-button-nav, .onpage-button-nav:visited{
     display: inline-block;
@@ -1011,7 +927,7 @@ article {
     width:100%;
 
     font-size: normal;
-    font-family:Oswald;
+    font-family: "Oswald-Regular";
     font-size: 1.6em;
     text-align: center;
 /*  opacity: 0.7;*/
@@ -1044,7 +960,7 @@ article {
     font-size: 1.2em;
     text-align: center;
     font-size: normal;
-    font-family:Oswald;
+    font-family: "Oswald-Regular";
     float: right;
 }
 
@@ -1076,7 +992,7 @@ article {
 /*  border-radius: 0.25rem;*/
 /*    font-family: BAD SPIRIT;*/
     font-size: normal;
-    font-family:Oswald;
+    font-family: "Oswald-Regular";
     font-size: 1.6em;
     text-align: center;
 }
@@ -1191,7 +1107,7 @@ article {
 
 .specialprice-title{
     font-size: 1.4rem;
-    font-family: Oswald;
+    font-family: "Oswald-Regular";
     text-align: left;
     font-weight: normal;
 /*  font-weight: lighter;*/
@@ -1199,14 +1115,14 @@ article {
 
 .pprice{
     font-size: 1.4rem;
-    font-family: Oswald;
+    font-family: "Oswald-Regular";
     text-align: left;
     font-weight: normal;
 }
 
 .sdetail{
     font-size: 1rem;
-    font-family: Oswald;
+    font-family: "Oswald-Light";
     font-weight: lighter;
     text-align: left;
 }
@@ -1224,7 +1140,7 @@ article {
 
 .copyright{
     font-size: 0.9rem;
-    font-family: Oswald;
+    font-family: "Oswald-Light";
     font-weight: lighter;
     text-align: left;
     margin-right: 8em;
@@ -1253,7 +1169,7 @@ article {
 .myname{
     display: inline-block;
     font-size: 1.2rem;
-    font-family: Oswald;
+    font-family: "Oswald-Light";
     font-weight: bold;
     text-align: left;
     float: left;

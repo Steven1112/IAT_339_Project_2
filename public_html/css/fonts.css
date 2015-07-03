@@ -8,6 +8,15 @@
 }
 
 @font-face{
+	font-family: "Oswald-Regular";
+	font-weight: normal;
+	font-style: normal;
+	src:url("../fonts/Oswald-Regular.ttf");
+	src:
+	  url("../fonts/Oswald-Regular.ttf"), format("truetype");
+}
+
+@font-face{
 	font-family: "Oswald-Light";
 	font-weight: normal;
 	font-style: normal;
@@ -34,25 +43,6 @@
 	  url("../fonts/AustieBostKittenKlub.ttf"), format("truetype");
 }
 
-
-/* Some default styling for the tutorial */
-body {
-	font-family: "Oswald";
-	margin: 1.5em;
-}
-
-*, *::after, *::before {
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
-}
-
-
-/* Some default styling for the tutorial */
-body {
-	font-family: "Oswald";
-	margin: 1.5em;
-}
 
 *, *::after, *::before {
 	-webkit-box-sizing: border-box;
