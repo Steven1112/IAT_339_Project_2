@@ -18,7 +18,6 @@ h1{
 
 h2{
     text-align: left;
-
     display: inline-block;
     margin-left: auto;
     margin-right:auto;
@@ -35,14 +34,9 @@ h2{
 p,code,figcaption{
     font-size: 1rem;
     font-family: "Oswald-Light";
-/*  font-family: thin;*/
-    /* first # is top and bottom, second # is left and right margin */
     font-weight: lighter;
     text-align: left;
 }
-
-
- /*Top Area*/
 
 .topimage{
     display: block;
@@ -62,8 +56,6 @@ p,code,figcaption{
     font-family: "Oswald-Regular";
     text-align: left;
     font-weight: bold;
-/*    color:  #929595;*/
-/*    color: #F39873;*/
     color: white;
     opacity: 1;
     padding-left: 1.5em;
@@ -89,8 +81,6 @@ p,code,figcaption{
     font-size: 1.2rem;
     font-weight: lighter;
     text-align: left;
-/*    color:  #929595;*/
-/*    color: #F39873;*/
     color: white;
     opacity: 1;
     padding-left: 2em;
@@ -107,27 +97,6 @@ p,code,figcaption{
 
 
 
-p.prightstext{
-    font-size: 1.1rem;
-    font-family: Abadi MT Condensed Light;
-/*  font-family: thin;*/
-/*  first # is top and bottom, second # is left and right margin */
-    margin: 0.25rem 0.5rem;
-    /*background: #f3e9c2;*/
-    text-align: left;
-}
-
-
- .information_top{
-    margin: right;
- }
-/*Middle Area closed*/
-
-
-
-
-/*rights Area open*/
-
 .homebottom{     
     margin-top: 5em;
     z-index: -999;
@@ -137,60 +106,6 @@ p.prightstext{
     width: 150%;
 }
 
-.squareup{
-    height: 10%;
-    width: 100%;
-    /*background-color:#C2C0BC;*/
-    border-style: dashed;
-    border-width: 0.1rem;
-    /*border-color: #929595;*/
-    margin-top: 5em;
-}
-
-.squaredown{
-    height: 35%;
-    width: 100%;
-    /*background-color:#C2C0BC;*/
-    border-style: dashed;
-    border-width: 0.1rem;
-    border-color: #929595;
-}
-
-
-.rights_left{
-    margin-top: -7em;
-    margin-left: 15em;
-    border-style: dotted;
-    border-width: 0.1rem;
-    border-color: #929595;
-    background-color: #f1e4d2;
-
-
-}
-
-.rights_left2{
-    margin-top: -7em;
-    margin-left: 15em;
-
-    border-style: dotted;
-    border-width: 0.1rem;
-    border-color: #929595;
-    background-color: red;
-}
-
-
-.p-payment-method{
-    font-size: 1.5rem;
-    font-family:Abadi MT Condensed Extra Bold;
-    text-align: left;
-    display: inline-block;
-    color: #382843;
-/*  margin: 0.25rem 0.5rem;*/
-}
-
-/*rights Area Closed*/
-
-
 
 .col-image-cool{
     position: absolute;
@@ -198,28 +113,6 @@ p.prightstext{
     right:30em;
 }
 
-
-
-.pstyle{
-    font-size: 0.9rem;
-    font-family: Abadi MT Condensed Light;
-/*  font-family: thin;*/
-/*  first # is top and bottom, second # is left and right margin */
-    margin: 0.25rem 0.5rem;
-/*  try make a paragraph half-page length*/
-    width: 50%
-}
-
-
-
-.psubtitle{
-    font-size: 1.2rem;
-    font-family:Abadi MT Condensed Extra Bold;
-/*  font-family: thin;*/
-/*  first # is top and bottom, second # is left and right margin */
-    position: relative;
-    left:1em;
-}
 
 
 .link{
@@ -239,26 +132,6 @@ p.prightstext{
 }
 
 
-.button{
-    display: inline-block;
-    font-family: MTF Sweet Cheeks;
-
-    text-decoration: none;
-}
-
-nav .button{
-    background-color: #F39873;
-    color: white;
-/*  border-radius: 0.25rem;*/
-/*  margin: 0.5rem 0.25rem 0.75rem 0.8rem;*/
-    margin: 0.25rem 0.5rem;
-    padding: 0.25rem 0.45rem;
-    font-family: MTF Sweet Cheeks;
-    border-style: solid;
-    border-width: 0.1rem;
-    border-color: #929595;
-}
-
 nav .button:hover{
     background-color: #F39873;
     color: #C2BFBB;
@@ -270,8 +143,6 @@ a{
 }
 
 
-
-/*responsive image styles*/
 img{
     background-color: rgba(255, 237, 221, 0.3);
 }
@@ -285,43 +156,21 @@ figure{
     margin: 0;
 }
 
-form{
-    background-color: #FFFDFA;
-    display: inline-block;
-    padding: 1rem;
-    width: 40%
-    font-family: Abadi MT Condensed Light;
-}
-
-label{
-    float: left;
-    text-align: left;
-    margin-right: 0.5em;
-    display: block
-    font-size: 0.8rem;
-    font-family: MTF Sweet Cheeks;
-/*  font-family: thin;*/
-/*  first # is top and bottom, second # is left and right margin */
-    margin: 0.25rem 0.5rem;
-}
 
 article {
     text-align: left;
-/*  border: 2px solid #929595;*/
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     display: inline-block;
 }
 
 
-/* set top main navigation layout */
  .topmenu{
     margin-left: 8em;
     margin-top: 0em;
     margin-right: 8em;
  }
 
-/* set layout for three login buttons */
  .login-methods{
     margin-right: 8em;
     margin-top: 3%;
@@ -333,10 +182,8 @@ article {
 .onpage-button-nav, .onpage-button-nav:visited{
     display: inline-block;
     background-color:  #F39873;
-/*  color: #F39873;*/
     color: white;
-    text-decoration: none;
-    
+    text-decoration: none; 
     margin-left: auto;
     margin-right:auto;
     padding: 0.3em 0.3em;
@@ -344,38 +191,26 @@ article {
     -webkit-transition: background-color 0.5s;
     transition: background-color 0.5s;
     width:100%;
-
     font-size: normal;
     font-family: "Oswald-Regular";
     font-size: 1.6em;
     text-align: center;
-/*  opacity: 0.7;*/
 }
 
 .onpage-button-nav:hover, .onpage-button-nav:active, .onpage-button-nav:focus{
-/*  background-color: #FCBCA7;
-    color: #C2C0BC;*/
     text-decoration: none;
     font-weight: bold;
     font-size: 1.7em;
-/*  opacity: 0.7;*/
 }
 
 .login-button-nav, .login-button-nav:visited{
     display: inline-block;
-    /*background-color:  #F39873;*/
     color: #F39873;
-    /*border-style: solid;
-    border-width: 0.1rem;
-    border-color: #929595;*/
     padding: 0.3em 0.3em;
     text-decoration: none;
     -webkit-transition: background-color 0.5s;
     transition: background-color 0.5s;
     width:100%;
-/*  border-radius:10px;*/
-/*  border-radius: 0.25rem;*/
-/*    font-family: BAD SPIRIT;*/
     font-size: 1.2em;
     text-align: center;
     font-size: normal;
@@ -384,9 +219,6 @@ article {
 }
 
 .login-button-nav:hover, .login-button-nav:active, .login-button-nav:focus{
-/*  border-radius: 0.25rem;*/
-/*  background-color: #FCBCA7;
-    color: #C2C0BC;*/
     text-decoration: none;
     font-weight: bold;
     font-size: 1.3em;
@@ -395,21 +227,14 @@ article {
 
 .button-nav, .button-nav:visited{
     display: inline-block;
-    /*background-color:  #F39873;*/
     color: #F39873;
     margin-left: auto;
     margin-right:auto;
-    /*border-style: solid;
-    border-width: 0.1rem;
-    border-color: #929595;*/
     padding: 0.3em 0.3em;
     text-decoration: none;
     -webkit-transition: background-color 0.5s;
     transition: background-color 0.5s;
     width:100%;
-/*  border-radius:10px;*/
-/*  border-radius: 0.25rem;*/
-/*    font-family: BAD SPIRIT;*/
     font-size: normal;
     font-family: "Oswald-Regular";
     font-size: 1.6em;
@@ -417,8 +242,6 @@ article {
 }
 
 .button-nav:hover, .button-nav:active, .button-nav:focus{
-    /*  background-color: #FCBCA7;
-    color: #C2C0BC;*/
     text-decoration: none;
     font-weight: bold;
     font-size: 1.7em;

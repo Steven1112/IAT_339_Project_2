@@ -18,7 +18,6 @@ h1{
 
 h2{
     text-align: left;
-
     display: inline-block;
     margin-left: auto;
     margin-right:auto;
@@ -34,7 +33,6 @@ h2{
 
 h3{
     text-align: left;
-
     display: inline-block;
     margin-left: auto;
     margin-right:auto;
@@ -108,7 +106,6 @@ p,code,figcaption{
 .pstyle{
     font-size: 0.9rem;
     font-family: "Oswald-Light";
-
     font-weight: lighter;
     display: inline;
 }
@@ -117,12 +114,9 @@ p,code,figcaption{
     display: inline-block;
     font-size: 1.2rem;
     font-family: "Oswald-Regular";
-
     font-weight: bold;
     text-align: left;
-
     float:left;
-
     color: #929595;
     margin-top: 1.2%;
 }
@@ -131,7 +125,6 @@ p,code,figcaption{
     display: inline-block;
     font-size: 1.2rem;
     font-family: "Oswald-Regular";
-    /*text-align: center;*/
     font-weight: bold;
     text-align: left;
     float:left;
@@ -143,7 +136,6 @@ p,code,figcaption{
 
 .pptitle{
     display: inline-block;
-    /*margin-left: 5%;*/
     margin-right:auto;
     text-decoration: none;
     -webkit-transition: background-color 0.5s;
@@ -158,12 +150,11 @@ p,code,figcaption{
 .logo-name{
     margin-left: auto;
     margin-right: auto;
-/*  margin-top: 5em;*/
 }
 
 
 .topimage{
-  display: block;
+    display: block;
     -webkit-transition: background-color 0.5s;
     transition: background-color 0.5s;
     z-index: -1;
@@ -174,27 +165,20 @@ p,code,figcaption{
     left: 0;
 }
 
-
 .subtitle{
     display: inline-block;
-
     color: #F39873;
     margin-left: auto;
     margin-right:auto;
-
     text-decoration: none;
     -webkit-transition: background-color 0.5s;
     transition: background-color 0.5s;
     width:100%;
-
     font-family: "Oswald-Regular";
     font-size: 1.4rem;
     font-weight: bold;
     text-align: center;
 }
-
-/*Top Area closed*/
-
 
 
  .pmiddle{
@@ -205,16 +189,12 @@ p,code,figcaption{
     font-family: "Oswald-Regular";
     text-align: left;
     font-weight: bold;
-
     color: #929595;
     opacity: 1;
     text-decoration: none;
- 
     font-size: 1.6rem;
-    
     padding-top: 0.7em;
 }
-
 
 
 
@@ -222,17 +202,14 @@ p,code,figcaption{
     display: inline-block;
     background-color: #F39873;
     color: white;
-
     padding: 0.3em 0.3em;
     text-decoration: none;
     -webkit-transition: background-color 0.5s;
     transition: background-color 0.5s;
-
     font-family: "Oswald-Light";
     font-size: 1.2em;
     font-weight: normal;
     text-align: center;
-
     margin-left: 1em;
     margin-right: 6%;
     width: 4em;
@@ -250,21 +227,17 @@ p,code,figcaption{
     display: inline-block;
     background-color: #F39873;
     color: white;
-
     padding: 0.3em 0.3em;
     text-decoration: none;
     -webkit-transition: background-color 0.5s;
     transition: background-color 0.5s;
-
     font-family: "Oswald-Light";
     font-size: 1.2em;
     font-weight: normal;
     text-align: center;
-
     margin-left: auto;
     margin-right: auto;
     width: 4em;
-
     margin-top: 0.3em;
     margin-bottom: 0.3em;
     float: right;
@@ -293,16 +266,6 @@ label{
 }
 
 
-input.submit,input.reset{
-
-
-   
-}
-
-input.text,input.textarea{
-
-}
-
 .text-length{
     font-size: 1em;
     font-family: "Oswald-Light";
@@ -316,26 +279,18 @@ input.text,input.textarea{
     width: 100%;
 }
 
-input.submit:hover,input.reset:,input.text:hover,textarea:hover{
 
-}
-
-input.submitcomment{
-
-}
 
 textarea{
     display: inline-block;
     font-family: "Oswald-Light";
     font-weight: lighter;
     width: 100%;
-
     height: 20rem;
     min-width: 10rem;
     min-height: 10rem;
     font-size: 1em;
     text-align: left;
-
     resize: width;
     background-color: #EDEBEC;
     margin-top: 1%;
@@ -345,13 +300,11 @@ textarea{
 
 article {
     text-align: left;
-
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     display: inline-block;
 }
 
-/* set top main navigation layout */
  .topmenu{
     margin-left: 8em;
     margin-top: 0em;
@@ -359,7 +312,6 @@ article {
     z-index: 1;
  }
 
-/* set layout for three login buttons */
  .login-methods{
     margin-right: 8em;
     margin-top: 3%;
@@ -373,14 +325,11 @@ article {
     margin-left: 8em;
  }
 
-
 .onpage-button-nav, .onpage-button-nav:visited{
     display: inline-block;
     background-color:  #F39873;
-
     color: white;
     text-decoration: none;
-    
     margin-left: auto;
     margin-right:auto;
     padding: 0.3em 0.3em;
@@ -388,7 +337,6 @@ article {
     -webkit-transition: background-color 0.5s;
     transition: background-color 0.5s;
     width:100%;
-
     font-size: normal;
     font-family: "Oswald-Regular";
     font-size: 1.6em;
@@ -403,15 +351,12 @@ article {
 
 .login-button-nav, .login-button-nav:visited{
     display: inline-block;
-
     color: #F39873;
-
     padding: 0.3em 0.3em;
     text-decoration: none;
     -webkit-transition: background-color 0.5s;
     transition: background-color 0.5s;
     width:100%;
-
     font-size: 1.2em;
     text-align: center;
     font-size: normal;
@@ -420,7 +365,6 @@ article {
 }
 
 .login-button-nav:hover, .login-button-nav:active, .login-button-nav:focus{
-
     text-decoration: none;
     font-weight: bold;
     font-size: 1.3em;
@@ -429,17 +373,14 @@ article {
 
 .button-nav, .button-nav:visited{
     display: inline-block;
-
     color: #F39873;
     margin-left: auto;
     margin-right:auto;
-
     padding: 0.3em 0.3em;
     text-decoration: none;
     -webkit-transition: background-color 0.5s;
     transition: background-color 0.5s;
     width:100%;
-
     font-size: normal;
     font-family: "Oswald-Regular";
     font-size: 1.6em;
@@ -447,7 +388,6 @@ article {
 }
 
 .button-nav:hover, .button-nav:active, .button-nav:focus{
-
     text-decoration: none;
     font-weight: bold;
     font-size: 1.7em;
@@ -470,9 +410,7 @@ article {
 
 
 .logo-image-button, .logo-image-button:visited{
-/*  add background image for the cat foods product list image button */
     background: transparent url(../img/catlogo.png) no-repeat;
-
     display: inline-block;
     margin-left: 8em;
     margin-right: 8em;
@@ -484,7 +422,6 @@ article {
     min-height: 16em;
     z-index: 3;
     float: left;
-
     padding: 0.3em 0.3em;
     text-decoration: none;
     -webkit-transition: background-color 0.5s;
@@ -496,19 +433,16 @@ article {
 }
 
 .logo-image-button:hover, .logo-image-button:active, .logo-image-button:focus{
-
     opacity: 0.5;
 }
 
 
 
  .image-button-nav-brands-lists, .image-button-nav-brands-lists:visited{
-    /*  add background image for the cat foods product list image button */
     background: transparent url(../img/brands_lists.png) no-repeat;
     background-position: center center;
     display: inline-block;
     position: relative;
-
     color: white;
     border-style: solid;
     border-width: 0.1rem;
@@ -521,12 +455,10 @@ article {
 }
 
 .image-button-nav-health-considerations, .image-button-nav-health-considerations:visited{
-    /*  add background image for the cat toys product list image button */
     background: transparent url(../img/health_considerations.png) no-repeat;
     background-position: 35% 40%;
     display: inline-block;
     position: relative;
-
     color: white;
     border-style: solid;
     border-width: 0.1rem;
@@ -539,12 +471,10 @@ article {
 }
 
 .image-button-nav-flavor, .image-button-nav-flavor:visited{
-    /*  add background image for the cat toys product list image button */
     background: transparent url(../img/flavor.png) no-repeat;
     background-position: 25% 10%;
     display: inline-block;
     position: relative;
-
     color: white;
     border-style: solid;
     border-width: 0.1rem;

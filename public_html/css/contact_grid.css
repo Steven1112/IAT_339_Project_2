@@ -7,7 +7,7 @@
 [class^='grid-col-'] {
 	float: left;
 	padding: 0; 
-	text-align: center; /* center the content in this block */
+	text-align: center; 
 }
 
 
@@ -58,8 +58,6 @@
 
 .grid-col-55of100{
 	width: 50%;
-/*    margin-left: 5%;
-    margin-right: 6em;*/
 }
 
 .grid-col-20of100{
@@ -73,13 +71,6 @@
 .grid-col-15of100{
 	width: 15%;
 }
-
-
-/*
-    Here using @media queries, we are specifying when the display
-    has a width less than 50em it should collapse the 5/10 columns 
-    into one stack (hence width: 100%)
-*/
 
 
 @media (max-width: 57em) {
@@ -207,7 +198,6 @@
     .contact-us-form{
         margin-left: -1.5em;
         margin-right: 8em;
-    /*  margin-top: 3%;*/
     }
 
     .contact-us-contactus{

@@ -1,63 +1,13 @@
-/*
-    Just reminding you how transitions work in CSS;
-    i.e. transition: property length easing;
-    i.e. transition: width 1s linear;
-*/
-.dd-button {
-    -webkit-transition: background-color 0.5s ease-out;
-    transition: background-color 0.5s ease-out;
+*, *:after, *:before{
+        box-sizing:border-box;
 }
 
-
-
-/*
-    Here we have set up a class (.hide) to hide any element it
-    is applied to by setting it's visibility and opacity 
-    properties accordingly
-*/
 .hide {
     visibility: hidden;
     opacity: 0;
 }
 
 
-/*
-    Here we are applying a bit of transitioning to both the 
-    visibility and the opacity. We have to set the visibility
-    to transition due to the way the timing plays out in 
-    setting transitions in the page
-*/
-
-
-.dd>.dd-list {
-    /* 
-        To make sure that the list doesn't pop up when we hover
-        over the area it usually sits in, we need to set its
-        positioning to absolute
-    */
-    position: absolute;
-
-    -webkit-transition: visibility 0s linear 0.5s, opacity 0.5s ease-out;
-    transition: visibility 0s linear 0.5s, opacity 0.5s ease-out;
-}
-
-
-/*
-    Because we wrapped the drop-down list in a div (.dd), we can
-    now select it when the div is hovered over using child
-    selectors
-*/
-.dd:hover>.dd-list {
-    visibility: visible;
-    opacity: 1;
-    transition-delay: 0s;
-}
-
-
-
-*, *:after, *:before{
-        box-sizing:border-box;
-}
 
 body{
     color:black;
@@ -71,8 +21,6 @@ h1{
    font-weight: 700;
    font-family: "AustieBostKittenKlub";
    text-align: left;
-/* color: #F39873;*/
-/* color: white;*/
 }
 
 h2{
@@ -127,16 +75,12 @@ ul,ol{
    font-size: 1rem;
    font-family: Abadi MT Condensed Light;
    list-style-type: none;
-/* color: #F39873;*/
-/* font-family: thin;*/
 }
 
 
 p,code,figcaption{
     font-size: 1rem;
     font-family: "Oswald-Light";
-/*  font-family: thin;*/
-    /* first # is top and bottom, second # is left and right margin */
     font-weight: lighter;
     text-align: left;
 }
@@ -152,19 +96,12 @@ p,code,figcaption{
     min-width: 16em;
     min-height: 10em;
     z-index: 3;
-    /*opacity: 0.9;*/
-    /*filter: alpha(opacity=40);*/
+
 }
-
-
-/*Top Area closed*/
 
 
 
 .bottomtext_left{
-/*  border-style: dashed;
-    border-width: 0.1rem;
-    border-color: #929595;*/
     margin-top: 3em;
     margin-left: 8em;
     margin-right: 0em;
@@ -176,9 +113,6 @@ p,code,figcaption{
     margin-left: 4em;
     margin-right: 4em;
     text-align: left;
-/*  border-style: dashed;
-    border-width: 0.1rem;
-    border-color: #929595;*/
 }
 
 
@@ -222,24 +156,6 @@ p,code,figcaption{
 }
 
 
-
-
-p.prightstext{
-    font-size: 1.1rem;
-    font-family: Abadi MT Condensed Light;
-/*  font-family: thin;*/
-/*  first # is top and bottom, second # is left and right margin */
-    margin: 0.25rem 0.5rem;
-    /*background: #f3e9c2;*/
-    text-align: left;
-}
-/*Middle Area closed*/
-
-
-
-
-/*rights Area open*/
-
 .homebottom{     
     margin-top: 5em;
     z-index: -999;
@@ -248,59 +164,6 @@ p.prightstext{
     margin-left: -5em;
     width: 150%;
 }
-
-.squareup{
-    height: 10%;
-    width: 100%;
-    /*background-color:#C2C0BC;*/
-    border-style: dashed;
-    border-width: 0.1rem;
-    /*border-color: #929595;*/
-    margin-top: 5em;
-}
-
-.squaredown{
-    height: 35%;
-    width: 100%;
-    /*background-color:#C2C0BC;*/
-    border-style: dashed;
-    border-width: 0.1rem;
-    border-color: #929595;
-}
-
-
-.rights_left{
-    margin-top: -7em;
-    margin-left: 15em;
-    border-style: dotted;
-    border-width: 0.1rem;
-    border-color: #929595;
-    background-color: #f1e4d2;
-
-
-}
-
-.rights_left2{
-    margin-top: -7em;
-    margin-left: 15em;
-
-    border-style: dotted;
-    border-width: 0.1rem;
-    border-color: #929595;
-    background-color: red;
-}
-
-
-.payment-method{
-    font-size: 1.5rem;
-    font-family:Abadi MT Condensed Extra Bold;
-    text-align: left;
-    display: inline-block;
-    color: #382843;
-}
-
-/*rights Area Closed*/
-
 
 
 .col-image-cool{
@@ -361,27 +224,6 @@ p.prightstext{
 }
 
 
-.pstyle{
-    font-size: 0.9rem;
-    font-family: Abadi MT Condensed Light;
-/*  font-family: thin;*/
-/*  first # is top and bottom, second # is left and right margin */
-    margin: 0.25rem 0.5rem;
-/*  try make a paragraph half-page length*/
-    width: 50%
-}
-
-
-
-.psubtitle{
-    font-size: 1.2rem;
-    font-family:Abadi MT Condensed Extra Bold;
-/*  font-family: thin;*/
-/*  first # is top and bottom, second # is left and right margin */
-    position: relative;
-    left:1em;
-}
-
 
 .link{
     font-family: Existence;
@@ -400,53 +242,12 @@ p.prightstext{
 }
 
 
-.button{
-    display: inline-block;
-    font-family: MTF Sweet Cheeks;
-
-    text-decoration: none;
-}
-
-nav .button{
-    background-color: #F39873;
-    color: white;
-/*  border-radius: 0.25rem;*/
-/*  margin: 0.5rem 0.25rem 0.75rem 0.8rem;*/
-    margin: 0.25rem 0.5rem;
-    padding: 0.25rem 0.45rem;
-    font-family: MTF Sweet Cheeks;
-    border-style: solid;
-    border-width: 0.1rem;
-    border-color: #929595;
-}
-
 nav .button:hover{
     background-color: #F39873;
     color: #C2BFBB;
     text-decoration: none;
 }
 
-.checkoutbutton{
-    background-color: #F39873;
-    color: white;
-/*  border-radius: 0.25rem;*/
-/*  margin: 0.5rem 0.25rem 0.75rem 0.8rem;*/
-    margin: 0.25rem 0.5rem;
-    padding: 0.25rem 0.45rem;
-    font-family: Abadi MT Condensed Light;
-    text-align: center;
-    font-size: 1.2em;
-    border-style: solid;
-    border-width: 0.1rem;
-    border-color: #929595;
-}
-
-.checkoutbutton:hover{
-    background-color: #C2BFBB;
-    color: #929595;
-    text-decoration: none;
-    text-align: center;
-}
 
 a{
     text-decoration: none;
@@ -482,26 +283,6 @@ figure{
     text-align: left;
 }
 
-form{
-        background-color: #FFFDFA;
-        display: inline-block;
-        padding: 1rem;
-        width: 40%
-    font-family: Abadi MT Condensed Light;
-}
-
-label{
-    float: left;
-    text-align: left;
-    margin-right: 0.5em;
-    display: block
-    font-size: 0.8rem;
-        font-family: MTF Sweet Cheeks;
-/*        font-family: thin;*/
-        /* first # is top and bottom, second # is left and right margin */
-        margin: 0.25rem 0.5rem;
-}
-
 .top_Picture_Cover{
   height: 450px;
   width: auto;
@@ -514,22 +295,10 @@ label{
   
 }
 
-.bottom_Picture_Cover{
-  height: 400px;
-  width: 400px;
-  background-image: url('http://www.nipandbones.com/images/products/mice/cat-toys/cat-supplies/hypnomice.jpg');
-  background-size: 100%;
-  border: 2px solid white;
-  color: #000; 
-  float: left;
- 
-  /* margin: 0 auto; */
-}
 
 input.submit,input.reset{
     background-color: #F39873;
     color: white;
-/*  border-radius: 0.25rem;*/
     margin: 0.25rem 0.5rem;
     padding: 0.25rem 0.45rem;
     font-size: 1.2em;
@@ -541,7 +310,6 @@ input.submit,input.reset{
 input.text,textarea{
     background-color: #F39873;
     color: white;
-/*  border-radius: 0.25rem;*/
     margin: 0.25rem 0.5rem;
     padding: 0.25rem 0.45rem;
 }
@@ -555,7 +323,6 @@ input.submit:hover,input.reset:,input.text:hover,textarea:hover{
 input.submitcomment{
     background-color: #F39873;
     color: white;
-/*  border-radius: 0.25rem;*/
     margin: 0.25rem 0.5rem;
     padding: 0.25rem 0.45rem;
     font-size: 1.2em;
@@ -572,21 +339,6 @@ input.submitcomment{
 }
 
 
-input{
-    font-family: Abadi MT Condensed Light;
-    background-color: white;
-    color: white;
-/*  border: solid 1px #FCBCA7;*/
-}
-
-textarea{
-    font-family: Abadi MT Condensed Light;
-    background-color: white;
-    color: white;
-    width: 80rem;
-    height: 10rem;
-}
-
 input:hover{
     background-color: #FCBCA7;
     color: #C2C0BC;
@@ -594,7 +346,6 @@ input:hover{
 
 article {
     text-align: left;
-/*  border: 2px solid #929595;*/
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     display: inline-block;
@@ -602,13 +353,10 @@ article {
 
 
 .image-button-nav-cat-foods, .image-button-nav-cat-foods:visited{
-    /*  add background image for the cat foods product list image button */
     background: transparent url(../img/Cat_Foods_Icon.jpg) no-repeat;
     background-position: center center;
     display: inline-block;
     position: relative;
-
-/*  background-color:  #F39873;*/
     color: white;
     border-style: solid;
     border-width: 0.1rem;
@@ -621,13 +369,10 @@ article {
 }
 
 .image-button-nav-cat-toys, .image-button-nav-cat-toys:visited{
-    /*  add background image for the cat toys product list image button */
     background: transparent url(../img/Cat_Toys_Icon.png) no-repeat;
     background-position: 70% 40%;
     display: inline-block;
     position: relative;
-
-/*  background-color:  #F39873;*/
     color: white;
     border-style: solid;
     border-width: 0.1rem;
@@ -640,13 +385,10 @@ article {
 }
 
 .image-button-nav-cat-clothes, .image-button-nav-cat-clothes:visited{
-    /*  add background image for the cat toys product list image button */
     background: transparent url(../img/Cat_Clothes.jpg) no-repeat;
     background-position: 45% 10%;
     display: inline-block;
     position: relative;
-
-/*  background-color:  #F39873;*/
     color: white;
     border-style: solid;
     border-width: 0.1rem;
@@ -662,21 +404,18 @@ article {
     background-color: #FCBCA7;
     color: #C2C0BC;
     opacity: 0.5;
-/*  border-radius: 0.25rem;*/
 }
 
 .image-button-nav-cat-toys:hover, .image-button-nav-cat-toys:active, .image-button-nav-cat-toys:focus{
     background-color: #FCBCA7;
     color: #C2C0BC;
     opacity: 0.5;
-/*  border-radius: 0.25rem;*/
 }
 
 .image-button-nav-cat-clothes:hover, .image-button-nav-cat-clothes:active, .image-button-nav-cat-clothes:focus{
     background-color: #FCBCA7;
     color: #C2C0BC;
     opacity: 0.5;
-/*  border-radius: 0.25rem;*/
 }
 
  .cat-foods-image-button-layout{
@@ -689,14 +428,12 @@ article {
     margin-top: 5em;
     margin-left: 4em;
     margin-right: 4em;
-/*  margin-top: 10em;*/
  }
 
  .cat-clothes-image-button-layout{
     margin-top: 5em;
     margin-left: 0em;
     margin-right: 8em;
-/*  margin-top: 10em;*/
  }
 
  .payment-methods-layout{
@@ -708,7 +445,6 @@ article {
 
 
  a.image-button-nav-cat-foods {
-/*  border-radius: 50em;*/
     min-height: 20em;
     min-width: 23em;
     max-width: 50em;
@@ -718,7 +454,6 @@ article {
  }
 
  a.image-button-nav-cat-toys {
-/*  border-radius: 50em;*/
     min-height: 20em;
     min-width: 23em;
     max-width: 50em;
@@ -728,7 +463,6 @@ article {
  }
 
  a.image-button-nav-cat-clothes {
-/*  border-radius: 50em;*/
     min-height: 20em;
     min-width: 23em;
     max-width: 50em;
@@ -742,7 +476,6 @@ article {
     top: 30%;
     left: 40%;
     margin-left: -12%;
-/*  background-color:  #929595;*/
     font-family: "Oswald-Light";
     font-size: 3rem;
     font-weight: bold;
@@ -754,7 +487,6 @@ article {
     top: 35%;
     left: 40%;
     margin-left: -12%;
-/*  background-color:  #929595;*/
     font-family: "Oswald-Light";
     font-size: 3rem;
     font-weight: bold;
@@ -766,7 +498,6 @@ article {
     top: 35%;
     left: 40%;
     margin-left: -12%;
-/*  background-color:  #929595;*/
     font-family: "Oswald-Light";
     font-size: 3rem;
     font-weight: bold;
@@ -777,7 +508,6 @@ article {
 .onpage-button-nav, .onpage-button-nav:visited{
     display: inline-block;
     background-color:  #F39873;
-/*  color: #F39873;*/
     color: white;
     text-decoration: none;
     
@@ -793,33 +523,22 @@ article {
     font-family: "Oswald-Regular";
     font-size: 1.6em;
     text-align: center;
-/*  opacity: 0.7;*/
 }
 
 .onpage-button-nav:hover, .onpage-button-nav:active, .onpage-button-nav:focus{
-/*  background-color: #FCBCA7;
-    color: #C2C0BC;*/
     text-decoration: none;
     font-weight: bold;
     font-size: 1.7em;
-/*  opacity: 0.7;*/
 }
 
 .login-button-nav, .login-button-nav:visited{
     display: inline-block;
-    /*background-color:  #F39873;*/
     color: #F39873;
-    /*border-style: solid;
-    border-width: 0.1rem;
-    border-color: #929595;*/
     padding: 0.3em 0.3em;
     text-decoration: none;
     -webkit-transition: background-color 0.5s;
     transition: background-color 0.5s;
     width:100%;
-/*  border-radius:10px;*/
-/*  border-radius: 0.25rem;*/
-/*    font-family: BAD SPIRIT;*/
     font-size: 1.2em;
     text-align: center;
     font-size: normal;
@@ -828,9 +547,6 @@ article {
 }
 
 .login-button-nav:hover, .login-button-nav:active, .login-button-nav:focus{
-/*  border-radius: 0.25rem;*/
-/*  background-color: #FCBCA7;
-    color: #C2C0BC;*/
     text-decoration: none;
     font-weight: bold;
     font-size: 1.3em;
@@ -839,21 +555,14 @@ article {
 
 .button-nav, .button-nav:visited{
     display: inline-block;
-    /*background-color:  #F39873;*/
     color: #F39873;
     margin-left: auto;
     margin-right:auto;
-    /*border-style: solid;
-    border-width: 0.1rem;
-    border-color: #929595;*/
     padding: 0.3em 0.3em;
     text-decoration: none;
     -webkit-transition: background-color 0.5s;
     transition: background-color 0.5s;
     width:100%;
-/*  border-radius:10px;*/
-/*  border-radius: 0.25rem;*/
-/*    font-family: BAD SPIRIT;*/
     font-size: normal;
     font-family: "Oswald-Regular";
     font-size: 1.6em;
@@ -861,20 +570,13 @@ article {
 }
 
 .button-nav:hover, .button-nav:active, .button-nav:focus{
-    /*  background-color: #FCBCA7;
-    color: #C2C0BC;*/
     text-decoration: none;
     font-weight: bold;
     font-size: 1.7em;
 }
 
 .logo-image-button, .logo-image-button:visited{
-/*  add background image for the cat foods product list image button */
     background: transparent url(../img/catlogo.png) no-repeat;
-/*  background-position: center;*/
-/*  background-size: 100% 160%;*/
-/*  position: relative;*/
-   /* display: inline-block;*/
     display: block;
     margin-left: 8em;
     margin-right: 8em;
@@ -882,15 +584,9 @@ article {
     margin-bottom: 2em;
     width: 20%;
     height: 20%;
-    /*width: 100em;
-    width: 30em;*/
-    /*min-width: 26.4em;
-    min-height: 16em;*/
     min-width: 3em;
     min-height: 3em;
     z-index: 3;
-    /*float: left;*/
-
     padding: 0.3em 0.3em;
     text-decoration: none;
     -webkit-transition: background-color 0.5s;
@@ -902,9 +598,6 @@ article {
 }
 
 .logo-image-button:hover, .logo-image-button:active, .logo-image-button:focus{
-/*  background-color: #FCBCA7;
-    color: #C2C0BC;*/
-/*  border-radius: 0.25rem;*/
     opacity: 0.5;
 }
 
@@ -914,7 +607,6 @@ article {
     margin-left: 8em;
     margin-bottom: 2em;
     z-index: 1;
-/*    position: absolute;*/
  }
 
 
@@ -922,20 +614,16 @@ article {
     margin-left: auto;
     margin-right: auto;
     z-index: 1;
-/*    position: absolute;*/
 }
 
- /* set top main navigation layout */
  .topmenu{
     margin-left: 8em;
     margin-top: 0em;
     margin-right: 8em;
     z-index: 1;
-/*    position: absolute;*/
  }
 
  .topimage{
-/*  background: transparent url(../img/background_2.jpg) no-repeat;*/
     display: block;
     -webkit-transition: background-color 0.5s;
     transition: background-color 0.5s;
@@ -945,9 +633,6 @@ article {
     position: relative;
     top: 0;
     left: 0;
-/*  min-width: 25.6em;
-    min-height: 16em;*/
-/*  padding: 0.3em 0.3em;*/
 }
 
 .topimage-layout{
@@ -958,8 +643,6 @@ article {
     font-size: 1.8rem;
     text-align: left;
     font-family: "Oswald-Regular";
-/*    color:  #929595;*/
-/*    color: #F39873;*/
     color: white;
     opacity: 1;
     padding-left: 1.5em;
@@ -971,8 +654,6 @@ article {
     font-size: 1.2rem;
     font-weight: lighter;
     text-align: left;
-/*    color:  #929595;*/
-/*    color: #F39873;*/
     color: white;
     opacity: 1;
     padding-left: 2em;

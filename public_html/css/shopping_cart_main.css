@@ -16,13 +16,10 @@ h1{
    font-weight: 700;
    font-family: "AustieBostKittenKlub";
    text-align: left;
-/* color: #F39873;*/
-/* color: white;*/
 }
 
 h2{
   text-align: left;
-
   display: inline-block;
   margin-left: auto;
   margin-right:auto;
@@ -38,15 +35,12 @@ h2{
 p,code,figcaption{
     font-size: 1rem;
     font-family: "Oswald-Light";
-/*  font-family: thin;*/
-    /* first # is top and bottom, second # is left and right margin */
     font-weight: lighter;
     text-align: left;
 }
 
 .product-image{
     display: inline-block;
-/*  position: relative;*/
     width: 13em;
     height: 13em;
     min-width: 8em;
@@ -80,7 +74,6 @@ p,code,figcaption{
     font-family: "Oswald-Regular";
     text-align: left;
     font-weight: normal;
-/*  font-weight: lighter;*/
 }
 
 .pprice{
@@ -134,10 +127,8 @@ p,code,figcaption{
 .onpage-button-nav, .onpage-button-nav:visited{
     display: inline-block;
     background-color:  #F39873;
-/*  color: #F39873;*/
     color: white;
-    text-decoration: none;
-    
+    text-decoration: none; 
     margin-left: auto;
     margin-right:auto;
     padding: 0.3em 0.3em;
@@ -145,38 +136,26 @@ p,code,figcaption{
     -webkit-transition: background-color 0.5s;
     transition: background-color 0.5s;
     width:100%;
-
     font-size: normal;
     font-family: "Oswald-Regular";
     font-size: 1.6em;
     text-align: center;
-/*  opacity: 0.7;*/
 }
 
 .onpage-button-nav:hover, .onpage-button-nav:active, .onpage-button-nav:focus{
-/*  background-color: #FCBCA7;
-    color: #C2C0BC;*/
     text-decoration: none;
     font-weight: bold;
     font-size: 1.7em;
-/*  opacity: 0.7;*/
 }
 
 .login-button-nav, .login-button-nav:visited{
     display: inline-block;
-    /*background-color:  #F39873;*/
     color: #F39873;
-    /*border-style: solid;
-    border-width: 0.1rem;
-    border-color: #929595;*/
     padding: 0.3em 0.3em;
     text-decoration: none;
     -webkit-transition: background-color 0.5s;
     transition: background-color 0.5s;
     width:100%;
-/*  border-radius:10px;*/
-/*  border-radius: 0.25rem;*/
-/*    font-family: BAD SPIRIT;*/
     font-size: 1.2em;
     text-align: center;
     font-size: normal;
@@ -185,9 +164,6 @@ p,code,figcaption{
 }
 
 .login-button-nav:hover, .login-button-nav:active, .login-button-nav:focus{
-/*  border-radius: 0.25rem;*/
-/*  background-color: #FCBCA7;
-    color: #C2C0BC;*/
     text-decoration: none;
     font-weight: bold;
     font-size: 1.3em;
@@ -196,21 +172,14 @@ p,code,figcaption{
 
 .button-nav, .button-nav:visited{
     display: inline-block;
-    /*background-color:  #F39873;*/
     color: #F39873;
     margin-left: auto;
     margin-right:auto;
-    /*border-style: solid;
-    border-width: 0.1rem;
-    border-color: #929595;*/
     padding: 0.3em 0.3em;
     text-decoration: none;
     -webkit-transition: background-color 0.5s;
     transition: background-color 0.5s;
     width:100%;
-/*  border-radius:10px;*/
-/*  border-radius: 0.25rem;*/
-/*    font-family: BAD SPIRIT;*/
     font-size: normal;
     font-family: "Oswald-Regular";
     font-size: 1.6em;
@@ -218,19 +187,16 @@ p,code,figcaption{
 }
 
 .button-nav:hover, .button-nav:active, .button-nav:focus{
-    /*  background-color: #FCBCA7;
-    color: #C2C0BC;*/
     text-decoration: none;
     font-weight: bold;
     font-size: 1.7em;
 }
 
-/* set top main navigation layout */
+
  .topmenu{
     margin-left: 8em;
     margin-top: 0em;
     margin-right: 8em;
-/*  opacity: 0.5;*/
  }
 
  .login-methods{
@@ -238,27 +204,20 @@ p,code,figcaption{
     margin-top: 3%;
     margin-left: 8em;
     margin-bottom: 2em;
-/*  opacity: 0.5;*/
-/*  position: absolute;*/
  }
 
  input.submit,input.reset{
     background-color: #F39873;
     color: white;
-/*  border-radius: 0.25rem;*/
     font-family: "Oswald-Regular";
     font-size: 1.2rem;
     font-weight: normal;
     text-align: center;
-    /*border-style: solid;
-    border-width: 0.1rem;
-    border-color: #929595;*/
 }
 
 input.text,textarea{
     background-color: #F39873;
     color: white;
-/*  border-radius: 0.25rem;*/
     margin: 0.25rem 0.5rem;
     padding: 0.25rem 0.45rem;
 }
@@ -271,13 +230,9 @@ input.submit:hover,input.reset:,input.text:hover,textarea:hover{
 input.submitcomment{
     background-color: #F39873;
     color: white;
-/*  border-radius: 0.25rem;*/
     margin: 0.25rem 0.5rem;
     padding: 0.25rem 0.45rem;
     font-size: 0.7em;
-    /*border-style: solid;
-    border-width: 0.1rem;
-    border-color: #929595;*/
     float: right;
 }
 
@@ -320,14 +275,6 @@ figure{
     margin: 0;
 }
 
-form{
-    background-color: #FFFDFA;
-    display: inline-block;
-    padding: 1rem;
-    width: 40%
-    font-family: Abadi MT Condensed Light;
-}
-
 label{
     font-size: 1.2rem;
     font-family: "Oswald-Light";
@@ -336,24 +283,6 @@ label{
     display: block;
 }
 
-nav .button{
-    background-color: #F39873;
-    color: white;
-/*  border-radius: 0.25rem;*/
-/*  margin: 0.5rem 0.25rem 0.75rem 0.8rem;*/
-    margin: 0.25rem 0.5rem;
-    padding: 0.25rem 0.45rem;
-    font-family: MTF Sweet Cheeks;
-    border-style: solid;
-    border-width: 0.1rem;
-    border-color: #929595;
-}
-
-nav .button:hover{
-    background-color: #F39873;
-    color: #C2BFBB;
-    text-decoration: none;
-}
 
 a{
     text-decoration: none;
@@ -363,7 +292,6 @@ a:hover{
     text-decoration: none;
 }
 
-/*responsive image styles*/
 img{
     background-color: rgba(255, 237, 221, 0.3);
 }
@@ -386,19 +314,12 @@ img{
 }
 
 
-.button{
-    display: inline-block;
-    font-family: MTF Sweet Cheeks;
-
-    text-decoration: none;
-}
 
 .button-nav-detail{
     display: inline-block;
     background-color:  #F39873;
     color: white;
     text-decoration: none;
-    
     margin-left: auto;
     margin-right: auto;
     padding: 0.3em 0.3em;
@@ -406,7 +327,6 @@ img{
     -webkit-transition: background-color 0.5s;
     transition: background-color 0.5s;
     width: 6em;
-
     font-family: "Oswald-Light";
     font-size: 1.4rem;
     font-weight: normal;
@@ -422,8 +342,7 @@ img{
     display: inline-block;
     background-color:  #F39873;
     color: white;
-    text-decoration: none;
-    
+    text-decoration: none; 
     margin-left: auto;
     margin-right: auto;
     padding: 0.3em 0.3em;
@@ -431,7 +350,6 @@ img{
     -webkit-transition: background-color 0.5s;
     transition: background-color 0.5s;
     width: 6em;
-
     font-family: "Oswald-Light";
     font-size: 1.4rem;
     font-weight: normal;
@@ -446,15 +364,7 @@ img{
 .logo-name{
     margin-left: auto;
     margin-right: auto;
-/*  position: absolute;*/
 }
-
-
-
-
-
-
-
 
 input{
     background-color: #F39873;
@@ -502,9 +412,7 @@ input.number-of-products-layout{
 .shopping-cart-layout thead th.fourth {
   width: 20%;
 }
-/*#shopping-cart thead th.fifth {
-  width: 175px;
-}*/
+
 
 .shopping-cart-layout tbody td {
   text-align: center;
@@ -514,15 +422,7 @@ input.number-of-products-layout{
 tr.shopping-cart-list {
   height: 65px;
   line-height: 65px;
-/*border-bottom: 1px solid #d7dbe0;*/
 }
-
-/*.remove {
-  cursor: pointer;
-  position: relative;
-  right: 12px;
-  top: 5px;
-}*/
 
 .hide {
     visibility: hidden;
@@ -531,20 +431,12 @@ tr.shopping-cart-list {
 
 .product-image{
     display: inline-block;
-/*  position: relative;*/
     width: 13em;
     height: 13em;
     min-width: 8em;
     min-height: 8em;
 }
 
-
-
-/** submit btn **/
-tr.checkout-area {
-/*  border-top: 1px solid #929595;
-  border-bottom: 1px solid #929595;*/
-}
 td.checkout {
   width: 100%;
   text-align: left;
@@ -555,7 +447,6 @@ th.specialprice-title{
     font-family: "Oswald-Regular";
     text-align: center;
     font-weight: normal;
-/*  font-weight: lighter;*/
 }
 
 td.specialprice-title{
@@ -563,8 +454,6 @@ td.specialprice-title{
     font-family: "Oswald-Regular";
     text-align: center;
     font-weight: normal;
-/*  min-width: 20em;*/
-/*  font-weight: lighter;*/
 }
 
 td.shipping-title{
@@ -575,15 +464,13 @@ td.shipping-title{
     color: #F39873;
     margin-right: 10em;
     display: table-cell;
-/*  font-weight: lighter;*/
 }
 
 td.totalprice-title{
     font-size: 1.4rem;
     font-family: "Oswald-Regular";
     text-align: center;
-    font-weight: bold;;
-/*  font-weight: lighter;*/
+    font-weight: bold;
 }
 
 td.pprice{
@@ -625,7 +512,6 @@ td.sdetail{
     text-decoration: none;
     -webkit-transition: background-color 0.5s;
     transition: background-color 0.5s;
-/*  width:100%;*/
     font-family: "Oswald-Light";
     font-size: 1.6rem;
     font-weight: normal;
@@ -647,7 +533,6 @@ td.sdetail{
     height: auto;
     -webkit-transition: background-color 0.5s;
     transition: background-color 0.5s;
-/*  width:100%;*/
     font-family: "Oswald-Light";
     font-size: 1.6rem;
     font-weight: normal;
@@ -680,9 +565,7 @@ td.sdetail{
 table {
     display: table;
     border-collapse: collapse;
-/*  border-collapse: separate;*/
     border-spacing: 2px;
-/*  border-spacing: 0; */
 }
 
 

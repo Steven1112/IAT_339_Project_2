@@ -1,7 +1,4 @@
-/*
-    With this selector, we are specifying that all objects use
-    the border-box model (not the content-box model)
-*/
+
 *, *:after, *:before {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -9,15 +6,10 @@
 }
 
 
-/*
-    Here we are using a 'fancy' css selector that is 
-    specifying if the class of an item starts with
-    'grid-col-', then we should apply the styling listed
-*/
 [class^='grid-col-'] {
     float: left;
     padding: 0; 
-    text-align: center; /* center the content in this block */
+    text-align: center; 
 }
 
 
@@ -75,12 +67,6 @@
 .grid-col-50of100 {
     width: 50%;
 }
-
-/*
-    Here using @media queries, we are specifying when the display
-    has a width less than 50em it should collapse the 5/10 columns 
-    into one stack (hence width: 100%)
-*/
 
 
 @media (max-width: 57em) {
@@ -174,26 +160,6 @@
 }
 
 
-/*@media (max-width:74em) {
-
-    .display_per_page_master_class{
-        width: 100%;
-    }
-
-    .button-nav-pages{
-        margin-left: -1.2em;
-        margin-top: 0.6em;
-    }
-}
-
-@media (max-width:73em) {
-
-    .grid-col-10of100{
-        width: 20%;
-    }
-}*/
-
-
 @media (max-width:57em) {
 
 
@@ -203,18 +169,6 @@
 
      }
 
-
-     .trangle_left{
-        margin-left: 770%;
-        margin-top: -3.5em;
-
-     }
-
-     .trangle_right{
-        margin-left: 1150%;
-        margin-top: -3.5em;
-
-     }
 }
 
 
@@ -358,10 +312,6 @@
 }
 
 
-/*
-    Much like last week, we are clearing the floating items so
-    that our 'grid' structure can be stacked on others
-*/
 .grid:after {
     content: "";
     display: block;

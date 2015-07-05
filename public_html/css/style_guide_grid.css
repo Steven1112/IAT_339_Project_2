@@ -9,7 +9,7 @@
 [class^='grid-col-'] {
     float: left;
     padding: 0; 
-    text-align: center; /* center the content in this block */
+    text-align: center; 
 }
 
 
@@ -31,7 +31,7 @@
 }
 
 .grid-col-3of10 {
-    width: 30%;    
+    width: 33%;    
 }
 
 .grid-col-4of10 {
@@ -59,378 +59,6 @@
     width: 65%;
 }
 
-
-
-@media (max-width: 50em) {
-
-    .grid-col-8of100 {
-        width: 100%;
-    }
-}
-
-@media (max-width: 50em) {
-
-    .grid-col-25of100 {
-        width: 100%;
-    }
-}
-
-
-@media (max-width: 50em) {
-
-    .grid-col-10of10 {
-        width: 100%;
-    }
-}
-
-
-@media (max-width: 65em) {
-
-    .grid-col-3of10 {
-        width: 100%;
-    }
-
-    .whiskas1{
-        margin-left: 8em;
-        margin-right: 8em;
-    }
-
-    .whiskas2{
-        margin-left: 8em;
-        margin-right: 8em;
-    }
-
-    .whiskas3{
-        margin-left: 8em;
-        margin-right: 8em;
-    }
-
-    .whiskas4{
-        margin-left: 8em;
-        margin-right: 8em;
-    }
-
-    .whiskas5{
-        margin-left: 8em;
-        margin-right: 8em;
-    }
-
-    .whiskas6{
-        margin-left: 8em;
-        margin-right: 8em;
-    }
-}
-
-@media (max-width: 80em) {
-
-	.grid-col-84of100{
-		width: 100%;  
-	}
-}
-
-
-@media (max-width:50em) {
-
-	.grid-col-10of10{
-		width: 100%;
-	}
-}
-
-@media (max-width:65em) {
-
-    .grid-col-4of10{
-        width: 100%;
-        margin-left: 8em;
-        margin-right: 8em;
-    }
-}
-
-@media (max-width: 65em) {
-
-    .grid-col-33of100 {
-        width: 100%;
-    }
-
-}
-
-@media (max-width: 70em) {
-
-    .grid-col-5of10{
-        width: 100%;
-    }
-
-    .catfoodintroduction{
-        margin-left: 8em;
-        margin-right: 8em;
-    }
-
-    .grid-col-35of100{
-    width: 50%;
-}
-
-}
-
-@media (max-width: 65em) {
-    .specialprice-title{
-        width: 100%;
-    }
-}
-}
-
-
-
-@media (max-width: 57em) {
-
-    .grid-col-3of10 {
-        width: 100%;
-    }
-
-    .comments{
-        margin-top: 6em;
-        margin-left: 8em;
-        margin-right: 8em;
-    }
-
-    .payment-methods-layout{
-        margin-left: 8em;
-        margin-right: 8em;
-        margin-top: 8em;
-    }
-
-    .whiskas1{
-        margin-left: 8em;
-        margin-right: 8em;
-        margin-top: 3em;
-    }
-
-    .whiskas2{
-        margin-left: 8em;
-        margin-right: 8em;
-        margin-top: 8em;
-    }
-
-    .whiskas3{
-        margin-left: 8em;
-        margin-right: 8em;
-        margin-top: 8em;
-    }
-}
-
-@media (max-width: 40em) {
-
-    .comments{
-        margin-top: 6em;
-        margin-left: 3em;
-        margin-right: 3em;
-    }
-
-    .payment-methods-layout{
-        margin-left: 3em;
-        margin-right: 3em;
-        margin-top: 8em;
-    }
-
-    .whiskas1{
-        margin-left: 3em;
-        margin-right: 3em;
-    }
-
-    .whiskas2{
-        margin-left: 3em;
-        margin-right: 3em;
-    }
-
-    .whiskas3{
-        margin-left: 3em;
-        margin-right: 3em;
-    }
-
-    .copyright{
-        margin-left: 3em;
-        margin-right: 3em;
-        margin-top: 3em;
-    }
-}
-
-
-@media (max-width: 70em) {
-
-    .grid-col-35of100{
-        width: 35%;
-    }
-
-    .grid-col-65of100{
-        width: 65%;
-    }
-
-    .catfoodintroduction{
-        margin-left: 8em;
-        margin-right: 8em;
-    }
-}
-
-@media (max-width: 60em) {
-
-    .grid-col-35of100{
-        width: 100%;
-    }
-
-    .grid-col-65of100{
-        width: 100%;
-    }
-
-    .Whiskas_large{
-        margin-top: 3em;
-        margin-left: 0em;
-        margin-right: 8em;
-        width: 100%;
-        height: auto;
-    }
-
-    .catfoodintroduction{
-        margin-top: 5em;
-        margin-left: 8em;
-        margin-right: 8em;
-    }
-}
-
-@media (max-width: 40em) {
-
-    .Whiskas_large{
-        margin-top: 3em;
-        margin-left: 0em;
-        margin-right: 8em;
-        width: 100%;
-        height: auto;
-    }
-
-    .catfoodintroduction{
-        margin-top: 5em;
-        margin-left: 3em;
-        margin-right: 3em;
-    }
-
-    .topmenu{
-        margin-left: 3em;
-        margin-top: 0em;
-        margin-right: 3em;
-    }
-
-    .customer-reviews{
-        margin-left: 3em;
-        margin-right: 3em;
-        margin-top: 5em;
-    }
-}
-
-@media (max-width: 25em) {
-
-    .Whiskas_large{
-        margin-top: 3em;
-        margin-left: -2em;
-        margin-right: 8em;
-        width: 100%;
-        height: auto;
-    }
-
-    .button-nav-cart{
-        margin-left: 2em;
-        margin-right: auto;
-    }
-}
-
-
-@media (max-width: 57em) {
-
-    .grid-col-25of100 {
-        width: 100%;
-        padding-bottom: 0.8em;
-    }
-}
-
-@media (max-width: 60em) {
-
-    .grid-col-8of100 {
-        width: 100%;
-        padding-bottom: 0.5em;
-    }
-
-}
-
-
-@media (max-width: 50em) {
-
-    .grid-col-10of10 {
-        width: 100%;
-    }
-
-}
-
-
-@media (max-width:50em) {
-
-    .grid-col-10of10{
-        width: 100%;
-    }
-}
-
-@media (max-width:60em) {
-
-    .grid-col-4of10{
-        width: 100%;
-        margin-left: 5%;
-        margin-right: 5%;
-        margin-top: auto; 
-    }
-}
-
-
-@media (max-width: 62em) {
-
-    .grid-col-40of100 {
-        width: 100%;
-        margin-left: auto;
-        margin-left: auto;
-    }
-
-    .grid-col-20of100{
-        width: 100%;
-        margin-left: auto;
-        margin-left: auto;
-    }
-
-    .grid-col-33of100{
-        width: 100%;
-    }
-
-    article {
-        text-align: center;
-        display: block;
-    }
-
-}
-
-@media (max-width:60em) {
-
-    .topmenu{
-        margin-left: 8em;
-        margin-right: 8em;
-        margin-top: 5%;
-        margin-bottom: 10%;
-    }
-
-}
-
-@media (max-width:45em) {
-
-    .topmenu{
-        margin-left: 8em;
-        margin-right: 8em;
-        margin-top: 5%;
-        margin-bottom: 10%;
-    }
-
-}
 
 
 @media (max-width: 57em) {
@@ -524,26 +152,6 @@
 }
 
 
-/*@media (max-width:74em) {
-
-    .display_per_page_master_class{
-        width: 100%;
-    }
-
-    .button-nav-pages{
-        margin-left: -1.2em;
-        margin-top: 0.6em;
-    }
-}
-
-@media (max-width:73em) {
-
-    .grid-col-10of100{
-        width: 20%;
-    }
-}*/
-
-
 @media (max-width:57em) {
 
 
@@ -553,18 +161,6 @@
 
      }
 
-
-     .trangle_left{
-        margin-left: 770%;
-        margin-top: -3.5em;
-
-     }
-
-     .trangle_right{
-        margin-left: 1150%;
-        margin-top: -3.5em;
-
-     }
 }
 
 
@@ -705,311 +301,97 @@
         margin-right: 3em;
         margin-top: 3em;
     }
+
 }
 
-@media (max-width: 57em) {
+@media (max-width: 70em) {
 
-    .grid-col-25of100 {
-        width: 100%;
-        padding-bottom: 0.8em;
+    .grid-col-35of100{
+        width: 35%;
+    }
+
+    .grid-col-65of100{
+        width: 65%;
+    }
+
+    .catfoodintroduction{
+        margin-left: 8em;
+        margin-right: 8em;
     }
 }
 
 @media (max-width: 60em) {
 
-    .grid-col-8of100 {
+    .grid-col-35of100{
         width: 100%;
-        padding-bottom: 0.5em;
+    }
+
+    .grid-col-65of100{
+        width: 100%;
+    }
+
+    .Whiskas_large{
+        margin-top: 3em;
+        margin-left: 0em;
+        margin-right: 8em;
+        width: 100%;
+        height: auto;
+    }
+
+    .catfoodintroduction{
+        margin-top: 5em;
+        margin-left: 8em;
+        margin-right: 8em;
     }
 }
 
+@media (max-width: 40em) {
 
-@media (max-width: 50em) {
-
-    .grid-col-10of10 {
+    .Whiskas_large{
+        margin-top: 3em;
+        margin-left: 0em;
+        margin-right: 8em;
         width: 100%;
+        height: auto;
     }
-}
 
-
-@media (max-width:60em) {
-
-    .grid-col-4of10{
-        width: 100%;
-        margin-left: 5%;
-        margin-right: 5%;
-        margin-top: auto; 
-    }
-}
-
-
-
-@media (max-width: 57em) {
-
-    .payment-methods-layout{
+    .catfoodintroduction{
+        margin-top: 5em;
         margin-left: 3em;
         margin-right: 3em;
-        margin-top: 5em;
     }
-
-}
-
-@media (max-width: 62em) {
-
-    .grid-col-40of100 {
-        width: 100%;
-        margin-left: auto;
-        margin-left: auto;
-    }
-
-    .grid-col-20of100{
-        width: 100%;
-        margin-left: auto;
-        margin-left: auto;
-    }
-
-    .grid-col-33of100{
-        width: 100%;
-    }
-
-    article {
-        text-align: center;
-        display: block;
-    }
-}
-
-
-@media (max-width:60em) {
 
     .topmenu{
-        margin-left: 8em;
-        margin-right: 8em;
-        margin-top: 5%;
-        margin-bottom: 10%;
-    }  
-}
-
-@media (max-width:45em) {
-
-    .topmenu{
-        margin-left: 8em;
-        margin-right: 8em;
-        margin-top: 5%;
-        margin-bottom: 10%;
-    }
-}
-
-@media (max-width:40em) {
-
-    .grid-col-4of10{
-        width: 100%;
-    }
-}
-
-/*@media (max-width:75em) {
-
-    .submit-button-nav{
-        margin-left: 1em;
-        margin-right: 0%;
-    }
-
-    .reset-button-nav{
-        margin-right: 1%;
-    }
-}*/
-
-
-@media (max-width:66em) {
-
-    .text-length{
-        width: 100%;
-        margin-left: 28.5%;
-    }
-
-    textarea{
-        width: 100%;
-        margin-left: 28.5%;
-    }
-
-    .contact-us-contactus{
-        margin-left: 8em;
-        margin-right: 8em;
-        margin-bottom: -2%;
-        margin-top: 5em;
-    }
-
-    .grid-col-15of100{
-        display: none;
-        visibility: collapse;
-        width: 0;
-        height: 0;
-        color: white;
-    }
-
-    .grid-col-48of100{
-        width: 50%;
-        margin-left: 9em;
-        margin-right: 9em;
-    }
-
-    .grid-col-3of10{
-        width: 100%;
-    }
-
-/*    .submit-button-nav{
-        margin-left: 1em;
-        margin-right: -27%;
-    }
-
-    .reset-button-nav{
-        margin-right: -13%;
-    }*/
-}
-
-
-@media (max-width:55em) {
-
-    .text-length{
-        width: 100%;
-    }
-
-    textarea{
-        width: 100%;
-    }
-
-    .grid-col-3of10{
-        width: 100%;
-    }
-
-    .contact-us-contactus{
-        margin-left: 8em;
-        margin-right: 8em;
-        margin-bottom: -2%;
-        margin-top: 5em;
-    }
-
-    .grid-col-48of100{
-        width: 45%;
-        margin-left: 9em;
-        margin-right: 9em;
-    }
-
-/*    .submit-button-nav{
-        margin-left: 1em;
-        margin-right: -28%;
-    }
-
-    .reset-button-nav{
-        margin-right: -10%;
-    }*/
-}
-
-
-/*@media (max-width:48em) {
-
-    .submit-button-nav{
-        margin-left: 1em;
-        margin-right: -28%;
-    }
-
-    .reset-button-nav{
-        margin-right: -5%;
-    }
-}
-*/
-
-
-@media (max-width:42em) {
-
-    .text-length{
-        width: 100%;
-    }
-
-    textarea{
-        width: 100%;
-    }
-
-    .grid-col-3of10{
-        width: 100%;
-    }
-
-    .contact-us-contactus{
-        margin-left: 8em;
-        margin-right: 8em;
-        margin-bottom: -2%;
-        margin-top: 5em;
-    }
-
-    .grid-col-48of100{
-        width: 40%;
-        margin-left: 9em;
-        margin-right: 9em;
-    }
-
-/*    .submit-button-nav{
-        margin-left: 1em;
-        margin-right: -28%;
-    }
-
-    .reset-button-nav{
-        margin-right: 0%;
-    }*/
-}
-
-
-@media (max-width:35em) {
-    .pptitle{
-        display: block;
-        width: 100%;
-        float: left;
-        text-align: left;
-        margin-bottom: 0em;
-    }
-
-    p{
-        float: left;
-        text-align: left;
-        display: inline-block;
-    }
-
-    .pprice_line1{
-        margin-top: 2em;
-    }
-
-    .pprice{
-        margin-top: 2em;
-    }
-
-    .contact-us-contactus{
         margin-left: 3em;
-        margin-right: 3em;
-        margin-bottom: -2%;
-        margin-top: 5em;
-    }
-
-    .top5questions{
-        margin-left: 3em;
+        margin-top: 0em;
         margin-right: 3em;
     }
 
-    .copyright{
+    .customer-reviews{
         margin-left: 3em;
         margin-right: 3em;
+        margin-top: 5em;
+    }
+}
+
+@media (max-width: 25em) {
+
+    .Whiskas_large{
+        margin-top: 3em;
+        margin-left: -2em;
+        margin-right: 8em;
+        width: 100%;
+        height: auto;
     }
 
-    .grid-col-48of100{
-        width: 55%;
-        margin-left: 3em;
-        margin-right: 3em;
+    .button-nav-cart{
+        margin-left: 2em;
+        margin-right: auto;
     }
 }
 
 
-.grid:after {
-    content: "";
-    clear: both;
-    display: block;
-}
+
 
 
 .grid:after {
